@@ -1,0 +1,566 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum TenantKind {
+  PLATFORM
+  PRACTICE
+}
+
+enum TenantStatus {
+  TRIAL
+  ACTIVE
+  READ_ONLY
+  SUSPENDED
+}
+
+enum Role {
+  SUPER_ADMIN
+  OWNER
+  STAFF
+}
+
+enum PatientStatus {
+  ACTIVE
+  COMPLETED
+  WAITLIST
+}
+
+model Tenant {
+  objectDeletions ObjectDeletion[]
+
+  feedback      Feedback[]
+  accountTokens AccountToken[]
+
+  planCode         String         @default("START")
+  patientLimit     Int            @default(100)
+  userLimit        Int            @default(3)
+  stripeCustomerId String?        @unique
+  subscription     Subscription?
+  paymentOrders    PaymentOrder[]
+  p24Encrypted     String?
+  bookingEnabled   Boolean        @default(false)
+  bookingMode      String         @default("NONE")
+  bookingPrivacy   String?
+  bookingTerms     String?
+
+  receiptSequence   Int                @default(0)
+  emailReminders    Boolean            @default(true)
+  smsReminders      Boolean            @default(false)
+  payments          Payment[]
+  messages          OutboxMessage[]
+  appointmentTokens AppointmentToken[]
+
+  notes         ClinicalNote[]
+  noteTemplates NoteTemplate[]
+  goals         TherapyGoal[]
+  plans         TreatmentPlan[]
+  documents     Document[]
+
+  id               String        @id @default(cuid())
+  kind             TenantKind    @default(PRACTICE)
+  name             String        @db.VarChar(120)
+  slug             String        @unique @db.VarChar(80)
+  status           TenantStatus  @default(TRIAL)
+  timezone         String        @default("Europe/Warsaw")
+  trialEndsAt      DateTime?
+  encryptedDataKey String?
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  address          String?
+  taxId            String?
+  onboardingStep   Int           @default(0)
+  appointments     Appointment[]
+  services         Service[]
+  workingHours     WorkingHour[]
+  leaves           Leave[]
+  users            User[]
+  patients         Patient[]
+  auditLogs        AuditLog[]
+  loginBuckets     LoginBucket[]
+
+  @@unique([id, kind])
+}
+
+model User {
+  accountTokens AccountToken[]
+
+  notes ClinicalNote[]
+
+  id                   String        @id @default(cuid())
+  tenantId             String
+  tenantKind           TenantKind    @default(PRACTICE)
+  tenant               Tenant        @relation(fields: [tenantId, tenantKind], references: [id, kind], onDelete: Restrict)
+  email                String        @unique @db.VarChar(254)
+  name                 String        @db.VarChar(100)
+  passwordHash         String
+  role                 Role          @default(STAFF)
+  active               Boolean       @default(true)
+  sessionVersion       Int           @default(0)
+  totpSecretEncrypted  String?
+  totpPendingEncrypted String?
+  totpPendingExpiresAt DateTime?
+  lastTotpStep         Int?
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+  calendarTokenHash    String?       @unique
+  appointments         Appointment[]
+  workingHours         WorkingHour[]
+  leaves               Leave[]
+  sessions             AuthSession[]
+  auditLogs            AuditLog[]
+
+  @@unique([tenantId, id])
+  @@index([tenantId, role])
+}
+
+model AuthSession {
+  id         String    @id @default(cuid())
+  tenantId   String
+  userId     String
+  user       User      @relation(fields: [tenantId, userId], references: [tenantId, id], onDelete: Restrict)
+  version    Int
+  createdAt  DateTime  @default(now())
+  lastSeenAt DateTime  @default(now())
+  expiresAt  DateTime
+  revokedAt  DateTime?
+
+  @@index([tenantId, userId, revokedAt])
+  @@index([expiresAt])
+}
+
+// Fundament etapu 2. Brak diagnoz i notatek w modelu kontaktowym.
+model Patient {
+  retentionUntil DateTime?
+  legalHold      Boolean   @default(true)
+
+  payments Payment[]
+
+  notes     ClinicalNote[]
+  goals     TherapyGoal[]
+  plan      TreatmentPlan?
+  documents Document[]
+
+  id               String        @id @default(cuid())
+  tenantId         String
+  tenant           Tenant        @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  firstName        String        @db.VarChar(100)
+  lastName         String        @db.VarChar(100)
+  email            String?       @db.VarChar(254)
+  phone            String?       @db.VarChar(30)
+  status           PatientStatus @default(ACTIVE)
+  birthDate        DateTime?     @db.Date
+  emergencyName    String?       @db.VarChar(100)
+  emergencyPhone   String?       @db.VarChar(30)
+  consentData      Boolean       @default(false)
+  consentContact   Boolean       @default(false)
+  consentRecording Boolean       @default(false)
+  consentUpdatedAt DateTime?
+  tags             String[]      @default([])
+  version          Int           @default(1)
+  appointments     Appointment[]
+  archivedAt       DateTime?
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  @@unique([tenantId, id])
+  @@index([tenantId, archivedAt, lastName])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  tenantId   String
+  tenant     Tenant   @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  actorId    String?
+  actor      User?    @relation(fields: [tenantId, actorId], references: [tenantId, id], onDelete: Restrict)
+  action     String   @db.VarChar(80)
+  resourceId String?  @db.VarChar(120)
+  createdAt  DateTime @default(now())
+
+  @@index([tenantId, createdAt])
+}
+
+// Przed identyfikacją użytkownika bucket należy do tenantu PLATFORM.
+// Klucz to HMAC adresu e-mail/IP; nigdy jawny e-mail ani hasło.
+model LoginBucket {
+  tenantId String
+  tenant   Tenant   @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  key      String   @db.VarChar(64)
+  attempts Int      @default(1)
+  resetAt  DateTime
+
+  @@id([tenantId, key])
+  @@index([resetAt])
+}
+
+enum AppointmentType {
+  CONSULTATION
+  INDIVIDUAL
+  COUPLE
+  ONLINE
+}
+
+enum AppointmentStatus {
+  SCHEDULED
+  COMPLETED
+  CANCELLED
+  NO_SHOW
+}
+
+model Service {
+  id              String        @id @default(cuid())
+  tenantId        String
+  tenant          Tenant        @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  name            String        @db.VarChar(120)
+  durationMinutes Int           @default(50)
+  priceGrosze     Int           @default(20000)
+  depositGrosze   Int           @default(0)
+  active          Boolean       @default(true)
+  appointments    Appointment[]
+
+  @@unique([tenantId, id])
+}
+
+model Appointment {
+  paymentOrders PaymentOrder[]
+  holdUntil     DateTime?
+
+  payments Payment[]
+  messages OutboxMessage[]
+  tokens   AppointmentToken[]
+
+  notes ClinicalNote[]
+
+  id          String            @id @default(cuid())
+  tenantId    String
+  tenant      Tenant            @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  patientId   String
+  patient     Patient           @relation(fields: [tenantId, patientId], references: [tenantId, id], onDelete: Restrict)
+  providerId  String
+  provider    User              @relation(fields: [tenantId, providerId], references: [tenantId, id], onDelete: Restrict)
+  serviceId   String?
+  service     Service?          @relation(fields: [tenantId, serviceId], references: [tenantId, id], onDelete: Restrict)
+  startsAt    DateTime
+  endsAt      DateTime
+  type        AppointmentType   @default(INDIVIDUAL)
+  status      AppointmentStatus @default(SCHEDULED)
+  onlineUrl   String?
+  seriesId    String?
+  priceGrosze Int               @default(20000)
+  confirmedAt DateTime?
+  version     Int               @default(1)
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@unique([tenantId, id])
+  @@index([tenantId, startsAt])
+  @@index([tenantId, providerId, startsAt, endsAt])
+  @@index([tenantId, patientId, startsAt])
+}
+
+model WorkingHour {
+  id          String @id @default(cuid())
+  tenantId    String
+  tenant      Tenant @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  providerId  String
+  provider    User   @relation(fields: [tenantId, providerId], references: [tenantId, id], onDelete: Restrict)
+  weekday     Int
+  startMinute Int
+  endMinute   Int
+
+  @@unique([tenantId, providerId, weekday, startMinute])
+}
+
+model Leave {
+  id         String   @id @default(cuid())
+  tenantId   String
+  tenant     Tenant   @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  providerId String
+  provider   User     @relation(fields: [tenantId, providerId], references: [tenantId, id], onDelete: Restrict)
+  startsAt   DateTime
+  endsAt     DateTime
+  label      String   @default("Urlop") @db.VarChar(120)
+
+  @@index([tenantId, providerId, startsAt, endsAt])
+}
+
+model ClinicalNote {
+  id               String        @id @default(cuid())
+  tenantId         String
+  tenant           Tenant        @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  patientId        String
+  patient          Patient       @relation(fields: [tenantId, patientId], references: [tenantId, id], onDelete: Restrict)
+  appointmentId    String?
+  appointment      Appointment?  @relation(fields: [tenantId, appointmentId], references: [tenantId, id], onDelete: Restrict)
+  authorId         String
+  author           User          @relation(fields: [tenantId, authorId], references: [tenantId, id], onDelete: Restrict)
+  private          Boolean       @default(false)
+  contentEncrypted String
+  version          Int           @default(1)
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  versions         NoteVersion[]
+
+  @@unique([tenantId, id])
+  @@index([tenantId, patientId, updatedAt])
+}
+
+model NoteVersion {
+  id               String       @id @default(cuid())
+  tenantId         String
+  noteId           String
+  note             ClinicalNote @relation(fields: [tenantId, noteId], references: [tenantId, id], onDelete: Restrict)
+  version          Int
+  contentEncrypted String
+  createdAt        DateTime     @default(now())
+
+  @@unique([tenantId, noteId, version])
+}
+
+model NoteTemplate {
+  id               String @id @default(cuid())
+  tenantId         String
+  tenant           Tenant @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  name             String @db.VarChar(100)
+  contentEncrypted String
+
+  @@unique([tenantId, id])
+}
+
+model TherapyGoal {
+  id               String   @id @default(cuid())
+  tenantId         String
+  tenant           Tenant   @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  patientId        String
+  patient          Patient  @relation(fields: [tenantId, patientId], references: [tenantId, id], onDelete: Restrict)
+  contentEncrypted String
+  status           String   @default("ACTIVE")
+  version          Int      @default(1)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@unique([tenantId, id])
+}
+
+model TreatmentPlan {
+  id               String   @id @default(cuid())
+  tenantId         String
+  tenant           Tenant   @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  patientId        String
+  patient          Patient  @relation(fields: [tenantId, patientId], references: [tenantId, id], onDelete: Restrict)
+  contentEncrypted String
+  summaryEncrypted String
+  version          Int      @default(1)
+  updatedAt        DateTime @updatedAt
+
+  @@unique([tenantId, patientId])
+}
+
+model Document {
+  id                String    @id @default(cuid())
+  tenantId          String
+  tenant            Tenant    @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  patientId         String
+  patient           Patient   @relation(fields: [tenantId, patientId], references: [tenantId, id], onDelete: Restrict)
+  objectKey         String    @unique
+  filenameEncrypted String
+  mimeType          String
+  sizeBytes         Int
+  sha256            String
+  createdAt         DateTime  @default(now())
+  archivedAt        DateTime?
+
+  @@unique([tenantId, id])
+  @@index([tenantId, patientId])
+}
+
+model Payment {
+  id                       String      @id @default(cuid())
+  tenantId                 String
+  tenant                   Tenant      @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  patientId                String
+  patient                  Patient     @relation(fields: [tenantId, patientId], references: [tenantId, id], onDelete: Restrict)
+  appointmentId            String
+  appointment              Appointment @relation(fields: [tenantId, appointmentId], references: [tenantId, id], onDelete: Restrict)
+  requestId                String
+  amountGrosze             Int
+  method                   String
+  receiptNumber            String
+  receiptSnapshotEncrypted String
+  paidAt                   DateTime    @default(now())
+  voidedAt                 DateTime?
+  providerOrderId          String?
+
+  @@unique([tenantId, id])
+  @@unique([tenantId, requestId])
+  @@unique([tenantId, receiptNumber])
+  @@index([tenantId, paidAt])
+}
+
+model OutboxMessage {
+  id                 String       @id @default(cuid())
+  tenantId           String
+  tenant             Tenant       @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  appointmentId      String?
+  appointment        Appointment? @relation(fields: [tenantId, appointmentId], references: [tenantId, id], onDelete: Restrict)
+  appointmentVersion Int?
+  channel            String
+  dedupeKey          String
+  payloadEncrypted   String
+  status             String       @default("PENDING")
+  attempts           Int          @default(0)
+  availableAt        DateTime     @default(now())
+  lockedUntil        DateTime?
+  leaseId            String?
+  providerId         String?
+  lastError          String?
+  sentAt             DateTime?
+  createdAt          DateTime     @default(now())
+
+  @@unique([tenantId, dedupeKey])
+  @@index([status, availableAt])
+}
+
+model AppointmentToken {
+  id                 String      @id @default(cuid())
+  tenantId           String
+  tenant             Tenant      @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  appointmentId      String
+  appointment        Appointment @relation(fields: [tenantId, appointmentId], references: [tenantId, id], onDelete: Restrict)
+  appointmentVersion Int
+  tokenHash          String      @unique
+  expiresAt          DateTime
+  consumedAt         DateTime?
+  action             String?
+  createdAt          DateTime    @default(now())
+
+  @@index([tenantId, appointmentId])
+}
+
+// Plany i webhooki należą do technicznego tenantu platformy.
+model Plan {
+  id              String  @id @default(cuid())
+  tenantId        String
+  code            String  @unique
+  name            String
+  monthlyGrosze   Int
+  yearlyGrosze    Int
+  patientLimit    Int
+  userLimit       Int
+  trialDays       Int     @default(30)
+  stripeMonthlyId String?
+  stripeYearlyId  String?
+  active          Boolean @default(true)
+}
+
+model Subscription {
+  id                String    @id
+  tenantId          String    @unique
+  tenant            Tenant    @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  status            String
+  priceId           String?
+  currentPeriodEnd  DateTime?
+  graceUntil        DateTime?
+  cancelAtPeriodEnd Boolean   @default(false)
+  lastEventAt       Int       @default(0)
+  updatedAt         DateTime  @updatedAt
+}
+
+model WebhookEvent {
+  id        String   @id
+  tenantId  String
+  type      String
+  createdAt DateTime @default(now())
+}
+
+model PaymentOrder {
+  id                   String      @id @default(uuid())
+  tenantId             String
+  tenant               Tenant      @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  appointmentId        String
+  appointment          Appointment @relation(fields: [tenantId, appointmentId], references: [tenantId, id], onDelete: Restrict)
+  amountGrosze         Int
+  status               String      @default("PENDING")
+  providerOrderId      Int?        @unique
+  token                String?
+  credentialsEncrypted String
+  createdAt            DateTime    @default(now())
+  paidAt               DateTime?
+
+  @@index([tenantId, appointmentId])
+}
+
+model Feedback {
+  id        String   @id @default(cuid())
+  tenantId  String
+  tenant    Tenant   @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  subject   String
+  message   String
+  status    String   @default("NEW")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([tenantId, createdAt])
+}
+
+model AccountToken {
+  id         String    @id @default(cuid())
+  tenantId   String
+  tenant     Tenant    @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  userId     String
+  user       User      @relation(fields: [tenantId, userId], references: [tenantId, id], onDelete: Restrict)
+  tokenHash  String    @unique
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([tenantId, userId])
+}
+
+model SupportSession {
+  id             String    @id @default(cuid())
+  tenantId       String
+  adminId        String
+  targetTenantId String
+  reason         String
+  expiresAt      DateTime
+  endedAt        DateTime?
+  createdAt      DateTime  @default(now())
+
+  @@index([tenantId, adminId])
+}
+
+model Coupon {
+  id         String   @id
+  tenantId   String
+  code       String   @unique
+  percentOff Int
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+}
+
+model ObjectDeletion {
+  id          String    @id @default(cuid())
+  tenantId    String
+  tenant      Tenant    @relation(fields: [tenantId], references: [id], onDelete: Restrict)
+  objectKey   String    @unique
+  attempts    Int       @default(0)
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  @@index([tenantId, completedAt])
+}
+
+model SystemLog {
+  id        String   @id @default(uuid())
+  tenantId  String
+  code      String
+  createdAt DateTime @default(now())
+
+  @@index([tenantId, createdAt])
+}

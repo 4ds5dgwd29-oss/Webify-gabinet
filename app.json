@@ -1,0 +1,21 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "multiRegionConfig": {
+      "europe-west4-drams3a": {
+        "numReplicas": 1
+      }
+    },
+    "restartPolicyType": "ALWAYS",
+    "preDeployCommand": [
+      "npm run db:migrate"
+    ],
+    "startCommand": "node scripts/railway-start.mjs",
+    "healthcheckPath": "/api/health",
+    "healthcheckTimeout": 180
+  }
+}

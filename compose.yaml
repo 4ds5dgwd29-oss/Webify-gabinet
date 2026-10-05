@@ -1,0 +1,95 @@
+name: webify-gabinet
+services:
+  db:
+    image: postgres:17-bookworm
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-webify}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Uruchom node scripts/setup-env.mjs}
+      POSTGRES_DB: ${POSTGRES_DB:-webify}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  migrate:
+    build: .
+    image: webify-gabinet:local
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-webify}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-webify}?schema=public
+    command: ["./node_modules/.bin/prisma", "migrate", "deploy"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+  app:
+    build: .
+    image: webify-gabinet:local
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-webify}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-webify}?schema=public
+    volumes:
+      - documents:/app/storage
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+  worker:
+    image: webify-gabinet:local
+    env_file: .env
+    environment:
+      APP_INTERNAL_URL: http://app:3000
+    command: ["node", "scripts/worker.mjs"]
+    depends_on:
+      app:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "const fs=require('fs');process.exit(Date.now()-Number(fs.readFileSync('/tmp/webify-worker-health'))<360000?0:1)",
+        ]
+      interval: 60s
+      retries: 3
+    restart: unless-stopped
+  backup:
+    profiles: ["backup"]
+    build:
+      context: .
+      dockerfile: Dockerfile.backup
+    env_file: .env
+    environment:
+      BACKUP_DATABASE_URL: postgresql://${POSTGRES_USER:-webify}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-webify}
+      BACKUP_DIR: /backups
+      LOCAL_STORAGE_PATH: /documents
+    volumes:
+      - documents:/documents:ro
+      - backups:/backups
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  postgres_data:
+  documents:
+  backups:

@@ -1,0 +1,4 @@
+import {writeFile} from 'node:fs/promises';
+const secret=process.env.CRON_SECRET;if(!secret||secret.length<32)throw new Error('Ustaw CRON_SECRET (minimum 32 znaki).');
+let stopped=false;process.on('SIGTERM',()=>{stopped=true;});process.on('SIGINT',()=>{stopped=true;});
+while(!stopped){try{const r=await fetch(`${process.env.APP_INTERNAL_URL||'http://localhost:3000'}/api/jobs`,{method:'POST',headers:{Authorization:`Bearer ${secret}`},signal:AbortSignal.timeout(180000)});if(!r.ok)throw new Error('JOB_FAILED');await writeFile('/tmp/webify-worker-health',String(Date.now()));console.log(new Date().toISOString(),'Zadania wykonane.');}catch{console.error(new Date().toISOString(),'Błąd zadania — następna próba za minutę.');}if(!stopped)await new Promise(resolve=>{const timer=setTimeout(resolve,60000);const stop=()=>{clearTimeout(timer);resolve();};process.once('SIGTERM',stop);setTimeout(()=>process.off('SIGTERM',stop),61000).unref();});}

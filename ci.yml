@@ -1,0 +1,53 @@
+name: Weryfikacja Webify Gabinet
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  application:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: postgresql://webify:webify_local@localhost:5432/webify?schema=public
+      TEST_DATABASE_URL: postgresql://webify:webify_local@localhost:5432/webify_test?schema=public
+    services:
+      postgres:
+        image: postgres:17-bookworm
+        env:
+          POSTGRES_USER: webify
+          POSTGRES_PASSWORD: webify_local
+          POSTGRES_DB: webify
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U webify -d webify"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/setup-env.mjs
+      - run: npm run db:migrate
+      - run: npm run db:seed
+      - name: Utwórz osobną bazę testową
+        run: psql -h localhost -U webify -d webify -c 'CREATE DATABASE webify_test'
+        env:
+          PGPASSWORD: webify_local
+      - run: npm run db:migrate
+        env:
+          DATABASE_URL: postgresql://webify:webify_local@localhost:5432/webify_test?schema=public
+      - run: npm run check:boundaries
+      - run: npm run test:backup
+      - run: npm test
+      - run: npm run test:integration
+      - run: npm run typecheck
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - run: npm audit --omit=dev
+      - run: docker compose config --quiet
