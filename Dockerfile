@@ -1,13 +1,14 @@
-FROM node:22-bookworm-slim AS deps
+# Buduje kompletny projekt z archiwum znajdującego się w repozytorium.
+FROM node:22-bookworm-slim AS builder
 WORKDIR /app
-RUN apt-get update && apt-get install -y --no-install-recommends openssl ca-certificates && rm -rf /var/lib/apt/lists/*
-COPY package*.json ./
-COPY prisma ./prisma
-RUN npm ci --no-audit --no-fund
-
-FROM deps AS builder
-COPY . .
+RUN apt-get update && apt-get install -y --no-install-recommends openssl ca-certificates unzip && rm -rf /var/lib/apt/lists/*
+COPY Webify-Gabinet.zip /tmp/webify-source.zip
+RUN echo "98f95a0e5f20b8ae3a107501ab7ac1f763ce2db29c2319cfc93cd05b6e181e85  /tmp/webify-source.zip" | sha256sum -c - \
+    && unzip -q /tmp/webify-source.zip -d /tmp/webify-source \
+    && cp -a /tmp/webify-source/webify-gabinet/. /app/ \
+    && rm -rf /tmp/webify-source /tmp/webify-source.zip
 ENV NEXT_TELEMETRY_DISABLED=1
+RUN npm ci --no-audit --no-fund
 RUN npm run build
 
 FROM node:22-bookworm-slim AS runner
