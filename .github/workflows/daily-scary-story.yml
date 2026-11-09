@@ -1,0 +1,85 @@
+name: Daily scary story video
+
+on:
+  schedule:
+    # Every day at 18:17 UTC (evening in Europe, afternoon in the US). Change to taste.
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: "Upload to YouTube (untick for a test render only)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write # to commit history.json so stories don't repeat
+
+concurrency:
+  group: daily-scary-story
+  cancel-in-progress: false
+
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: scary-stories
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      # Optional settings (Settings -> Secrets and variables -> Actions -> Variables)
+      TTS_PROVIDER: ${{ vars.TTS_PROVIDER || 'edge' }}
+      EDGE_TTS_VOICE: ${{ vars.EDGE_TTS_VOICE || 'en-US-ChristopherNeural' }}
+      ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+      STORY_LANGUAGE: ${{ vars.STORY_LANGUAGE || 'English' }}
+      STORY_MINUTES: ${{ vars.STORY_MINUTES || '8' }}
+      YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'public' }}
+      YOUTUBE_LANGUAGE: ${{ vars.YOUTUBE_LANGUAGE || 'en' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scary-stories/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg, fonts and edge-tts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install edge-tts==7.3.1
+
+      - run: npm ci
+
+      - name: Generate, render and upload
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.upload }}" != "true" ]; then
+            npm run dry-run
+          else
+            npm run daily
+          fi
+
+      - name: Keep the video as a downloadable artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scary-story-${{ github.run_id }}
+          path: scary-stories/out/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Commit story history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          git diff --cached --quiet || (git commit -m "Daily scary story: update history" && git push)
