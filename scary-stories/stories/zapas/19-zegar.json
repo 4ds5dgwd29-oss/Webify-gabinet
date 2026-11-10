@@ -1,0 +1,47 @@
+{
+  "title": "Zegar, który cofa czas w domu",
+  "hook": "Zegar idzie do tyłu",
+  "description": "Kupiłem na targu stary zegar ścienny. Każdej nocy cofa się o godzinę. A mój dom razem z nim.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "zegar",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "pchli targ",
+    "czas"
+  ],
+  "scenes": [
+    {
+      "text": "Na pchlim targu kupiłem stary zegar z kukułką. Sprzedawca oddał go za grosze. I powiedział: niech pan nie nakręca go w nocy.",
+      "image": "old wooden cuckoo clock on a flea market table among antiques, an old vendor in a cap, overcast day"
+    },
+    {
+      "text": "Nakręciłem go wieczorem. Rano wskazywał godzinę wcześniej niż powinien. Tak było każdego dnia.",
+      "image": "antique cuckoo clock on a wall in a modern apartment at dawn, hands showing the wrong time, soft light"
+    },
+    {
+      "text": "Potem zauważyłem, że mieszkanie się zmienia. Telewizor zniknął. Zamiast niego stało radio. Na ścianie pojawiła się tapeta w kwiaty.",
+      "image": "living room changing into a 1970s Polish interior, old radio, floral wallpaper, wall unit, cuckoo clock on the wall"
+    },
+    {
+      "text": "W kuchni rano ktoś zostawił mi śniadanie. Kubek herbaty. Jeszcze ciepły. A ja mieszkam sam.",
+      "image": "old 1970s Polish kitchen table with a steaming glass of tea in a metal holder, morning light, nobody there"
+    },
+    {
+      "text": "W nocy słyszałem rozmowy za ścianą. Rodzina z innego czasu. Matka wołała na kolację kogoś o moim imieniu.",
+      "image": "dark hallway in an old apartment, warm light under a kitchen door, shadows of a family at a table"
+    },
+    {
+      "text": "Próbowałem zatrzymać zegar. Wahadło biło mnie w palce jak żywe. Kukułka wyskoczyła i zakukała trzynaście razy.",
+      "image": "close up of an antique cuckoo clock with the wooden bird out, hand reaching for the pendulum, dramatic shadows"
+    },
+    {
+      "text": "Dziś rano na lodówce wisiał kalendarz z siedemdziesiątego dziewiątego roku. Jeszcze kilka nocy i dojdziemy do dnia, w którym ten chłopiec zniknął.",
+      "image": "old 1979 paper calendar hanging on a vintage fridge, one date circled in red, dim kitchen"
+    }
+  ]
+}

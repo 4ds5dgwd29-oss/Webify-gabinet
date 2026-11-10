@@ -1,0 +1,47 @@
+{
+  "title": "Echo w starej studni odpowiada",
+  "hook": "Nie wołaj do studni",
+  "description": "Na podwórku po dziadkach jest stara studnia. Krzyknąłem do niej dla żartu. Echo nie powtórzyło moich słów. Odpowiedziało.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "studnia",
+    "wieś",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "echo"
+  ],
+  "scenes": [
+    {
+      "text": "Odziedziczyłem dom po dziadkach. Na podwórku stoi stara studnia z korbą. Dziadek zawsze trzymał ją zamkniętą na kłódkę.",
+      "image": "old stone well with a wooden roof and a crank in a village yard at dusk, rusty padlock on the lid"
+    },
+    {
+      "text": "Przeciąłem kłódkę. W środku ciemność i zapach mokrych kamieni. Dla żartu krzyknąłem: halo, jest tam ktoś?",
+      "image": "looking down into a deep dark stone well, faint water reflection at the bottom, moss on the walls"
+    },
+    {
+      "text": "Echo nie powtórzyło. Z dołu odpowiedział spokojny męski głos: jestem. Długo czekałem, aż ktoś zapyta.",
+      "image": "dark water at the bottom of a well, a pale face barely visible beneath the surface, ripples"
+    },
+    {
+      "text": "Zatrzasnąłem wieko. Ale w nocy słyszałem, jak korba skrzypi. Sama. Jakby ktoś powoli wyciągał wiadro.",
+      "image": "old well crank turning by itself at night, rope moving, moonlight, empty yard"
+    },
+    {
+      "text": "Sąsiad opowiedział mi, że w czterdziestym piątym do studni wpadł żołnierz. Nikt go nie wyciągnął. Dziadek bał się, że ktoś usłyszy.",
+      "image": "old black and white photo of a village yard with a well, people standing around it, 1940s"
+    },
+    {
+      "text": "Rano przed studnią stało wiadro. Pełne mokrych liści. I wody, która pachniała ziemią. Na dnie leżał nieśmiertelnik.",
+      "image": "old metal bucket full of dark water and wet leaves next to a well, a rusty military dog tag at the bottom"
+    },
+    {
+      "text": "Tej nocy głos z dołu zapytał: a teraz ty. Czy ktoś cię usłyszy, jak zawołasz?",
+      "image": "dark well opening seen from above at night, faint hand reaching up from the darkness toward the edge"
+    }
+  ]
+}

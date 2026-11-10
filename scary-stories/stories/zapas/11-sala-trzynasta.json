@@ -1,0 +1,47 @@
+{
+  "title": "Dzwonek z sali numer trzynaście",
+  "hook": "Tej sali nie ma",
+  "description": "Na nocnym dyżurze w szpitalu zapalił się dzwonek z sali trzynaście. Na naszym oddziale sale kończą się na dwunastce.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "szpital",
+    "nocny dyżur",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "pielęgniarka"
+  ],
+  "scenes": [
+    {
+      "text": "Jestem pielęgniarką. Mam nocne dyżury na starym oddziale wewnętrznym. Dwanaście sal. Cisza i brzęczenie świetlówek.",
+      "image": "long empty hospital corridor at night, flickering fluorescent lights, old green walls, nurse station in the distance"
+    },
+    {
+      "text": "O trzeciej na tablicy przyzywowej zapaliła się lampka. Sala trzynaście. Takiej sali u nas nie ma.",
+      "image": "old hospital nurse call panel with rows of numbered lights, one red light glowing next to number 13, dark station"
+    },
+    {
+      "text": "Pomyślałam, że to awaria. Ale dzwonek odezwał się znowu. I znowu. Coraz natarczywiej.",
+      "image": "close up of a blinking red call light on an old panel, nurse's hand hesitating near it, dim light"
+    },
+    {
+      "text": "Na końcu korytarza, za salą dwanaście, zobaczyłam drzwi. Wcześniej była tam tylko ściana. Na drzwiach wisiała kartka z numerem trzynaście.",
+      "image": "old wooden hospital door at the end of a dark corridor with a paper sign showing number 13, light under the door"
+    },
+    {
+      "text": "W środku stało jedno łóżko. Leżał na nim starszy pan. Uśmiechnął się i powiedział: wreszcie pani przyszła. Czekam od tysiąc dziewięćset siedemdziesiątego roku.",
+      "image": "old hospital room with one metal bed, pale elderly man lying under a white sheet smiling, dusty window, cold light"
+    },
+    {
+      "text": "Uciekłam do dyżurki. Starsza oddziałowa wysłuchała mnie spokojnie. I wyjęła z szuflady klucz z numerem trzynaście.",
+      "image": "elderly head nurse holding an old brass key with tag number 13, dark nurse station, desk lamp"
+    },
+    {
+      "text": "Powiedziała: teraz to twoja sala. Ktoś musi do niego chodzić. Inaczej zacznie chodzić on. Po wszystkich salach.",
+      "image": "dark hospital corridor with all doors slightly open, a thin pale figure in a hospital gown standing in the middle"
+    }
+  ]
+}

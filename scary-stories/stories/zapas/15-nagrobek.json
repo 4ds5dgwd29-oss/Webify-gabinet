@@ -1,0 +1,47 @@
+{
+  "title": "Mój grób na Wszystkich Świętych",
+  "hook": "Kto zapalił znicz?",
+  "description": "Na Wszystkich Świętych poszedłem zapalić znicz dziadkom. Obok ich grobu stał nowy nagrobek. Z moim imieniem i nazwiskiem.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "cmentarz",
+    "wszystkich świętych",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "znicz"
+  ],
+  "scenes": [
+    {
+      "text": "Na Wszystkich Świętych cmentarz w moim miasteczku płonie tysiącami zniczy. Poszedłem odwiedzić dziadków.",
+      "image": "Polish cemetery at night on All Saints Day, thousands of glowing red candle lanterns on graves, fog, silhouettes of people"
+    },
+    {
+      "text": "Obok ich grobu stał nowy nagrobek. Czarny granit. Wyryte moje imię i nazwisko. Data urodzenia się zgadzała.",
+      "image": "new black granite gravestone among old graves, lit by candles, engraved name, autumn leaves"
+    },
+    {
+      "text": "Data śmierci była zakryta. Ktoś przykleił na nią kawałek taśmy. I zapalił jeden znicz. Czerwony.",
+      "image": "close up of a gravestone with a strip of tape covering engraved dates, a single red candle lantern burning in front"
+    },
+    {
+      "text": "Zapytałem grabarza. Powiedział, że nagrobek zamówiła kobieta. Zapłaciła gotówką. Kazała zakryć datę. Do czasu.",
+      "image": "old cemetery gravedigger with a shovel near a chapel at night, lantern light, wary face"
+    },
+    {
+      "text": "Kobieta zostawiła kartkę z numerem. Zadzwoniłem. Odebrała moja matka. Moja matka nie żyje od pięciu lat.",
+      "image": "man holding a phone to his ear in a dark cemetery among candles, shocked face, fog"
+    },
+    {
+      "text": "Powiedziała tylko: synku, ja nie mogłam ci powiedzieć wprost. Ale znicz pali się tak długo, jak długo ty.",
+      "image": "single red candle lantern burning on a dark grave, wax running low, wind bending the flame"
+    },
+    {
+      "text": "Od tygodnia co wieczór chodzę na cmentarz i wymieniam znicz na nowy. Dziś w sklepie zabrakło wkładów.",
+      "image": "empty shelves in a small shop that sells grave candles at night, one empty spot, flickering light"
+    }
+  ]
+}
