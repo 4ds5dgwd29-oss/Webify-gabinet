@@ -44,6 +44,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Runs can queue up behind each other. Use the latest history.json so a story
+      # published by the previous run is not uploaded a second time.
+      - name: Sync with the latest branch state
+        run: |
+          git fetch origin "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
