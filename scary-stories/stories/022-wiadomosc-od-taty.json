@@ -1,0 +1,16 @@
+{
+  "title": "Wiadomość od taty, który nie żyje od roku",
+  "hook": "Nie odpisuj mu",
+  "description": "Rok po pogrzebie taty jego numer napisał do mnie SMS-a: jestem pod domem, otwórz. Telefon taty leży w szufladzie. Rozładowany.",
+  "question": "Otworzyłbyś drzwi? 📱 Napisz w komentarzu 👇",
+  "tags": ["straszne historie", "horror po polsku", "sms", "telefon", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy", "duch"],
+  "scenes": [
+    {"text": "Tata zmarł rok temu. Jego telefon trzymam w szufladzie. Rozładowany. Nie potrafiłem go wyrzucić.", "image": "old smartphone lying in an open wooden drawer, dark screen, dim bedroom light, dust"},
+    {"text": "W rocznicę pogrzebu, o drugiej w nocy, mój telefon zawibrował. Wiadomość od kontaktu: Tata.", "image": "phone glowing on a nightstand in a dark bedroom at night, notification on the screen, blurred bed"},
+    {"text": "Napisał: jestem pod domem. Zimno mi. Otwórz. Sprawdziłem szufladę. Jego telefon leżał tam, gdzie zawsze. Czarny ekran.", "image": "hands holding two phones in the dark, one glowing with a message, the other dead and black"},
+    {"text": "Podszedłem do okna. Pod latarnią stał mężczyzna w płaszczu taty. Stał tyłem. Nie ruszał się.", "image": "view from a window at night down to a street lamp, a man in a long dark coat standing with his back turned, fog"},
+    {"text": "Przyszła kolejna wiadomość: widzę cię w oknie. Dlaczego nie otwierasz? Przecież zawsze ci otwierałem.", "image": "close up of a phone screen in the dark reflecting a frightened face, window behind with street light"},
+    {"text": "Zgasiłem światło i usiadłem pod drzwiami. Do świtu słyszałem cierpliwe pukanie. Tak samo, jak pukał tata, gdy wracał z pracy.", "image": "dark hallway of a house, a man sitting on the floor with his back against the front door, faint light under the door"},
+    {"text": "Rano na wycieraczce leżały klucze taty. Te, które włożyliśmy mu do trumny. A na telefonie nowa wiadomość: następnym razem wejdę sam.", "image": "old set of keys lying on a doormat in grey morning light, frost, front door slightly open"}
+  ]
+}
