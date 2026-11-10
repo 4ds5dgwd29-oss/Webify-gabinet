@@ -3,7 +3,7 @@
 Wszystko działa za darmo:
 
 1. **Claude pisze historię.** Zaplanowane zadanie Claude (w ramach Twojego planu Claude, bez płatnego klucza API) codziennie dodaje nowy plik `stories/RRRR-MM-DD.json` i wypycha go do repozytorium. Zasady pisania są w `STORY_GUIDE.md`.
-2. **GitHub Actions robi film.** Nowy plik uruchamia workflow `.github/workflows/daily-scary-story.yml`. Darmowy polski lektor (`pl-PL-MarekNeural`) czyta historię, ffmpeg robi film 1080p z napisami, tłem i miniaturką.
+2. **GitHub Actions robi YouTube Shorts.** Nowy plik uruchamia workflow `.github/workflows/daily-scary-story.yml`. Do każdej sceny powstaje obraz z darmowego generatora Pollinations.ai, darmowy polski lektor (`pl-PL-MarekNeural`) czyta historię, a ffmpeg składa pionowy film 1080×1920 (do 3 minut) z ruchem kamery i dużymi napisami.
 3. **Film trafia na YouTube**, oznaczony jako treść stworzona z pomocą AI.
 
 ## Bez żadnej konfiguracji
@@ -30,6 +30,7 @@ Jeśli nie dodasz sekretów YouTube, workflow i tak zrobi film. Pobierzesz go z 
 | Zmienna | Domyślnie | Opis |
 |---|---|---|
 | `EDGE_TTS_VOICE` | `pl-PL-MarekNeural` | Głos lektora, np. `pl-PL-ZofiaNeural` |
+| `VIDEO_FORMAT` | `short` | `short` (pionowe Shorts) albo `long` (poziomy film) |
 | `YOUTUBE_PRIVACY` | `public` | `public`, `unlisted` albo `private` |
 | `TTS_PROVIDER` | `edge` | `elevenlabs` dla płatnych, lepszych głosów (wtedy też sekret `ELEVENLABS_API_KEY` i zmienna `ELEVENLABS_VOICE_ID`) |
 

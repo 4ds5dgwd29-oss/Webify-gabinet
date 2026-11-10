@@ -6,7 +6,8 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { narrate } from "./tts.mjs";
-import { renderThumbnail, renderVideo } from "./render-video.mjs";
+import { format, FORMATS, renderThumbnail, renderVideo } from "./render-video.mjs";
+import { sceneImages } from "./images.mjs";
 import { uploadVideo } from "./upload-youtube.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -26,9 +27,10 @@ let story;
 if (storyArg) {
   console.log(`1/4 Reading story from ${storyArg}`);
   story = JSON.parse(readFileSync(path.resolve(storyArg), "utf8"));
-  for (const key of ["title", "hook", "story", "description", "tags"]) {
+  for (const key of ["title", "hook", "description", "tags"]) {
     if (!story[key]) throw new Error(`Story file is missing "${key}"`);
   }
+  if (!story.scenes && !story.story) throw new Error('Story file needs "scenes" (or "story")');
 } else {
   console.log("1/4 Writing story with the Claude API...");
   const { generateStory } = await import("./generate-story.mjs");
@@ -42,14 +44,19 @@ const day = storyArg ? path.basename(storyArg, ".json") : new Date().toISOString
 const outDir = path.join(root, "out", day);
 mkdirSync(outDir, { recursive: true });
 writeFileSync(path.join(outDir, "story.json"), JSON.stringify(story, null, 2));
-console.log(`    "${story.title}" (${story.story.split(/\s+/).length} words)`);
+// "scenes" = [{ text, image }]: the text is narrated, the image prompt becomes the picture behind it.
+const scenes = story.scenes ?? [{ text: story.story, image: null }];
+const fullText = scenes.map((s) => s.text.trim()).join("\n\n");
+console.log(`    "${story.title}" (${fullText.split(/\s+/).length} words, ${scenes.length} scenes)`);
 
 console.log("2/4 Narrating...");
-const narration = await narrate(story.story, outDir);
+const narration = await narrate(fullText, outDir);
 
-console.log("3/4 Rendering video...");
-const video = renderVideo({ title: story.title, story: story.story, narration, outDir });
-const thumbnail = renderThumbnail({ hook: story.hook, outDir });
+console.log("3/4 Generating images and rendering video...");
+const f = format();
+const images = await sceneImages(scenes, outDir, { width: f.width, height: f.height });
+const video = renderVideo({ hook: story.hook, title: story.title, scenes, images, narration, outDir });
+const thumbnail = renderThumbnail({ hook: story.hook, image: images[0], outDir });
 console.log(`    ${video.file} (${Math.round(video.seconds)}s)`);
 
 if (history.some((h) => h.date === day && h.videoId)) {
@@ -65,11 +72,12 @@ console.log("4/4 Uploading to YouTube...");
 const footer = process.env.YOUTUBE_DESCRIPTION_FOOTER ??
   "\n\nNowa straszna historia codziennie. Subskrybuj, jeśli się odważysz.\n" +
   "Ta historia jest fikcją. Tekst i lektor zostały stworzone z pomocą AI.\n\n" +
-  "#strasznehistorie #horror #creepypasta";
+  "#shorts #strasznehistorie #horror #creepypasta";
+const isShort = f === FORMATS.short;
 const videoId = await uploadVideo({
   file: video.file,
-  thumbnail,
-  title: story.title,
+  thumbnail: isShort ? null : thumbnail, // YouTube picks a frame for Shorts
+  title: isShort && !/#shorts/i.test(story.title) ? `${story.title} #shorts` : story.title,
   description: story.description + footer,
   tags: story.tags,
 });

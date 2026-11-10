@@ -40,6 +40,7 @@ jobs:
       ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
       YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'public' }}
       YOUTUBE_LANGUAGE: ${{ vars.YOUTUBE_LANGUAGE || 'pl' }}
+      VIDEO_FORMAT: ${{ vars.VIDEO_FORMAT || 'short' }}
     steps:
       - uses: actions/checkout@v4
 
