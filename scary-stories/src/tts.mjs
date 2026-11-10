@@ -27,9 +27,21 @@ function edgeTts(text, outDir, out, short) {
   // edge-tts does not read HTTPS_PROXY on its own, so pass it explicitly.
   const proxy = process.env.HTTPS_PROXY || process.env.https_proxy || "";
   const helper = path.join(path.dirname(fileURLToPath(import.meta.url)), "edge_tts_words.py");
-  execFileSync("python3", [helper, textFile, out, wordsFile, voice, rate, pitch, proxy], { stdio: "inherit" });
-  const words = JSON.parse(readFileSync(wordsFile, "utf8"));
-  return words.length ? words : null;
+  // The TTS service occasionally drops the end of a long text or restarts its timings.
+  // Check that the narration covers the whole text with steadily rising timings; retry if not.
+  const expected = text.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      execFileSync("python3", [helper, textFile, out, wordsFile, voice, rate, pitch, proxy], { stdio: "inherit" });
+      const words = JSON.parse(readFileSync(wordsFile, "utf8"));
+      const monotonic = words.every((w, i) => i === 0 || w.start >= words[i - 1].start - 0.05);
+      if (words.length >= expected * 0.95 && monotonic) return words;
+      console.warn(`    narration incomplete (${words.length}/${expected} words, monotonic=${monotonic}), attempt ${attempt}/3`);
+    } catch (err) {
+      console.warn(`    narration failed: ${err.message.split("\n")[0]}, attempt ${attempt}/3`);
+    }
+  }
+  throw new Error("Narration failed 3 times; not publishing an incomplete video");
 }
 
 async function elevenLabs(text, outDir, out) {
