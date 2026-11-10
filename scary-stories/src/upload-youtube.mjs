@@ -23,7 +23,7 @@ export async function uploadVideo({ file, thumbnail, title, description, tags })
         description: description.slice(0, 5000),
         tags: tags.slice(0, 30),
         categoryId: process.env.YOUTUBE_CATEGORY_ID || "24", // Entertainment
-        defaultLanguage: process.env.YOUTUBE_LANGUAGE || "en",
+        defaultLanguage: process.env.YOUTUBE_LANGUAGE || "pl",
       },
       status: {
         privacyStatus,

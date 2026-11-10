@@ -1,63 +1,37 @@
-# Daily scary story videos for YouTube
+# Codzienne straszne historie na YouTube
 
-A GitHub Actions job runs once a day and:
+Wszystko działa za darmo:
 
-1. **Writes** a new original horror story (~8 minutes of narration) with Claude, avoiding titles already published (`history.json`).
-2. **Narrates** it with text-to-speech: free Microsoft Edge voices by default, or ElevenLabs.
-3. **Renders** a 1080p video with ffmpeg: dark grainy background, title card, burned-in captions, low ambient drone. It also makes a thumbnail.
-4. **Uploads** it to your YouTube channel, marked as AI-generated (altered or synthetic content), and sets the thumbnail.
+1. **Claude pisze historię.** Zaplanowane zadanie Claude (w ramach Twojego planu Claude, bez płatnego klucza API) codziennie dodaje nowy plik `stories/RRRR-MM-DD.json` i wypycha go do repozytorium. Zasady pisania są w `STORY_GUIDE.md`.
+2. **GitHub Actions robi film.** Nowy plik uruchamia workflow `.github/workflows/daily-scary-story.yml`. Darmowy polski lektor (`pl-PL-MarekNeural`) czyta historię, ffmpeg robi film 1080p z napisami, tłem i miniaturką.
+3. **Film trafia na YouTube**, oznaczony jako treść stworzona z pomocą AI.
 
-Workflow: `.github/workflows/daily-scary-story.yml`. Code: `src/`.
+## Bez żadnej konfiguracji
+Jeśli nie dodasz sekretów YouTube, workflow i tak zrobi film. Pobierzesz go z zakładki **Actions → wybrany przebieg → Artifacts** i wrzucisz ręcznie na YouTube.
 
-## One-time setup
-
-### 1. Claude API key
-Create a key at https://platform.claude.com and save it as the repository secret `ANTHROPIC_API_KEY`
-(GitHub → Settings → Secrets and variables → Actions → New repository secret).
-
-### 2. YouTube API access
-1. In https://console.cloud.google.com create a project and enable **YouTube Data API v3**.
-2. Go to **APIs & Services → OAuth consent screen**, choose *External*, fill in the app name, and add your own Google account as a **test user**. Then click **Publish app** (set it to *In production*). If it stays in *Testing*, the refresh token expires after 7 days.
-3. Go to **Credentials → Create credentials → OAuth client ID → Desktop app**. Copy the client ID and secret.
-4. On your own computer, in this folder:
+## Automatyczny upload na YouTube (jednorazowo, za darmo)
+1. W https://console.cloud.google.com utwórz projekt i włącz **YouTube Data API v3**.
+2. **APIs & Services → OAuth consent screen**: wybierz *External*, dodaj swoje konto jako *Test user*, potem kliknij **Publish app** (inaczej token wygaśnie po 7 dniach).
+3. **Credentials → Create credentials → OAuth client ID → Desktop app**. Skopiuj Client ID i Client secret.
+4. Na swoim komputerze (Node.js 22+), w tym folderze:
    ```bash
    npm install
    YOUTUBE_CLIENT_ID=... YOUTUBE_CLIENT_SECRET=... npm run youtube-token
    ```
-   Open the printed link, sign in with the account that owns the channel, and allow access. Google will warn that the app is unverified; click *Advanced → Go to app*, since it's your own app. The terminal prints a refresh token.
-5. Save three repository secrets: `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`.
+   Otwórz link, zaloguj się kontem z kanałem, kliknij *Advanced → Go to app*. Terminal wypisze refresh token.
+5. Na GitHubie: **Settings → Secrets and variables → Actions → New repository secret**. Dodaj `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`.
 
-> **Important: API uploads start out private-only.** YouTube locks every video uploaded from an *unaudited* API project to **private**. To publish automatically you need to submit the free [YouTube API Services audit form](https://support.google.com/youtube/contact/yt_api_form). Until it's approved, videos still upload every day but stay private, and you make them public by hand in YouTube Studio.
->
-> Custom thumbnails also need a phone-verified channel: https://www.youtube.com/verify
+> Filmy wrzucone przez nowy projekt API są **prywatne**, dopóki projekt nie przejdzie darmowego audytu: https://support.google.com/youtube/contact/yt_api_form. Do tego czasu upubliczniasz je ręcznie w YouTube Studio. Miniaturki wymagają kanału zweryfikowanego telefonem: https://www.youtube.com/verify
 
-### 3. Turn it on
-The workflow only runs on its schedule once it's on the repository's **default branch**, so merge this branch first.
-Then open **Actions → Daily scary story video → Run workflow** and untick *Upload* for a test render. The finished video is attached to the run as a downloadable artifact. When it looks good, leave it to run on its own. It runs every day at 18:17 UTC; change the `cron` line to pick another time.
+## Ręczne uruchomienie
+**Actions → Daily scary story video → Run workflow.** Możesz wskazać plik historii i odznaczyć *Upload*, żeby tylko zrobić film.
 
-## Optional settings
-Set these under Settings → Secrets and variables → Actions → **Variables**:
-
-| Variable | Default | What it does |
+## Ustawienia (Settings → Secrets and variables → Actions → Variables)
+| Zmienna | Domyślnie | Opis |
 |---|---|---|
-| `STORY_LANGUAGE` | `English` | Language of the story, e.g. `Polish` |
-| `STORY_MINUTES` | `8` | Approximate narration length |
-| `TTS_PROVIDER` | `edge` | `edge` (free) or `elevenlabs` (better voices, paid) |
-| `EDGE_TTS_VOICE` | `en-US-ChristopherNeural` | Any voice from `edge-tts --list-voices`, e.g. `pl-PL-MarekNeural` |
-| `ELEVENLABS_VOICE_ID` | – | Voice ID when using ElevenLabs. Also set the `ELEVENLABS_API_KEY` secret |
-| `YOUTUBE_PRIVACY` | `public` | `public`, `unlisted` or `private` |
-| `YOUTUBE_LANGUAGE` | `en` | Video language code |
+| `EDGE_TTS_VOICE` | `pl-PL-MarekNeural` | Głos lektora, np. `pl-PL-ZofiaNeural` |
+| `YOUTUBE_PRIVACY` | `public` | `public`, `unlisted` albo `private` |
+| `TTS_PROVIDER` | `edge` | `elevenlabs` dla płatnych, lepszych głosów (wtedy też sekret `ELEVENLABS_API_KEY` i zmienna `ELEVENLABS_VOICE_ID`) |
 
-If you change `STORY_LANGUAGE`, change `EDGE_TTS_VOICE` and `YOUTUBE_LANGUAGE` to match.
-
-## Running locally
-Needs Node 22+, ffmpeg and `pip install edge-tts`.
-```bash
-npm install
-ANTHROPIC_API_KEY=... npm run dry-run   # renders out/<date>/video.mp4 without uploading
-```
-
-## Costs
-- Claude: about $0.05–0.10 per story.
-- Edge TTS, ffmpeg and GitHub Actions minutes for a public repo: free. A private repo uses about 5–10 of its free Actions minutes a day.
-- ElevenLabs (optional): about 7–8k characters a day, so a paid plan.
+## Opcjonalnie: pisanie przez Claude API
+`node src/main.mjs` bez `--story` pisze historię przez płatne Claude API (sekret `ANTHROPIC_API_KEY`, około $0.05–0.10 za historię). Nie jest to potrzebne, gdy historie pisze zaplanowane zadanie.

@@ -107,7 +107,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     events.push(`Dialogue: 0,${ts(t)},${ts(t + d)},Caption,,0,0,0,,${assText(c)}`);
     t += d;
   }
-  events.push(`Dialogue: 0,${ts(total - OUTRO + 0.3)},${ts(total)},Title,,0,0,0,,{\\fad(400,800)}${assText("Sleep well...")}`);
+  events.push(`Dialogue: 0,${ts(total - OUTRO + 0.3)},${ts(total)},Title,,0,0,0,,{\\fad(400,800)}${assText(process.env.OUTRO_TEXT || "Śpij spokojnie...")}`);
   return header + events.join("\n") + "\n";
 }
 

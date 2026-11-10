@@ -12,7 +12,7 @@ export async function narrate(text, outDir) {
 }
 
 function edgeTts(text, outDir, out) {
-  const voice = process.env.EDGE_TTS_VOICE || "en-US-ChristopherNeural";
+  const voice = process.env.EDGE_TTS_VOICE || "pl-PL-MarekNeural";
   const rate = process.env.EDGE_TTS_RATE || "-8%";
   const pitch = process.env.EDGE_TTS_PITCH || "-4Hz";
   const textFile = path.join(outDir, "story.txt");
