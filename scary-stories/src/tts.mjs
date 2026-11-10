@@ -1,29 +1,34 @@
 import { execFileSync } from "node:child_process";
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 // TTS_PROVIDER=edge (free, default) or elevenlabs (needs ELEVENLABS_API_KEY).
-export async function narrate(text, outDir) {
+// Returns { file, words }: words = [{ text, start, end }] in seconds (Edge only), else null.
+export async function narrate(text, outDir, { short = true } = {}) {
   const provider = (process.env.TTS_PROVIDER || "edge").toLowerCase();
-  const out = path.join(outDir, "narration.mp3");
-  if (provider === "elevenlabs") await elevenLabs(text, outDir, out);
-  else edgeTts(text, outDir, out);
-  return out;
+  const file = path.join(outDir, "narration.mp3");
+  if (provider === "elevenlabs") {
+    await elevenLabs(text, outDir, file);
+    return { file, words: null };
+  }
+  return { file, words: edgeTts(text, outDir, file, short) };
 }
 
-function edgeTts(text, outDir, out) {
+function edgeTts(text, outDir, out, short) {
   const voice = process.env.EDGE_TTS_VOICE || "pl-PL-MarekNeural";
-  const rate = process.env.EDGE_TTS_RATE || "-8%";
+  // Shorts need a brisk pace to keep viewers; long videos can breathe a little more.
+  const rate = process.env.EDGE_TTS_RATE || (short ? "+4%" : "-4%");
   const pitch = process.env.EDGE_TTS_PITCH || "-4Hz";
   const textFile = path.join(outDir, "story.txt");
+  const wordsFile = path.join(outDir, "words.json");
   writeFileSync(textFile, text);
-  // edge-tts ignores HTTPS_PROXY unless it is passed explicitly.
-  const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
-  execFileSync(
-    "edge-tts",
-    [...(proxy ? ["--proxy", proxy] : []), "--voice", voice, `--rate=${rate}`, `--pitch=${pitch}`, "--file", textFile, "--write-media", out],
-    { stdio: "inherit" },
-  );
+  // edge-tts does not read HTTPS_PROXY on its own, so pass it explicitly.
+  const proxy = process.env.HTTPS_PROXY || process.env.https_proxy || "";
+  const helper = path.join(path.dirname(fileURLToPath(import.meta.url)), "edge_tts_words.py");
+  execFileSync("python3", [helper, textFile, out, wordsFile, voice, rate, pitch, proxy], { stdio: "inherit" });
+  const words = JSON.parse(readFileSync(wordsFile, "utf8"));
+  return words.length ? words : null;
 }
 
 async function elevenLabs(text, outDir, out) {

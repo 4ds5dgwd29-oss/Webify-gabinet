@@ -20,7 +20,7 @@ permissions:
   contents: write # to commit history.json
 
 concurrency:
-  group: daily-scary-story
+  group: scary-publish # shared with the long-video workflow: one upload at a time
   cancel-in-progress: false
 
 jobs:

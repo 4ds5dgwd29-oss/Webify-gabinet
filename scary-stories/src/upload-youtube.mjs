@@ -11,9 +11,26 @@ export function youtubeClient() {
   return google.youtube({ version: "v3", auth });
 }
 
+// PUBLISH_AT_LOCAL="14:00": upload as private and let YouTube publish it today at that time
+// (Europe/Warsaw). If that time has already passed, the video goes public right away.
+function scheduledPublishAt() {
+  const hhmm = process.env.PUBLISH_AT_LOCAL;
+  if (!hhmm) return null;
+  const [hh, mm] = hhmm.split(":").map(Number);
+  const now = new Date();
+  const day = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Warsaw", year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
+  const asUtc = new Date(`${day}T${String(hh).padStart(2, "0")}:${String(mm).padStart(2, "0")}:00Z`);
+  const warsawHour = Number(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Warsaw", hour: "2-digit", hour12: false }).format(asUtc));
+  const offsetHours = (warsawHour - asUtc.getUTCHours() + 24) % 24; // 1 in winter, 2 in summer
+  const at = new Date(asUtc.getTime() - offsetHours * 3600_000);
+  return at.getTime() - now.getTime() > 5 * 60_000 ? at.toISOString() : null;
+}
+
 export async function uploadVideo({ file, thumbnail, title, description, tags }) {
   const youtube = youtubeClient();
-  const privacyStatus = process.env.YOUTUBE_PRIVACY || "public";
+  const publishAt = scheduledPublishAt();
+  const privacyStatus = publishAt ? "private" : process.env.YOUTUBE_PRIVACY || "public";
+  if (publishAt) console.log(`    scheduled to go public at ${publishAt}`);
 
   const res = await youtube.videos.insert({
     part: ["snippet", "status"],
@@ -27,6 +44,7 @@ export async function uploadVideo({ file, thumbnail, title, description, tags })
       },
       status: {
         privacyStatus,
+        ...(publishAt ? { publishAt } : {}),
         selfDeclaredMadeForKids: false,
         // Narration and script are AI-generated: YouTube asks creators to disclose this.
         containsSyntheticMedia: true,

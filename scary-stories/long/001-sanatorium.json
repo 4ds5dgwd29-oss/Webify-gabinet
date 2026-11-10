@@ -1,0 +1,193 @@
+{
+  "title": "Nocny stróż w opuszczonym sanatorium | Straszna historia",
+  "hook": "Pacjenci wciąż czekają",
+  "thumbnail_text": "PACJENCI WCIĄŻ CZEKAJĄ",
+  "thumbnail_image": "long dark corridor of an abandoned 1970s mountain sanatorium at night, rows of old hospital beds, a pale figure in a white hospital gown standing at the far end, flashlight beam",
+  "visual_style": "abandoned 1970s Polish mountain sanatorium, winter night, cold blue light, peeling paint",
+  "description": "Przyjąłem pracę nocnego stróża w opuszczonym sanatorium w górach. Miało być łatwo: obchód co dwie godziny, termos z herbatą i cisza. Ale w sanatorium, w którym od czterdziestu lat nie ma pacjentów, ktoś wciąż czeka na wieczorny obchód.",
+  "question": "Wytrzymałbyś choć jedną noc w tym sanatorium? 🏚️ Napisz w komentarzu 👇",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "sanatorium",
+    "opuszczone miejsca",
+    "nocny stróż",
+    "historie grozy",
+    "polski horror",
+    "creepypasta",
+    "długa historia",
+    "paranormalne"
+  ],
+  "chapters": [
+    {
+      "title": "Ogłoszenie",
+      "scene": 0
+    },
+    {
+      "title": "Pierwsza noc",
+      "scene": 7
+    },
+    {
+      "title": "Dziennik pielęgniarki",
+      "scene": 17
+    },
+    {
+      "title": "Sala numer siedem",
+      "scene": 25
+    },
+    {
+      "title": "Ostatni obchód",
+      "scene": 31
+    }
+  ],
+  "scenes": [
+    {
+      "text": "Ogłoszenie wisiało na tablicy w sklepie w Szklarskiej Porębie. Poszukiwany nocny stróż. Obiekt zamknięty. Praca spokojna. Wysokie wynagrodzenie. Potrzebowałem pieniędzy, a spokoju jeszcze bardziej.",
+      "image": "handwritten job notice pinned on a cork board in a small mountain village shop, dim light"
+    },
+    {
+      "text": "Właściciel, starszy pan w grubym płaszczu, zawiózł mnie na górę starą terenówką. Droga wiła się między świerkami. Na końcu, w mgle, stał wielki szary budynek z setką okien.",
+      "image": "old off-road car driving up a narrow mountain road between snowy spruce trees, fog, headlights"
+    },
+    {
+      "text": "Sanatorium zamknięto w osiemdziesiątym pierwszym roku. Od tamtej pory stało puste. Właściciel chciał je sprzedać, a ktoś musiał pilnować, żeby nikt nie wynosił kaloryferów i nie palił ognisk w salach.",
+      "image": "huge grey abandoned sanatorium building with hundreds of dark windows on a mountain slope in fog"
+    },
+    {
+      "text": "Dał mi klucze, latarkę i zeszyt obchodów. Powiedział tylko jedno. Obchód co dwie godziny. Zawsze w tej samej kolejności. I nigdy nie wchodź do sali numer siedem.",
+      "image": "old man's hands giving a heavy ring of keys and a flashlight, worn notebook on a desk, lamp light"
+    },
+    {
+      "text": "Pierwszego wieczoru obszedłem budynek za dnia, żeby poznać drogę. Cztery piętra, sto dwanaście sal, kuchnia, kaplica i basen bez wody. W każdej sali stały jeszcze łóżka. Zaścielone. Jakby pacjenci wyszli na chwilę na spacer i mieli zaraz wrócić.",
+      "image": "abandoned sanatorium room with neatly made metal beds and white sheets, dust, afternoon light through dirty windows"
+    },
+    {
+      "text": "Na drzwiach sali numer siedem ktoś przybił deskę na krzyż. Gwoździe były nowe. Błyszczące. Ktoś zabił te drzwi niedawno.",
+      "image": "old door with number 7 boarded up with two wooden planks nailed in a cross, shiny new nails, dark corridor"
+    },
+    {
+      "text": "Zapytałem dlaczego. Wzruszył ramionami. Bo tam jest zalane, odpowiedział. Ale nie patrzył mi w oczy, kiedy to mówił.",
+      "image": "elderly man in a heavy coat looking away, standing in a dark doorway of an old building, snow outside"
+    },
+    {
+      "text": "Pierwsza noc była cicha. Za cicha. Słyszałem własne kroki odbijające się echem od kafelków. Korytarze ciągnęły się w nieskończoność, a na ścianach wisiały wyblakłe plakaty o zdrowym trybie życia.",
+      "image": "long empty sanatorium corridor with old tiles, faded 1970s health posters on walls, flashlight beam"
+    },
+    {
+      "text": "Zgodnie z zeszytem zaczynałem od kuchni, potem kaplica, potem piętra od dołu do góry. Przy każdych drzwiach miałem postawić kreskę w zeszycie. Ktoś przede mną stawiał takie same kreski przez wiele lat. Strony były gęsto zapisane.",
+      "image": "old notebook with columns of handwritten tally marks and dates, pencil, flashlight beam on a desk"
+    },
+    {
+      "text": "W kaplicy pachniało woskiem. Świeżym woskiem. Na ołtarzu stał zgaszony znicz, a jego knot był jeszcze ciepły, kiedy go dotknąłem.",
+      "image": "small abandoned chapel in a sanatorium with peeling walls, a recently extinguished candle on the altar, smoke wisp"
+    },
+    {
+      "text": "O drugiej w nocy, na trzecim piętrze, usłyszałem coś, czego nie powinno tam być. Kółka. Ciche skrzypienie kółek wózka szpitalnego. Gdzieś na końcu korytarza.",
+      "image": "old hospital trolley with squeaky wheels standing alone in a dark corridor, distant light"
+    },
+    {
+      "text": "Poświeciłem latarką. Wózek stał pod oknem. Pusty. Na nim leżała tacka z małymi kubeczkami. W każdym po jednej tabletce. Jakby ktoś właśnie rozwoził wieczorne leki.",
+      "image": "metal tray with small paper medicine cups each containing one pill, on an old hospital trolley, flashlight"
+    },
+    {
+      "text": "Przekonywałem siebie, że to żart. Że jacyś miejscowi chłopcy wkradli się do środka. Ale drzwi wejściowe były zamknięte od środka. A ja miałem jedyne klucze.",
+      "image": "heavy old wooden entrance door locked from inside with a chain and padlock, dim light, snow on window"
+    },
+    {
+      "text": "O czwartej, przy kolejnym obchodzie, wózek stał już gdzie indziej. Na drugim piętrze. A kubeczki były puste.",
+      "image": "the same hospital trolley in another corridor, empty paper cups scattered on the tray, cold blue light"
+    },
+    {
+      "text": "Nad ranem zszedłem do portierni i zrobiłem sobie herbatę. Ręce mi drżały. Za oknem świtało, a ja liczyłem minuty do przyjazdu właściciela.",
+      "image": "small porter's lodge with an old desk, thermos and steaming glass of tea, dawn light through window"
+    },
+    {
+      "text": "Przez cały dzień nie mogłem spać. Za każdym razem, gdy zamykałem oczy, słyszałem to skrzypienie kółek. Równe, cierpliwe. Jak zegar, który odmierza czas do następnego obchodu.",
+      "image": "man lying awake in a small rented room in the mountains, daylight through curtains, tired eyes"
+    },
+    {
+      "text": "Kiedy przyjechał, opowiedziałem mu o wózku. Słuchał spokojnie, a potem zapytał tylko: czy wszystkie tabletki zniknęły? Kiwnąłem głową. To dobrze, powiedział. Znaczy, że są spokojni.",
+      "image": "old man sitting in an old car with the door open in snowy morning, calm unsettling expression"
+    },
+    {
+      "text": "Drugiej nocy postanowiłem poszukać odpowiedzi. W piwnicy, w archiwum, znalazłem stosy dokumentów. Karty pacjentów, rachunki, grafiki dyżurów.",
+      "image": "basement archive with metal shelves full of old dusty folders and documents, single bare bulb"
+    },
+    {
+      "text": "Między nimi leżał dziennik. Gruby zeszyt w zielonej okładce. Należał do pielęgniarki o nazwisku Halina Wrona. Ostatni wpis pochodził z grudnia osiemdziesiątego roku.",
+      "image": "old green notebook diary lying on a dusty desk, faded handwriting visible on the cover, flashlight"
+    },
+    {
+      "text": "Na pierwszej stronie było zdjęcie. Młoda kobieta w białym czepku, uśmiechnięta, przed wejściem do sanatorium. Pod spodem podpis: mój pierwszy dzień, wrzesień siedemdziesiątego dziewiątego.",
+      "image": "old faded black and white photograph of a young smiling nurse in a white cap in front of a sanatorium entrance"
+    },
+    {
+      "text": "Pisała, że w sanatorium wybuchła epidemia. Ciężka grypa. Że lekarze uciekli, a ona została sama z pacjentami z sali siódmej. Z najciężej chorymi.",
+      "image": "close up of handwritten diary pages in Polish with shaky ink, dim yellow light"
+    },
+    {
+      "text": "Pisała, że drogi zasypał śnieg. Że prądu nie było od trzech dni. Że rozwozi leki co dwie godziny, zawsze w tej samej kolejności, bo pacjenci uspokajają się tylko wtedy, kiedy słyszą jej wózek.",
+      "image": "old black and white photo of a nurse in a white uniform and cap pushing a hospital trolley in a corridor"
+    },
+    {
+      "text": "Pacjenci z sali siódmej nie mogli wstawać. Ale nocami, pisała, słyszała ich kroki na korytarzu. A rano znajdowała ślady bosych stóp na wilgotnych kafelkach. Prowadziły zawsze do jej dyżurki.",
+      "image": "wet footprints of bare feet on old hospital tiles leading to a closed door with a nurse station sign, cold light"
+    },
+    {
+      "text": "Ostatni wpis był krótki. Leków już nie ma. Rozwożę puste kubeczki, żeby nie wiedzieli. Boję się, co zrobią, kiedy się zorientują.",
+      "image": "last page of an old diary with a few short lines of handwriting, ink smudged, candle light"
+    },
+    {
+      "text": "Zamknąłem dziennik. Gdzieś nad moją głową, na pierwszym piętrze, zaskrzypiały kółka.",
+      "image": "basement ceiling with old pipes, dust falling, a man looking up in fear, flashlight"
+    },
+    {
+      "text": "Tamtej nocy obchód zrobiłem szybko. Nie patrzyłem w boki. Ale kiedy przechodziłem obok sali numer siedem, drzwi były uchylone. A ze środka sączyło się słabe, żółte światło.",
+      "image": "door with a faded number 7 slightly ajar in a dark corridor, warm yellow light leaking out"
+    },
+    {
+      "text": "Zajrzałem. Nie potrafiłem się powstrzymać. Sala była pełna łóżek. Na każdym ktoś leżał. Przykryci po szyję szarymi kocami. Wszyscy mieli otwarte oczy. I wszyscy patrzyli na drzwi.",
+      "image": "old hospital ward full of metal beds, pale patients under grey blankets with open eyes staring at the door"
+    },
+    {
+      "text": "Przy oknie, plecami do mnie, stała pielęgniarka w białym czepku. Odwróciła się powoli. Jej twarz była szara jak popiół. W ręce trzymała pusty kubeczek.",
+      "image": "nurse in a white cap standing by a frosted window in a dark ward, turning around, grey face in shadow"
+    },
+    {
+      "text": "Powiedziała cicho: spóźnił się pan z obchodem. Oni się niecierpliwią. Pan wie, że leków już nie ma?",
+      "image": "close up of a pale nurse's hand holding an empty paper medicine cup, dark ward behind"
+    },
+    {
+      "text": "Pacjenci zaczęli się podnosić. Powoli. Wszyscy naraz. Koce zsuwały się z nich, a pod spodem nie było ciał. Tylko ciemność w kształcie ludzi.",
+      "image": "dark shapes of people rising from hospital beds, blankets sliding off, shadowy figures without bodies"
+    },
+    {
+      "text": "Ruszyli w moją stronę. Bez pośpiechu. Tak, jak chodzą ludzie bardzo chorzy i bardzo zmęczeni. A pielęgniarka stała przy oknie i patrzyła na mnie ze smutkiem. Jakby przepraszała.",
+      "image": "shadowy human shapes walking slowly through a dark hospital ward toward the door, nurse silhouette by the window"
+    },
+    {
+      "text": "Uciekłem. Biegłem przez korytarze, a za mną skrzypiały kółka. Coraz szybciej. Coraz bliżej. Drzwi wejściowe nie chciały się otworzyć.",
+      "image": "man running down a long dark sanatorium corridor, motion blur, hospital trolley in the background"
+    },
+    {
+      "text": "Wtedy przypomniałem sobie słowa właściciela. Obchód co dwie godziny. Zawsze w tej samej kolejności. Chwyciłem wózek i zacząłem pchać go korytarzem. Kubeczek po kubeczku, sala po sali.",
+      "image": "man pushing an old hospital trolley with paper cups through a dark corridor, determined face, flashlight on the tray"
+    },
+    {
+      "text": "Za każdymi drzwiami, przy których się zatrzymywałem, zapadała cisza. Skrzypienie ucichło. Ciemne kształty wracały do łóżek.",
+      "image": "row of hospital room doors in a dark corridor, all closing slowly, calm cold light"
+    },
+    {
+      "text": "Rozwoziłem puste kubeczki do świtu. A kiedy słońce dotknęło okien, sanatorium znów było tylko pustym budynkiem.",
+      "image": "sunrise light through tall windows of an abandoned sanatorium corridor, dust in the air, empty trolley"
+    },
+    {
+      "text": "Właściciel przyjechał punktualnie. Spojrzał na mnie, na wózek, na moje drżące ręce. I uśmiechnął się z ulgą. Wiedziałem, że się pan nada, powiedział. Halina też tak zaczynała.",
+      "image": "old man smiling with relief in the snowy courtyard of an abandoned sanatorium, morning light"
+    },
+    {
+      "text": "Pracuję tam do dziś. Co dwie godziny, zawsze w tej samej kolejności. Bo wiem już, co się stanie, kiedy obchód się spóźni. A wczoraj w archiwum znalazłem nowy zeszyt. Z moim nazwiskiem na okładce. I jedną zapisaną stroną. Pismem, którego nie znam.",
+      "image": "new notebook on a dusty archive desk with a man's name on the cover, open to a single handwritten page, flashlight"
+    }
+  ]
+}

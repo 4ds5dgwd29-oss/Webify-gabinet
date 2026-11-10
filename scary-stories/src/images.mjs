@@ -3,23 +3,29 @@ import { writeFileSync } from "node:fs";
 import path from "node:path";
 
 // Free image generation through Pollinations.ai (no key needed).
-const STYLE =
-  process.env.IMAGE_STYLE ||
-  "cinematic horror film still, 35mm photo, dramatic chiaroscuro lighting, volumetric fog, deep shadows, highly detailed, sharp focus, muted teal and amber color grade, eerie atmosphere, realistic, no text, no watermark, no logo";
+// Keep this short: a long style suffix makes the generator drift away from the scene itself.
+const STYLE = process.env.IMAGE_STYLE || "cinematic horror film still, dramatic low light, realistic photo, no text";
 
-export async function sceneImages(scenes, outDir, { width, height }) {
+// visualStyle: optional per-story look (season, era, light) appended to every prompt so the
+// pictures of one story belong together. seed: base seed shared by the story's images.
+export async function sceneImages(scenes, outDir, { width, height, visualStyle = "", seed = 1 }) {
   const files = [];
   for (const [i, scene] of scenes.entries()) {
     const file = path.join(outDir, `scene-${String(i + 1).padStart(2, "0")}.jpg`);
-    const ok = scene.image ? await fetchImage(`${scene.image}, ${STYLE}`, file, width, height) : false;
+    const prompt = [scene.image, visualStyle, STYLE].filter(Boolean).join(", ");
+    const ok = scene.image ? await fetchImage(prompt, file, width, height, seed + i) : false;
     if (!ok) fallbackImage(file, width, height);
     files.push(file);
   }
   return files;
 }
 
-async function fetchImage(prompt, file, width, height) {
-  const seed = Math.floor(Math.random() * 1e9);
+export async function singleImage(prompt, file, { width, height, visualStyle = "", seed = 1 }) {
+  const ok = await fetchImage([prompt, visualStyle, STYLE].filter(Boolean).join(", "), file, width, height, seed);
+  return ok ? file : null;
+}
+
+async function fetchImage(prompt, file, width, height, seed) {
   const url =
     `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}` +
     `?width=${width}&height=${height}&nologo=true&seed=${seed}${process.env.IMAGE_MODEL ? `&model=${process.env.IMAGE_MODEL}` : ""}`;
