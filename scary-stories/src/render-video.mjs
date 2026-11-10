@@ -173,22 +173,37 @@ function timeTokens(scenes, ttsWords, narrationLen) {
   const norm = (w) => w.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
 
   if (ttsWords?.length) {
-    let j = 0;
-    let ok = true;
-    for (const t of tokens) {
-      const target = norm(t.text);
-      if (!target) continue; // punctuation-only token, timed below
-      let acc = "";
-      const first = j;
-      while (j < ttsWords.length && acc.length < target.length) acc += norm(ttsWords[j++].text);
-      if (acc !== target) {
-        ok = false;
-        break;
-      }
-      t.start = ttsWords[first].start;
-      t.end = ttsWords[j - 1].end;
-    }
+    // Align letter by letter: the TTS sometimes merges two words ("budynek z") or splits one,
+    // so map every letter of the text to the TTS word it was spoken in.
+    const ttsLetterWord = [];
+    ttsWords.forEach((w, k) => {
+      for (const _ of norm(w.text)) ttsLetterWord.push(k);
+    });
+    const textLetters = tokens.reduce((n, t) => n + [...norm(t.text)].length, 0);
+    const ttsText = ttsWords.map((w) => norm(w.text)).join("");
+    const ok = textLetters === ttsLetterWord.length && tokens.map((t) => norm(t.text)).join("") === ttsText;
     if (ok) {
+      let pos = 0;
+      for (const t of tokens) {
+        const n = [...norm(t.text)].length;
+        if (!n) continue; // punctuation-only token, timed below
+        const first = ttsWords[ttsLetterWord[pos]];
+        const last = ttsWords[ttsLetterWord[pos + n - 1]];
+        // Two tokens spoken as one TTS word share its time span: split it by letters.
+        const firstIdx = ttsLetterWord[pos];
+        const lastIdx = ttsLetterWord[pos + n - 1];
+        if (firstIdx === lastIdx) {
+          const wordLetters = ttsLetterWord.filter((k) => k === firstIdx).length;
+          const offset = pos - ttsLetterWord.indexOf(firstIdx);
+          const dur = first.end - first.start;
+          t.start = first.start + (dur * offset) / wordLetters;
+          t.end = first.start + (dur * (offset + n)) / wordLetters;
+        } else {
+          t.start = first.start;
+          t.end = last.end;
+        }
+        pos += n;
+      }
       tokens.forEach((t, i) => {
         if (t.start === undefined) t.start = t.end = i ? tokens[i - 1].end : 0;
       });
