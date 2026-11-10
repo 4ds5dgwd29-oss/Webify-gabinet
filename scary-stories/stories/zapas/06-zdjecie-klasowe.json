@@ -1,0 +1,47 @@
+{
+  "title": "Dodatkowe dziecko na zdjęciu klasowym",
+  "hook": "Policz dzieci",
+  "description": "Na zdjęciu mojej klasy z 1998 roku jest dwadzieścia ośmioro dzieci. W klasie było nas dwadzieścia siedem. Nikt nie wie, kim jest dziewczynka w trzecim rzędzie.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "szkoła",
+    "zdjęcie",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "duch"
+  ],
+  "scenes": [
+    {
+      "text": "Porządkowałem stare albumy i znalazłem zdjęcie klasowe z podstawówki. Tysiąc dziewięćset dziewięćdziesiąty ósmy rok.",
+      "image": "old photo album open on a table, faded 1990s class photo of children in front of a school, warm lamp light"
+    },
+    {
+      "text": "Policzyłem dzieci dla zabawy. Dwadzieścia osiem. A nas w klasie było dwadzieścia siedem. Zawsze.",
+      "image": "finger pointing at children's faces in an old faded school photo, close up"
+    },
+    {
+      "text": "W trzecim rzędzie stała dziewczynka w szarym sweterku. Nie pamiętałem jej. Nikt z klasy jej nie pamiętał.",
+      "image": "close up of a faded old photo showing a pale girl in a grey sweater among children, her face slightly blurred"
+    },
+    {
+      "text": "Wysłałem zdjęcie na grupę klasową. Wszyscy się śmiali. Do momentu, aż ktoś napisał: ona jest też na zdjęciu z czwartej klasy.",
+      "image": "phone screen in the dark showing a group chat with an old class photo, glowing face of a man"
+    },
+    {
+      "text": "I z piątej. I z ósmej. Na każdym zdjęciu stała trochę bliżej. Na ostatnim stała tuż za mną.",
+      "image": "several old school photos laid out in a row, a pale girl getting closer to one boy in each photo"
+    },
+    {
+      "text": "Wyjąłem zdjęcie z albumu. Na odwrocie ktoś napisał dziecięcym pismem: jeszcze tylko jedno zdjęcie.",
+      "image": "back of an old photograph with childish handwriting in pencil, dim light, dusty table"
+    },
+    {
+      "text": "Jutro jest zjazd absolwentów. Robimy wspólne zdjęcie. I wszyscy już wiedzą, kto stanie obok mnie.",
+      "image": "dark empty school hallway at night, old class photos on the wall, a small figure in a grey sweater at the far end"
+    }
+  ]
+}

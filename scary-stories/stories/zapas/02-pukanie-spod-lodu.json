@@ -1,0 +1,47 @@
+{
+  "title": "Pukanie spod lodu na Mazurach",
+  "hook": "Nie odpowiadaj lodowi",
+  "description": "Zimą łowiłem ryby na zamarzniętym jeziorze na Mazurach. Przez przerębel coś zaczęło pukać. Od spodu.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "mazury",
+    "jezioro",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "zima"
+  ],
+  "scenes": [
+    {
+      "text": "Co zimę jeżdżę na Mazury łowić ryby spod lodu. Cisza, mróz i pusta biała tafla aż po horyzont.",
+      "image": "vast frozen lake in Masuria at dusk, a lone ice fisherman sitting by a hole, pine forest on the shore, grey sky"
+    },
+    {
+      "text": "Tamtego dnia wywierciłem przerębel daleko od brzegu. Woda była czarna jak smoła.",
+      "image": "close up of a round hole drilled in thick ice, pitch black water inside, fishing line going down"
+    },
+    {
+      "text": "Nagle usłyszałem pukanie. Spod lodu. Tuż pod moimi butami. Puk. Puk. Puk.",
+      "image": "view through clear dark ice, faint pale shape of a hand pressed against the underside of the ice, eerie"
+    },
+    {
+      "text": "Głupio zapukałem w odpowiedzi. Butem. Trzy razy. Pukanie ucichło.",
+      "image": "winter boot tapping on frozen lake ice, snow dust, low angle, dim light"
+    },
+    {
+      "text": "A potem zaczęło się w innym miejscu. I w następnym. Coraz bliżej brzegu. Jakby coś szło za mną pod lodem.",
+      "image": "long line of cracks spreading across a frozen lake toward the shore at twilight, ominous"
+    },
+    {
+      "text": "Miejscowy rybak powiedział mi później, że w tym jeziorze utonęła cała wieś. Kiedy spiętrzono wodę.",
+      "image": "old church tower sticking out of a frozen lake, ghostly, foggy winter evening"
+    },
+    {
+      "text": "I że nigdy, przenigdy nie wolno odpukać. Bo wtedy oni wiedzą, że ktoś na górze ich słyszy.",
+      "image": "dark lakeside village house at night, frost on window, wet footprints leading from the frozen lake to the door"
+    }
+  ]
+}

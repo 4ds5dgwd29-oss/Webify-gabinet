@@ -1,0 +1,47 @@
+{
+  "title": "Pusty talerz dla wędrowca",
+  "hook": "Nie otwieraj w Wigilię",
+  "description": "W Wigilię zawsze zostawiamy pusty talerz dla zbłąkanego wędrowca. Babcia mówiła, że to tylko tradycja. W tym roku ktoś zapukał.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "wigilia",
+    "creepypasta",
+    "historie grozy",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "święta",
+    "pusty talerz"
+  ],
+  "scenes": [
+    {
+      "text": "W naszej rodzinie w Wigilię zawsze stawia się dodatkowy talerz. Dla zbłąkanego wędrowca. Babcia pilnowała tego jak niczego innego.",
+      "image": "Polish Christmas Eve table with white tablecloth, candles, hay under the cloth, one empty plate set at the end, dark window behind"
+    },
+    {
+      "text": "W tym roku babci już nie było. Mama chciała zabrać ten talerz. Powiedziała, że to przesąd.",
+      "image": "a woman's hands removing an empty white plate from a festive table, candle light, shadows"
+    },
+    {
+      "text": "Kiedy podzieliliśmy się opłatkiem, ktoś zapukał do drzwi. Trzy razy. Powoli.",
+      "image": "old wooden front door of a village house at night, snow outside, warm light leaking under the door, dark silhouette of feet"
+    },
+    {
+      "text": "Za drzwiami stał starszy mężczyzna w zaśnieżonym płaszczu. Nie miał śladów na śniegu. Ani jednego.",
+      "image": "old man in a snow covered coat standing in a doorway at night, untouched fresh snow behind him with no footprints, cold blue light"
+    },
+    {
+      "text": "Zapytał cicho: a gdzie moje miejsce? Mama powiedziała, że nie ma miejsca. Uśmiechnął się i odszedł.",
+      "image": "close up of a pale old man's face in shadow, faint smile, snowflakes, dim porch light"
+    },
+    {
+      "text": "Rano w łóżku babci znaleźliśmy zaśnieżony płaszcz. A na stole, przy miejscu mamy, stał pusty talerz.",
+      "image": "empty bed with a snow covered dark coat lying on it, morning grey light, old village bedroom"
+    },
+    {
+      "text": "Mama od tamtej Wigilii nie wstała od stołu. Siedzi i czeka. Na kogoś, kto zajmie jej miejsce.",
+      "image": "woman sitting motionless at a long dark table with burnt out candles, empty plates, early morning mist through window"
+    }
+  ]
+}

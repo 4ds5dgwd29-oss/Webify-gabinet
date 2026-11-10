@@ -1,0 +1,47 @@
+{
+  "title": "Strach na wróble, który podchodzi bliżej",
+  "hook": "Wczoraj stał dalej",
+  "description": "Na polu za domem dziadek postawił stracha na wróble. Każdego ranka stoi trochę bliżej domu.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "strach na wróble",
+    "wieś",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "pole"
+  ],
+  "scenes": [
+    {
+      "text": "Na wakacje pojechałem do dziadka na wieś. Na środku pola stał strach na wróble. W starym płaszczu i kapeluszu.",
+      "image": "scarecrow in an old coat and hat standing in the middle of a wheat field at sunset, old farmhouse in the distance"
+    },
+    {
+      "text": "Rano wydawało mi się, że stoi bliżej. Tylko trochę. Kilka metrów. Dziadek powiedział, że mi się przywidziało.",
+      "image": "scarecrow in a misty field at dawn, slightly closer to a wooden fence, trampled path behind it"
+    },
+    {
+      "text": "Następnego dnia stał przy płocie. Kapelusz miał przekrzywiony. Jakby patrzył w moje okno.",
+      "image": "scarecrow right next to an old wooden fence, tilted hat, facing a farmhouse window, grey morning"
+    },
+    {
+      "text": "W nocy usłyszałem szelest słomy pod oknem. Nie odważyłem się wyjrzeć. Szelest trwał do świtu.",
+      "image": "dark bedroom window at night, straw pieces stuck to the glass from outside, silhouette of a hat"
+    },
+    {
+      "text": "Rano dziadek siedział w kuchni blady. Powiedział, że to nie on postawił tego stracha. Postawił go jego ojciec. Sześćdziesiąt lat temu.",
+      "image": "old man sitting pale at a rustic kitchen table, cup of tea, morning light, worried face"
+    },
+    {
+      "text": "I że co sześćdziesiąt lat strach na wróble schodzi z pola. Po jednego chłopca z rodziny.",
+      "image": "old black and white family photo of a boy standing next to a scarecrow, faded and cracked"
+    },
+    {
+      "text": "Dziadek zamknął wszystkie drzwi. Ale przed chwilą usłyszałem szelest słomy. Nie za oknem. Pod moim łóżkiem.",
+      "image": "dark space under an old bed, straw scattered on the wooden floor, a shadow inside, flashlight beam"
+    }
+  ]
+}
