@@ -1,7 +1,7 @@
 name: Daily scary story video
 
-# A new story file in scary-stories/stories/ (written every day by a scheduled Claude session)
-# is narrated, rendered into a video and uploaded to YouTube.
+# scary-stories/stories/ is a queue. Every push of a story file (the scheduled Claude session adds
+# one per day) publishes the NEXT unpublished story from the queue, so one Short goes out per day.
 on:
   push:
     paths:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       story:
-        description: "Story file to render (empty = newest), e.g. stories/2026-11-10.json"
+        description: "Story file to render (empty = next unpublished in the queue), e.g. stories/001-....json"
         required: false
       upload:
         description: "Upload to YouTube"
@@ -65,12 +65,12 @@ jobs:
       - name: Render and upload
         run: |
           STORY="${{ inputs.story }}"
-          [ -z "$STORY" ] && STORY=$(ls stories/*.json | sort | tail -1)
-          echo "Story: $STORY"
+          UPLOAD="--next"
+          [ -n "$STORY" ] && UPLOAD="--story $STORY"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.upload }}" != "true" ]; then
-            node src/main.mjs --story "$STORY" --no-upload
+            node src/main.mjs $UPLOAD --no-upload
           else
-            node src/main.mjs --story "$STORY"
+            node src/main.mjs $UPLOAD
           fi
 
       - name: Keep the video as a downloadable artifact

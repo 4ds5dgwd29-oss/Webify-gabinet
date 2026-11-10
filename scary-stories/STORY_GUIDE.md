@@ -2,9 +2,11 @@
 
 The channel posts **YouTube Shorts**: vertical videos, under 3 minutes, with an AI-generated picture behind each scene.
 
-Every day, add **one** new file `scary-stories/stories/YYYY-MM-DD.json` (today's date, Europe/Warsaw) and push it.
-Pushing the file starts the GitHub Actions workflow, which generates the pictures, narrates the story,
-renders the Short and uploads it to YouTube.
+`scary-stories/stories/` is a **publishing queue**, numbered `001-slug.json`, `002-slug.json`, ...
+Every day, add **one** new story at the end of the queue (highest number + 1, e.g. `021-latarnia.json`) and push it.
+The push starts the GitHub Actions workflow, which publishes the **next unpublished** story from the queue
+(not necessarily the one just added), so exactly one Short goes out per day.
+`scary-stories/stories/sezonowe/` holds seasonal stories that are published by hand; never move or edit them.
 
 ## Format
 ```json
@@ -26,5 +28,5 @@ renders the Short and uploads it to YouTube.
 - `image`: a concrete visual description **in English** of what is on screen in that scene (place, objects, light, framing). No text or words in the picture, no real people, no gore. Vary the shots: wide, close-up, interior, exterior. The visual style is added automatically.
 - Prefer Polish settings: villages, blocks of flats (bloki), forests, PKP trains, old tenement houses, lakes in Masuria, the mountains, night shifts, Wigilia.
 - No gore for its own sake, nothing sexual, no real people, no real crimes. Suitable for a general 13+ audience.
-- **Must differ** from every story already in `scary-stories/stories/`: read their titles and avoid repeating the premise, setting, or twist.
+- **Must differ** from every story already in `scary-stories/stories/` and `scary-stories/stories/sezonowe/`: read their titles and avoid repeating the premise, setting, or twist.
 - Check the JSON is valid before pushing: `python3 -m json.tool < file.json`.

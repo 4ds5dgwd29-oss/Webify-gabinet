@@ -1,8 +1,9 @@
 // Usage:
-//   node src/main.mjs --story stories/2026-11-10.json   # story written ahead of time (free)
+//   node src/main.mjs --next                             # next unpublished story from stories/ (queue)
+//   node src/main.mjs --story stories/001-....json       # a specific story file
 //   node src/main.mjs                                    # write the story with the Claude API (needs ANTHROPIC_API_KEY)
 //   add --no-upload to only render the video
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { narrate } from "./tts.mjs";
@@ -13,7 +14,7 @@ import { uploadVideo } from "./upload-youtube.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const historyFile = path.join(root, "history.json");
 const args = process.argv.slice(2);
-const storyArg = args.includes("--story") ? args[args.indexOf("--story") + 1] : null;
+let storyArg = args.includes("--story") ? args[args.indexOf("--story") + 1] : null;
 
 const hasYouTube = Boolean(process.env.YOUTUBE_REFRESH_TOKEN);
 const upload = !args.includes("--no-upload") && hasYouTube;
@@ -25,6 +26,21 @@ if (!args.includes("--no-upload") && !hasYouTube) {
 }
 
 const history = JSON.parse(readFileSync(historyFile, "utf8"));
+
+// --next: publish the first story in stories/ (sorted by name) that is not on YouTube yet.
+if (args.includes("--next")) {
+  const published = new Set(history.filter((h) => h.videoId).map((h) => h.date));
+  const queue = readdirSync(path.join(root, "stories"))
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .filter((f) => !published.has(path.basename(f, ".json")));
+  if (!queue.length) {
+    console.log("Queue is empty: every story is already on YouTube.");
+    process.exit(0);
+  }
+  storyArg = path.join(root, "stories", queue[0]);
+  console.log(`Next in queue: ${queue[0]} (${queue.length} waiting)`);
+}
 
 let story;
 if (storyArg) {
