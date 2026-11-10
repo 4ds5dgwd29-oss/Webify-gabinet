@@ -18,7 +18,10 @@ const storyArg = args.includes("--story") ? args[args.indexOf("--story") + 1] : 
 const hasYouTube = Boolean(process.env.YOUTUBE_REFRESH_TOKEN);
 const upload = !args.includes("--no-upload") && hasYouTube;
 if (!args.includes("--no-upload") && !hasYouTube) {
-  console.warn("YouTube secrets not set: rendering only. Download the video from the run's artifacts.");
+  const missing = ["YOUTUBE_CLIENT_ID", "YOUTUBE_CLIENT_SECRET", "YOUTUBE_REFRESH_TOKEN"].filter((k) => !process.env[k]);
+  const msg = `YouTube upload skipped: missing repository secrets ${missing.join(", ")}. Video is only rendered (see Artifacts).`;
+  // "::warning::" shows up as a yellow annotation on the GitHub Actions run page.
+  console.warn(process.env.GITHUB_ACTIONS ? `::warning::${msg}` : msg);
 }
 
 const history = JSON.parse(readFileSync(historyFile, "utf8"));
