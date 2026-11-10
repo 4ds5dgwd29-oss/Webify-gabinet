@@ -245,7 +245,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     // Hook in a red box at the top for the first seconds: the reason to keep watching.
     events.push(`Dialogue: 1,${ts(0)},${ts(2.8)},Hook,,0,0,0,,{\\fad(120,300)}${assText(hook.toUpperCase())}`);
   } else {
-    events.push(`Dialogue: 1,${ts(0.3)},${ts(intro - 0.2)},Title,,0,0,0,,{\\fad(500,400)}${assText(title)}`);
+    events.push(`Dialogue: 1,${ts(0.3)},${ts(intro - 0.2)},Title,,0,0,0,,{\\fad(500,400)}${assText(title.split("|")[0].trim())}`);
   }
 
   // Captions: short word groups; each word turns gold exactly while it is being spoken.
@@ -283,8 +283,13 @@ export function renderThumbnail({ hook, image, outDir }) {
   const [W, H] = short ? [1080, 1920] : [1280, 720];
   const out = path.join(outDir, "thumbnail.jpg");
   const font = fontFile();
-  const lines = wrap(hook.toUpperCase(), short ? 10 : 11).slice(0, 2);
-  const size = short ? 140 : 118;
+  // Big text on 2 lines; if the words do not fit, use 3 smaller lines instead of cutting words off.
+  let lines = wrap(hook.toUpperCase(), short ? 10 : 11);
+  let size = short ? 140 : 118;
+  if (lines.length > 2) {
+    lines = wrap(hook.toUpperCase(), short ? 13 : 15).slice(0, 3);
+    size = short ? 112 : 92;
+  }
   const gap = short ? 24 : 22;
   const x = short ? "(w-text_w)/2" : "60";
   const top = `(h-${lines.length * (size + gap)})/2`;
@@ -298,7 +303,8 @@ export function renderThumbnail({ hook, image, outDir }) {
     "-vf", [
       "crop=iw:ih*0.93:0:0",
       `scale=${W}:${H}:force_original_aspect_ratio=increase:flags=lanczos`, `crop=${W}:${H}`,
-      "eq=brightness=-0.05:contrast=1.2:saturation=1.1", "unsharp=5:5:0.8", "vignette=PI/3.5",
+      // Thumbnails must pop at small size: brighter and more saturated than the video itself.
+      "eq=brightness=0.06:contrast=1.25:saturation=1.35:gamma=1.15", "unsharp=5:5:0.9", "vignette=PI/4",
       ...(short ? [] : ["drawbox=x=0:y=0:w=iw*0.62:h=ih:color=black@0.35:t=fill", "drawbox=x=0:y=ih-14:w=iw:h=14:color=0xc81b1b:t=fill"]),
       ...draws,
     ].join(","),
