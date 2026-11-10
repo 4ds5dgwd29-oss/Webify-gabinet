@@ -12,13 +12,14 @@ Jeśli nie dodasz sekretów YouTube, workflow i tak zrobi film. Pobierzesz go z 
 ## Automatyczny upload na YouTube (jednorazowo, za darmo)
 1. W https://console.cloud.google.com utwórz projekt i włącz **YouTube Data API v3**.
 2. **APIs & Services → OAuth consent screen**: wybierz *External*, dodaj swoje konto jako *Test user*, potem kliknij **Publish app** (inaczej token wygaśnie po 7 dniach).
-3. **Credentials → Create credentials → OAuth client ID → Desktop app**. Skopiuj Client ID i Client secret.
-4. Na swoim komputerze (Node.js 22+), w tym folderze:
-   ```bash
-   npm install
-   YOUTUBE_CLIENT_ID=... YOUTUBE_CLIENT_SECRET=... npm run youtube-token
-   ```
-   Otwórz link, zaloguj się kontem z kanałem, kliknij *Advanced → Go to app*. Terminal wypisze refresh token.
+3. **Credentials → Create credentials → OAuth client ID → Web application**. W *Authorized redirect URIs* dodaj `https://developers.google.com/oauthplayground`. Skopiuj Client ID i Client secret.
+4. Token pobierzesz w przeglądarce, na stronie https://developers.google.com/oauthplayground:
+   - kliknij ⚙️ (prawy górny róg), zaznacz **Use your own OAuth credentials** i wklej Client ID i Client secret;
+   - po lewej, w polu *Input your own scopes*, wpisz `https://www.googleapis.com/auth/youtube.upload` i kliknij **Authorize APIs**;
+   - zaloguj się kontem z kanałem (przy ostrzeżeniu kliknij *Advanced → Go to …*) i zezwól na dostęp;
+   - kliknij **Exchange authorization code for tokens** i skopiuj **Refresh token**.
+
+   (Alternatywa na komputerze z Node.js 22+, przy kliencie typu *Desktop app*: `npm install`, potem `YOUTUBE_CLIENT_ID=... YOUTUBE_CLIENT_SECRET=... npm run youtube-token`.)
 5. Na GitHubie: **Settings → Secrets and variables → Actions → New repository secret**. Dodaj `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`.
 
 > Filmy wrzucone przez nowy projekt API są **prywatne**, dopóki projekt nie przejdzie darmowego audytu: https://support.google.com/youtube/contact/yt_api_form. Do tego czasu upubliczniasz je ręcznie w YouTube Studio. Miniaturki wymagają kanału zweryfikowanego telefonem: https://www.youtube.com/verify
