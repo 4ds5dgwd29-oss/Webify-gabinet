@@ -1,0 +1,40 @@
+{
+  "title": "Ostatni nocny pociąg do Białegostoku",
+  "hook": "Nie kupuj tego biletu",
+  "description": "Wsiadłem do ostatniego nocnego pociągu. Wagon był pełny, ale nikt nie oddychał. Konduktor zapytał tylko o jedno: dokąd naprawdę jadę.",
+  "tags": ["straszne historie", "horror po polsku", "creepypasta", "historie grozy", "straszna historia", "pociąg widmo", "shorts", "horror shorts", "polski horror", "PKP"],
+  "scenes": [
+    {
+      "text": "Spóźniłem się na ostatni pociąg z Warszawy. A jednak o północy na peron wjechał jeszcze jeden. Stary, zielony, bez numeru.",
+      "image": "empty Polish railway platform at midnight, old green train arriving in fog, dim yellow platform lamps, wet concrete"
+    },
+    {
+      "text": "Wagon był pełny. Ludzie siedzieli prosto, w płaszczach z innej epoki. Nikt nie rozmawiał. Nikt nie patrzył w telefon.",
+      "image": "inside an old communist era train compartment at night, passengers in old fashioned coats sitting perfectly still, faces in shadow"
+    },
+    {
+      "text": "Usiadłem przy oknie. Za szybą nie było świateł miast. Tylko las. Ten sam las, przez całą godzinę.",
+      "image": "view through a dirty train window at night, endless dark pine forest, faint reflection of a man in the glass"
+    },
+    {
+      "text": "Wtedy zauważyłem, że kobieta naprzeciwko nie oddycha. Jej płaszcz był mokry, jakby właśnie wyszła z wody.",
+      "image": "close up of a pale woman in a wet vintage coat sitting in a train seat, water dripping, eyes closed, cold blue light"
+    },
+    {
+      "text": "Drzwi przedziału otworzyły się z piskiem. Wszedł konduktor. Miał czapkę kolejarza i bilety z tysiąc dziewięćset siedemdziesiątego roku.",
+      "image": "old Polish train conductor in a vintage uniform and cap standing in a train doorway, face hidden in shadow, holding a ticket punch"
+    },
+    {
+      "text": "Wszyscy podali mu bilety. On zatrzymał się przy mnie i zapytał cicho: a pan dokąd naprawdę jedzie?",
+      "image": "conductor's gloved hand reaching out for a ticket, extreme close up, dark train corridor behind"
+    },
+    {
+      "text": "Nie miałem biletu. Wyskoczyłem na najbliższej stacji. Na tablicy nie było nazwy. Tylko data. Dzisiejsza.",
+      "image": "abandoned small train station at night, old sign with no name, single flickering lamp, mist over the tracks"
+    },
+    {
+      "text": "Rano przeczytałem, że czterdzieści lat temu ten pociąg wpadł do rzeki. A na liście ofiar było jedno wolne miejsce. Przy oknie.",
+      "image": "old yellowed newspaper clipping about a train accident, black and white photo of a wrecked train in a river, dim morning light"
+    }
+  ]
+}
