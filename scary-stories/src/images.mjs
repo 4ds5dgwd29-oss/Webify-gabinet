@@ -31,7 +31,7 @@ async function fetchImage(prompt, file, width, height, seed) {
     `?width=${width}&height=${height}&nologo=true&seed=${seed}${process.env.IMAGE_MODEL ? `&model=${process.env.IMAGE_MODEL}` : ""}`;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(180_000) });
+      const res = await fetch(url, { signal: AbortSignal.timeout(75_000) });
       const type = res.headers.get("content-type") || "";
       if (res.ok && type.startsWith("image/")) {
         writeFileSync(file, Buffer.from(await res.arrayBuffer()));
