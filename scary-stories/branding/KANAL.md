@@ -4,20 +4,24 @@
 **Nick (handle):** @SzeptyPoPolnocy (zapasowe: @SzeptyPoPolnocyPL, @SzeptyPolnocy)
 
 **Pliki:**
-- `avatar.jpg`: zdjęcie profilowe, 800×800
-- `banner.jpg`: baner, 2560×1440 (napis mieści się w bezpiecznym obszarze 1546×423, widocznym na telefonach)
+- `avatar.jpg`: zdjęcie profilowe, 800×800 (czerwona obwódka mieści się w okrągłym kadrze YouTube)
+- `banner.jpg`: baner, 2560×1440 (napisy w bezpiecznym obszarze 1546×423, widocznym na telefonach)
 
-## Opis kanału
-Codziennie nowa straszna historia po polsku.
+## Opis kanału (bio)
+Polskie historie grozy w 60 sekund. 🌙
 
-Opuszczone domy na skraju wsi, nocne pociągi, bloki, w których coś puka w ścianach, i lasy, z których nie każdy wraca. Krótkie historie grozy w formie Shorts, idealne na wieczór. Tylko jeśli się odważysz.
+Opuszczone domy na skraju wsi, nocne pociągi bez numeru, bloki, w których coś puka w ścianach, i lasy, z których nie każdy wraca. Co kilka godzin nowa, krótka historia, która nie da Ci zasnąć.
+
+🕯️ 5 nowych Shortów dziennie
+🎧 Najlepiej słuchać w słuchawkach, po zmroku
+💬 Napisz w komentarzu, co Ty byś zrobił, i podsuń pomysł na następną historię
+
+Subskrybuj, jeśli się odważysz.
 
 Wszystkie historie są fikcją. Tekst, obrazy i lektor powstają z pomocą sztucznej inteligencji.
 
-🔔 Subskrybuj i włącz powiadomienia. Nowa historia każdego wieczoru.
-
 ## Słowa kluczowe kanału
-straszne historie, horror po polsku, historie grozy, creepypasta, polski horror, straszna historia, opowieści grozy, horror shorts, historie na dobranoc, paranormalne, nawiedzone domy, legendy miejskie
+straszne historie, historie grozy, horror po polsku, polski horror, creepypasta po polsku, straszne opowieści, horror shorts, historie na dobranoc, paranormalne, nawiedzone domy, legendy miejskie, polskie legendy, opowieści z dreszczykiem
 
 ## Ustawienia
 - Kraj: Polska
