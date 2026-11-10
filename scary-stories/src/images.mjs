@@ -5,7 +5,7 @@ import path from "node:path";
 // Free image generation through Pollinations.ai (no key needed).
 const STYLE =
   process.env.IMAGE_STYLE ||
-  "dark cinematic horror photo, eerie atmosphere, moody low light, film grain, muted colors, realistic, no text, no watermark";
+  "cinematic horror film still, 35mm photo, dramatic chiaroscuro lighting, volumetric fog, deep shadows, highly detailed, sharp focus, muted teal and amber color grade, eerie atmosphere, realistic, no text, no watermark, no logo";
 
 export async function sceneImages(scenes, outDir, { width, height }) {
   const files = [];

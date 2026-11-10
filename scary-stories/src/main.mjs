@@ -88,16 +88,26 @@ if (!upload) {
 }
 
 console.log("4/4 Uploading to YouTube...");
-const footer = process.env.YOUTUBE_DESCRIPTION_FOOTER ??
-  "\n\nNowa straszna historia codziennie. Subskrybuj, jeśli się odważysz.\n" +
-  "Ta historia jest fikcją. Tekst i lektor zostały stworzone z pomocą AI.\n\n" +
-  "#shorts #strasznehistorie #horror #creepypasta";
+// Description: teaser, a question that invites comments, channel line, AI disclosure, hashtags.
+const toTag = (t) => "#" + t.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
+const hashtags = [...new Set(["#shorts", "#strasznehistorie", "#horror", ...story.tags.slice(0, 5).map(toTag)])]
+  .filter((h) => h.length > 1)
+  .slice(0, 8);
+const question = story.question || "A Ty co byś zrobił na jego miejscu? Napisz w komentarzu 👇";
+const description = process.env.YOUTUBE_DESCRIPTION_OVERRIDE ?? [
+  story.description,
+  question,
+  "👻 Nowa straszna historia codziennie na kanale Szepty po Północy. Subskrybuj, jeśli się odważysz.\n" +
+    "🎧 Najlepiej słuchać w słuchawkach, po zmroku.",
+  "Ta historia jest fikcją. Tekst, obrazy i lektor zostały stworzone z pomocą AI.",
+  hashtags.join(" "),
+].join("\n\n");
 const isShort = f === FORMATS.short;
 const videoId = await uploadVideo({
   file: video.file,
   thumbnail: isShort ? null : thumbnail, // YouTube picks a frame for Shorts
   title: isShort && !/#shorts/i.test(story.title) ? `${story.title} #shorts` : story.title,
-  description: story.description + footer,
+  description,
   tags: story.tags,
 });
 

@@ -54,10 +54,11 @@ export function renderVideo({ hook, title, scenes, images, narration, outDir }) 
     const z = zoomIn ? `min(1+${step}*on,1.15)` : `max(1.15-${step}*on,1)`;
     chains.push(
       // Crop off the generator's corner watermark, fill the frame, then a slow Ken Burns zoom.
-      `[${i}:v]crop=iw:ih*0.93:0:0,scale=${W * 1.5}:${H * 1.5}:force_original_aspect_ratio=increase,` +
+      `[${i}:v]crop=iw:ih*0.93:0:0,scale=${W * 1.5}:${H * 1.5}:force_original_aspect_ratio=increase:flags=lanczos,` +
         `crop=${W * 1.5}:${H * 1.5},` +
         `zoompan=z='${z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS},` +
-        `eq=brightness=-0.05:saturation=0.8,setsar=1,` +
+        `eq=brightness=-0.04:contrast=1.12:saturation=0.85,` +
+        `colorbalance=rs=-0.05:bs=0.07:rh=0.04:bh=-0.03,unsharp=5:5:0.7,setsar=1,` +
         `fade=t=in:st=0:d=0.35,fade=t=out:st=${Math.max(d - 0.35, 0).toFixed(3)}:d=0.35[s${i}]`,
     );
   });
@@ -131,8 +132,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,DejaVu Sans,${fontSize},&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,${short ? 7 : 3},2,${short ? 5 : 2},90,90,${short ? 0 : 140},1
-Style: Title,DejaVu Sans,${short ? 96 : 92},&H001B1BE0,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,2,0,1,6,0,${short ? 8 : 5},80,80,${short ? 260 : 0},1
+Style: Caption,DejaVu Sans,${fontSize},&H0000D7FF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,${short ? 7 : 3},2,${short ? 5 : 2},90,90,${short ? 0 : 140},1
+Style: Title,DejaVu Sans,${short ? 84 : 92},&H00FFFFFF,&H00FFFFFF,&H001B1BC8,&H001B1BC8,1,0,0,0,100,100,2,0,${short ? 3 : 1},${short ? 18 : 6},0,${short ? 8 : 5},80,80,${short ? 260 : 0},1
 Style: Outro,DejaVu Sans,${short ? 80 : 92},&H00E6E6E6,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,2,0,1,5,0,5,80,80,0,1
 
 [Events]
@@ -157,8 +158,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
   for (const c of chunks) {
     const d = (narrationLen * (c.length + 4)) / totalChars;
     // Short captions pop in slightly larger, then settle (Shorts style).
-    const fx = short ? "{\\fscx112\\fscy112\\t(0,120,\\fscx100\\fscy100)}" : "";
-    events.push(`Dialogue: 0,${ts(t)},${ts(t + d)},Caption,,0,0,0,,${fx}${assText(c)}`);
+    const fx = short ? "{\\fscx110\\fscy110\\t(0,100,\\fscx100\\fscy100)}" : "";
+    // Karaoke: each word turns gold while it is being read.
+    const ws = c.split(" ");
+    const wsum = ws.reduce((acc, w) => acc + w.length + 1, 0);
+    const karaoke = ws.map((w) => `{\\k${Math.max(1, Math.round((d * 100 * (w.length + 1)) / wsum))}}${assText(w)}`).join(" ");
+    events.push(`Dialogue: 0,${ts(t)},${ts(t + d)},Caption,,0,0,0,,${fx}${karaoke}`);
     t += d;
   }
   const outroText = process.env.OUTRO_TEXT || (short ? "Subskrybuj, jeśli się odważysz..." : "Śpij spokojnie...");

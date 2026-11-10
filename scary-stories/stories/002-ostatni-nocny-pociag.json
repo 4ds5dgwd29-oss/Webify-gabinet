@@ -2,7 +2,18 @@
   "title": "Ostatni nocny pociąg do Białegostoku",
   "hook": "Nie kupuj tego biletu",
   "description": "Wsiadłem do ostatniego nocnego pociągu. Wagon był pełny, ale nikt nie oddychał. Konduktor zapytał tylko o jedno: dokąd naprawdę jadę.",
-  "tags": ["straszne historie", "horror po polsku", "creepypasta", "historie grozy", "straszna historia", "pociąg widmo", "shorts", "horror shorts", "polski horror", "PKP"],
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "creepypasta",
+    "historie grozy",
+    "straszna historia",
+    "pociąg widmo",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "PKP"
+  ],
   "scenes": [
     {
       "text": "Spóźniłem się na ostatni pociąg z Warszawy. A jednak o północy na peron wjechał jeszcze jeden. Stary, zielony, bez numeru.",
@@ -36,5 +47,6 @@
       "text": "Rano przeczytałem, że czterdzieści lat temu ten pociąg wpadł do rzeki. A na liście ofiar było jedno wolne miejsce. Przy oknie.",
       "image": "old yellowed newspaper clipping about a train accident, black and white photo of a wrecked train in a river, dim morning light"
     }
-  ]
+  ],
+  "question": "Wsiadłbyś do pociągu bez numeru o północy? 🚂 Napisz w komentarzu 👇"
 }

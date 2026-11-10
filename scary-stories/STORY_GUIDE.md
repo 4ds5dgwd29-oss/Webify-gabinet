@@ -3,9 +3,9 @@
 The channel posts **YouTube Shorts**: vertical videos, under 3 minutes, with an AI-generated picture behind each scene.
 
 `scary-stories/stories/` is a **publishing queue**, numbered `001-slug.json`, `002-slug.json`, ...
-Every day, add **one** new story at the end of the queue (highest number + 1, e.g. `021-latarnia.json`) and push it.
+Each run, add **one** new story at the end of the queue (highest number + 1, e.g. `021-latarnia.json`) and push it.
 The push starts the GitHub Actions workflow, which publishes the **next unpublished** story from the queue
-(not necessarily the one just added), so exactly one Short goes out per day.
+(not necessarily the one just added), so one Short goes out per push (the scheduled session runs every 4 hours, i.e. 6 Shorts a day).
 `scary-stories/stories/sezonowe/` holds seasonal stories that are published by hand; never move or edit them.
 
 ## Format
@@ -14,6 +14,7 @@ The push starts the GitHub Actions workflow, which publishes the **next unpublis
   "title": "Tytuł po polsku, max 70 znaków (#shorts dodaje się automatycznie)",
   "hook": "2-4 słowa, pokazywane na górze ekranu w pierwszych sekundach",
   "description": "1-3 zdania zachęty bez zdradzania zakończenia",
+  "question": "Krótkie pytanie do widzów, np. Otworzyłbyś te drzwi? 🚪 Napisz w komentarzu 👇",
   "tags": ["8-12 tagów po polsku"],
   "scenes": [
     { "text": "Zdania czytane przez lektora w tej scenie.", "image": "English image prompt for this scene" }

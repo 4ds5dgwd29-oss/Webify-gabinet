@@ -2,7 +2,18 @@
   "title": "Klient, którego nie widzą kamery",
   "hook": "Nie sprzedawaj mu zapałek",
   "description": "Pracuję na nocnej zmianie na stacji benzynowej przy pustej drodze. Każdej nocy o trzeciej przychodzi ten sam klient. Kamery nigdy go nie nagrały.",
-  "tags": ["straszne historie", "horror po polsku", "creepypasta", "historie grozy", "straszna historia", "nocna zmiana", "shorts", "horror shorts", "polski horror", "stacja benzynowa"],
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "creepypasta",
+    "historie grozy",
+    "straszna historia",
+    "nocna zmiana",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "stacja benzynowa"
+  ],
   "scenes": [
     {
       "text": "Pracuję na nocnej zmianie na stacji benzynowej przy drodze przez las. Po północy nie przyjeżdża tu nikt.",
@@ -36,5 +47,6 @@
       "text": "Dziś mam na zapleczu sto pudełek zapałek. Bo jest trzecia. I drzwi właśnie się otworzyły.",
       "image": "stack of many matchboxes on a dark shelf in a back room, a single lit match glowing, deep shadows"
     }
-  ]
+  ],
+  "question": "Sprzedałbyś mu zapałki? 🔥 Napisz w komentarzu 👇"
 }
