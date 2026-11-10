@@ -1,6 +1,7 @@
 import { execFileSync } from "node:child_process";
 import { writeFileSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 // VIDEO_FORMAT=short (default): vertical 1080x1920 YouTube Shorts, under 3 minutes.
 // VIDEO_FORMAT=long: horizontal 1920x1080, about 10 minutes, with chapters and a thumbnail.
@@ -8,7 +9,7 @@ export const FORMATS = {
   short: {
     width: 1080, height: 1920, fps: 30, zoomScale: 1.4, maxSeconds: 178,
     intro: 0.25, outro: 1.2, shotSeconds: 3.2, xfade: 0.25,
-    captionWords: [2, 4], fontSize: 92,
+    captionWords: [1, 1], fontSize: 112,
   },
   long: {
     width: 1920, height: 1080, fps: 25, zoomScale: 1.25, maxSeconds: Infinity,
@@ -104,23 +105,33 @@ export function renderVideo({ hook, title, scenes, images, narration, outDir }) 
 
   const a = shots.length; // index of the first audio input
   const lastScene = sceneStarts[sceneStarts.length - 1];
+  const musicFile = path.join(outDir, "music.wav");
+  const musicSeed = [...(title || "")].reduce((h, c) => (h * 31 + c.codePointAt(0)) % 100000, 3);
   const audio =
-    `[${a}:a]lowpass=f=400,volume=0.3[noise];` +
-    `[${a + 1}:a]volume=0.06[hum];` +
-    `[${a + 2}:a]${tempo > 1 ? `atempo=${tempo.toFixed(4)},` : ""}adelay=${Math.round(f.intro * 1000)}:all=1,volume=1.15[voice];` +
+    // Narrator: warmer, deeper and more even (bass lift + compression).
+    `[${a + 2}:a]${tempo > 1 ? `atempo=${tempo.toFixed(4)},` : ""}adelay=${Math.round(f.intro * 1000)}:all=1,` +
+    `equalizer=f=110:t=q:w=1.2:g=4,equalizer=f=3200:t=q:w=1.5:g=2,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,volume=1.3,asplit=2[voice][key];` +
+    // Original creepy music box + drone, ducked automatically while the narrator speaks.
+    `[${a}:a]volume=${short ? 0.42 : 0.3}[music0];[music0][key]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=400[music];` +
+    `[${a + 1}:a]lowpass=f=300,volume=0.12[noise];` +
     // A deep "boom" at the very start and when the final scene (the twist) begins.
     `[${a + 3}:a]asplit=2[b1][b2];[b1]volume=0.9[boom1];[b2]adelay=${Math.round(lastScene * 1000)}:all=1,volume=0.8[boom2];` +
-    `[noise][hum][voice][boom1][boom2]amix=inputs=5:duration=longest:normalize=0,` +
+    `[music][noise][voice][boom1][boom2]amix=inputs=5:duration=longest:normalize=0,` +
     `alimiter=limit=0.95,afade=t=out:st=${(total - 1).toFixed(2)}:d=1[a]`;
 
   const file = path.join(outDir, "video.mp4");
+  execFileSync(
+    "python3",
+    [path.join(path.dirname(fileURLToPath(import.meta.url)), "music.py"), musicFile, total.toFixed(2), String(musicSeed)],
+    { stdio: "inherit" },
+  );
   execFileSync(
     "ffmpeg",
     [
       "-y", "-loglevel", "error", "-stats",
       ...inputs,
+      "-i", musicFile,
       "-f", "lavfi", "-i", `anoisesrc=color=brown:amplitude=0.2:d=${total.toFixed(2)}`,
-      "-f", "lavfi", "-i", `sine=f=55:d=${total.toFixed(2)}`,
       "-i", narration.file,
       "-f", "lavfi", "-i", "aevalsrc=exprs='0.9*sin(2*PI*46*t)*exp(-3.2*t)+0.25*sin(2*PI*92*t)*exp(-5*t)':d=1.6:s=44100",
       "-filter_complex", `${video};${audio}`,
@@ -206,7 +217,7 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,DejaVu Sans,${fontSize},&H0000D7FF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,${short ? 8 : 4},2,${short ? 5 : 2},90,90,${short ? 0 : 90},1
+Style: Caption,DejaVu Sans,${fontSize},${short ? "&H00FFFFFF" : "&H0000D7FF"},&H00FFFFFF,&H00000000,&H96000000,1,${short ? 1 : 0},0,0,100,100,0,0,1,${short ? 9 : 4},${short ? 3 : 2},${short ? 5 : 2},90,90,${short ? 0 : 90},1
 Style: Hook,DejaVu Sans,${short ? 84 : 72},&H00FFFFFF,&H00FFFFFF,&H001B1BC8,&H001B1BC8,1,0,0,0,100,100,2,0,3,18,0,8,80,80,${short ? 260 : 120},1
 Style: Title,DejaVu Serif,${short ? 90 : 96},&H001B1BE0,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,2,0,1,6,0,5,120,120,0,1
 Style: Outro,DejaVu Sans,${short ? 72 : 64},&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,1,0,1,5,0,5,80,80,0,1
@@ -233,13 +244,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     const group = tokens.slice(i, j);
     const start = group[0].start;
     const end = j < tokens.length ? Math.max(tokens[j].start, group.at(-1).end) : group.at(-1).end + 0.4;
-    const karaoke = group
-      .map((t, k) => {
-        const next = k + 1 < group.length ? group[k + 1].start : end;
-        return `{\\k${Math.max(1, Math.round((next - t.start) * 100))}}${assText(t.text)}`;
-      })
-      .join(" ");
-    const pop = short ? "{\\fscx108\\fscy108\\t(0,90,\\fscx100\\fscy100)}" : "{\\fad(80,0)}";
+    // Shorts: one big word at a time (as in popular horror Shorts). Long: karaoke groups.
+    const karaoke = short
+      ? assText(group.map((t) => t.text).join(" ").toUpperCase().replace(/[.,;:!?…]+$/u, ""))
+      : group
+          .map((t, k) => {
+            const next = k + 1 < group.length ? group[k + 1].start : end;
+            return `{\\k${Math.max(1, Math.round((next - t.start) * 100))}}${assText(t.text)}`;
+          })
+          .join(" ");
+    const pop = short ? "{\\fscx115\\fscy115\\t(0,80,\\fscx100\\fscy100)}" : "{\\fad(80,0)}";
     events.push(`Dialogue: 0,${ts(start)},${ts(end)},Caption,,0,0,0,,${pop}${karaoke}`);
     i = j;
   }

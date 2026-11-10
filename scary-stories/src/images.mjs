@@ -3,8 +3,21 @@ import { writeFileSync } from "node:fs";
 import path from "node:path";
 
 // Free image generation through Pollinations.ai (no key needed).
-// Keep this short: a long style suffix makes the generator drift away from the scene itself.
-const STYLE = process.env.IMAGE_STYLE || "cinematic horror film still, dramatic low light, realistic photo, no text";
+// IMAGE_PRESET=cartoon (default): colourful 2D horror-cartoon look, like popular "true story" Shorts.
+// IMAGE_PRESET=realistic: dark cinematic photo look. Keep the realistic suffix short: a long
+// style suffix makes the generator drift away from the scene itself.
+const PRESETS = {
+  cartoon: {
+    prefix: "2D cartoon illustration, thick black ink outlines, exaggerated cartoon characters, detailed background, rich night colors, deep blue and green shadows, warm yellow lamp light",
+    suffix: "no text",
+  },
+  realistic: { prefix: "", suffix: "cinematic horror film still, dramatic low light, realistic photo, no text" },
+};
+const PRESET = PRESETS[process.env.IMAGE_PRESET || "cartoon"] ?? PRESETS.cartoon;
+const buildPrompt = (subject, visualStyle) =>
+  [process.env.IMAGE_STYLE_PREFIX ?? PRESET.prefix, subject, visualStyle, process.env.IMAGE_STYLE ?? PRESET.suffix]
+    .filter(Boolean)
+    .join(", ");
 
 // visualStyle: optional per-story look (season, era, light) appended to every prompt so the
 // pictures of one story belong together. seed: base seed shared by the story's images.
@@ -12,7 +25,7 @@ export async function sceneImages(scenes, outDir, { width, height, visualStyle =
   const files = [];
   for (const [i, scene] of scenes.entries()) {
     const file = path.join(outDir, `scene-${String(i + 1).padStart(2, "0")}.jpg`);
-    const prompt = [scene.image, visualStyle, STYLE].filter(Boolean).join(", ");
+    const prompt = buildPrompt(scene.image, visualStyle);
     const ok = scene.image ? await fetchImage(prompt, file, width, height, seed + i) : false;
     if (!ok) fallbackImage(file, width, height);
     files.push(file);
@@ -21,7 +34,7 @@ export async function sceneImages(scenes, outDir, { width, height, visualStyle =
 }
 
 export async function singleImage(prompt, file, { width, height, visualStyle = "", seed = 1 }) {
-  const ok = await fetchImage([prompt, visualStyle, STYLE].filter(Boolean).join(", "), file, width, height, seed);
+  const ok = await fetchImage(buildPrompt(prompt, visualStyle), file, width, height, seed);
   return ok ? file : null;
 }
 

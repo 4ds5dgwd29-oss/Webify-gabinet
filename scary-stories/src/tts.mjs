@@ -19,7 +19,8 @@ function edgeTts(text, outDir, out, short) {
   const voice = process.env.EDGE_TTS_VOICE || "pl-PL-MarekNeural";
   // Shorts need a brisk pace to keep viewers; long videos can breathe a little more.
   const rate = process.env.EDGE_TTS_RATE || (short ? "+4%" : "-4%");
-  const pitch = process.env.EDGE_TTS_PITCH || "-4Hz";
+  // A lower pitch gives the deep "storyteller" voice of popular horror Shorts.
+  const pitch = process.env.EDGE_TTS_PITCH || "-10Hz";
   const textFile = path.join(outDir, "story.txt");
   const wordsFile = path.join(outDir, "words.json");
   writeFileSync(textFile, text);
