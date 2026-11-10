@@ -1,0 +1,15 @@
+{
+  "title": "Latarnik, który nie pozwala zgasić światła",
+  "hook": "Nie gaś latarni",
+  "description": "Dostałem pracę przy remoncie starej latarni nad Bałtykiem. Każdej nocy ktoś zapala w niej światło. Latarnia nie ma prądu od trzydziestu lat.",
+  "tags": ["straszne historie", "horror po polsku", "latarnia morska", "bałtyk", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy", "morze"],
+  "scenes": [
+    {"text": "Dostałem pracę przy remoncie starej latarni morskiej nad Bałtykiem. Od trzydziestu lat nikt w niej nie mieszkał. Nie było prądu.", "image": "old abandoned lighthouse on a Baltic sea coast at dusk, grey stormy sky, dunes and pine trees, cold wind"},
+    {"text": "Pierwszej nocy, z mojej przyczepy, zobaczyłem światło na szczycie latarni. Obracało się powoli. Tak jak kiedyś.", "image": "lighthouse beam glowing and rotating at night over a dark sea, small construction trailer on the dunes in foreground"},
+    {"text": "Wszedłem po spiralnych schodach. Sto dwadzieścia stopni. Na każdym leżał mokry piasek. Jakby ktoś właśnie wyszedł z morza.", "image": "spiral iron staircase inside an old lighthouse, wet sand on the steps, flashlight beam, rust and shadows"},
+    {"text": "Na górze lampa była zimna. Zgaszona. Ale na podłodze stał kubek z gorącą herbatą. I leżała czapka latarnika.", "image": "lantern room at the top of a lighthouse, cold dark lens, a steaming tin mug and an old keeper's cap on the floor"},
+    {"text": "Kierownik budowy powiedział mi, że ostatni latarnik zginął tu w sztormie. Zgasił światło, żeby oszczędzać naftę. Tej nocy rozbił się kuter. Zginęło pięciu rybaków.", "image": "old black and white photo of a lighthouse keeper standing by the lighthouse door, stern face, stormy sea behind"},
+    {"text": "Od tamtej pory co noc ktoś zapala latarnię. I nie pozwala jej zgasić. Robotnicy, którzy próbowali, nie wracali na drugą zmianę.", "image": "fishing boat wreck on a Baltic beach at night, waves crashing, lighthouse beam passing over it"},
+    {"text": "Jutro mają odciąć latarnię i zamienić ją w muzeum. Dziś w nocy na mojej przyczepie ktoś napisał palcem na zaparowanej szybie: zostaw światło.", "image": "fogged trailer window at night with words written by a finger from the outside, lighthouse beam glowing behind"}
+  ]
+}
