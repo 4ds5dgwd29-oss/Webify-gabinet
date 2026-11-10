@@ -17,9 +17,11 @@ function edgeTts(text, outDir, out) {
   const pitch = process.env.EDGE_TTS_PITCH || "-4Hz";
   const textFile = path.join(outDir, "story.txt");
   writeFileSync(textFile, text);
+  // edge-tts ignores HTTPS_PROXY unless it is passed explicitly.
+  const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
   execFileSync(
     "edge-tts",
-    ["--voice", voice, `--rate=${rate}`, `--pitch=${pitch}`, "--file", textFile, "--write-media", out],
+    [...(proxy ? ["--proxy", proxy] : []), "--voice", voice, `--rate=${rate}`, `--pitch=${pitch}`, "--file", textFile, "--write-media", out],
     { stdio: "inherit" },
   );
 }
