@@ -37,6 +37,19 @@ Long 10-minute videos have their own guide: `LONG_GUIDE.md`.
 6. **Relatable Polish setting** (blok, wieś, PKP, las, Wigilia, babcia, działka, nocna zmiana) and first person.
 7. Title and hook must create curiosity without spoiling the twist.
 
+## Invent fresh ideas: rotate the format
+Do not write the same kind of story twice in a row. Look at the last 5 stories in the queue and pick a
+format that was not used recently. Invent new premises yourself; never reuse a premise, setting or twist.
+1. **First-person encounter:** "Pracuję na nocnej zmianie w...", "Wynająłem mieszkanie, w którym..."
+2. **Rules story:** "Jeśli dostaniesz pracę stróża w starym kinie, przestrzegaj tych zasad." Each scene is one rule; the last rule breaks the pattern.
+3. **Polish folk legend retold:** strzygoń, mamuna, południca, utopiec, Czarna Wołga, Biała Dama. Tell it as a legend ("Mówi się, że...", "Na Kurpiach opowiadają..."), never as a documented fact.
+4. **Messages:** the story told through SMS, voicemails or notes ("O trzeciej dostałem wiadomość od mamy. Mama nie żyje od roku.").
+5. **POV "Ty":** second person, the viewer is the hero ("Wracasz nocnym autobusem. Kierowca nie ma twarzy.").
+6. **Something is wrong at home:** small wrong details that escalate (an extra toothbrush, a new photo on the wall).
+7. **Workplace of the night:** stacja benzynowa, szpital, ochrona parkingu, dyspozytor taksówek, kierowca TIR-a.
+
+Never present an invented story as a true event or as news, and never name real people or real crimes.
+
 ## Rules for the image prompts (pictures must match the narration)
 - **In English**, **one concrete subject** per prompt, described literally: who/what, where, light, framing.
   Good: "close up of a rusty padlock on an old wooden cellar door, flashlight beam".
