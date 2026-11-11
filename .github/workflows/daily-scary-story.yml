@@ -62,9 +62,15 @@ jobs:
           python-version: "3.12"
 
       - name: Install ffmpeg, fonts and edge-tts
+        timeout-minutes: 8
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          # ffmpeg and DejaVu fonts are usually preinstalled on GitHub runners; only fall back to apt
+          # (with retries and a time limit) when they are missing, because apt mirrors sometimes hang.
+          if ! command -v ffmpeg >/dev/null || ! fc-list | grep -qi "DejaVu Sans"; then
+            sudo timeout 300 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update -qq
+            sudo timeout 300 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y -qq ffmpeg fonts-dejavu-core
+          fi
+          ffmpeg -version | head -1
           pip install edge-tts==7.3.1 numpy==2.5.3
 
       - run: npm ci
