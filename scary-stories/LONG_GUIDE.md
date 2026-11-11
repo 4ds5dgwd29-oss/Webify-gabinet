@@ -10,7 +10,7 @@ the next unpublished long video.
 ## Format
 ```json
 {
-  "title": "Tytuł, max 70 znaków, z ciekawością | Straszna historia",
+  "title": "Haczyk | O czym jest historia, max 70 znaków, np. Nigdy nie wchodź do sali nr 7 | Nocny stróż w opuszczonym sanatorium",
   "hook": "2-4 słowa",
   "thumbnail_text": "2-4 SŁOWA NA MINIATURCE, np. PACJENCI WCIĄŻ CZEKAJĄ",
   "thumbnail_image": "English prompt for the thumbnail picture: one striking, readable subject, high contrast",
@@ -36,6 +36,9 @@ the next unpublished long video.
 - **4-6 chapters**: the first must have `"scene": 0`, each chapter at least 10 seconds long, short titles.
 - Image prompts follow the same rules as Shorts in `STORY_GUIDE.md` (literal, one subject, under 25 words,
   no style words, no text, no gore). Vary wide shots, close-ups of objects, interiors and exteriors.
+- Title: start with a curiosity hook (a warning, a rule, a strange detail), then after " | " say what the
+  story is about. Max 70 characters so it is not cut off on phones. The part before " | " is shown on the
+  title card at the start of the video.
 - Description: write it like a book blurb that makes people click: concrete details from the story
   (place, year, one strange rule or object), a cliffhanger at the end of the second paragraph, never the twist.
   Chapters, the comment question, the channel line and hashtags are added automatically.
