@@ -15,7 +15,7 @@ the next unpublished long video.
   "thumbnail_text": "2-4 SŁOWA NA MINIATURCE, np. PACJENCI WCIĄŻ CZEKAJĄ",
   "thumbnail_image": "English prompt for the thumbnail picture: one striking, readable subject, high contrast",
   "visual_style": "English: shared look of all pictures (place, era, season, light)",
-  "description": "3-4 zdania zachęty bez zdradzania zakończenia",
+  "description": "Ciekawy opis w 3 akapitach (oddzielonych \\n\\n), bez zdradzania zakończenia: 1) hak i miejsce akcji, 2) jak narasta groza (bez puenty), 3) zachęta, np. 🕯️ Zgaś światło, załóż słuchawki...",
   "question": "Pytanie do widzów + emoji + Napisz w komentarzu 👇",
   "tags": ["10-15 tagów po polsku"],
   "chapters": [
@@ -36,6 +36,9 @@ the next unpublished long video.
 - **4-6 chapters**: the first must have `"scene": 0`, each chapter at least 10 seconds long, short titles.
 - Image prompts follow the same rules as Shorts in `STORY_GUIDE.md` (literal, one subject, under 25 words,
   no style words, no text, no gore). Vary wide shots, close-ups of objects, interiors and exteriors.
+- Description: write it like a book blurb that makes people click: concrete details from the story
+  (place, year, one strange rule or object), a cliffhanger at the end of the second paragraph, never the twist.
+  Chapters, the comment question, the channel line and hashtags are added automatically.
 - Thumbnail: `thumbnail_text` max 4 words, intriguing, not a spoiler. `thumbnail_image` one clear subject
   that is readable at small size (a figure at the end of a corridor, a door ajar with light, a face in a window).
 - Same content rules as Shorts: no gore for its own sake, nothing sexual, no real people or crimes, 13+.
