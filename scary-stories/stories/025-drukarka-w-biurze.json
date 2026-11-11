@@ -1,0 +1,22 @@
+{
+  "title": "Zostajesz sam w biurze. Drukarka zaczyna drukować",
+  "hook": "Nie odwracaj się",
+  "description": "Jesteś ostatni w biurze. Jest dwudziesta trzecia. Drukarka w kącie budzi się sama i zaczyna drukować zdjęcia.",
+  "question": "Co zrobiłbyś po pierwszym zdjęciu? 🖨️ Napisz w komentarzu 👇",
+  "visual_style": "empty Polish open-space office at night, rows of desks, cold fluorescent light, city lights behind windows",
+  "tags": ["straszne historie", "horror po polsku", "biuro", "praca po godzinach", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy", "pov"],
+  "scenes": [
+    {"text": "Jest dwudziesta trzecia. Jesteś ostatni w biurze. Kończysz raport.", "image": "lone office worker at a desk with a glowing monitor in a dark empty open-space office"},
+    {"text": "Drukarka w kącie budzi się sama. Szumi. Wypluwa jedną kartkę.", "image": "office printer in a dark corner with a green light, one sheet of paper sliding out"},
+    {"text": "Podchodzisz. To zdjęcie. Ty, przy biurku, od tyłu.", "image": "printed black and white photo of a man at a desk seen from behind, lying on a printer tray"},
+    {"text": "Zrobione z końca sali. Z miejsca, gdzie nikogo nie ma.", "image": "far end of a dark office with empty desks and chairs, deep shadows"},
+    {"text": "Drukarka znowu szumi. Drugie zdjęcie. Ty, przy drukarce. Z bliska.", "image": "second printed photo of a man standing by a printer, taken from very close behind"},
+    {"text": "Zapalasz wszystkie światła. Pusto. Tylko krzesła i komputery.", "image": "office suddenly fully lit with harsh fluorescent lights, empty desks, no one there"},
+    {"text": "Dzwonisz do ochrony na dole. Ochroniarz mówi, że na kamerach widzi dwie osoby.", "image": "security guard in a lobby looking at CCTV monitors, one screen showing an office"},
+    {"text": "Ty. I ktoś, kto stoi tuż za tobą od godziny.", "image": "grainy CCTV image of an office, a man at a desk and a tall dark figure standing right behind him"},
+    {"text": "Nie odwracasz się. Idziesz do windy. Słyszysz drukarkę po raz trzeci.", "image": "office corridor leading to an elevator, a man walking stiffly, printer light glowing behind"},
+    {"text": "Drzwi windy się zamykają. W lustrze widzisz tylko siebie.", "image": "inside an elevator, mirror reflection of a frightened man alone"},
+    {"text": "Rano na twoim biurku leży trzecie zdjęcie. Ty, w windzie.", "image": "printed photo lying on an office desk in morning light, showing a man inside an elevator"},
+    {"text": "A obok ciebie, w lustrze, ktoś się uśmiecha.", "image": "close up of a printed photo of an elevator mirror with a faint pale smiling face beside a man"}
+  ]
+}
