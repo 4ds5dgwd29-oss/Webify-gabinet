@@ -1,0 +1,22 @@
+{
+  "title": "Kurs na adres, którego nie ma od czterdziestu lat",
+  "hook": "Nie wysyłaj tam taksówki",
+  "description": "Pracuję jako nocny dyspozytor taksówek. Co noc o trzeciej dzwoni ta sama kobieta i zamawia kurs na ulicę, której nie ma na mapie.",
+  "question": "Wysłałbyś tam taksówkę? 🚕 Napisz w komentarzu 👇",
+  "visual_style": "Polish city at night in winter, wet streets, orange street lamps, old taxi cars",
+  "tags": ["straszne historie", "horror po polsku", "taksówka", "nocna zmiana", "dyspozytor", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję jako nocny dyspozytor taksówek. Co noc o trzeciej dzwoni ta sama kobieta.", "image": "taxi dispatcher with a headset at a desk with radio and screens in a small dark office at night"},
+    {"text": "Zamawia kurs na ulicę Ogrodową siedem. Takiej ulicy nie ma w systemie.", "image": "computer screen showing an empty city map search result, glowing in a dark office"},
+    {"text": "Mówi zawsze to samo. Proszę się pospieszyć. Dzieci czekają na mnie od dawna.", "image": "old telephone receiver on a desk, a cord curling, dim lamp light"},
+    {"text": "W końcu stary taksówkarz, pan Zenek, powiedział, że wie, gdzie to jest.", "image": "older taxi driver with grey moustache leaning on an old Polish taxi car, smoking at night"},
+    {"text": "Pojechał. Przez radio słyszałem, jak opisuje drogę. Las. Polna droga. Potem szum.", "image": "old taxi driving on a narrow dirt road into a dark forest at night, headlights in fog"},
+    {"text": "Po godzinie odezwał się znowu. Szeptał. Jestem pod domem. W oknach palą się świeczki.", "image": "old wooden house in a forest clearing at night with candles glowing in every window"},
+    {"text": "Wsiadła. Kobieta w futrze. Mówi, że jedzie do dzieci. Na cmentarz.", "image": "rear view mirror of a taxi reflecting a pale woman in an old fur coat on the back seat"},
+    {"text": "Potem radio ucichło. Na mapie jego taksówka stała w miejscu. Na środku jeziora.", "image": "dispatcher screen showing a taxi icon stopped in the middle of a blue lake on a map"},
+    {"text": "Rano znaleźli ją na brzegu. Pustą. Licznik pokazywał czterdzieści lat jazdy.", "image": "empty old taxi parked on a frozen lake shore at dawn, doors open, mist"},
+    {"text": "Sprawdziłem w archiwum. Ogrodowa zniknęła, gdy zalano dolinę pod zalew. W siedemdziesiątym dziewiątym.", "image": "old black and white photo of a village street before being flooded, houses and a sign"},
+    {"text": "Dziś o trzeciej znowu zadzwoniła. Ale tym razem nie zamawiała kursu.", "image": "phone ringing on a dispatcher desk at night, red light blinking"},
+    {"text": "Powiedziała: dziękuję. Pan Zenek już nas zawiózł. Teraz pan.", "image": "taxi with headlights on waiting outside a dispatch office door in the fog, no driver visible"}
+  ]
+}
