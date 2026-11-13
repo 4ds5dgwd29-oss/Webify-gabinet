@@ -1,0 +1,103 @@
+name: Daily scary story video
+
+# scary-stories/stories/ is a queue. Every push of a story file (the scheduled Claude session adds
+# one per day) publishes the NEXT unpublished story from the queue, so one Short goes out per day.
+on:
+  push:
+    paths:
+      - "scary-stories/stories/*.json"
+  workflow_dispatch:
+    inputs:
+      story:
+        description: "Story file to render (empty = next unpublished in the queue), e.g. stories/001-....json"
+        required: false
+      upload:
+        description: "Upload to YouTube"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write # to commit history.json
+
+concurrency:
+  group: scary-publish # shared with the long-video workflow: one upload at a time
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: scary-stories
+    env:
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      TTS_PROVIDER: ${{ vars.TTS_PROVIDER || 'edge' }}
+      EDGE_TTS_VOICE: ${{ vars.EDGE_TTS_VOICE || 'pl-PL-MarekNeural' }}
+      ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+      YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'public' }}
+      YOUTUBE_LANGUAGE: ${{ vars.YOUTUBE_LANGUAGE || 'pl' }}
+      VIDEO_FORMAT: ${{ vars.VIDEO_FORMAT || 'short' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Runs can queue up behind each other. Use the latest history.json so a story
+      # published by the previous run is not uploaded a second time.
+      - name: Sync with the latest branch state
+        run: |
+          git fetch origin "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scary-stories/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg, fonts and edge-tts
+        timeout-minutes: 8
+        run: |
+          # ffmpeg and DejaVu fonts are usually preinstalled on GitHub runners; only fall back to apt
+          # (with retries and a time limit) when they are missing, because apt mirrors sometimes hang.
+          if ! command -v ffmpeg >/dev/null || ! fc-list | grep -qi "DejaVu Sans"; then
+            sudo timeout 300 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update -qq
+            sudo timeout 300 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y -qq ffmpeg fonts-dejavu-core
+          fi
+          ffmpeg -version | head -1
+          pip install edge-tts==7.3.1 numpy==2.5.3
+
+      - run: npm ci
+
+      - name: Render and upload
+        run: |
+          STORY="${{ inputs.story }}"
+          UPLOAD="--next"
+          [ -n "$STORY" ] && UPLOAD="--story $STORY"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.upload }}" != "true" ]; then
+            node src/main.mjs $UPLOAD --no-upload
+          else
+            node src/main.mjs $UPLOAD
+          fi
+
+      - name: Keep the video as a downloadable artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scary-story-${{ github.run_id }}
+          path: scary-stories/out/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Commit upload history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          git diff --cached --quiet || (git commit -m "Scary story: record upload" && git pull --rebase && git push)

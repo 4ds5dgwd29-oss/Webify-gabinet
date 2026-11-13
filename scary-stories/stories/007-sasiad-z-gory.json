@@ -1,0 +1,48 @@
+{
+  "title": "Sąsiad z góry przesuwa meble",
+  "hook": "Tam nikt nie mieszka",
+  "description": "Co noc słyszałem, jak sąsiad z góry przesuwa meble. Poszedłem się poskarżyć. Mieszkanie stało puste od piętnastu lat.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "kamienica",
+    "sąsiad",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "nawiedzone mieszkanie"
+  ],
+  "scenes": [
+    {
+      "text": "Wynająłem mieszkanie w starej kamienicy w Łodzi. Wysokie sufity, skrzypiące podłogi i cisza. Do pierwszej nocy.",
+      "image": "old tenement house facade in Łódź at night, ornate windows, one dark window on the top floor, wet street"
+    },
+    {
+      "text": "O drugiej nad moją głową coś zaczęło szurać. Jakby ktoś przesuwał ciężką szafę. Z jednego kąta w drugi.",
+      "image": "high old ceiling with cracked plaster and stucco, dust falling, dark bedroom below"
+    },
+    {
+      "text": "Tak było co noc. Po tygodniu poszedłem na górę. Drzwi były zamknięte na kłódkę. Zakurzone.",
+      "image": "old wooden apartment door with a rusty padlock, thick dust, dark stairwell of a tenement house"
+    },
+    {
+      "text": "Dozorczyni powiedziała, że tam nikt nie mieszka od piętnastu lat. Od kiedy stary pan Wiktor zabarykadował się w środku.",
+      "image": "elderly caretaker woman in a dark stairwell holding a ring of keys, suspicious look, dim bulb"
+    },
+    {
+      "text": "Znaleźli go dopiero po miesiącu. Wszystkie meble stały pod drzwiami. Jakby przed czymś się bronił.",
+      "image": "dark empty room with furniture piled against a door as a barricade, dust, light through boarded window"
+    },
+    {
+      "text": "Tej nocy szuranie ucichło. Za to usłyszałem coś nowego. Pukanie. Do moich drzwi. I szept przez dziurkę od klucza.",
+      "image": "close up of an old keyhole in a door, darkness behind it, faint glint of an eye"
+    },
+    {
+      "text": "Szeptał: pomóż mi przesunąć szafę. Ono znowu idzie. A ja właśnie usłyszałem kroki na schodach. Z dołu.",
+      "image": "spiral staircase in an old tenement looking down into darkness, shadow climbing the stairs"
+    }
+  ],
+  "question": "Pomógłbyś sąsiadowi przesunąć szafę? 🚪 Napisz w komentarzu 👇"
+}

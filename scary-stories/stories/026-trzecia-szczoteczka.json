@@ -1,0 +1,22 @@
+{
+  "title": "W łazience pojawiła się trzecia szczoteczka",
+  "hook": "Mieszkamy we dwoje",
+  "description": "Mieszkamy z żoną we dwoje. Rano w kubku w łazience stała trzecia szczoteczka do zębów. Mokra.",
+  "question": "Co byś zrobił po trzeciej szczoteczce? 🪥 Napisz w komentarzu 👇",
+  "visual_style": "small Polish apartment in a block of flats, late evening, warm yellow lamps, blue night outside the windows",
+  "tags": ["straszne historie", "horror po polsku", "dom", "mieszkanie", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy", "ktoś w domu"],
+  "scenes": [
+    {"text": "Mieszkamy z żoną we dwoje. Rano w kubku w łazience stała trzecia szczoteczka. Mokra.", "image": "bathroom sink with a cup holding three toothbrushes, one of them wet, morning light"},
+    {"text": "Żona myślała, że to ja ją kupiłem. Ja myślałem, że ona.", "image": "couple standing in a small bathroom doorway looking confused at the sink"},
+    {"text": "Następnego dnia przy stole stały trzy krzesła. Zawsze mieliśmy dwa.", "image": "small kitchen table with three wooden chairs, two plates and an empty space, warm lamp"},
+    {"text": "Na wieszaku wisiał trzeci płaszcz. Szary. Pachniał piwnicą.", "image": "hallway coat hooks with two colorful jackets and one old grey coat, dim light"},
+    {"text": "W nocy słyszeliśmy kroki w przedpokoju. Spokojne. Jak domownika.", "image": "dark apartment hallway at night, faint light under a door, shadow of feet"},
+    {"text": "Zamontowałem kamerę. Na nagraniu o trzeciej drzwi szafy otwierają się od środka.", "image": "grainy night camera footage of a wardrobe door slowly opening from inside, dark bedroom"},
+    {"text": "Wychodzi z niej mężczyzna. Myje zęby trzecią szczoteczką. Siada na trzecim krześle.", "image": "silhouette of a thin man sitting alone at a kitchen table at night, back to the camera"},
+    {"text": "Wezwaliśmy policję. Przeszukali całe mieszkanie. Szafa była pusta.", "image": "empty wardrobe with open doors and a few hanging clothes, flashlight beam"},
+    {"text": "Policjant zapytał tylko, czemu mamy w dowodach różne adresy.", "image": "two Polish ID cards lying on a kitchen table under a lamp"},
+    {"text": "Sprawdziłem w spółdzielni. Tu zameldowana jest jedna osoba. Od czterdziestu lat.", "image": "old housing cooperative office with folders and a clerk holding a yellowed register"},
+    {"text": "To nie on wprowadził się do nas.", "image": "old black and white photo of a thin man in a grey coat standing in front of a block of flats"},
+    {"text": "To my od dwóch lat mieszkamy u niego. I dziś zostawił na stole tylko dwa talerze.", "image": "kitchen table at night with only two plates and one chair pulled out, empty room"}
+  ]
+}

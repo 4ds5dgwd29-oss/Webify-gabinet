@@ -1,0 +1,48 @@
+{
+  "title": "Czerwone wstążki w lesie",
+  "hook": "Nie idź za wstążkami",
+  "description": "Na grzybobraniu zgubiłem drogę. Na drzewach wisiały czerwone wstążki. Pomyślałem, że ktoś oznaczył szlak. Pomyliłem się.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "las",
+    "grzybobranie",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "zaginięcie"
+  ],
+  "scenes": [
+    {
+      "text": "Pojechałem na grzyby do lasu pod Białowieżą. Wszedłem za głęboko. Telefon stracił zasięg.",
+      "image": "deep old forest in Białowieża, giant mossy trees, fog, man with a wicker mushroom basket looking around"
+    },
+    {
+      "text": "Na sosnach zobaczyłem czerwone wstążki. Co kilkadziesiąt metrów. Ucieszyłem się. Pomyślałem, że to szlak.",
+      "image": "red ribbon tied around an old pine trunk in a misty forest, more ribbons visible in the distance"
+    },
+    {
+      "text": "Szedłem za nimi godzinę. Las robił się coraz ciemniejszy. A wstążki coraz nowsze. Jakby ktoś zawiązał je przed chwilą.",
+      "image": "bright new red ribbon on a dark tree, deep forest getting darker, path disappearing"
+    },
+    {
+      "text": "Na polanie stał stary drewniany krzyż. Obwiązany setkami wstążek. Na każdej imię i data.",
+      "image": "old wooden cross in a forest clearing covered in hundreds of faded red ribbons, fog, dusk"
+    },
+    {
+      "text": "Ostatnia wstążka była czysta. Nowa. I leżał przy niej długopis.",
+      "image": "close up of a clean new red ribbon and an old pen lying on moss at the base of a wooden cross"
+    },
+    {
+      "text": "Uciekłem. Biegłem, aż zobaczyłem drogę. Na parkingu, na lusterku mojego auta, ktoś zawiązał czerwoną wstążkę.",
+      "image": "car parked at the edge of a forest at dusk, red ribbon tied around its side mirror, dark trees behind"
+    },
+    {
+      "text": "Było na niej moje imię. Bez daty. Jeszcze.",
+      "image": "close up of a red ribbon with handwritten name in black ink, fluttering in the wind, dark background"
+    }
+  ],
+  "question": "Poszedłbyś za czerwonymi wstążkami? 🎀 Napisz w komentarzu 👇"
+}

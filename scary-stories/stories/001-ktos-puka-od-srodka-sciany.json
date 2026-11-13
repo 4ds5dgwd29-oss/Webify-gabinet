@@ -1,0 +1,40 @@
+{
+  "title": "Ktoś puka od środka ściany",
+  "hook": "Nie licz uderzeń",
+  "description": "Kupiłem stary dom na skraju wsi. Każdej nocy o trzeciej siedemnaście ktoś puka. Nie do drzwi. Od środka ściany. Posłuchaj do końca.",
+  "tags": ["straszne historie", "horror po polsku", "creepypasta", "historie grozy", "straszna historia", "nawiedzony dom", "shorts", "horror shorts", "polski horror", "paranormalne"],
+  "scenes": [
+    {
+      "text": "Kupiłem stary dom na samym końcu wsi. Tanio. Za tanio. Agentka nie chciała nawet wejść do środka.",
+      "image": "lonely old wooden farmhouse at the edge of a Polish village at dusk, muddy road, dark forest behind, one dim window"
+    },
+    {
+      "text": "Pierwszej nocy obudziłem się o trzeciej siedemnaście. I usłyszałem to. Puk. Puk. Puk. Nie do drzwi. Od środka ściany. Tuż za moim łóżkiem.",
+      "image": "dark bedroom at night, old faded floral wallpaper behind a bed, alarm clock glowing green showing 3:17, shadows"
+    },
+    {
+      "text": "W sklepie we wsi stara kobieta tylko kiwnęła głową. Poprzedni właściciel też słyszał pukanie. A potem zniknął. Dom zamknięty od środka, buty przy drzwiach. Powiedziała mi jedno. Nie licz uderzeń.",
+      "image": "old village shop interior, elderly woman in a headscarf behind the counter staring silently, dim yellow light"
+    },
+    {
+      "text": "Ale ja liczyłem. Każdej nocy było o jedno więcej. Trzy. Cztery. Pięć. Jakby coś odliczało.",
+      "image": "close up of a cracked plaster wall with old wallpaper, faint shadow of a hand pressing from inside, candle light"
+    },
+    {
+      "text": "Rozbiłem ścianę młotkiem. Za nią była zamurowana komórka. W środku stały męskie buty, ustawione czubkami do ściany. Obok leżał dziennik.",
+      "image": "hole broken in a wall revealing a tiny bricked up room, a pair of old men's shoes facing the wall, a notebook on the floor, flashlight beam"
+    },
+    {
+      "text": "Ostatni wpis brzmiał: to nie ktoś puka, żeby wejść. To ktoś czeka na zmianę. Jutro moja kolej, żeby pukać.",
+      "image": "old handwritten diary page in Polish, shaky ink handwriting, dim flashlight, dust"
+    },
+    {
+      "text": "Uciekłem. Mieszkam teraz na dziesiątym piętrze, w bloku. Wczoraj o trzeciej siedemnaście obudziło mnie pukanie. Siedem uderzeń. Ze ściany, za którą jest tylko szyb windy.",
+      "image": "grey Polish apartment block at night, one lit window on the tenth floor, empty dark street, fog"
+    },
+    {
+      "text": "Jeśli kiedyś usłyszysz w nocy pukanie, nie licz uderzeń.",
+      "image": "pitch dark hallway, a silhouette standing far away at the end, barely visible, cold blue light"
+    }
+  ]
+}

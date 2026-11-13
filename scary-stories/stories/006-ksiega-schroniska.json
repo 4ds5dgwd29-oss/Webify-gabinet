@@ -1,0 +1,48 @@
+{
+  "title": "Wpis w księdze schroniska",
+  "hook": "Kto się wpisał?",
+  "description": "W górskim schronisku w Tatrach każdy turysta wpisuje się do księgi. Tamtej nocy wpisał się ktoś, kto zginął dwadzieścia lat temu.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "tatry",
+    "góry",
+    "schronisko",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "creepypasta"
+  ],
+  "scenes": [
+    {
+      "text": "Zamieć zatrzymała mnie w małym schronisku w Tatrach. Byłem jedynym gościem.",
+      "image": "small stone mountain hut in the Tatra mountains during a heavy snowstorm at night, warm window light"
+    },
+    {
+      "text": "Gospodarz podsunął mi grubą księgę pamiątkową. Każdy, kto tu nocuje, musi się wpisać. Taka tradycja.",
+      "image": "old thick guest book open on a wooden table in a mountain hut, oil lamp, pen beside it"
+    },
+    {
+      "text": "W nocy usłyszałem kroki na korytarzu. Ciężkie buty, jakby ktoś właśnie zszedł ze szlaku.",
+      "image": "dark wooden corridor of a mountain hut, wet snowy boot prints on the floor leading to a door, dim lamp"
+    },
+    {
+      "text": "Rano w księdze był nowy wpis. Pod moim. Data dzisiejsza. Podpis: Marek, idę na przełęcz, wrócę na kolację.",
+      "image": "close up of a handwritten guest book entry in ink, frost on the page, morning light"
+    },
+    {
+      "text": "Gospodarz zbladł. Przewrócił kartki dwadzieścia lat wstecz. Ten sam wpis. To samo pismo. Marek nigdy nie wrócił z przełęczy.",
+      "image": "old yellowed guest book pages with identical handwritten entry, trembling hand turning pages"
+    },
+    {
+      "text": "Od tamtej pory co roku, w dniu jego śmierci, ktoś wpisuje się do księgi. I co roku ktoś ze schroniska idzie go szukać.",
+      "image": "lone hiker silhouette walking up a snowy mountain pass in fog, footprints behind"
+    },
+    {
+      "text": "W tym roku gospodarz był chory. Spojrzał na mnie i podał mi latarkę. Powiedział: twoja kolej.",
+      "image": "old man's weathered hand holding out a flashlight in a dark mountain hut doorway, blizzard outside"
+    }
+  ],
+  "question": "Poszedłbyś szukać Marka na przełęcz? 🏔️ Napisz w komentarzu 👇"
+}

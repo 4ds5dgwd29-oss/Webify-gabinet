@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o Południcy. Nigdy nie zostawaj w polu w południe",
+  "hook": "Nie odpowiadaj jej",
+  "description": "Na wsiach mówiło się, że w samo południe po polach chodzi kobieta w bieli. Zadaje jedno pytanie. Biada temu, kto odpowie źle.",
+  "question": "Znałeś legendę o Południcy? 🌾 Napisz w komentarzu 👇",
+  "visual_style": "Polish countryside in hot summer, golden wheat fields, blinding midday sun, old wooden village",
+  "tags": ["straszne historie", "horror po polsku", "południca", "polskie legendy", "demony słowiańskie", "wieś", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na mazowieckich wsiach mówi się, że w samo południe nie wolno zostawać w polu.", "image": "golden wheat field under a blinding midday sun, empty dirt road, old village in the distance"},
+    {"text": "Bo właśnie wtedy, w największym upale, po miedzach chodzi Południca.", "image": "tall pale woman in a long white dress walking between rows of wheat, sun glare"},
+    {"text": "Wysoka kobieta w białej sukni. Z sierpem w dłoni. Nie rzuca cienia.", "image": "close up of a pale hand holding an old rusty sickle, wheat stalks, no shadow on the ground"},
+    {"text": "Zatrzymuje żniwiarza i zadaje mu pytanie. Zawsze jedno. Zawsze trudne.", "image": "old peasant in a straw hat standing frozen in a wheat field, a white figure facing him"},
+    {"text": "Kto odpowie źle albo nie odpowie wcale, ten nie wraca z pola.", "image": "abandoned scythe lying in the stubble of a harvested field, crows above"},
+    {"text": "Moja prababcia opowiadała, że jej brat poszedł kosić mimo zakazu.", "image": "old black and white photo of a young farmer with a scythe in front of a wooden cottage"},
+    {"text": "Wrócił wieczorem. Siwy. I przez czterdzieści lat nie powiedział ani słowa.", "image": "very old man with white hair sitting silently on a bench in front of a village cottage at dusk"},
+    {"text": "Tylko raz, przed śmiercią, szepnął mi, o co pytała. Zapytała, jak ma na imię.", "image": "elderly man in a bed whispering to a child, dim village room, candle"},
+    {"text": "On odpowiedział. A ona się uśmiechnęła i powiedziała: dziękuję, teraz to moje.", "image": "white figure smiling in a wheat field at noon, face blurred by sun glare"},
+    {"text": "Od tamtego dnia nikt w rodzinie nie pamiętał, jak brat prababci miał na imię.", "image": "old family photo album page with one face scratched out and a blank name below"},
+    {"text": "W zeszłe lato pojechałem na wieś. Było południe. Ktoś stanął za mną w zbożu.", "image": "young man standing in a wheat field at noon, looking over his shoulder, white shape behind him"},
+    {"text": "Usłyszałem kobiecy głos. Jak masz na imię? A ja nie pamiętam, co odpowiedziałem.", "image": "empty wheat field at noon with a single path pressed into the grain leading away"}
+  ]
+}

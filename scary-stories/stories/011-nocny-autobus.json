@@ -1,0 +1,48 @@
+{
+  "title": "Nocny autobus do przystanku, którego nie ma",
+  "hook": "Nie wysiadaj na pętli",
+  "description": "Wsiadłem do nocnego autobusu w Krakowie. Na tablicy była pętla, której nie ma na żadnej mapie. Kierowca nie miał odbicia w lusterku.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "autobus",
+    "kraków",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "nocny autobus"
+  ],
+  "scenes": [
+    {
+      "text": "Wracałem z imprezy w Krakowie. O trzeciej podjechał nocny autobus. Na tablicy był napis: Pętla Cisza.",
+      "image": "empty night bus stop in a Polish city, old bus arriving with a glowing destination sign, wet asphalt, fog"
+    },
+    {
+      "text": "Nie znałem takiego przystanku. Ale było zimno, więc wsiadłem. W autobusie siedzieli ludzie. Wszyscy patrzyli przed siebie.",
+      "image": "inside an old city bus at night, silent passengers sitting rigidly facing forward, cold fluorescent light"
+    },
+    {
+      "text": "Spojrzałem w lusterko kierowcy. Fotel był pusty. A kierownica sama się kręciła.",
+      "image": "bus rearview mirror reflecting an empty driver's seat, steering wheel turning by itself, night road"
+    },
+    {
+      "text": "Za oknem zniknęły latarnie. Potem domy. Jechaliśmy przez pole, na którym stały same przystanki. Bez ulic.",
+      "image": "dark empty field at night with many lonely bus stop shelters standing in fog, no roads"
+    },
+    {
+      "text": "Na każdym przystanku ktoś wysiadał. I już nie było go widać. Jakby rozpuszczał się w mgle.",
+      "image": "passenger stepping off a bus into thick fog, silhouette fading away, open bus doors"
+    },
+    {
+      "text": "Zostałem sam. Głośnik zachrypiał: następny przystanek, Pętla Cisza. Proszę przygotować się do wyjścia.",
+      "image": "empty bus interior, all seats vacant, red stop button glowing, darkness outside windows"
+    },
+    {
+      "text": "Drzwi otworzyły się. Za nimi czekał tłum. Wszyscy, którzy wysiedli wcześniej. I jedno wolne miejsce w pierwszym rzędzie.",
+      "image": "open bus doors at night revealing a crowd of pale silent people standing in fog, one empty gap in the front row"
+    }
+  ],
+  "question": "Wysiadłbyś na Pętli Cisza? 🚌 Napisz w komentarzu 👇"
+}
