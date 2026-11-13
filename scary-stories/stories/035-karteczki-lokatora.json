@@ -1,0 +1,22 @@
+{
+  "title": "Poprzedni lokator zostawił mi karteczki. Ostatnia była świeża",
+  "hook": "Czytaj je po kolei",
+  "description": "Wynająłem kawalerkę w starej kamienicy. W każdej szafce leżała żółta karteczka od poprzedniego lokatora. Myślałem, że to żart. Do ostatniej.",
+  "question": "Którą karteczkę zignorowałbyś pierwszą? 📝 Napisz w komentarzu 👇",
+  "visual_style": "small old studio flat in a Polish tenement house, high ceilings, peeling paint, dim yellow lamp light",
+  "tags": ["straszne historie", "horror po polsku", "kamienica", "mieszkanie", "karteczki", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Wynająłem kawalerkę w starej kamienicy. W każdej szafce leżała żółta karteczka.", "image": "yellow sticky note inside an open old kitchen cabinet, dim apartment light"},
+    {"text": "Na lodówce: nie zostawiaj jedzenia na noc. Ono to lubi.", "image": "yellow sticky note on an old fridge door in a dark kitchen"},
+    {"text": "Na lustrze w łazience: nie patrz w lustro po zgaszeniu światła.", "image": "bathroom mirror with a yellow note stuck in the corner, dark bathroom"},
+    {"text": "Na drzwiach szafy: jeśli usłyszysz pukanie od środka, nie otwieraj. Ja już otwierałem.", "image": "tall old wooden wardrobe with a yellow note on its door, bedroom at night"},
+    {"text": "Śmiałem się. Zbierałem je do szuflady. Taki dowcip na powitanie.", "image": "drawer full of crumpled yellow sticky notes, lamp light"},
+    {"text": "Pierwszej nocy zostawiłem na stole kanapkę. Rano został z niej sam papier.", "image": "empty sandwich wrapper on a kitchen table in morning light, crumbs scattered"},
+    {"text": "Drugiej nocy z szafy dobiegło pukanie. Trzy razy. Powoli.", "image": "dark bedroom at night, wardrobe door slightly vibrating, faint light from the street"},
+    {"text": "Nie otworzyłem. Zgodnie z karteczką. Pukanie przeniosło się pod moje łóżko.", "image": "dark space under an old bed, a pale hand barely visible in the shadow"},
+    {"text": "Rano zadzwoniłem do właścicielki. Zapytałem o poprzedniego lokatora.", "image": "man on the phone by a tall window of an old tenement flat, grey morning"},
+    {"text": "Długo milczała. Potem powiedziała, że przede mną nikt tu nie mieszkał od dziesięciu lat.", "image": "elderly woman on a phone in her own apartment, worried face, old wallpaper"},
+    {"text": "Wieczorem na lodówce wisiała nowa żółta karteczka. Klej był jeszcze świeży.", "image": "single fresh yellow sticky note on a fridge door at night, kitchen light on"},
+    {"text": "Tym razem pismo było moje. Napisałem na niej: nie śpij w tym mieszkaniu. Ja zasnąłem.", "image": "close up of a handwritten yellow note in shaky handwriting, dim kitchen light"}
+  ]
+}
