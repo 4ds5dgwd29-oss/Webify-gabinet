@@ -1,0 +1,22 @@
+{
+  "title": "Gospodyni w agroturystyce nakrywała do stołu dla pięciu osób",
+  "hook": "Było nas dwoje",
+  "description": "Pojechaliśmy z dziewczyną na weekend do agroturystyki na Podlasiu. Byliśmy jedynymi gośćmi. A gospodyni co wieczór nakrywała do stołu dla pięciu osób.",
+  "question": "Zostałbyś na drugą noc? 🏡 Napisz w komentarzu 👇",
+  "visual_style": "old wooden farmhouse in Podlasie countryside, painted window shutters, autumn evening, oil lamp warm light",
+  "tags": ["straszne historie", "horror po polsku", "agroturystyka", "podlasie", "wieś", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pojechaliśmy z dziewczyną na weekend do agroturystyki na Podlasiu. Byliśmy jedynymi gośćmi.", "image": "old wooden farmhouse with blue painted shutters in the Podlasie countryside at dusk"},
+    {"text": "Gospodyni była miła i cicha. Na kolację nakryła stół dla pięciu osób.", "image": "rustic wooden table set with five plates and candles in a farmhouse kitchen"},
+    {"text": "Zapytałem, czy ktoś jeszcze przyjedzie. Uśmiechnęła się. Już są, proszę pana.", "image": "old smiling farm woman in an apron standing by a kitchen stove, warm lamp light"},
+    {"text": "Przy stole siedzieliśmy we dwoje. Trzy talerze stały puste. Ale ktoś z nich jadł.", "image": "three plates at a table with food slowly disappearing, nobody sitting there"},
+    {"text": "Pierogi znikały. Widelce stukały o talerze. Krzesła lekko się przesuwały.", "image": "wooden chairs at a farmhouse table slightly pulled out, forks lying on plates"},
+    {"text": "Moja dziewczyna zbladła i odłożyła sztućce. Gospodyni nalała kompotu do trzech pustych szklanek.", "image": "old woman pouring fruit compote into empty glasses on a candlelit table"},
+    {"text": "W nocy obudził mnie śmiech dzieci na strychu. I kroki. Trzy pary małych stóp.", "image": "dark wooden attic stairs at night, faint light from above, dust in the air"},
+    {"text": "Rano w księdze gości przeczytałem wpisy z ostatnich lat. Każdy kończył się tak samo.", "image": "old guest book on a wooden table open to handwritten pages, morning light"},
+    {"text": "Dziękujemy za gościnę. Dzieci też były zadowolone. Choć przyjechaliśmy bez dzieci.", "image": "close up of a handwritten guest book entry in Polish, faded ink"},
+    {"text": "Spakowaliśmy się w pośpiechu. Gospodyni machała nam z ganku.", "image": "old woman waving from a farmhouse porch as a car drives away down a dirt road"},
+    {"text": "A obok niej, przy płocie, stało troje dzieci w starych ubraniach. I też machały.", "image": "three pale children in old fashioned clothes standing by a wooden fence, waving"},
+    {"text": "Wieczorem w domu moja dziewczyna nakryła do stołu. Dla pięciu osób.", "image": "modern apartment kitchen table set with five plates, a woman standing beside it, blank stare"}
+  ]
+}
