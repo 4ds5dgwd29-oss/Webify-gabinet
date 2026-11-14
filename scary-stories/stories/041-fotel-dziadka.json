@@ -1,0 +1,22 @@
+{
+  "title": "Kot co wieczór syczy na pusty fotel dziadka",
+  "hook": "Fotel jest ciepły",
+  "description": "Dziadek zmarł miesiąc temu. Jego fotel stoi w salonie. Co wieczór o dwudziestej pierwszej nasz kot podchodzi do niego i syczy. Na pusty fotel.",
+  "question": "Usiadłbyś w tym fotelu? 🪑 Napisz w komentarzu 👇",
+  "visual_style": "cozy old Polish living room in the evening, worn armchair, wall unit, warm lamp light, patterned carpet",
+  "tags": ["straszne historie", "horror po polsku", "dziadek", "kot", "dom", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dziadek zmarł miesiąc temu. Jego fotel wciąż stoi w salonie, naprzeciwko telewizora.", "image": "worn brown armchair facing an old TV in a cozy Polish living room, lamp light"},
+    {"text": "Co wieczór o dwudziestej pierwszej nasz kot podchodzi do fotela i syczy.", "image": "black cat with arched back hissing at an empty armchair, evening light"},
+    {"text": "Dokładnie o tej godzinie dziadek oglądał wiadomości. Przez czterdzieści lat.", "image": "old TV screen glowing in a dark living room, an empty armchair in front of it"},
+    {"text": "Mama mówiła, że kot tęskni. Ale kot nigdy dziadka nie lubił.", "image": "cat sitting on a carpet staring at an armchair, tail twitching"},
+    {"text": "Pewnego wieczoru telewizor włączył się sam. Na kanale z wiadomościami.", "image": "old TV turning on by itself in a dark room, news program glowing on the screen"},
+    {"text": "Pilot leżał na oparciu fotela. Tam, gdzie dziadek zawsze go kładł.", "image": "old TV remote lying on the armrest of an armchair, dim lamp light"},
+    {"text": "Dotknąłem siedzenia. Było ciepłe. Jakby ktoś dopiero wstał.", "image": "close up of a hand touching the worn seat of an armchair, a visible dent in the cushion"},
+    {"text": "Mama zdecydowała, że oddamy fotel. Przyjechał pan z komisu.", "image": "man in work clothes carrying an old armchair out of an apartment door"},
+    {"text": "Tej nocy kot nie spał. Siedział przy drzwiach wejściowych i warczał.", "image": "cat crouching by an apartment front door at night, ears flat, growling"},
+    {"text": "O dwudziestej pierwszej ktoś zapukał. Trzy razy. Tak jak dziadek, gdy wracał z działki.", "image": "apartment front door at night with light from the stairwell under it"},
+    {"text": "Rano pan z komisu oddzwonił. Powiedział, że fotel wrócił. Stoi pod jego blokiem.", "image": "old brown armchair standing alone on a sidewalk in front of a block of flats, morning fog"},
+    {"text": "A wieczorem nasz kot znowu zasyczał. Na miejsce w salonie, gdzie stał fotel. Na pustą podłogę.", "image": "cat hissing at an empty spot on a carpet with four dents from chair legs, evening light"}
+  ]
+}
