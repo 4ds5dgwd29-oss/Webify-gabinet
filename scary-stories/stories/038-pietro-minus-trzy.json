@@ -1,0 +1,22 @@
+{
+  "title": "Winda w twoim bloku zjechała na piętro minus trzy",
+  "hook": "Nie wysiadaj z windy",
+  "description": "Wracasz późno do bloku. Naciskasz dziesiąte piętro. Winda rusza w dół. Na wyświetlaczu pojawia się minus trzy. Twój blok ma tylko piwnicę.",
+  "question": "Wysiadłbyś na minus trzecim? 🛗 Napisz w komentarzu 👇",
+  "visual_style": "old elevator in a Polish block of flats at night, scratched metal walls, flickering ceiling light, concrete",
+  "tags": ["straszne historie", "horror po polsku", "winda", "blok", "pov", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Wracasz późno. Wchodzisz do windy i naciskasz dziesiątkę. Winda rusza. W dół.", "image": "inside an old scratched elevator at night, a finger pressing button 10, flickering light"},
+    {"text": "Na wyświetlaczu zero. Potem minus jeden. Piwnica. A potem minus dwa.", "image": "old red digital elevator display showing minus two, dark scratched metal"},
+    {"text": "Twój blok ma tylko jedną piwnicę. Winda jedzie dalej. Minus trzy.", "image": "elevator display glowing minus three in a dim cabin"},
+    {"text": "Drzwi się otwierają. Za nimi korytarz. Taki sam jak na twoim piętrze. Tylko ciemniejszy.", "image": "elevator doors opening onto a dim block of flats corridor that looks normal but too dark"},
+    {"text": "Na drzwiach mieszkań te same nazwiska co u ciebie. Twoje też.", "image": "apartment door in a dark corridor with a familiar nameplate, faint light"},
+    {"text": "Twoje drzwi są uchylone. W środku pali się światło. Ktoś ogląda telewizję.", "image": "slightly open apartment door with warm TV light flickering inside, dark corridor"},
+    {"text": "Słyszysz swój głos. Ktoś w środku rozmawia przez telefon. Twoim głosem.", "image": "silhouette of a person sitting on a couch watching TV, seen through a half open door"},
+    {"text": "Cofasz się do windy. Wciskasz dziesiątkę jak szalony.", "image": "hand frantically pressing elevator buttons, panel glowing"},
+    {"text": "Drzwi zamykają się powoli. W szczelinie widzisz, jak ktoś wychodzi z twojego mieszkania.", "image": "elevator doors closing, through the gap a figure stepping out of an apartment into the corridor"},
+    {"text": "Ma twoją twarz. I idzie do windy.", "image": "figure walking down a dark corridor toward the elevator, face hidden in shadow"},
+    {"text": "Winda dojeżdża na dziesiąte. Wbiegasz do mieszkania i zamykasz drzwi.", "image": "person locking an apartment front door from inside, dark hallway"},
+    {"text": "Dziesięć minut później dzwoni domofon. Twój głos mówi: wpuść mnie. Ktoś zajął moje mieszkanie.", "image": "intercom handset ringing on a hallway wall at night, small screen glowing"}
+  ]
+}
