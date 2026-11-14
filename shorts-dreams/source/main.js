@@ -32,6 +32,7 @@ window.renderAt = (t) => {
   ui.subs(t, cues);
   let d = 0;
   for (const s of shots) if (s !== shots[0] && !s.nocut) d = Math.max(d, 1 - Math.abs(v - s.a) / 0.14);
+  if (st && st.black) d = Math.max(d, st.black / 0.92);
   if (S.fadeOut) d = Math.max(d, clamp((v - S.fadeOut) / 0.8));
   d = Math.max(d, 1 - clamp((v + OFF) / 0.25));
   fadeEl.style.opacity = clamp(d) * (S.fadeOut && v > S.fadeOut ? 1 : 0.92);

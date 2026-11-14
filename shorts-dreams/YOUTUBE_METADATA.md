@@ -46,3 +46,23 @@ Which dream do you still remember? 👇 Full series: Part 1 → Part 2 → Part 
 
 ### Suggested upload order
 Part 2 → Part 3 → Part 4, one day apart. In each Short, add the next part as the „Related video”.
+
+---
+
+## BONUS — `sleep_24_hours_without_sleep.mp4` (43.7 s)
+**Title (A, main):** What 24 Hours Without Sleep Does to Your Brain 😵 #shorts
+**Title (B, A/B test):** Your Brain After 24 Hours Awake = Legally Drunk 🍷
+
+**Description:**
+16 hours: fine. 19 hours: like a drink or two. 21 hours: microsleeps. 24 hours: reaction time similar to being legally drunk, and your amygdala reacts ~60% more strongly.
+Good news: one full night of sleep undoes most of it.
+How many hours have YOU been awake right now? 👇
+
+**Hashtags:** #shorts #sleep #brain #allnighter #science #neuroscience #health #facts
+
+**Pinned comment:** Comment how many hours you've been awake right now 👇 (record so far: ?)
+
+**Tips for reach:**
+- Post at 18:00–21:00 viewer time: people watch it before bed, which fits the topic.
+- The first frame already shows the hook ("24 hours without sleep" + a clock running through the night). Don't cut the start.
+- Pin the comment with the question: comments boost reach on Shorts.

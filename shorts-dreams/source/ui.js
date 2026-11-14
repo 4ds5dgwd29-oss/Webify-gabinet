@@ -27,7 +27,7 @@ export function hud(t, keys) {
   const fs = chg(prev || {}, k, 'stage') ? eo(age / 0.45) : 1;
   const fa = chg(prev || {}, k, 'state') ? eo(age / 0.45) : 1;
   const fc = chg(prev || {}, k, 'clock') ? eo(age / 0.3) : 1;
-  html(tl, `<div class="lbl">SLEEP STAGE</div><div class="stage" style="opacity:${fs};transform:translateY(${(1 - fs) * 18}px)">${k.stage}</div>`);
+  html(tl, `<div class="lbl">${k.lbl || 'SLEEP STAGE'}</div><div class="stage" style="opacity:${fs};transform:translateY(${(1 - fs) * 18}px)">${k.stage}</div>`);
   html(tr, `<div class="lbl">YOU ARE</div><div class="state ${k.hot ? 'hot' : ''}" style="opacity:${fa};letter-spacing:${0.04 + (1 - fa) * 0.25}em">${k.state}</div><div class="lbl clk" style="opacity:${fc}">${k.clock}</div>`);
 }
 
