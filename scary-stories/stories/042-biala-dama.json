@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o Białej Damie. Nie zostawaj w zamku po zamknięciu",
+  "hook": "Ona liczy zwiedzających",
+  "description": "W wielu polskich zamkach opowiada się o Białej Damie. Przewodnicy żartują z niej za dnia. Ale żaden nie zostaje w zamku po zamknięciu.",
+  "question": "Zostałbyś na noc w zamku? 🏰 Napisz w komentarzu 👇",
+  "visual_style": "old Gothic castle in Lower Silesia at dusk, stone corridors, tapestries, candle-like lamps, fog over the courtyard",
+  "tags": ["straszne historie", "horror po polsku", "biała dama", "zamek", "polskie legendy", "duchy", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "W wielu polskich zamkach opowiada się o Białej Damie. Przewodnicy żartują z niej za dnia.", "image": "old Gothic castle on a hill at dusk, fog in the courtyard, tourists leaving"},
+    {"text": "Mówi się, że to pani zamku, która czekała na męża z wojny. Nigdy nie wrócił.", "image": "old painted portrait of a pale noblewoman in a white dress in a castle hall"},
+    {"text": "Od tamtej pory po zamknięciu chodzi korytarzami i liczy wychodzących. Szuka tego jednego.", "image": "long stone castle corridor at night, a pale white figure far away at the end"},
+    {"text": "Pracowałem tam jako przewodnik jedno lato. Ostatnia grupa wychodziła o osiemnastej.", "image": "young tour guide leading a group of tourists through a castle hall, late afternoon light"},
+    {"text": "Pewnego dnia liczyłem ludzi przy bramie. Weszło dwadzieścia osób. Wyszło dziewiętnaście.", "image": "tour guide counting people at a castle gate with a clicker, worried face"},
+    {"text": "Wróciłem do środka szukać zguby. Korytarze były puste. Zapadał zmrok.", "image": "empty dark castle corridor with stone walls, evening light through narrow windows"},
+    {"text": "W sali rycerskiej stała kobieta w białej sukni. Odwrócona tyłem. Patrzyła w okno.", "image": "woman in a long white old fashioned dress standing by a castle window, back turned, dusk"},
+    {"text": "Powiedziałem, że zamek jest zamknięty. Nie odwróciła się. Zapytała tylko: wrócił już?", "image": "close up of the back of a pale woman's head with long hair, cold blue light"},
+    {"text": "Odpowiedziałem, że nie wiem, o kim mówi. Wtedy się odwróciła. Nie miała twarzy. Tylko mgłę.", "image": "pale figure in a white dress with a face made of swirling mist, castle hall"},
+    {"text": "Uciekłem. Brama była zamknięta od zewnątrz. Waliłem w nią do rana.", "image": "young man pounding on a heavy wooden castle gate at night, torch light"},
+    {"text": "Rano stróż mnie wypuścił i zapytał, czemu w nocy grałem w sali rycerskiej na pianinie.", "image": "old castle guard unlocking a gate in morning fog, puzzled expression"},
+    {"text": "W zamku nie ma pianina. Ale w księdze wejść, przy mojej grupie, ktoś dopisał jedną osobę. Mnie.", "image": "old castle visitors book with a handwritten name added at the bottom of a list, morning light"}
+  ]
+}
