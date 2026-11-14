@@ -1,0 +1,22 @@
+{
+  "title": "Zasady nocnej zmiany na stacji benzynowej przy trasie",
+  "hook": "Nie obsługuj dystrybutora 7",
+  "description": "Dostałem pracę na nocnej zmianie na stacji przy pustej trasie. Kierownik dał mi kartkę z zasadami. Myślałem, że to żart dla nowych. Do trzeciej w nocy.",
+  "question": "Którą zasadę złamałbyś pierwszy? ⛽ Napisz w komentarzu 👇",
+  "visual_style": "small lonely gas station by an empty Polish highway at night, bright canopy lights, fog, dark forest around",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "stacja benzynowa", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Nocna zmiana na stacji przy pustej trasie. Kierownik dał mi kartkę z zasadami.", "image": "small gas station by an empty highway at night, bright canopy lights, fog, forest behind"},
+    {"text": "Zasada pierwsza. Dystrybutor numer siedem nie działa. Nigdy go nie obsługuj.", "image": "old gas pump with number 7 and an out of order sign, foggy night"},
+    {"text": "Zasada druga. Jeśli o trzeciej przyjedzie czarny bus bez tablic, zgaś światło w sklepie.", "image": "black van without license plates parked at a gas station at night, headlights on"},
+    {"text": "Zasada trzecia. Nie odpowiadaj, gdy ktoś puka w szybę od strony lasu.", "image": "back window of a gas station shop at night, dark forest outside, handprint on the glass"},
+    {"text": "Do drugiej była cisza. Kierowcy tirów, kawa, hot dogi.", "image": "truck driver buying coffee at a gas station counter at night, tired cashier"},
+    {"text": "O trzeciej na stację wjechał czarny bus. Stanął przy siódemce.", "image": "black van stopping at a gas pump numbered 7 under flickering canopy light"},
+    {"text": "Zgasiłem światło. Ale terminal przy kasie zapiszczał. Ktoś tankował na siódemce.", "image": "card terminal glowing in a dark gas station shop, cashier hiding behind the counter"},
+    {"text": "Licznik kręcił się sam. Dziesięć litrów. Sto. Tysiąc. Bus nie miał wlewu paliwa.", "image": "gas pump display numbers spinning fast, fuel nozzle hanging in the air, night fog"},
+    {"text": "Wtedy ktoś zapukał w tylną szybę. Od strony lasu. Trzy razy.", "image": "dark gas station shop interior seen from inside, a pale silhouette behind the back window"},
+    {"text": "Głos kierownika zawołał: otwórz, zapomniałem kluczy. Prawie wstałem.", "image": "cashier crouching behind a counter in the dark, staring at the back door"},
+    {"text": "Ale kierownik siedział na zapleczu. Patrzył na mnie przez szparę w drzwiach i kręcił głową.", "image": "older man peeking through a slightly open back room door in the dark, shaking his head"},
+    {"text": "Rano zapytałem go, co to było. Odpowiedział: nie wiem. Ja tu tylko pracuję od nocy, w której otworzyłem.", "image": "pale gas station manager standing in morning fog by pump number 7, faint smile"}
+  ]
+}
