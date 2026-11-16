@@ -1,0 +1,22 @@
+{
+  "title": "Jestem dyspozytorem 112. Zadzwoniła dziewczynka spod mojego adresu",
+  "hook": "Ktoś jest w szafie",
+  "description": "Pracuję na nocnej zmianie w centrum powiadamiania ratunkowego. O drugiej w nocy odebrałem zgłoszenie. Dziewczynka szeptała, że ktoś jest w jej szafie. Podała adres. Mój adres.",
+  "question": "Co zrobiłbyś na jego miejscu? 🚨 Napisz w komentarzu 👇",
+  "visual_style": "Polish emergency call center at night, dark room with glowing monitors and headsets, quiet suburban house in the dark",
+  "tags": ["straszne historie", "horror po polsku", "112", "dyspozytor", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję nocami jako dyspozytor numeru alarmowego. O drugiej odebrałem zgłoszenie.", "image": "dispatcher with a headset sitting in front of glowing monitors in a dark call center"},
+    {"text": "Dziewczynka szeptała. Proszę pana, ktoś jest w mojej szafie. Słyszę, jak oddycha.", "image": "close up of a headset microphone and a screen showing an incoming call"},
+    {"text": "Zapytałem o adres. Podała ulicę. Numer domu. Mój numer domu.", "image": "computer screen with an address field highlighted on a dispatch map, dark room"},
+    {"text": "Zapytałem, jak ma na imię. Zosia. Tak jak moja córka. Ma sześć lat.", "image": "framed photo of a little girl on a dispatcher's desk next to a keyboard"},
+    {"text": "Zadzwoniłem do żony. Odebrała zaspana. Zosia śpi. Właśnie do niej zajrzałam.", "image": "man holding a mobile phone to his ear in a dark call center, tense face"},
+    {"text": "Ale w słuchawce służbowej dziewczynka wciąż szeptała. Tato, to ty? Drzwi szafy się otwierają.", "image": "close up of a dispatch headset on a desk with a small light blinking"},
+    {"text": "Wysłałem patrol pod swój dom. Siedziałem i słuchałem. W tle skrzypiały drzwi.", "image": "police car driving down a dark suburban street at night, lights off"},
+    {"text": "Potem dziewczynka zamilkła. A w słuchawce odezwał się inny głos. Niski. Spokojny.", "image": "dark child's bedroom with a wardrobe door slightly open, moonlight"},
+    {"text": "Powiedział: nie przyjeżdżajcie. Ona już śpi. Tutaj, ze mną.", "image": "dispatcher frozen with his hand on the headset, monitors glowing on his face"},
+    {"text": "Patrol zadzwonił po pięciu minutach. W domu wszystko w porządku. Żona i córka śpią.", "image": "police officer standing at the door of a quiet suburban house at night"},
+    {"text": "Rano sprawdziłem nagranie. System zapisał numer, z którego dzwoniono. Ten numer nie istnieje od dwudziestu lat.", "image": "computer screen with a call log and a highlighted phone number, early morning light"},
+    {"text": "Należał do domu, który stał na naszej działce, zanim go zburzono. Do pokoju dziecięcego.", "image": "old black and white photo of a small house with a child's window lit"}
+  ]
+}
