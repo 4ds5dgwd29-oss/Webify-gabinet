@@ -1,0 +1,22 @@
+{
+  "title": "Wystawiłem na sprzedaż stary wózek ze strychu. Kupujący zapytał o dziecko",
+  "hook": "Czy dziecko jest w zestawie?",
+  "description": "Po przeprowadzce znalazłem na strychu stary, piękny wózek dziecięcy. Wystawiłem go w internecie. Pierwsza wiadomość przyszła o trzeciej w nocy. Czy dziecko jest w zestawie?",
+  "question": "Sprzedałbyś ten wózek? 🍼 Napisz w komentarzu 👇",
+  "visual_style": "old Polish house after moving in, dusty attic, antique pram with a hood, dark hallway at night, phone screen glow",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "wózek", "strych", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Po przeprowadzce znalazłem na strychu stary wózek dziecięcy. Piękny, z budką. Wystawiłem go w internecie.", "image": "antique baby pram with a hood standing in a dusty attic, light through a small window"},
+    {"text": "Pierwsza wiadomość przyszła o trzeciej w nocy. Dzień dobry. Czy dziecko jest w zestawie?", "image": "phone screen glowing in a dark bedroom with a new message notification"},
+    {"text": "Odpisałem, że to chyba żart. Sprzedaję tylko wózek. Pusty.", "image": "man sitting in bed at night typing on a phone, annoyed face"},
+    {"text": "Odpowiedź przyszła od razu. Nie jest pusty. Proszę zajrzeć pod budkę.", "image": "close up of a phone chat with a short reply, dark room"},
+    {"text": "Wózek stał w przedpokoju. Podszedłem z latarką. Pod budką leżał mały, zawinięty kocyk.", "image": "old pram in a dark hallway lit by a flashlight, a small folded blanket inside"},
+    {"text": "Kocyk był ciepły. Jakby ktoś przed chwilą z niego wyszedł.", "image": "hand touching a small knitted baby blanket in an old pram, flashlight light"},
+    {"text": "Napisałem: kim pan jest? Kupujący przysłał zdjęcie. Mój przedpokój. Wózek. Zrobione przed chwilą.", "image": "phone screen showing a photo of a dark hallway with an old pram"},
+    {"text": "Na zdjęciu stałem przy wózku z latarką. Plecami do aparatu. Zdjęcie zrobiono z wnętrza mieszkania.", "image": "dark apartment hallway seen from a bedroom doorway, a man with a flashlight by a pram"},
+    {"text": "Odwróciłem się. W korytarzu nikogo. Tylko drzwi na strych były uchylone.", "image": "attic door slightly open at the top of narrow stairs, darkness behind it"},
+    {"text": "Kolejna wiadomość. Odbiorę ją dziś. Ona i tak płacze już tylko do mnie.", "image": "phone on a hallway floor glowing with a new message, dark around it"},
+    {"text": "I wtedy wózek zaczął się kołysać. Sam. A spod budki dobiegł cichy płacz.", "image": "old pram gently rocking by itself in a dark hallway, moonlight from a window"},
+    {"text": "Rano wózka nie było. Ogłoszenie zniknęło. Została tylko ocena od kupującego. Polecam. Sprzedawca oddał wszystko.", "image": "empty dark hallway in morning light with faint wheel marks in dust on the floor"}
+  ]
+}
