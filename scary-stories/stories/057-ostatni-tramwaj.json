@@ -1,0 +1,22 @@
+{
+  "title": "Zasady dla motorniczego ostatniego tramwaju. Nie zatrzymuj się na Cmentarnej",
+  "hook": "Nie otwieraj drzwi",
+  "description": "Zostałem motorniczym. Pierwszy kurs nocny dostałem po tygodniu. Starszy kolega wcisnął mi w rękę kartkę z zasadami. Powiedział, że w regulaminie ich nie ma. Ale lepiej ich przestrzegać.",
+  "question": "Którą zasadę złamałbyś pierwszy? 🚋 Napisz w komentarzu 👇",
+  "visual_style": "old Polish city at night, empty tram with yellow interior lights, wet tracks, foggy streets, cemetery wall along the route",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "tramwaj", "motorniczy", "nocna zmiana", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Zostałem motorniczym. Przed pierwszym nocnym kursem starszy kolega dał mi kartkę z zasadami.", "image": "old tram depot at night, an older tram driver handing a folded note to a young one"},
+    {"text": "Zasada pierwsza. Na przystanku Cmentarna nie zatrzymuj się. Nawet jeśli ktoś macha.", "image": "lonely tram stop by a long cemetery wall at night, fog, one street lamp"},
+    {"text": "Zasada druga. Nie patrz w lusterko po północy. Licz pasażerów tylko w kamerze.", "image": "tram driver's mirror reflecting an empty tram interior with yellow lights"},
+    {"text": "Zasada trzecia. Jeśli ktoś zadzwoni do kabiny, nie odpowiadaj. Ostatni wagon jest zawsze pusty.", "image": "small intercom button glowing red inside a dark tram driver's cabin"},
+    {"text": "Kurs szedł spokojnie. Pijany student. Pielęgniarka po dyżurze. Potem nikt.", "image": "empty tram interior at night, yellow seats, rain on the windows"},
+    {"text": "Na Cmentarnej stała dziewczynka. W cienkiej sukience. Machała. Był listopad.", "image": "little girl in a thin summer dress waving at a tram stop by a cemetery, fog"},
+    {"text": "Przejechałem. Kątem oka zerknąłem w lusterko. Dziewczynka siedziała w ostatnim wagonie.", "image": "tram mirror reflecting a small pale girl sitting alone in the last car"},
+    {"text": "Zadzwonił interkom z ostatniego wagonu. Raz. Drugi. Dziesiąty.", "image": "tram driver's hand hovering over a glowing intercom button, tense"},
+    {"text": "Odebrałem. Cichy głos zapytał: proszę pana, czy ten tramwaj jedzie do domu?", "image": "close up of a tram intercom speaker in a dark cabin"},
+    {"text": "Na kamerze ostatni wagon był pusty. Ale szyba była zaparowana. Od środka.", "image": "grainy tram camera monitor showing an empty car with a fogged window"},
+    {"text": "Na zaparowanej szybie ktoś wypisał palcem dwa słowa. Zatrzymaj się.", "image": "fogged tram window with a small child's handprint, night city outside"},
+    {"text": "Na zajezdni kolega spytał tylko, czy odebrałem. Kiwnąłem głową. Westchnął. Teraz ona jeździ z tobą.", "image": "older tram driver lighting a cigarette in a depot at dawn, worried face"}
+  ]
+}
