@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o strzydze. Człowiek, który rodzi się z dwiema duszami",
+  "hook": "Ma dwie dusze",
+  "description": "Na dawnej polskiej wsi wierzono, że niektórzy rodzą się z dwiema duszami. Za życia wyglądają jak wszyscy. Ale gdy umrą, umiera tylko jedna dusza. Druga wstaje nocą.",
+  "question": "Wierzysz w strzygi? 🦉 Napisz w komentarzu 👇",
+  "visual_style": "old Polish village in the 18th century in late autumn, wooden cottages with thatched roofs, misty cemetery by a small wooden church, moonlight",
+  "tags": ["straszne historie", "horror po polsku", "strzyga", "polskie legendy", "słowiańskie demony", "wieś", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na dawnej polskiej wsi wierzono, że niektórzy rodzą się z dwiema duszami. Takiego człowieka nazywano strzygoniem.", "image": "old wooden village cottages with thatched roofs under a full moon, mist over the fields"},
+    {"text": "Poznawano go po dwóch rzędach zębów. I po tym, że nigdy nie chorował. Był blady i bardzo silny.", "image": "pale young man in old peasant clothes standing alone at the edge of a village"},
+    {"text": "Za życia był jak inni. Orał pole. Chodził do kościoła. Tylko psy zawsze na niego warczały.", "image": "village dogs barking at a pale man walking down a muddy village road"},
+    {"text": "Ale gdy umierał, umierała tylko jedna dusza. Druga zostawała w ciele. I nocą wstawała z grobu.", "image": "old village cemetery with wooden crosses in moonlight, fresh dirt on one grave"},
+    {"text": "Strzyga chodziła po wsi i pukała do okien. Wołała ludzi po imieniu głosem kogoś bliskiego.", "image": "pale hand knocking on a small cottage window at night, candle light inside"},
+    {"text": "Kto odpowiedział, umierał przed świtem. Rano znajdowano go w łóżku. Bladego. Bez kropli krwi.", "image": "empty wooden bed in a peasant cottage at dawn, a rosary on the pillow"},
+    {"text": "Dlatego strzygoni chowano inaczej. Twarzą do ziemi. Z sierpem na szyi. Z kamieniem w ustach.", "image": "old iron sickle lying on dark soil next to a wooden coffin, cemetery at dusk"},
+    {"text": "W jednej wsi pod Krakowem zapomniano o tym przy pogrzebie młynarza. Pochowano go zwyczajnie.", "image": "small funeral procession with a wooden coffin walking to a village church in autumn"},
+    {"text": "Tydzień później zaczęło się pukanie. Co noc w innym domu. Co rano nowy pogrzeb.", "image": "row of village cottages at night, one window lit, a dark figure between houses"},
+    {"text": "Ludzie rozkopali grób młynarza. Ciało leżało na boku. Rumiane. Z otwartymi oczami.", "image": "villagers with lanterns standing around an opened grave at night, faces horrified"},
+    {"text": "Odwrócono je twarzą do ziemi. Pukanie ustało. Wieś odetchnęła.", "image": "villagers walking away from a cemetery at dawn, fog over the graves"},
+    {"text": "Tylko syn młynarza, który miał dwa rzędy zębów, uśmiechał się tamtego ranka. Bo wiedział, że teraz kolej na niego.", "image": "pale boy standing alone in a misty cemetery at dawn, faint smile"}
+  ]
+}
