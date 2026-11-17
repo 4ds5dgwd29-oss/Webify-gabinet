@@ -1,0 +1,22 @@
+{
+  "title": "Idziesz na grzyby. Co kilka minut mijasz ten sam porzucony koszyk",
+  "hook": "Ten sam koszyk",
+  "description": "Idziesz rano na grzyby do lasu, który znasz od dziecka. Przy ścieżce stoi porzucony wiklinowy koszyk pełen grzybów. Po kwadransie mijasz go znowu. A potem jeszcze raz.",
+  "question": "Zajrzałbyś do koszyka? 🍄 Napisz w komentarzu 👇",
+  "visual_style": "foggy Polish pine and birch forest in autumn morning, moss, fallen leaves, narrow forest path, grey light",
+  "tags": ["straszne historie", "horror po polsku", "pov", "las", "grzyby", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Idziesz rano na grzyby do lasu, który znasz od dziecka. Mgła wisi nisko między sosnami.", "image": "foggy pine forest path in autumn morning, moss and fallen leaves"},
+    {"text": "Przy ścieżce stoi porzucony wiklinowy koszyk. Pełen prawdziwków. Nikogo w pobliżu.", "image": "wicker basket full of mushrooms standing alone beside a forest path in fog"},
+    {"text": "Wołasz. Halo, czyj to koszyk? Las odpowiada ciszą. Idziesz dalej.", "image": "person in a raincoat calling out in a misty forest, hands cupped"},
+    {"text": "Po kwadransie mijasz go znowu. Ten sam koszyk. To samo miejsce przy krzywej brzozie.", "image": "same wicker basket beside a crooked birch tree on a foggy path"},
+    {"text": "Skręcasz w inną ścieżkę. Idziesz szybko, prosto. Po kwadransie koszyk znowu stoi przed tobą.", "image": "person walking fast along a narrow path, basket visible ahead in the mist"},
+    {"text": "Tym razem na wierzchu leży coś nowego. Twoja czapka. Ta, którą masz na głowie.", "image": "knitted wool hat lying on top of mushrooms in a wicker basket"},
+    {"text": "Dotykasz głowy. Czapki nie ma. Telefon nie ma zasięgu. Mgła gęstnieje.", "image": "phone screen showing no signal held in a hand in a foggy forest"},
+    {"text": "Za plecami słyszysz kroki na liściach. Ktoś idzie twoim tempem. Zatrzymujesz się. Kroki też.", "image": "foggy forest path seen from behind, dark shape far between the trees"},
+    {"text": "Postanawiasz zajrzeć głębiej do koszyka. Pod grzybami coś jest.", "image": "hands lifting mushrooms from a wicker basket, something dark underneath"},
+    {"text": "Twój portfel. Twoje klucze. Twój dowód osobisty. Zdjęcie trochę starsze.", "image": "wallet, keys and an ID card lying at the bottom of a wicker basket among moss"},
+    {"text": "Wtedy ktoś kładzie ci rękę na ramieniu. Zimną. I mówi twoim głosem: to mój koszyk.", "image": "pale thin hand resting on a person's shoulder in a foggy forest"},
+    {"text": "Wieczorem leśniczy znajduje koszyk przy brzozie. Pełen grzybów. A na wierzchu leży twój telefon. Wciąż dzwoni mama.", "image": "forester in a green uniform picking up a wicker basket with a glowing phone on top, dusk fog"}
+  ]
+}
