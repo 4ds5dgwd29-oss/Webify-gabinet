@@ -1,0 +1,22 @@
+{
+  "title": "Zasady ostatniego seansu w starym kinie. Nie licz widzów w rzędzie trzynastym",
+  "hook": "Rząd trzynasty jest pusty",
+  "description": "Dostałem pracę w starym kinie studyjnym. Puszczam ostatni seans o północy. Kierowniczka dała mi kartkę z zasadami. Pierwsza brzmiała: nie sprzedawaj biletów do rzędu trzynastego.",
+  "question": "Którą zasadę złamałbyś pierwszy? 🎬 Napisz w komentarzu 👇",
+  "visual_style": "old Polish art house cinema at night, red velvet seats, flickering projector light, dusty projection booth, dark empty hall",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "kino", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dostałem pracę w starym kinie. Puszczam ostatni seans o północy. Kierowniczka dała mi kartkę z zasadami.", "image": "old cinema facade at night with a glowing sign and empty street"},
+    {"text": "Zasada pierwsza. Nie sprzedawaj biletów do rzędu trzynastego. Te miejsca są zawsze zajęte.", "image": "row of old red velvet cinema seats in a dark hall, one row marked 13"},
+    {"text": "Zasada druga. Jeśli film zatrzyma się sam, nie wychodź z kabiny. Puść go dalej.", "image": "old film projector in a dusty booth with a reel stopped, warm lamp light"},
+    {"text": "Zasada trzecia. Po seansie nie zapalaj świateł w sali, dopóki nie skończą się napisy.", "image": "dark cinema hall lit only by the glow of end credits on the screen"},
+    {"text": "Pierwszego tygodnia przychodziło kilka osób. Studenci. Para emerytów. Rząd trzynasty pusty.", "image": "few people sitting in a nearly empty cinema hall watching a film"},
+    {"text": "W piątek film zatrzymał się w połowie. Na ekranie zamarła jedna klatka.", "image": "frozen frame of an old black and white film on a cinema screen, dust in the light"},
+    {"text": "Przez okienko kabiny zobaczyłem, że rząd trzynasty jest pełny. Wszyscy siedzieli bez ruchu.", "image": "view from a projection booth window of a row of still dark silhouettes in a cinema"},
+    {"text": "I wszyscy powoli odwracali głowy. W stronę kabiny. W moją stronę.", "image": "row of pale faces in cinema seats turned toward the projection booth, flickering light"},
+    {"text": "Drżącymi rękami puściłem film dalej. Odwrócili się z powrotem do ekranu.", "image": "shaking hands threading film into an old projector, dim booth"},
+    {"text": "Po napisach rząd był pusty. Ale na każdym siedzeniu leżał stary, pożółkły bilet.", "image": "old yellowed cinema tickets lying on red velvet seats in an empty hall"},
+    {"text": "Na biletach była data. Dwudziesty listopada, rok tysiąc dziewięćset sześćdziesiąty szósty. Seans, podczas którego wybuchł pożar.", "image": "close up of an old paper cinema ticket with faded print, flashlight beam"},
+    {"text": "Wczoraj zajrzałem do kasy. W rzędzie trzynastym sprzedano jeszcze jeden bilet. Na moje nazwisko.", "image": "old cinema ticket booth at night with one printed ticket lying on the counter"}
+  ]
+}
