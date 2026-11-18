@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o zmorze. Dlaczego budzisz się w nocy i nie możesz się ruszyć",
+  "hook": "Ktoś siedzi na tobie",
+  "description": "Budzisz się w nocy. Nie możesz się ruszyć. Coś ciężkiego siedzi ci na piersi. Na dawnej polskiej wsi wiedziano, kto to jest. Zmora.",
+  "question": "Miałeś kiedyś taką noc? 😰 Napisz w komentarzu 👇",
+  "visual_style": "old Polish village cottage at night in the 19th century, wooden bed with a straw mattress, small window with moonlight, dark corners, candle",
+  "tags": ["straszne historie", "horror po polsku", "zmora", "paraliż senny", "polskie legendy", "słowiańskie demony", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Budzisz się w nocy. Nie możesz się ruszyć. Coś ciężkiego siedzi ci na piersi.", "image": "person lying frozen in bed at night, eyes wide open, dark shape on the chest"},
+    {"text": "Na dawnej polskiej wsi wiedziano, kto to jest. Zmora.", "image": "old wooden village cottage at night with one small lit window, mist around"},
+    {"text": "Mówiono, że zmorą jest żywa kobieta ze wsi. Za dnia zwyczajna. Nocą jej dusza wychodzi z ciała.", "image": "young peasant woman in a headscarf walking through a village in daylight, quiet face"},
+    {"text": "Przechodzi przez dziurkę od klucza jak dym. Siada śpiącym na piersi i dusi aż do świtu.", "image": "thin wisp of grey smoke coming through an old keyhole in a wooden door, moonlight"},
+    {"text": "Jej ciało w tym czasie leży w łóżku jak martwe. Zimne. Bez oddechu.", "image": "pale woman lying still in a wooden bed by candle light, hands folded"},
+    {"text": "Pewien parobek co noc budził się zduszony. Rano był blady i słaby jak starzec.", "image": "young farmhand sitting on a bed at dawn, exhausted and pale"},
+    {"text": "Stara babka poradziła mu, żeby zatkał dziurkę od klucza, gdy znów poczuje ciężar.", "image": "old village woman with a cane whispering advice by a cottage door"},
+    {"text": "W nocy zbudził się z kamieniem na piersi. Resztką sił sięgnął ręką i zatkał dziurkę szmatką.", "image": "hand pushing a piece of cloth into a keyhole of a wooden door at night"},
+    {"text": "Ciężar zniknął. A na jego łóżku siedziała płacząca dziewczyna. Sąsiadka zza płotu.", "image": "frightened young woman wrapped in a blanket sitting on a bed, candle light, tears"},
+    {"text": "Błagała, żeby ją wypuścił. Bo jeśli dusza nie wróci do ciała przed świtem, ciało umrze.", "image": "window of a cottage with the first grey light of dawn appearing"},
+    {"text": "Parobek wyjął szmatkę. Dziewczyna zmieniła się w dym i uciekła przez dziurkę.", "image": "grey smoke streaming out through a keyhole into the dark night"},
+    {"text": "Mówi się, że zmora nigdy nie zapomina, kto ją przyłapał. I wraca do niego co roku. Tej samej nocy.", "image": "dark figure sitting at the end of a bed in a moonlit room, face hidden in shadow"}
+  ]
+}
