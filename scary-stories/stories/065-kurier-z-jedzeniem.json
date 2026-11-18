@@ -1,0 +1,22 @@
+{
+  "title": "Zamówiłem jedzenie. Kurier napisał: oddałem pani, która otworzyła",
+  "hook": "Mieszkam sam",
+  "description": "Zamówiłem pizzę późnym wieczorem. Po pół godzinie przyszła wiadomość od kuriera. Zamówienie oddane. Pani, która otworzyła, prosiła przekazać, że już nie musi pan czekać. Mieszkam sam.",
+  "question": "Otworzyłbyś drzwi? 🍕 Napisz w komentarzu 👇",
+  "visual_style": "small Polish apartment in an old block of flats at night, dim hallway, front door with a peephole, phone screen glow, stairwell light",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "kurier", "mieszkanie", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Zamówiłem pizzę późnym wieczorem. Siedziałem przy biurku i czekałem na dzwonek.", "image": "young man sitting at a desk in a dark apartment, lit by a computer screen"},
+    {"text": "Po pół godzinie przyszła wiadomość od kuriera. Zamówienie oddane. Smacznego.", "image": "phone screen glowing with a delivery app notification on a desk"},
+    {"text": "Nikt nie dzwonił. Napisałem, że nic nie dostałem. Kurier odpisał od razu.", "image": "man typing on a phone in a dark room, confused face"},
+    {"text": "Oddałem pani, która otworzyła. Starsza pani w szlafroku. Prosiła przekazać, że już nie musi pan czekać.", "image": "close up of a phone chat with a long message, dark background"},
+    {"text": "Mieszkam sam. Od roku. Odkąd zmarła babcia, z którą dzieliłem to mieszkanie.", "image": "framed photo of an elderly woman in a bathrobe on a shelf, dim lamp light"},
+    {"text": "Poprosiłem kuriera o zdjęcie z dostawy. Przysłał je po minucie.", "image": "phone screen showing an incoming photo message in a dark room"},
+    {"text": "Moje drzwi. Uchylone. W szparze widać rękę w rękawie szlafroka. Kwiecistego. Takiego jak babci.", "image": "half open apartment door with a wrinkled hand in a flowered sleeve reaching out"},
+    {"text": "Wyszedłem do przedpokoju. Drzwi były zamknięte. Na klucz. Od środka.", "image": "locked apartment front door from inside, key in the lock, dark hallway"},
+    {"text": "Ale w kuchni pachniało pizzą. Pudełko stało na stole. Otwarte.", "image": "open pizza box on a small kitchen table in the dark, steam rising"},
+    {"text": "Obok stały dwa talerze. I dwie szklanki z herbatą. Tak, jak nakrywała babcia.", "image": "two plates and two glasses of tea on a kitchen table, an empty chair"},
+    {"text": "Z pokoju babci, zamkniętego od roku, dobiegło skrzypienie fotela. Bujanego.", "image": "closed bedroom door at the end of a dark hallway, faint light under it"},
+    {"text": "A telefon zawibrował jeszcze raz. Kurier. Pani prosiła jeszcze przekazać, żeby pan już nie wychodził. Bo teraz jest was dwoje.", "image": "phone glowing with a new message on a dark kitchen table beside a pizza box"}
+  ]
+}
