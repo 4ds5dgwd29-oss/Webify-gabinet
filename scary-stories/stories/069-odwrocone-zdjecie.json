@@ -1,0 +1,22 @@
+{
+  "title": "Co rano jedno zdjęcie na komodzie jest odwrócone do ściany. Moje",
+  "hook": "Tylko moje zdjęcie",
+  "description": "Na komodzie w salonie stoją zdjęcia całej rodziny. Co rano jedno z nich jest odwrócone twarzą do ściany. Zawsze to samo. Moje.",
+  "question": "Co byś zrobił z tym zdjęciem? 🖼️ Napisz w komentarzu 👇",
+  "visual_style": "warm Polish family living room, wooden dresser with framed family photos, lace doilies, early morning grey light",
+  "tags": ["straszne historie", "horror po polsku", "dom", "zdjęcia", "rodzina", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na komodzie w salonie stoją zdjęcia całej rodziny. Rodzice. Siostra. Babcia. Ja.", "image": "wooden dresser with several framed family photos on a lace doily, morning light"},
+    {"text": "Co rano jedno jest odwrócone twarzą do ściany. Zawsze to samo. Moje.", "image": "one framed photo turned to face the wall among others on a dresser"},
+    {"text": "Mama myślała, że to siostra robi mi głupie żarty. Siostra przysięgała, że nie.", "image": "teenage girl shrugging in a kitchen, mother looking at her suspiciously"},
+    {"text": "Zamknąłem salon na noc na klucz. Rano zdjęcie znowu stało odwrócone.", "image": "locked living room door with a key in the lock, dim hallway"},
+    {"text": "Postawiłem telefon i nagrywałem całą noc. O trzeciej ramka obróciła się sama. Powoli.", "image": "phone on a tripod recording a dark dresser with framed photos"},
+    {"text": "Na nagraniu było słychać szept. Cichy, jakby z bardzo daleka. Nie patrz na niego.", "image": "phone screen showing a dark video with a sound wave visible"},
+    {"text": "Babcia, gdy to usłyszała, zbladła. Powiedziała, że jej matka robiła tak samo. Odwracała zdjęcia tych, którzy mieli umrzeć.", "image": "elderly woman sitting in an armchair with a pale shocked face, holding a cup"},
+    {"text": "Żeby śmierć ich nie zobaczyła. Żeby przeszła obok.", "image": "old black and white photo of a stern woman in a dark dress, faded"},
+    {"text": "Od tamtej pory sam odwracam swoje zdjęcie co wieczór. Na wszelki wypadek.", "image": "hand turning a framed photo to face the wall in the evening lamp light"},
+    {"text": "Wczoraj rano moje zdjęcie stało przodem. Odwrócone z powrotem. Patrzyło prosto na pokój.", "image": "framed photo of a young man facing the room on a dresser, cold dawn light"},
+    {"text": "A wszystkie inne zdjęcia były odwrócone do ściany. Mamy. Siostry. Babci.", "image": "dresser with all framed photos turned to the wall except one, grey morning"},
+    {"text": "Szept na nagraniu z tej nocy mówił już coś innego. Teraz ty go pilnujesz.", "image": "phone screen glowing in a dark living room next to a dresser full of turned frames"}
+  ]
+}
