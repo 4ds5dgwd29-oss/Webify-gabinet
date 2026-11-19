@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o błędnych ognikach. Nigdy nie idź za światłem na bagnach",
+  "hook": "Nie idź za światłem",
+  "description": "Na polskich mokradłach od wieków widywano nocą małe, błękitne światełka. Ludzie mówili na nie błędne ogniki. Kto poszedł za nimi, już nie wracał. A one wołały ludzkimi głosami.",
+  "question": "Poszedłbyś za tym światłem? 🔵 Napisz w komentarzu 👇",
+  "visual_style": "foggy marshland in eastern Poland at night, reeds, black water, crooked willows, small floating blue lights, old wooden footbridge",
+  "tags": ["straszne historie", "horror po polsku", "błędne ogniki", "bagna", "polskie legendy", "słowiańskie demony", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na polskich mokradłach od wieków widywano nocą małe, błękitne światełka. Błędne ogniki.", "image": "small blue lights floating above black water among reeds at night, fog"},
+    {"text": "Mówiono, że to dusze ludzi, którzy utonęli w bagnie. Nikt ich nie pochował. Nikt ich nie opłakał.", "image": "crooked willow tree over a dark swamp at night, mist rising from the water"},
+    {"text": "Ogniki unoszą się nad wodą jak latarnie. I udają światło w oknie chaty.", "image": "single warm light glowing in fog over a marsh, looking like a distant window"},
+    {"text": "Zbłąkany wędrowiec myśli, że to dom. Idzie w stronę światła. Coraz głębiej w trzęsawisko.", "image": "traveler with a stick walking through reeds toward a distant light at night"},
+    {"text": "A gdy jest już po kolana w błocie, światło gaśnie. I z ciemności słychać śmiech.", "image": "man stuck knee deep in black swamp mud in total darkness, a faint blue glow behind"},
+    {"text": "Dawniej chłopi wiedzieli, co robić. Odwrócić kapotę na lewą stronę. I nie odpowiadać, gdy ogniki wołają.", "image": "peasant turning his coat inside out on a dark country road by a marsh"},
+    {"text": "Bo ogniki wołają. Głosami bliskich. Po imieniu. Pomóż mi, toniemy.", "image": "blue lights hovering in fog over reeds, the shape of a hand reaching from the water"},
+    {"text": "Pewien młynarz wracał nocą przez groblę. Usłyszał z bagna głos swojej córki.", "image": "old miller with a lantern walking on a narrow dike between marshes at night"},
+    {"text": "Wołała, że się zgubiła. Że jest jej zimno. Że widzi jego latarnię.", "image": "lantern held up high over dark swamp water, blue light in the distance"},
+    {"text": "Wszedł w trzciny. Rano znaleziono tylko jego latarnię. Zgaszoną. Na środku bagna.", "image": "extinguished old lantern lying on moss in the middle of a misty swamp at dawn"},
+    {"text": "Jego córka przespała tę noc w domu, w swoim łóżku. Nigdzie nie wychodziła.", "image": "young girl asleep in a wooden bed in a village cottage, morning light"},
+    {"text": "Mówi się, że od tamtej pory nad bagnem świeci jeden ognik więcej. Ciepły. Żółty. Jak latarnia.", "image": "one warm yellow light among cold blue ones floating over a foggy marsh at night"}
+  ]
+}
