@@ -1,0 +1,22 @@
+{
+  "title": "Pracuję nocą na bramce autostrady. O trzeciej podjeżdża auto bez kierowcy",
+  "hook": "Za kierownicą nikogo",
+  "description": "Siedzę nocami w budce na bramce autostrady. Ruch jest mały. Ale co noc o trzeciej podjeżdża ten sam stary samochód. Szyba się opuszcza. Ktoś podaje mi pieniądze. Za kierownicą nie ma nikogo.",
+  "question": "Podniósłbyś szlaban? 🚧 Napisz w komentarzu 👇",
+  "visual_style": "toll booth on a Polish highway at night, bright yellow lights, empty lanes, fog, dark fields around",
+  "tags": ["straszne historie", "horror po polsku", "autostrada", "bramka", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Siedzę nocami w budce na bramce autostrady. Po północy przejeżdża kilka aut na godzinę.", "image": "toll booth on an empty highway at night under bright yellow lights, fog"},
+    {"text": "Ale co noc o trzeciej podjeżdża ten sam samochód. Stary, bordowy, z zaparowanymi szybami.", "image": "old maroon car with fogged windows stopping at a toll booth at night"},
+    {"text": "Szyba zjeżdża w dół. Ręka podaje mi monety. Mokre i zimne.", "image": "pale wet hand holding out coins from a car window at a toll booth"},
+    {"text": "Za kierownicą nie ma nikogo. Siedzenie puste. Ręka wychodzi z ciemności w środku.", "image": "inside of an old car seen through an open window, empty driver's seat, darkness"},
+    {"text": "Podnoszę szlaban. Auto odjeżdża powoli. Na kamerze nie widać żadnego samochodu.", "image": "toll gate barrier rising over an empty lane, security monitor showing nothing"},
+    {"text": "Monety zostają. Stare, z PRL-u. Pokryte mułem.", "image": "old communist era coins covered in mud lying on a toll booth counter"},
+    {"text": "Starszy kolega mówi, żeby zawsze podnosić szlaban. Kto raz nie podniósł, już nie wrócił do pracy.", "image": "older toll worker in a reflective vest drinking coffee, serious face"},
+    {"text": "Pewnej nocy zasnąłem. Obudziło mnie pukanie w szybę budki. Mokra dłoń. Bez auta.", "image": "wet handprint on the glass of a toll booth window at night"},
+    {"text": "Za szybą stała kobieta. Mokre włosy. Płaszcz ociekający wodą. Powiedziała: spóźniłam się.", "image": "pale woman with wet hair in a dripping coat standing outside a toll booth window"},
+    {"text": "Podniosłem szlaban. Poszła pieszo środkiem pasa. Zniknęła w mgle.", "image": "figure walking away along an empty highway lane into thick fog"},
+    {"text": "W archiwum przeczytałem, że kiedyś obok trasy był staw. Bordowe auto wpadło do niego w osiemdziesiątym szóstym.", "image": "old photo of a pond beside a country road with a car being pulled from water"},
+    {"text": "Wczoraj o trzeciej auto przyjechało znowu. Tym razem ręka nie podała pieniędzy. Wskazała miejsce pasażera.", "image": "open passenger door of an old maroon car at a toll booth, empty seat inside"}
+  ]
+}
