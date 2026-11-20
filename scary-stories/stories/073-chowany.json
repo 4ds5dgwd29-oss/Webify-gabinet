@@ -1,0 +1,22 @@
+{
+  "title": "Bawisz się z dziećmi w chowanego. Szukasz trojga. Znajdujesz czworo",
+  "hook": "O jedno dziecko za dużo",
+  "description": "Pilnujesz trojga dzieci siostry w starym domu na wsi. Proszą, żebyś pobawił się z nimi w chowanego. Liczysz do dwudziestu. Znajdujesz czworo.",
+  "question": "Szukałbyś dalej? 🙈 Napisz w komentarzu 👇",
+  "visual_style": "old Polish country house in the evening, creaky wooden stairs, wardrobes, attic, dim lamps, autumn darkness outside",
+  "tags": ["straszne historie", "horror po polsku", "pov", "chowany", "dzieci", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pilnujesz trojga dzieci siostry w starym domu na wsi. Proszą, żebyś pobawił się z nimi w chowanego.", "image": "three small children laughing in an old country house living room, evening lamp"},
+    {"text": "Zamykasz oczy przy ścianie. Liczysz do dwudziestu. Słyszysz tupot. Trzy pary stóp. Potem czwartą.", "image": "adult standing with face against a wall, eyes covered, dim hallway"},
+    {"text": "Szukasz. Pierwszy siedzi za zasłoną. Drugi w szafie. Trzecia pod stołem w kuchni.", "image": "child's feet sticking out from under a heavy curtain, warm lamp light"},
+    {"text": "Wszyscy znalezieni. Ale najmłodsza szepcze: jeszcze jedna. Jeszcze Zosia.", "image": "little girl whispering to an adult in a dim kitchen, finger on her lips"},
+    {"text": "W rodzinie nie ma żadnej Zosi. Dzieci mówią, że przyszła ze strychu. Że zawsze się z nimi bawi.", "image": "narrow wooden ladder leading to a dark attic hatch in a ceiling"},
+    {"text": "Śmiejesz się i wołasz. Zosiu, wygrałaś! Możesz wyjść!", "image": "adult calling out in a dark hallway with wooden doors"},
+    {"text": "Z szafy w sypialni dobiega chichot. Cichy, dziecięcy.", "image": "old wooden wardrobe in a dark bedroom, doors slightly open"},
+    {"text": "Otwierasz szafę. W środku tylko stare płaszcze. Pachną kurzem i naftaliną.", "image": "inside of an old wardrobe with hanging coats, dust in the light"},
+    {"text": "Za plecami słyszysz, jak dzieci liczą. Głośno, razem. Osiemnaście. Dziewiętnaście. Dwadzieścia.", "image": "three children standing with faces covered against a wall, counting together"},
+    {"text": "Szukam! Woła czwarty głos. Z góry. Ze strychu.", "image": "dark attic hatch slightly open above a staircase, faint light behind it"},
+    {"text": "Dzieci patrzą na ciebie. Najmłodsza mówi spokojnie: teraz ty się chowasz. Zosia zawsze szuka tylko dorosłych.", "image": "three children standing in a row in a dark hallway, staring calmly"},
+    {"text": "Siostra wraca po północy. Dzieci śpią. W domu cicho. Tylko szafa w sypialni jest zamknięta od środka.", "image": "woman with car keys standing in a dark bedroom in front of a closed wardrobe"}
+  ]
+}
