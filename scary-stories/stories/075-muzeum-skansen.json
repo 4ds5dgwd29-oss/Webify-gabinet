@@ -1,0 +1,22 @@
+{
+  "title": "Pilnuję nocą skansenu. Manekin w chacie co noc siedzi bliżej drzwi",
+  "hook": "Manekin się przesuwa",
+  "description": "Pracuję jako nocny stróż w skansenie. Kilkanaście starych chat przeniesionych z całego regionu. W jednej przy piecu siedzi manekin starej kobiety przy kołowrotku. Co noc siedzi trochę bliżej drzwi.",
+  "question": "Zamknąłbyś tę chatę na klucz? 🧶 Napisz w komentarzu 👇",
+  "visual_style": "open-air folk museum in Poland at night, old wooden thatched cottages, clay ovens, spinning wheel, moonlight, frost on the grass",
+  "tags": ["straszne historie", "horror po polsku", "skansen", "stróż", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję jako nocny stróż w skansenie. Kilkanaście starych chat przeniesionych z całego regionu.", "image": "old wooden thatched cottages in an open air museum at night, frost and moonlight"},
+    {"text": "W jednej z nich przy piecu siedzi manekin. Stara kobieta w chustce przy kołowrotku.", "image": "mannequin of an old woman in a headscarf sitting at a spinning wheel by a clay oven"},
+    {"text": "Pierwszej nocy zauważyłem, że siedzi nie przy piecu, a na środku izby.", "image": "old woman mannequin on a stool in the middle of a dark cottage room, flashlight beam"},
+    {"text": "Rano kustoszka przestawiła ją z powrotem. Powiedziała, że to pewnie sprzątaczka.", "image": "museum curator moving a mannequin back toward an oven, morning light"},
+    {"text": "Ale co noc było to samo. Coraz bliżej drzwi. Kołowrotek za nią. I kłębek wełny.", "image": "spinning wheel and a ball of wool on a wooden floor near a cottage door"},
+    {"text": "Postawiłem kamerę w izbie. Na nagraniu nic się nie ruszało. Przez całą noc. A rano siedziała w progu.", "image": "mannequin sitting on the threshold of an open cottage door at dawn"},
+    {"text": "W archiwum skansenu znalazłem notatkę. Chatę przeniesiono z wioski zalanej pod zalew.", "image": "old archive folder with a black and white photo of a village cottage"},
+    {"text": "Właścicielka nie chciała jej oddać. Do końca siedziała przy kołowrotku. Mówiła, że chata nie pojedzie bez niej.", "image": "old black and white photo of an old woman at a spinning wheel in a cottage"},
+    {"text": "Manekina zrobiono później. Na jej podobieństwo. Z jej ubraniem i chustką.", "image": "close up of an old embroidered headscarf on a mannequin, dim light"},
+    {"text": "Wczoraj o trzeciej usłyszałem w stróżówce znajomy dźwięk. Turkot kołowrotka.", "image": "small guard hut with a lit window in a dark open air museum, frost"},
+    {"text": "Wyszedłem z latarką. Ślady w szronie prowadziły od chaty prosto do mojej stróżówki.", "image": "small footprints in frost on grass leading from a cottage to a guard hut"},
+    {"text": "Odwróciłem się. Za oknem stróżówki, na moim krześle, siedziała ona. I przędła. Patrzyła na drogę. Na zalew.", "image": "old woman figure at a spinning wheel seen through a frosty window of a guard hut, moonlight"}
+  ]
+}
