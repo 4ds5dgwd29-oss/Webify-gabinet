@@ -1,0 +1,22 @@
+{
+  "title": "Co noc ktoś zmywa naczynia w naszej kuchni. Rano są mokre i poukładane",
+  "hook": "Ktoś zmywa w nocy",
+  "description": "Od przeprowadzki zostawiamy wieczorem brudne naczynia w zlewie. Rano są umyte, wytarte i poukładane. Zawsze w tej samej kolejności. Nikt z nas tego nie robi.",
+  "question": "Zostawiłbyś naczynia w zlewie? 🍽️ Napisz w komentarzu 👇",
+  "visual_style": "old Polish tenement apartment kitchen at night, enamel sink, dish rack, tiled walls, single bulb, window to a dark courtyard",
+  "tags": ["straszne historie", "horror po polsku", "dom", "kuchnia", "kamienica", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Od przeprowadzki zostawiamy wieczorem brudne naczynia w zlewie. Rano są umyte i poukładane.", "image": "clean wet plates neatly stacked on a dish rack in an old kitchen, morning light"},
+    {"text": "Talerze od największego. Kubki uchem w lewo. Nikt z nas tak nie układa.", "image": "row of mugs with handles all facing left on a kitchen shelf"},
+    {"text": "Żona myślała, że to ja lunatykuję. Ja myślałem, że ona. Przywiązałem sobie dzwoneczek do nogi.", "image": "small bell tied with string around an ankle on a bed, dim bedroom"},
+    {"text": "W nocy dzwoneczek milczał. A z kuchni dochodził szum wody. Brzęk talerzy.", "image": "dark hallway leading to a kitchen with a faint light and running water sound"},
+    {"text": "Podszedłem pod drzwi. Ktoś nucił. Starą piosenkę. Kobiecym głosem.", "image": "kitchen door slightly open, warm light and steam coming through the gap"},
+    {"text": "Otworzyłem. Kuchnia była pusta. Kran zakręcony. Talerze ociekały wodą.", "image": "empty old kitchen at night with dripping plates on a rack, enamel sink"},
+    {"text": "Na stole leżała ścierka. Złożona w kostkę. Ciepła.", "image": "neatly folded kitchen towel on a wooden table under a bare bulb"},
+    {"text": "Sąsiadka z dołu powiedziała, że przed nami mieszkała tu pani Irena. Pedantka. Sprzątała do ostatniego dnia.", "image": "elderly neighbor talking in a stairwell of an old tenement, holding a shopping bag"},
+    {"text": "Zmarła w tej kuchni. Przy zlewie. Z talerzem w ręku. Rodzina zabrała wszystko oprócz jednej ścierki.", "image": "old embroidered kitchen towel hanging on a hook by a sink"},
+    {"text": "Spaliliśmy ścierkę. Przez tydzień nikt nie zmywał. Naczynia stały brudne.", "image": "pile of dirty dishes in an old enamel sink, night"},
+    {"text": "Ósmej nocy obudził mnie brzęk. Tym razem z sypialni. Ktoś układał coś na szafce.", "image": "dark bedroom with a figure's shadow by a dresser, faint light"},
+    {"text": "Rano obok łóżka leżały nasze ubrania. Wyprasowane. Złożone w kostkę. Na każdym kartka. Bałagan.", "image": "neatly folded clothes on a chair by a bed with a small handwritten note on top"}
+  ]
+}
