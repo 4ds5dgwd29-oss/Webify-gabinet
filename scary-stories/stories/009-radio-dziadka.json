@@ -1,0 +1,48 @@
+{
+  "title": "Radio, które mówi o jutrze",
+  "hook": "Nie słuchaj tej stacji",
+  "description": "Po dziadku zostało stare radio. Na jednej częstotliwości spiker czyta wiadomości. Z jutra.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "radio",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "przepowiednia",
+    "paranormalne"
+  ],
+  "scenes": [
+    {
+      "text": "Po dziadku zostało stare lampowe radio. Kazał mi obiecać, że nigdy nie przestawię gałki poza czerwoną kreskę.",
+      "image": "old vintage tube radio with glowing dial on a wooden shelf, red line painted on the dial, dark room"
+    },
+    {
+      "text": "Oczywiście przestawiłem. Wśród szumów usłyszałem spikera. Czytał wiadomości. Spokojnie, jak w latach sześćdziesiątych.",
+      "image": "close up of a hand turning the tuning knob of an old radio, dial glowing amber, dust in the air"
+    },
+    {
+      "text": "Mówił o pożarze stodoły w naszej wsi. Ze szczegółami. Następnego dnia stodoła sąsiada spłonęła.",
+      "image": "barn burning at night in a Polish village, flames reflecting on snow, silhouettes of people watching"
+    },
+    {
+      "text": "Słuchałem codziennie. Wypadek na moście. Burza. Wszystko się sprawdzało. Co do minuty.",
+      "image": "old radio glowing in a dark kitchen, a man sitting in front of it with a notebook full of notes"
+    },
+    {
+      "text": "W piątek spiker zrobił pauzę. A potem przeczytał moje imię i nazwisko. I adres.",
+      "image": "man's terrified face lit by the warm glow of a radio dial in a pitch dark room"
+    },
+    {
+      "text": "Wyciągnąłem wtyczkę z gniazdka. Radio grało dalej. Spiker powiedział: proszę nie wyłączać odbiornika. Komunikat nie jest skończony.",
+      "image": "unplugged power cord lying on the floor next to an old radio that is still glowing, ominous"
+    },
+    {
+      "text": "Teraz siedzę przy radiu i czekam, aż dokończy. Bo dziadek też kiedyś przestawił gałkę. Dzień przed śmiercią.",
+      "image": "empty armchair in front of a glowing old radio, wall clock showing midnight, deep shadows"
+    }
+  ],
+  "question": "Wyłączyłbyś radio czy słuchał dalej? 📻 Napisz w komentarzu 👇"
+}

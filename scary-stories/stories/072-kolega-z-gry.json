@@ -1,0 +1,22 @@
+{
+  "title": "Przeczytałem czat syna z kolegą z gry. Kolega mieszka w naszej piwnicy",
+  "hook": "Kolega mieszka w piwnicy",
+  "description": "Mój ośmioletni syn całymi wieczorami gra na tablecie. Ma tam kolegę, z którym pisze. Pewnego wieczoru przeczytałem ich rozmowę. Kolega pytał, czy tata już śpi.",
+  "question": "Zszedłbyś do tej piwnicy? 🎮 Napisz w komentarzu 👇",
+  "visual_style": "Polish family house at night, child's bedroom with a glowing tablet, dark basement door in the hallway, quiet suburban street",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "tablet", "piwnica", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Mój ośmioletni syn całymi wieczorami gra na tablecie. Ma tam kolegę, z którym pisze.", "image": "young boy lying in bed at night playing on a glowing tablet"},
+    {"text": "Pewnego wieczoru, gdy zasnął, przeczytałem ich rozmowę. Kolega pytał: czy tata już śpi?", "image": "tablet screen glowing on a child's bed with a chat window open"},
+    {"text": "Syn odpisał: jeszcze nie, ogląda telewizję. Kolega: to poczekam. Jak zawsze.", "image": "close up of a children's game chat with short messages, dark bedroom"},
+    {"text": "Przewinąłem wyżej. Kolega wiedział, co jedliśmy na obiad. Jakiego koloru jest ręcznik w łazience.", "image": "father sitting on the edge of a child's bed reading a tablet, worried face"},
+    {"text": "Pisał, że jest mu zimno. Że w piwnicy jest ciemno. Że lubi słuchać, jak chodzimy nad nim.", "image": "dark basement door at the end of a hallway, light switch beside it"},
+    {"text": "Syn pytał, czemu nie przyjdzie na górę. Kolega odpisał: przychodzę. Jak wszyscy śpią.", "image": "tablet screen with a new message, the boy asleep beside it"},
+    {"text": "Zszedłem do piwnicy z latarką. Słoiki. Rower. Stary piec. Nikogo.", "image": "basement with shelves of jars, an old bicycle and a furnace, flashlight beam"},
+    {"text": "Za piecem był koc. Poduszka. Okruchy naszych ciastek. I ładowarka podpięta do gniazdka.", "image": "blanket and pillow on a concrete floor behind an old furnace, a charger cable"},
+    {"text": "Wybiegłem na górę i zamknąłem piwnicę na klucz. Zadzwoniłem na policję.", "image": "hand locking a basement door with a key, dark hallway"},
+    {"text": "Przeszukali cały dom. Nikogo nie znaleźli. Tylko koc. Powiedzieli, że to pewnie bezdomny. Że już uciekł.", "image": "two police officers with flashlights in a dark basement"},
+    {"text": "W nocy tablet syna zapalił się na stoliku. Nowa wiadomość od kolegi.", "image": "tablet lighting up on a nightstand in a dark child's room"},
+    {"text": "Twój tata zamknął piwnicę. Nie szkodzi. Jestem już na górze. Pod twoim łóżkiem.", "image": "dark space under a child's bed, faint glow of a tablet reflecting off two eyes"}
+  ]
+}

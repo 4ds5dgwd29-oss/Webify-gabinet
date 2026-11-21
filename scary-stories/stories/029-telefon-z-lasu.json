@@ -1,0 +1,22 @@
+{
+  "title": "Znalazłem w lesie telefon. Wiadomości były moim głosem",
+  "hook": "Nie odsłuchuj ostatniej",
+  "description": "Na spacerze z psem znalazłem w lesie stary telefon. Na poczcie głosowej było czterdzieści siedem nagrań. Każde nagrane moim głosem.",
+  "question": "Odsłuchałbyś ostatnią wiadomość? 📱 Napisz w komentarzu 👇",
+  "visual_style": "Polish pine forest in late autumn, grey overcast light, fallen needles, mist between trees",
+  "tags": ["straszne historie", "horror po polsku", "telefon", "poczta głosowa", "las", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na spacerze z psem znalazłem w lesie stary telefon. Leżał w mchu. Bateria była pełna.", "image": "old smartphone lying in green moss among pine needles in a misty forest"},
+    {"text": "Na poczcie głosowej czekało czterdzieści siedem wiadomości.", "image": "phone screen showing many unread voicemail notifications, held in a hand, forest background"},
+    {"text": "Odsłuchałem pierwszą. To był mój głos. Mówił: nie podnoś tego telefonu.", "image": "man holding a phone to his ear in a foggy forest, frightened face"},
+    {"text": "Druga. Też mój głos. Mówił: za późno. Teraz nie przestawaj słuchać.", "image": "close up of a man's ear and a phone, pale light, trees blurred behind"},
+    {"text": "Każda kolejna opowiadała, co robię. Że idę ścieżką. Że pies zaczyna szczekać.", "image": "dog barking at something hidden between dark pine trees, man standing on a forest path"},
+    {"text": "I pies zaczął szczekać. Na coś między drzewami.", "image": "dark shape standing far away between pine trees in the mist"},
+    {"text": "Wiadomość czterdziesta. Mój głos szeptał: nie odwracaj się. On stoi za tobą.", "image": "forest path seen from behind a man, a tall thin shadow right behind him"},
+    {"text": "Pobiegłem. Telefon wibrował w kieszeni. Nowe wiadomości. Wciąż mój głos.", "image": "man running on a forest path, motion blur, phone glowing in his pocket"},
+    {"text": "W domu wyrzuciłem go do kosza. Rano leżał na mojej poduszce.", "image": "old smartphone lying on a white pillow in a bedroom, morning light"},
+    {"text": "Wiadomości było już czterdzieści osiem. Ostatnia nagrana była dzisiaj. O trzeciej w nocy.", "image": "phone screen showing a new voicemail with a timestamp in the middle of the night"},
+    {"text": "Nagrana z mojego numeru. Z mojej sypialni.", "image": "dark bedroom at night, a man sleeping, a pale figure holding a glowing phone beside the bed"},
+    {"text": "Nie odsłuchałem jej. Ale wczoraj zadzwoniła do mnie żona. Powiedziała, że dostała ode mnie wiadomość z lasu.", "image": "woman holding a phone in a kitchen, staring at it in fear, rainy window behind"}
+  ]
+}

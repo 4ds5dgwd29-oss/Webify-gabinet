@@ -1,0 +1,22 @@
+{
+  "title": "Łowiłem nocą ryby na jeziorze. Coś pod wodą trzy razy pociągnęło za żyłkę",
+  "hook": "Trzy pociągnięcia",
+  "description": "Pojechałem nocą na ryby nad jezioro w lesie. Sam, z namiotem i latarką. O trzeciej spławik zniknął. Coś pod wodą pociągnęło za żyłkę. Trzy razy. Równo. Jak sygnał.",
+  "question": "Zwinąłbyś wędkę? 🎣 Napisz w komentarzu 👇",
+  "visual_style": "dark forest lake in Poland at night, wooden fishing pier, still black water, fog, small tent and lantern on the shore",
+  "tags": ["straszne historie", "horror po polsku", "wędkowanie", "jezioro", "las", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pojechałem nocą na ryby nad jezioro w lesie. Sam, z namiotem i latarką.", "image": "small tent and a lantern on the shore of a dark forest lake at night"},
+    {"text": "O trzeciej spławik zniknął. Coś pociągnęło za żyłkę. Trzy razy. Równo. Jak sygnał.", "image": "fishing line pulled taut into black still water, rod bending, lantern light"},
+    {"text": "Ryby tak nie biorą. Szarpnąłem. Żyłka nie drgnęła. Jakby ktoś na dnie ją trzymał.", "image": "man holding a bent fishing rod on a wooden pier at night, tense face"},
+    {"text": "Potem znowu. Trzy pociągnięcia. I jeszcze raz. Ktoś czekał na odpowiedź.", "image": "close up of a fishing reel and taut line glistening in lantern light"},
+    {"text": "Z głupoty pociągnąłem trzy razy w odpowiedzi.", "image": "hand tugging a fishing line three times over dark water"},
+    {"text": "Żyłka zwiotczała. A na środku jeziora coś się wynurzyło. Okrągłe. Blade.", "image": "pale round shape breaking the surface in the middle of a foggy lake at night"},
+    {"text": "Głowa. Zwrócona w moją stronę. Mokre włosy przyklejone do twarzy.", "image": "pale head with wet hair floating in the middle of a black lake, fog around"},
+    {"text": "Zaczęła płynąć do brzegu. Bez plusku. Bez fali. Jakby woda ją niosła.", "image": "dark lake water with a faint V-shaped ripple moving toward a pier"},
+    {"text": "Rzuciłem wędkę i uciekłem do samochodu. Zablokowałem drzwi. Siedziałem do świtu.", "image": "man locked inside a car in a dark forest clearing, foggy windows"},
+    {"text": "Rano wróciłem po sprzęt. Wędka leżała na pomoście. Żyłka zwinięta. Starannie.", "image": "fishing rod lying neatly on a wooden pier at dawn, mist on the lake"},
+    {"text": "Na haczyku wisiała obrączka. Stara, złota. Z wygrawerowanym napisem. Na zawsze, Hela.", "image": "old gold wedding ring hanging on a fishing hook, morning light"},
+    {"text": "W wiosce powiedzieli mi, że Hela utonęła w tym jeziorze przed wojną. Czekała na narzeczonego. A ja jej odpowiedziałem.", "image": "old villager pointing toward a misty lake beyond the trees, serious face"}
+  ]
+}

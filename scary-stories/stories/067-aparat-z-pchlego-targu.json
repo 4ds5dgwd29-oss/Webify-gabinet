@@ -1,0 +1,22 @@
+{
+  "title": "Kupiłem na pchlim targu stary aparat. Na kliszy były zdjęcia mojego domu",
+  "hook": "Zdjęcia mojego domu",
+  "description": "Kupiłem na pchlim targu stary aparat na kliszę. W środku była niedokończona rolka. Oddałem ją do wywołania. Na zdjęciach był mój dom. Zrobione nocą. Z ogrodu.",
+  "question": "Zrobiłbyś ostatnie zdjęcie? 📷 Napisz w komentarzu 👇",
+  "visual_style": "small Polish suburban house at night, old film camera, photo lab envelope, grainy flash photographs, dark garden",
+  "tags": ["straszne historie", "horror po polsku", "aparat", "klisza", "zdjęcia", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Kupiłem na pchlim targu stary aparat na kliszę. Sprzedawca oddał go za grosze. Chciał się go pozbyć.", "image": "old film camera lying on a table at a flea market among old objects"},
+    {"text": "W środku była niedokończona rolka. Dwadzieścia cztery zdjęcia. Zrobione dwadzieścia trzy.", "image": "close up of an old camera frame counter showing number 23"},
+    {"text": "Oddałem kliszę do wywołania. Pani w zakładzie podała mi kopertę i nie patrzyła mi w oczy.", "image": "photo lab counter with a paper envelope of developed photos, woman avoiding eye contact"},
+    {"text": "Na zdjęciach był mój dom. Zrobione nocą, z fleszem. Z ogrodu.", "image": "grainy flash photograph of a small suburban house at night seen from a garden"},
+    {"text": "Każde kolejne bliżej. Furtka. Taras. Okno kuchni. Ja przy zlewie, odwrócony tyłem.", "image": "grainy flash photo through a kitchen window showing a man at a sink with his back turned"},
+    {"text": "Potem przedpokój. Schody. Drzwi sypialni. Zrobione od środka.", "image": "grainy flash photograph of a dark staircase inside a house"},
+    {"text": "Dwudzieste trzecie zdjęcie. Ja śpiący w łóżku. Zdjęcie zrobione z bliska. Znad mojej twarzy.", "image": "grainy flash photograph of a man asleep in bed taken from directly above"},
+    {"text": "Sprzedawca z targu nie odbierał. Pojechałem do niego. Sąsiedzi powiedzieli, że wyjechał. W pośpiechu.", "image": "closed door of an old house with a newspaper on the doorstep, grey day"},
+    {"text": "Wróciłem do domu i wrzuciłem aparat do szuflady. Na samo dno.", "image": "old film camera dropped into a drawer full of cables, dim room"},
+    {"text": "W nocy obudził mnie błysk. Jasny, biały. Taki jak z flesza.", "image": "dark bedroom suddenly lit by a white flash of light"},
+    {"text": "Na stoliku nocnym leżał aparat. Licznik pokazywał dwadzieścia cztery. Rolka skończona.", "image": "old film camera on a nightstand in the dark, frame counter showing 24"},
+    {"text": "Rano na pchlim targu, na tym samym stoisku, ktoś sprzedawał aparat. Starszy pan z moją twarzą.", "image": "flea market stall in morning fog, an old man holding up a film camera"}
+  ]
+}

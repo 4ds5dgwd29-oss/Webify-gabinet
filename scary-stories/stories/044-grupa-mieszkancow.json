@@ -1,0 +1,22 @@
+{
+  "title": "Na grupie mieszkańców bloku pisze ktoś z mieszkania numer zero",
+  "hook": "Mieszkanie zero nie istnieje",
+  "description": "Nasz blok ma grupę na komunikatorze. Ogłoszenia, zgubione klucze, hałas po dwudziestej drugiej. Wczoraj w nocy dołączył nowy członek. Podpisał się: mieszkanie zero.",
+  "question": "Odpisałbyś mu? 📱 Napisz w komentarzu 👇",
+  "visual_style": "grey Polish block of flats at night, stairwell with green walls, phone screens glowing in dark apartments",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "blok", "sąsiedzi", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Nasz blok ma grupę na komunikatorze. Wczoraj w nocy dołączył ktoś nowy. Mieszkanie zero.", "image": "phone screen glowing in a dark bedroom showing a group chat notification"},
+    {"text": "Numeracja zaczyna się od jedynki. Administrator napisał, że to pewnie żart.", "image": "row of metal mailboxes in a block stairwell, numbers starting from one"},
+    {"text": "Mieszkanie zero odpisało: to nie żart. Mieszkam pod wami. Od zawsze.", "image": "dark concrete basement corridor under a block of flats, single bulb"},
+    {"text": "Potem zaczęło pisać, co robimy. Pani z czwórki, nie zapomnij zakręcić gazu.", "image": "old woman in a kitchen at night staring at her phone, gas stove beside her"},
+    {"text": "Pani z czwórki naprawdę zostawiła odkręcony gaz.", "image": "old gas stove knob turned on in a dark kitchen, faint blue flame"},
+    {"text": "Panie z jedenastki, pana córka nie śpi. Stoi przy oknie.", "image": "little girl standing by a window in a dark bedroom, curtains moving"},
+    {"text": "Ktoś napisał, żeby dzwonić na policję. Mieszkanie zero odpisało: oni też tu kiedyś byli.", "image": "police car parked in front of a block of flats at night, blue lights off"},
+    {"text": "Sąsiedzi zaczęli opuszczać grupę. Jeden po drugim.", "image": "phone screen with a list of people leaving a group chat, dark room"},
+    {"text": "Zostałem ostatni. Mieszkanie zero napisało tylko do mnie. Dziękuję, że zostałeś.", "image": "young man sitting on a bed in the dark, face lit by a phone screen"},
+    {"text": "Wtedy usłyszałem pukanie. Nie do drzwi. Od dołu. W podłogę.", "image": "close up of a wooden floor in a dark apartment, light leaking between the boards"},
+    {"text": "Napisałem: czego chcesz? Odpowiedź przyszła od razu. Już nic. Teraz ty mieszkasz pod nimi.", "image": "phone screen glowing on a concrete basement floor, nobody around"},
+    {"text": "Rano otworzyłem grupę. Moje mieszkanie miało nowy numer. Zero.", "image": "apartment door with a brass number plate showing 0, dim stairwell light"}
+  ]
+}

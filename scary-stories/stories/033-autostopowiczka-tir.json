@@ -1,0 +1,22 @@
+{
+  "title": "Kierowca TIR-a zabrał autostopowiczkę. Nie było jej w lusterku",
+  "hook": "Nie zatrzymuj się",
+  "description": "Jeżdżę TIR-em nocami przez Polskę. O trzeciej nad ranem, na pustej drodze przez las, ktoś macha z pobocza. Dziewczyna w mokrej kurtce.",
+  "question": "Zatrzymałbyś się? 🚛 Napisz w komentarzu 👇",
+  "visual_style": "empty Polish country road through a pine forest at 3 am, rain, truck headlights, wet asphalt",
+  "tags": ["straszne historie", "horror po polsku", "tir", "kierowca", "autostop", "nocna zmiana", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Jeżdżę TIR-em nocami. O trzeciej, na pustej drodze przez las, ktoś machał z pobocza.", "image": "truck headlights on an empty forest road in the rain, a small figure waving on the roadside"},
+    {"text": "Dziewczyna w mokrej kurtce. Bez torby. Bez telefonu. Powiedziała tylko: do Ostrowi.", "image": "young woman in a soaked jacket standing by an open truck door at night, rain"},
+    {"text": "Wsiadła. W kabinie od razu zrobiło się zimno. Szyby zaparowały od środka.", "image": "inside a truck cab at night, fogged windows, dashboard lights glowing"},
+    {"text": "Nie odzywała się. Patrzyła prosto przed siebie. Woda kapała z jej włosów.", "image": "passenger seat of a truck with water dripping onto the floor mat, dim dashboard light"},
+    {"text": "Spojrzałem w lusterko boczne. Na fotelu pasażera nikogo nie było.", "image": "truck side mirror at night reflecting an empty passenger seat"},
+    {"text": "Odwróciłem głowę. Siedziała tam. Uśmiechnęła się bez słowa.", "image": "pale wet girl sitting in a truck passenger seat, faint smile, face half in shadow"},
+    {"text": "Przed zakrętem przy starym dębie powiedziała cicho: tutaj. Proszę zwolnić. Tu jest ślisko.", "image": "sharp road bend beside a huge old oak tree, small cross and candles at its roots, headlights"},
+    {"text": "Zwolniłem. Na zakręcie, w światłach, stał rozbity samochód. Sprzed lat. Zarośnięty mchem.", "image": "old rusted crashed car overgrown with moss beside a road at night, lit by truck headlights"},
+    {"text": "Kiedy się odwróciłem, fotel był pusty. Tylko mokry ślad na siedzeniu.", "image": "empty truck passenger seat with a dark wet stain, rain on the window"},
+    {"text": "Na stacji kierowca z Mazur powiedział mi, że zabierał ją już trzy razy.", "image": "two truck drivers talking at a roadside gas station at night under bright lights"},
+    {"text": "Za każdym razem prosi, żeby zwolnić przy dębie. Bo dwadzieścia lat temu ktoś jej nie posłuchał.", "image": "old newspaper photo of a car crash at a forest road bend, black and white"},
+    {"text": "Dziś znowu tamtędy jadę. I już widzę, że ktoś macha z pobocza. Tylko że tym razem jest ich dwoje.", "image": "two figures waving from a dark rainy roadside in the distance, caught in truck headlights"}
+  ]
+}

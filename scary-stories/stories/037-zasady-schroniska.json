@@ -1,0 +1,22 @@
+{
+  "title": "Zasady nocnego dyżuru w schronisku dla psów",
+  "hook": "Boks 9 jest pusty",
+  "description": "Dostałem pracę nocnego opiekuna w schronisku dla psów za miastem. Kierowniczka dała mi kartkę z zasadami. Najważniejsza dotyczyła boksu numer dziewięć.",
+  "question": "Której zasady nie dałbyś rady przestrzegać? 🐕 Napisz w komentarzu 👇",
+  "visual_style": "animal shelter outside a Polish town at night, rows of dog kennels with metal fences, yellow lamps, fog",
+  "tags": ["straszne historie", "horror po polsku", "schronisko", "psy", "zasady", "nocna zmiana", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dostałem nocny dyżur w schronisku dla psów za miastem. Kierowniczka dała mi kartkę z zasadami.", "image": "animal shelter at night with rows of dog kennels under yellow lamps, fog"},
+    {"text": "Zasada pierwsza. Gdy wszystkie psy naraz ucichną, zgaś światło w dyżurce.", "image": "small guard booth window glowing at night beside a row of silent kennels"},
+    {"text": "Zasada druga. Boks numer dziewięć jest pusty. Nie nalewaj tam wody. Nigdy.", "image": "empty dog kennel with number 9 on the gate, an empty metal bowl on the concrete"},
+    {"text": "Zasada trzecia. Jeśli z dziewiątki ktoś zaskomli twoim imieniem, nie podchodź.", "image": "dark empty kennel at night, faint eyes glowing in the back corner"},
+    {"text": "Zasada czwarta. Rano policz psy. Jeśli jest jeden za dużo, nie otwieraj żadnego boksu.", "image": "man with a clipboard walking along kennels at dawn, dogs watching him"},
+    {"text": "Przez tydzień wszystko było spokojnie. Psy szczekały, spały, jadły.", "image": "dogs sleeping curled up in kennels at night, quiet, soft lamp light"},
+    {"text": "W czwartek o trzeciej wszystkie psy naraz ucichły. Zgasiłem światło.", "image": "complete darkness in a guard booth, only the window showing a foggy kennel yard"},
+    {"text": "W ciemności usłyszałem, jak ktoś pije wodę. Z boksu numer dziewięć.", "image": "dark kennel number 9 at night, sound of lapping water, a shadow bent over a bowl"},
+    {"text": "A ja jej tam nie nalewałem. Miska była pełna.", "image": "metal water bowl full to the brim in an empty kennel, ripples on the water"},
+    {"text": "Potem z dziewiątki ktoś zaskomlał. Cicho. Moim imieniem.", "image": "dark kennel gate with a pale paw, or a hand, resting on the bars"},
+    {"text": "Nie podszedłem. Rano policzyłem psy. Było ich czterdzieści jeden. Przyjęliśmy czterdzieści.", "image": "row of kennels at dawn with dogs pressed to the bars, all looking toward kennel 9"},
+    {"text": "W boksie numer dziewięć siedział pies. Patrzył na mnie moimi oczami. I merdał ogonem.", "image": "dog sitting in kennel 9 at dawn staring straight at the camera with unsettling human-like eyes"}
+  ]
+}

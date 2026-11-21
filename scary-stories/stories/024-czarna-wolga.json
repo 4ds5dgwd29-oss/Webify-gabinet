@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o Czarnej Wołdze, która wróciła na osiedle",
+  "hook": "Nie wsiadaj do niej",
+  "description": "W PRL-u dzieci bały się czarnej wołgi z firankami w oknach. Mówi się, że ta legenda nigdy się nie skończyła. Ona tylko czekała.",
+  "question": "Słyszałeś kiedyś o Czarnej Wołdze? 🚗 Napisz w komentarzu 👇",
+  "visual_style": "Polish housing estate of grey blocks of flats at night, 1980s cars, orange street lamps",
+  "tags": ["straszne historie", "horror po polsku", "czarna wołga", "legendy miejskie", "polskie legendy", "prl", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Mówi się, że na polskich osiedlach jeździła kiedyś czarna wołga. Z białymi firankami w oknach.", "image": "black 1970s Volga car with white curtains in the windows parked between grey blocks of flats at night"},
+    {"text": "Zatrzymywała się przy dzieciach wracających po zmroku. Drzwi otwierały się same.", "image": "rear door of a black old car slowly opening on an empty estate street, orange lamp light"},
+    {"text": "Kierowca nigdy się nie odzywał. Miał na rękach czarne rękawiczki.", "image": "close up of hands in black leather gloves on the steering wheel of an old car, dark interior"},
+    {"text": "Dzieci, które wsiadły, już nie wracały. Tak opowiadali nasi rodzice.", "image": "empty children's playground at night between blocks of flats, a swing moving by itself"},
+    {"text": "Potem przyszły lata dziewięćdziesiąte i wszyscy się z tego śmiali. Bajka z PRL-u.", "image": "old cassette player and faded photos of the 1990s on a table, nostalgic light"},
+    {"text": "Wczoraj wracałem z pracy przez to samo osiedle. Pod blokiem stała czarna wołga.", "image": "black old Volga car standing alone under a street lamp in front of a grey apartment block"},
+    {"text": "Lakier był świeży. Firanki białe. A silnik pracował, choć nikt nie siedział za kierownicą.", "image": "exhaust smoke from an old black car with an empty driver's seat, night, fog"},
+    {"text": "Tylne drzwi otworzyły się powoli. W środku pachniało kurzem i gumą do żucia sprzed lat.", "image": "inside of an old car back seat with white lace curtains, dusty, dim light"},
+    {"text": "Na tylnym siedzeniu leżały tornistry. Kilkanaście starych tornistrów.", "image": "pile of old school backpacks from the 1980s on the back seat of a car"},
+    {"text": "Odsunąłem się i zadzwoniłem po policję. Kiedy przyjechali, parking był pusty.", "image": "police car lights reflecting on wet asphalt of an empty parking lot at night"},
+    {"text": "Ale na moim tornistrze z podstawówki, który trzymam w piwnicy, ktoś zostawił kartkę.", "image": "old school backpack on a basement shelf with a small paper note pinned to it, flashlight"},
+    {"text": "Było na niej tylko jedno zdanie. Spóźniłeś się trzydzieści lat. Ale my wciąż czekamy.", "image": "close up of a yellowed paper note with handwriting, dim basement light"}
+  ]
+}

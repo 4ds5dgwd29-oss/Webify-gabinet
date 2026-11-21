@@ -1,0 +1,22 @@
+{
+  "title": "Robot odkurzacz narysował na mapie pokój, którego nie mamy",
+  "hook": "Na mapie jest piąty pokój",
+  "description": "Kupiliśmy robota odkurzacza. Po pierwszym sprzątaniu pokazał w aplikacji mapę mieszkania. Mamy cztery pomieszczenia. Na mapie było pięć.",
+  "question": "Wszedłbyś do tego pokoju? 🤖 Napisz w komentarzu 👇",
+  "visual_style": "modern Polish apartment at night, light wooden floors, white walls, small round robot vacuum with a glowing blue light",
+  "tags": ["straszne historie", "horror po polsku", "dom", "robot odkurzacz", "mieszkanie", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Kupiliśmy robota odkurzacza. Po pierwszym sprzątaniu pokazał w aplikacji mapę mieszkania.", "image": "small round robot vacuum cleaning a wooden floor in a modern living room at dusk"},
+    {"text": "Mamy cztery pomieszczenia. Na mapie było pięć. Piąte za ścianą sypialni.", "image": "phone screen showing a floor plan map with one extra room highlighted in red"},
+    {"text": "Żona się śmiała, że to błąd czujnika. Ustawiliśmy sprzątanie na noc.", "image": "couple in a cozy kitchen laughing at a phone screen, evening light"},
+    {"text": "O trzeciej obudził mnie dźwięk. Robot stał przy ścianie sypialni i obijał się w nią.", "image": "robot vacuum bumping against a bedroom wall in the dark, blue light glowing"},
+    {"text": "Raz. Drugi. Dziesiąty. Jakby chciał wjechać do środka.", "image": "close up of a robot vacuum pressed against a white wall, scuff marks on the paint"},
+    {"text": "W aplikacji pokazywał, że jest w piątym pokoju. I że sprząta.", "image": "phone glowing in a dark bedroom showing a robot icon inside a red room on a map"},
+    {"text": "Przyłożyłem ucho do ściany. Po drugiej stronie coś szumiało. Jak drugi odkurzacz.", "image": "man pressing his ear against a bedroom wall at night, worried face"},
+    {"text": "Rano zapytałem sąsiada zza ściany. Powiedział, że tam jest tylko pion wentylacyjny.", "image": "elderly neighbor standing in a stairwell doorway, shaking his head"},
+    {"text": "W kolejną noc robot zniknął. Bazę znalazłem pustą. Drzwi zamknięte. Okna też.", "image": "empty robot vacuum charging dock glowing in a dark hallway"},
+    {"text": "W aplikacji ciągle sprzątał piąty pokój. Zebrał już czterysta gramów kurzu.", "image": "phone screen showing cleaning statistics and a red room on a floor map"},
+    {"text": "Trzeciej nocy wrócił do bazy. Pojemnik był pełny. Długich, siwych włosów.", "image": "open robot vacuum dust bin full of long grey hair, harsh kitchen light"},
+    {"text": "A na mapie pojawił się nowy napis. Ktoś nazwał pokój. Moje imię.", "image": "phone screen showing a floor plan with a room labeled with a single handwritten name"}
+  ]
+}

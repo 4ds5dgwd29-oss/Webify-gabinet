@@ -1,0 +1,22 @@
+{
+  "title": "Nieznajoma pisała do mnie co noc. Jej zdjęcia były robione w moim mieszkaniu",
+  "hook": "Zdjęcia z mojego mieszkania",
+  "description": "Od tygodnia pisała do mnie nieznajoma z nieznanego numeru. Miła, zabawna. Wysyłała zdjęcia herbaty, książki, kota. Dopiero po tygodniu zauważyłem, że na każdym zdjęciu w tle jest moje mieszkanie.",
+  "question": "Odpisałbyś jej jeszcze raz? 💬 Napisz w komentarzu 👇",
+  "visual_style": "small modern Polish studio apartment at night, sofa, bookshelf, kitchen corner, phone screen glow, rain on the window",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "nieznajoma", "mieszkanie", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Od tygodnia pisała do mnie nieznajoma. Pomyliła numer, przeprosiła i tak zaczęliśmy rozmawiać.", "image": "young man smiling at his phone on a sofa in a cozy apartment at night"},
+    {"text": "Była miła i zabawna. Wysyłała zdjęcia herbaty, książek, deszczu za oknem.", "image": "phone screen showing a photo of a cup of tea next to a book"},
+    {"text": "Po tygodniu przyjrzałem się jednemu zdjęciu. W tle była moja półka. Moje książki. Mój kubek.", "image": "close up of a phone photo showing a bookshelf identical to the one behind the man"},
+    {"text": "Przewinąłem wszystkie zdjęcia. Na każdym moje mieszkanie. Robione, gdy byłem w pracy.", "image": "man scrolling through photos on his phone with a pale shocked face"},
+    {"text": "Napisałem: skąd masz te zdjęcia? Odpisała od razu. Przecież tu mieszkam.", "image": "phone chat window with a short reply glowing in a dark room"},
+    {"text": "Napisałem, że mieszkam sam. Odpisała: wiem. Ty śpisz w nocy. Ja w dzień.", "image": "empty unmade bed in an apartment in grey daylight"},
+    {"text": "Przypomniałem sobie rzeczy, które ignorowałem. Ciepła poduszka po powrocie. Herbata, której nie piłem.", "image": "half empty cup of tea on a kitchen counter in an empty apartment"},
+    {"text": "Wymieniłem zamki. Zmieniłem numer. Nocowałem u kolegi.", "image": "locksmith changing a lock on an apartment door in the evening"},
+    {"text": "Po tygodniu wróciłem. Na lodówce wisiała kartka. Jej pismem. Wymieniłeś zamki. Nie szkodzi. Ja nie wychodzę.", "image": "handwritten note stuck to a fridge with a magnet, dim kitchen"},
+    {"text": "W nocy mój nowy telefon zawibrował. Nikt nie znał tego numeru.", "image": "phone glowing on a nightstand in a dark bedroom"},
+    {"text": "Zdjęcie. Ja śpiący. Zrobione z bliska. Z wnętrza szafy.", "image": "phone screen showing a photo of a sleeping man taken through a gap in wardrobe doors"},
+    {"text": "Pod spodem jedna wiadomość. Dobranoc. Teraz moja zmiana.", "image": "dark bedroom with wardrobe doors slowly opening, phone light on the bed"}
+  ]
+}

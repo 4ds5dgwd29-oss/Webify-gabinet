@@ -1,0 +1,17 @@
+{
+  "name": "scary-stories",
+  "private": true,
+  "type": "module",
+  "description": "Generates a narrated scary story video every day and uploads it to YouTube.",
+  "scripts": {
+    "daily": "node src/main.mjs",
+    "dry-run": "node src/main.mjs --no-upload",
+    "youtube-token": "node scripts/get-youtube-token.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.7.0",
+    "googleapis": "^189.0.0",
+    "zod": "^4.6.7"
+  }
+}

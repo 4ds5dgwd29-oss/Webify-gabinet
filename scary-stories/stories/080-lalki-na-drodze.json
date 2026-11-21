@@ -1,0 +1,22 @@
+{
+  "title": "Jedziesz nocą przez las. Na drodze leży lalka. Za każdym zakrętem kolejna",
+  "hook": "Za każdym zakrętem lalka",
+  "description": "Wracasz nocą bocznymi drogami przez las. Na środku jezdni leży stara lalka. Omijasz ją. Za następnym zakrętem leży kolejna. Każda bliżej twojego pasa.",
+  "question": "Zatrzymałbyś się? 🪆 Napisz w komentarzu 👇",
+  "visual_style": "narrow asphalt road through a dark Polish forest at night, car headlights, fog, wet leaves, old porcelain dolls",
+  "tags": ["straszne historie", "horror po polsku", "pov", "lalki", "droga", "las", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Wracasz nocą bocznymi drogami przez las. Na środku jezdni leży stara lalka.", "image": "old porcelain doll lying in the middle of a dark forest road in car headlights"},
+    {"text": "Omijasz ją. Za następnym zakrętem leży kolejna. Tym razem siedzi. Twarzą do ciebie.", "image": "porcelain doll sitting upright on a wet asphalt road facing the car, fog"},
+    {"text": "Trzecia stoi. Oparta o słupek. Czwarta ma podniesioną rękę. Jakby machała.", "image": "old doll propped against a roadside post with one arm raised, headlights"},
+    {"text": "Przyspieszasz. Telefon nie ma zasięgu. Nawigacja pokazuje, że jedziesz w kółko.", "image": "car navigation screen showing a looping route in a forest, dark car interior"},
+    {"text": "Piąta lalka leży na twoim pasie. Nie zdążysz ominąć. Słyszysz trzask pod kołami.", "image": "car tires rolling toward a doll lying on a wet road, close up"},
+    {"text": "Zatrzymujesz się. W lusterku czerwone światła oświetlają drogę. Lalki tam nie ma.", "image": "rearview mirror showing an empty dark road lit red by brake lights"},
+    {"text": "Za to na tylnym siedzeniu coś cicho skrzypi. Jak porcelana o porcelanę.", "image": "dark back seat of a car with a faint pale shape sitting in shadow"},
+    {"text": "Odwracasz się. Na tylnym siedzeniu siedzą wszystkie. Pięć lalek. Zapięte pasami.", "image": "five old porcelain dolls sitting in a row on a car back seat, seatbelts on"},
+    {"text": "Wyskakujesz z auta. W lesie, przy drodze, stoi mały drewniany krzyż. Obwieszony zabawkami.", "image": "small wooden roadside cross in a forest covered with faded toys and ribbons, headlights"},
+    {"text": "Na tabliczce pięć imion dzieci. I data. Autobus szkolny. Ten sam zakręt.", "image": "weathered small plaque on a wooden cross with faded writing, fog"},
+    {"text": "Za tobą trzaskają drzwi auta. Silnik zapala się sam. Reflektory oświetlają twoją twarz.", "image": "car headlights turning on by themselves on a dark forest road, figure in the light"},
+    {"text": "A z otwartego okna dobiega dziecięcy głos. Proszę pana, odwiezie nas pan do domu? Bo kierowca znowu nie przyjechał.", "image": "open car window at night with small pale hands resting on the edge, fog"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Co rano literki na naszej lodówce układają się w nowe słowo",
+  "hook": "Nikt ich nie przesuwał",
+  "description": "Nasz synek ma na lodówce kolorowe magnesy-literki. Uczy się nimi czytać. Pewnego ranka ułożyły się w słowo, którego on jeszcze nie umie napisać.",
+  "question": "Co ułożyłbyś w odpowiedzi? 🔤 Napisz w komentarzu 👇",
+  "visual_style": "cozy Polish family kitchen in the early morning, white fridge with colorful plastic alphabet magnets, dim blue dawn light",
+  "tags": ["straszne historie", "horror po polsku", "dom", "lodówka", "literki", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Nasz synek ma na lodówce kolorowe magnesy-literki. Uczy się nimi czytać.", "image": "white fridge door covered with colorful plastic alphabet magnets, morning kitchen"},
+    {"text": "Pewnego ranka literki były ułożone w słowo. Zimno. Synek jeszcze nie umie pisać.", "image": "colorful alphabet magnets on a fridge arranged into a short word, dawn light"},
+    {"text": "Żona pomyślała, że to ja. Ja pomyślałem, że to ona. Nikt z nas tego nie zrobił.", "image": "couple in pajamas staring at a fridge in a dim kitchen, confused faces"},
+    {"text": "Następnego ranka nowe słowo. Głodno. Potem kolejne. Ciemno. Wąsko.", "image": "fridge with alphabet magnets rearranged, a half eaten bowl of cereal on the counter"},
+    {"text": "Postawiłem w kuchni kamerę. Nagranie było czarne od drugiej do czwartej. Jakby ktoś zasłonił obiektyw.", "image": "small camera on a kitchen shelf pointing at a fridge, red light glowing"},
+    {"text": "Rano na lodówce było pytanie. Kto śpi w moim łóżku?", "image": "alphabet magnets on a fridge door forming a longer sentence, cold blue light"},
+    {"text": "Zapytaliśmy poprzednich właścicieli. Starsza pani milczała długo. Potem powiedziała: mieliśmy synka. Bardzo dawno.", "image": "elderly woman sitting at a kitchen table holding a phone, sad eyes"},
+    {"text": "Lubił chować się w schowku pod schodami. Pewnej zimy schował się tak dobrze, że go nie znaleźli.", "image": "small wooden door of a storage cupboard under the stairs, dark hallway"},
+    {"text": "Pod schodami mamy tylko ścianę. Zamurowaną dawno temu. Przyłożyłem do niej ucho.", "image": "man pressing his ear to a painted wall under a staircase, dim light"},
+    {"text": "Coś po drugiej stronie drapało. Cicho. W rytmie. Jak ktoś, kto układa literki.", "image": "close up of a wall under stairs with tiny cracks in the old paint"},
+    {"text": "Wezwaliśmy ekipę. Za ścianą była pusta wnęka. Tylko kurz i jeden stary magnes. Litera M.", "image": "dusty empty space behind a broken wall with one old plastic letter M on the floor"},
+    {"text": "Tej nocy synek przyszedł do naszego łóżka. Powiedział, że w jego łóżku ktoś już leży. I że jest bardzo zimny.", "image": "small boy standing by his parents' bed at night, pointing toward a dark hallway"}
+  ]
+}

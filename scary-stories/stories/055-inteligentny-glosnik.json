@@ -1,0 +1,22 @@
+{
+  "title": "Co noc o trzeciej nasz głośnik w kuchni mówi: dobrze, wyłączam alarm",
+  "hook": "Nikt go nie pytał",
+  "description": "Mamy w kuchni inteligentny głośnik. Co noc o trzeciej budzi nas jego głos z dołu. Dobrze, wyłączam alarm. Nikt z nas go o to nie prosił.",
+  "question": "Sprawdziłbyś historię poleceń? 🔊 Napisz w komentarzu 👇",
+  "visual_style": "modern Polish family house at night, dark open kitchen, small smart speaker with a glowing ring of light, staircase to the bedrooms",
+  "tags": ["straszne historie", "horror po polsku", "dom", "inteligentny głośnik", "alarm", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Mamy w kuchni inteligentny głośnik. Steruje światłem i alarmem w całym domu.", "image": "small round smart speaker with a glowing blue ring on a dark kitchen counter"},
+    {"text": "Co noc o trzeciej budzi nas jego głos z dołu. Dobrze. Wyłączam alarm.", "image": "dark staircase in a family house at night, faint blue light from the kitchen below"},
+    {"text": "Nikt z nas go o to nie prosił. Dzieci śpią. Ja i żona leżymy w łóżku.", "image": "couple lying awake in bed at night, staring at the ceiling, worried faces"},
+    {"text": "Sprawdziłem historię poleceń w aplikacji. Każdej nocy to samo nagranie. Szept.", "image": "phone screen showing a list of voice commands with timestamps, dark bedroom"},
+    {"text": "Odtworzyłem je. Męski głos, bardzo blisko mikrofonu. Wyłącz alarm. Oni już śpią.", "image": "man holding a phone close to his ear in a dark bedroom, pale face"},
+    {"text": "Zmieniłem kod alarmu. Wyłączyłem głośnikowi mikrofon. Zasnęliśmy dopiero nad ranem.", "image": "hand pressing the mute button on a smart speaker, red light glowing"},
+    {"text": "O trzeciej głośnik i tak się odezwał. Mikrofon wyłączony. Dobrze. Wyłączam alarm.", "image": "smart speaker glowing red and blue in a dark kitchen at night"},
+    {"text": "Zszedłem na dół z latarką. Drzwi tarasowe były otwarte. Zasłona falowała.", "image": "open patio door at night with a white curtain blowing in the wind, dark garden"},
+    {"text": "Na podłodze w kuchni były mokre ślady. Bose. Prowadziły z ogrodu na schody.", "image": "wet bare footprints on a kitchen floor leading toward a staircase, flashlight beam"},
+    {"text": "Pobiegłem do pokoju dzieci. Spały. Ślady kończyły się przy ich łóżkach.", "image": "two children asleep in beds in a dark room, wet footprints on the floor between them"},
+    {"text": "Wtedy głośnik na dole odezwał się znowu. Tym razem do mnie. Twoim głosem też umiem mówić.", "image": "dark kitchen seen from the stairs, smart speaker ring glowing"},
+    {"text": "Od tamtej nocy alarm działa. Ale co rano w historii poleceń jest nowy wpis. Moim głosem.", "image": "phone screen with a new voice command entry glowing in morning light on a kitchen table"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Kolędnicy z wioski bez dzieci",
+  "hook": "Nie wpuszczaj Turonia",
+  "description": "W Wigilię Trzech Króli do drzwi zapukali kolędnicy z Turoniem. W naszej wsi nie ma dzieci od dwudziestu lat.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "kolędnicy",
+    "turoń",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "zima"
+  ],
+  "scenes": [
+    {
+      "text": "Mieszkam w wymierającej wsi pod Lublinem. Same starsze osoby. Ostatnie dziecko urodziło się tu dwadzieścia lat temu.",
+      "image": "small snowy Polish village at night, few lit windows, old wooden houses, empty road, full moon"
+    },
+    {
+      "text": "W styczniu, późnym wieczorem, ktoś zaśpiewał kolędę pod moim oknem. Dziecięcymi głosami.",
+      "image": "frosted window at night, small silhouettes of carolers in the snow outside holding a glowing star on a stick"
+    },
+    {
+      "text": "Otworzyłem drzwi. Stało tam pięcioro dzieci w papierowych koronach. I Turoń. Z drewnianym pyskiem, który kłapał sam.",
+      "image": "children carolers in paper crowns in the snow at night with a folk Turoń creature costume with wooden snapping jaws and fur"
+    },
+    {
+      "text": "Śpiewali pięknie. Ale nie zostawiali śladów na śniegu. A ich oczy odbijały światło jak u kotów.",
+      "image": "close up of a child's face in a paper crown in the dark, eyes reflecting light like a cat, snow falling"
+    },
+    {
+      "text": "Turoń zrobił krok w stronę progu. Dzieci powiedziały chórem: wpuść nas, gospodarzu. Zimno nam. Od bardzo dawna.",
+      "image": "folk Turoń costume with a horned wooden head leaning toward an open doorway, warm interior light, dark snowy night behind"
+    },
+    {
+      "text": "Zatrzasnąłem drzwi. Śpiew urwał się w pół słowa. Rano sąsiadka powiedziała, że ostatni raz kolędnicy chodzili tu w sześćdziesiątym trzecim. Tej zimy, gdy wszystkie dzieci zachorowały.",
+      "image": "old black and white photo of village children carolers with a star and Turoń costume in snow, 1960s"
+    },
+    {
+      "text": "Na progu leżała papierowa korona. I karteczka dziecięcym pismem: przyjdziemy za rok. Wtedy już nas wpuścisz.",
+      "image": "crumpled paper crown lying on a snowy doorstep, a small handwritten note beside it, morning light"
+    }
+  ]
+}

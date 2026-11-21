@@ -1,0 +1,22 @@
+{
+  "title": "Co rano moje buty stoją odwrócone w stronę sypialni",
+  "hook": "Ktoś wchodzi do domu",
+  "description": "Mieszkam sam. Co wieczór zostawiam buty przy drzwiach. Co rano stoją odwrócone czubkami w stronę mojej sypialni. Jakby ktoś w nich przyszedł.",
+  "question": "Co zrobiłbyś po trzecim poranku? 👞 Napisz w komentarzu 👇",
+  "visual_style": "small Polish apartment hallway, early morning grey light, wooden floor, coats on hooks",
+  "tags": ["straszne historie", "horror po polsku", "mieszkanie", "dom", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy", "ktoś w domu"],
+  "scenes": [
+    {"text": "Mieszkam sam. Co wieczór zostawiam buty przy drzwiach. Czubkami do wyjścia.", "image": "pair of worn shoes by an apartment front door, toes pointing to the door, evening light"},
+    {"text": "Rano stały odwrócone. Czubkami w stronę mojej sypialni.", "image": "same pair of shoes turned around pointing down a hallway toward a bedroom door, grey morning"},
+    {"text": "Pomyślałem, że sam je kopnąłem. Ale następnego dnia było tak samo.", "image": "man standing in a hallway in pajamas looking down at his shoes, confused"},
+    {"text": "Trzeciego dnia na podeszwach był mokry piach. A ja od tygodnia nie wychodziłem z domu.", "image": "close up of shoe soles with wet sand and pine needles on a wooden floor"},
+    {"text": "Postawiłem telefon na szafce i nagrywałem całą noc.", "image": "phone propped on a shelf recording a dark apartment hallway, red recording dot"},
+    {"text": "O trzeciej drzwi wejściowe otwierają się same. Zamek był zamknięty na dwa razy.", "image": "night vision footage of an apartment front door slowly opening by itself"},
+    {"text": "Ktoś wkłada moje buty. Widać tylko nogi. Bose, szare, chude.", "image": "grainy night footage of thin grey bare feet stepping into a pair of shoes"},
+    {"text": "I idzie. Powoli. Do mojej sypialni.", "image": "dark hallway at night, shoes walking toward a half open bedroom door"},
+    {"text": "Stoi nad moim łóżkiem cztery godziny. Do świtu. Potem odstawia buty. Czubkami w stronę sypialni.", "image": "dark bedroom, a sleeping man in bed, a pair of shoes standing beside the bed"},
+    {"text": "Zmieniłem zamki. Spałem u brata. Wróciłem po tygodniu.", "image": "locksmith installing a new lock on an apartment door in daylight"},
+    {"text": "Buty stały w sypialni. Przy łóżku. A pościel była ciepła.", "image": "unmade bed with a dent in the pillow and a pair of shoes neatly placed beside it"},
+    {"text": "Dziś śpię w butach. Bo ktoś bardzo chce iść tam, gdzie ja.", "image": "man lying in bed fully dressed wearing shoes, eyes open, dark room"}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Klient, którego nie widzą kamery",
+  "hook": "Nie sprzedawaj mu zapałek",
+  "description": "Pracuję na nocnej zmianie na stacji benzynowej przy pustej drodze. Każdej nocy o trzeciej przychodzi ten sam klient. Kamery nigdy go nie nagrały.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "creepypasta",
+    "historie grozy",
+    "straszna historia",
+    "nocna zmiana",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "stacja benzynowa"
+  ],
+  "scenes": [
+    {
+      "text": "Pracuję na nocnej zmianie na stacji benzynowej przy drodze przez las. Po północy nie przyjeżdża tu nikt.",
+      "image": "lonely gas station at night on an empty forest road, harsh fluorescent lights, fog, dark pine trees around"
+    },
+    {
+      "text": "Prawie nikt. Bo każdej nocy, punktualnie o trzeciej, drzwi otwierają się same. I wchodzi on.",
+      "image": "automatic glass doors of a gas station shop opening at night, dark figure standing outside in the fog"
+    },
+    {
+      "text": "Wysoki mężczyzna w mokrym płaszczu. Zawsze kupuje to samo. Pudełko zapałek. Płaci starą monetą, zimną jak lód.",
+      "image": "close up of a pale bony hand placing an old tarnished coin on a gas station counter next to a box of matches"
+    },
+    {
+      "text": "Kierownik kazał mi sprawdzić nagrania. Na kamerze drzwi się otwierają. Kasa się otwiera. Pudełko zapałek znika z lady. Ale przy ladzie nie stoi nikt.",
+      "image": "grainy black and white CCTV monitor showing an empty gas station counter, timestamp 03:00, security room in darkness"
+    },
+    {
+      "text": "Stary mechanik z wioski powiedział mi, że trzydzieści lat temu w tym lesie spłonęła chata. Właściciel nie zdążył uciec. Szukał zapałek, żeby zapalić lampę.",
+      "image": "burnt ruins of an old wooden cabin in a dark forest, charred beams, mist, moonlight"
+    },
+    {
+      "text": "Wczoraj zapałki się skończyły. Powiedziałem mu, że nie mam. Pierwszy raz podniósł głowę. Nie miał twarzy. Tylko popiół.",
+      "image": "tall man in a wet dark coat in a gas station shop, face hidden in shadow, ash falling, flickering fluorescent light"
+    },
+    {
+      "text": "Wyszedł bez słowa. A rano strażacy znaleźli w lesie świeże zgliszcza. W miejscu, gdzie trzydzieści lat temu stała chata.",
+      "image": "smoke rising from the forest at dawn, firefighters silhouettes at the edge of the trees, grey sky"
+    },
+    {
+      "text": "Dziś mam na zapleczu sto pudełek zapałek. Bo jest trzecia. I drzwi właśnie się otworzyły.",
+      "image": "stack of many matchboxes on a dark shelf in a back room, a single lit match glowing, deep shadows"
+    }
+  ],
+  "question": "Sprzedałbyś mu zapałki? 🔥 Napisz w komentarzu 👇"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o utopcu. Nie kąp się po zachodzie słońca",
+  "hook": "Nie wchodź do wody",
+  "description": "Na wsi nad Bugiem mówi się, że po zachodzie słońca nie wolno wchodzić do rzeki. Bo utopiec liczy kąpiących się. I zawsze brakuje mu jednego.",
+  "question": "Wszedłbyś do rzeki po zmroku? 🌊 Napisz w komentarzu 👇",
+  "visual_style": "wide calm river in eastern Poland at summer dusk, reeds, willow trees, old wooden jetty, misty water",
+  "tags": ["straszne historie", "horror po polsku", "utopiec", "polskie legendy", "demony słowiańskie", "rzeka", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na wsi nad Bugiem mówi się, że po zachodzie słońca nie wolno wchodzić do rzeki.", "image": "wide calm river at sunset with reeds and willow trees, an old wooden jetty"},
+    {"text": "Bo wtedy z mułu wychodzi utopiec. Mały, zielony, z wodą cieknącą z rękawów.", "image": "small greenish figure with wet ragged sleeves crouching in reeds by a river at dusk"},
+    {"text": "Siedzi na pomoście i liczy kąpiących się. A potem zawsze wychodzi mu o jednego za mało.", "image": "silhouette of a small hunched figure sitting at the end of a wooden jetty over dark water"},
+    {"text": "Babcia powtarzała mi to każdego lata. Śmiałem się. Miałem dwanaście lat.", "image": "elderly woman in a headscarf talking to a boy on the porch of a village house, summer evening"},
+    {"text": "Pewnego wieczoru poszliśmy z kolegami popływać po zmroku. Było nas pięciu.", "image": "five boys running toward a river at dusk, towels over their shoulders"},
+    {"text": "Woda była ciepła jak zupa. Krzyczeliśmy, chlapaliśmy się, liczyliśmy, kto dłużej wytrzyma pod wodą.", "image": "boys splashing in a dark river at twilight, laughter, mist on the water"},
+    {"text": "Wtedy na pomoście ktoś zaczął liczyć na głos. Jeden. Dwa. Trzy. Cztery.", "image": "wooden jetty at dusk with a small wet figure pointing at the water"},
+    {"text": "Głos był skrzekliwy, mokry. I zatrzymał się na czterech.", "image": "close up of a webbed green hand gripping the edge of a wooden jetty, water dripping"},
+    {"text": "Wyskoczyliśmy z wody i pobiegliśmy do domu. Wszyscy pięciu. Tak mi się wydawało.", "image": "boys running away from a river through tall grass at night"},
+    {"text": "Rano matka Kuby obiegła wieś. Kuba nie wrócił na noc.", "image": "worried village woman calling out by a fence in early morning fog"},
+    {"text": "Znaleźli go w trzcinach. Żywego. Ale od tamtej pory nie odzywa się ani słowem.", "image": "boy sitting silently on a bench in a village yard, staring at the river"},
+    {"text": "Tylko każdego wieczoru siedzi na pomoście i liczy kąpiących się. I zawsze zatrzymuje się na czterech.", "image": "silhouette of a boy sitting at the end of a jetty at dusk, river mist rising"}
+  ]
+}

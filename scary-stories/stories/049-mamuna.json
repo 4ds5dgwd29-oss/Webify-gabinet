@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o Mamunie. Nie zostawiaj dziecka samego o zmierzchu",
+  "hook": "To nie jest twoje dziecko",
+  "description": "Na dawnej polskiej wsi bano się Mamuny. Mówiono, że podmienia niemowlęta zostawione same o zmierzchu. Matka poznawała odmieńca po jednym szczególe.",
+  "question": "Poznałbyś odmieńca? 👶 Napisz w komentarzu 👇",
+  "visual_style": "old Polish village cottage in the evening, wooden cradle, clay stove, dried herbs, foggy meadow and river outside",
+  "tags": ["straszne historie", "horror po polsku", "mamuna", "odmieniec", "polskie legendy", "słowiańskie demony", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na dawnej polskiej wsi bano się Mamuny. Żyła na mokradłach przy rzece.", "image": "foggy marsh by a river at dusk, old wooden village cottages in the distance"},
+    {"text": "Mówiono, że kradnie niemowlęta zostawione same o zmierzchu. I zostawia w kołysce swoje.", "image": "old wooden cradle in a dim cottage room, empty, evening light through a small window"},
+    {"text": "Odmieniec wyglądał jak prawdziwe dziecko. Ale nigdy nie płakał. I zawsze był głodny.", "image": "baby wrapped in linen lying very still in a wooden cradle, wide open dark eyes"},
+    {"text": "Dlatego matki zawieszały nad kołyską czerwoną wstążkę. I nie wychodziły po zachodzie słońca.", "image": "red ribbon tied above an old wooden cradle, candle light"},
+    {"text": "Pewna młoda matka poszła wieczorem do studni. Na chwilę. Dziecko spało.", "image": "young peasant woman carrying a wooden bucket to a village well at dusk"},
+    {"text": "Gdy wróciła, dziecko leżało spokojnie. Uśmiechało się. Za spokojnie.", "image": "smiling baby in a cradle in a dark cottage, too calm, faint candle light"},
+    {"text": "Przez tydzień nie zapłakało ani razu. Jadło za trzech. Patrzyło na nią, nie mrugając.", "image": "young mother holding a bowl and spoon beside a cradle, worried face"},
+    {"text": "Stara zielarka kazała ugotować wodę w skorupce jajka. Przy dziecku.", "image": "old herbalist woman handing an eggshell to a young mother by a clay stove"},
+    {"text": "Odmieniec usiadł w kołysce i powiedział głosem starca: tylu lat żyję, a takiego garnka nie widziałem.", "image": "small baby sitting upright in a cradle with an old man's wrinkled face, candle light"},
+    {"text": "Wtedy za oknem rozległ się płacz. Na progu leżało jej prawdziwe dziecko. Mokre od rosy.", "image": "baby wrapped in wet linen lying on a wooden cottage doorstep at dawn, fog"},
+    {"text": "Kołyska była pusta. Tylko na poduszce zostały mokre ślady. Jak od błota z rzeki.", "image": "empty wooden cradle with muddy wet marks on a linen pillow"},
+    {"text": "Mówi się, że Mamuna nie przegrywa. Wraca po siedmiu latach. Po to samo dziecko.", "image": "pale woman with long tangled hair standing in river fog at night, watching a cottage"}
+  ]
+}

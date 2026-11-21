@@ -1,0 +1,48 @@
+{
+  "title": "Komórka w piwnicy zamknięta od środka",
+  "hook": "Kto tam mieszka?",
+  "description": "W piwnicy mojego bloku jest komórka numer zero. Zamknięta od środka. Co noc ktoś stamtąd wychodzi.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "piwnica",
+    "blok",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "komórka lokatorska"
+  ],
+  "scenes": [
+    {
+      "text": "W piwnicy mojego bloku każde mieszkanie ma swoją komórkę. Numery od jeden do czterdzieści. I jedna bez numeru. Zero.",
+      "image": "long dark basement corridor of a Polish block of flats, rows of wooden storage doors with numbers, single bare bulb"
+    },
+    {
+      "text": "Drzwi do zerówki są zamknięte. Od środka. Słychać, jak zasuwa przesuwa się wieczorem i rano.",
+      "image": "old wooden storage room door in a basement marked with number 0, bolt visible through a gap, dust"
+    },
+    {
+      "text": "Zainstalowałem kamerkę. O drugiej drzwi się otworzyły. Wyszedł niski człowiek w kapciach i swetrze. Poszedł na górę.",
+      "image": "grainy night vision security camera image of a basement corridor, a short figure in slippers walking toward stairs"
+    },
+    {
+      "text": "Śledziłem go na nagraniu. Wszedł do każdego mieszkania. Po kolei. Bez kluczy. Na każde zostawał kilka minut.",
+      "image": "dark stairwell of a block of flats at night, a small figure standing in front of an apartment door, door slightly open"
+    },
+    {
+      "text": "W moim mieszkaniu też był. Stał nad moim łóżkiem. I długo mi się przyglądał. Jakby mnie mierzył.",
+      "image": "dark bedroom at night, a short figure in a sweater standing over a sleeping man's bed, faint light from window"
+    },
+    {
+      "text": "Administrator bloku przyznał, że zerówka była mieszkaniem dozorcy. Od siedemdziesiątego dziewiątego. Dozorca nigdy się nie wyprowadził.",
+      "image": "old housing administrator office with files and keys, an old photo of a caretaker pinned to the wall"
+    },
+    {
+      "text": "Dziś na drzwiach zerówki ktoś przybił nową tabliczkę. Z moim numerem mieszkania. Bo dozorca szuka następcy.",
+      "image": "close up of a basement storage door with a new small metal number plate nailed on, old wood, flashlight beam"
+    }
+  ],
+  "question": "Zszedłbyś do piwnicy sprawdzić komórkę numer zero? 🔦 Napisz w komentarzu 👇"
+}

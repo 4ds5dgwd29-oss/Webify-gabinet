@@ -1,0 +1,22 @@
+{
+  "title": "Kupiłem używane auto. W nawigacji był zapisany jeden adres: Ona",
+  "hook": "Adres zapisany jako Ona",
+  "description": "Kupiłem okazyjnie używane auto od wdowy po poprzednim właścicielu. W nawigacji zostały trzy zapisane adresy. Dom. Praca. I trzeci, podpisany jednym słowem. Ona.",
+  "question": "Pojechałbyś tam? 🚗 Napisz w komentarzu 👇",
+  "visual_style": "dark Polish country roads at night, used dark sedan, glowing car navigation screen, pine forest, fog in headlights",
+  "tags": ["straszne historie", "horror po polsku", "samochód", "nawigacja", "las", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Kupiłem okazyjnie używane auto. Sprzedawała je wdowa. Mąż zaginął pół roku temu.", "image": "dark used sedan parked in front of a quiet suburban house, grey afternoon"},
+    {"text": "W nawigacji zostały trzy zapisane adresy. Dom. Praca. I trzeci. Ona.", "image": "car navigation screen glowing in a dark car interior with a list of saved places"},
+    {"text": "Z ciekawości kliknąłem. Trasa prowadziła czterdzieści kilometrów za miasto. W las.", "image": "navigation screen showing a route ending in the middle of a green forest area"},
+    {"text": "W sobotę pojechałem. Asfalt się skończył. Potem szuter. Potem leśna droga.", "image": "car headlights on a narrow forest dirt road at dusk, pine trees on both sides"},
+    {"text": "Nawigacja powiedziała: jesteś u celu. Polana. Stara ambona. Nic więcej.", "image": "small forest clearing at dusk with an old wooden hunting stand, car headlights"},
+    {"text": "Na środku polany ziemia była lekko zapadnięta. Prostokąt. Długi na dwa metry.", "image": "rectangular patch of sunken earth covered with moss in a forest clearing"},
+    {"text": "Wróciłem do auta i zablokowałem drzwi. Silnik nie chciał zapalić.", "image": "man gripping a steering wheel in a dark car, forest outside, scared face"},
+    {"text": "Nawigacja włączyła się sama. Kobiecy głos, inny niż zwykle. Zostań jeszcze. On zawsze zostawał.", "image": "glowing navigation screen in a dark car, faint reflection in the windshield"},
+    {"text": "W lusterku coś się poruszyło. Na tylnym siedzeniu siedziała kobieta. Mokre włosy. Ziemia na sukience.", "image": "rearview mirror showing a pale woman with wet hair sitting in the back seat"},
+    {"text": "Przekręciłem kluczyk jeszcze raz. Silnik zaskoczył. Jechałem do miasta, nie patrząc w lusterko.", "image": "car speeding along a dark forest road at night, headlights cutting through fog"},
+    {"text": "Rano zgłosiłem to na policję. Na polanie znaleźli ją. Zaginioną od lat. Poprzedni właściciel odwiedzał ją co tydzień.", "image": "police tape between pine trees at a forest clearing in morning fog"},
+    {"text": "Auto oddałem. Ale wczoraj wsiadłem do swojego. W nawigacji był nowy adres. Ta sama polana. Podpisany: Ty.", "image": "car navigation screen in a dark car showing a new saved place with a forest location"}
+  ]
+}
