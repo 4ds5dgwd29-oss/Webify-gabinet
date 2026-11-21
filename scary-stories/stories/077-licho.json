@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o lichu. Dlaczego mówi się, że licho nie śpi",
+  "hook": "Licho nie śpi",
+  "description": "Każdy w Polsce zna powiedzenie: licho nie śpi. Mało kto wie, skąd się wzięło. Na dawnej wsi licho było prawdziwe. Chude, jednookie. I przychodziło do każdego, kto wypowiedział jego imię.",
+  "question": "Wypowiedziałbyś jego imię? 👁️ Napisz w komentarzu 👇",
+  "visual_style": "old Polish village in late autumn, wooden cottages, bare trees, dark doorways, foggy evenings, candle light inside",
+  "tags": ["straszne historie", "horror po polsku", "licho", "polskie legendy", "słowiańskie demony", "przesądy", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Każdy w Polsce zna powiedzenie: licho nie śpi. Mało kto wie, skąd się wzięło.", "image": "old village at dusk with wooden cottages and bare trees in fog"},
+    {"text": "Na dawnej wsi licho było prawdziwe. Wysokie, chude jak gałąź. Z jednym okiem na środku czoła.", "image": "very thin tall figure with one eye standing between bare trees at dusk"},
+    {"text": "Nie zabijało. Robiło coś gorszego. Siadało człowiekowi na plecach i przynosiło nieszczęście.", "image": "dark thin shape crouching on the back of a tired peasant walking home"},
+    {"text": "Krowy przestawały dawać mleko. Studnie wysychały. Dzieci chorowały jedno po drugim.", "image": "empty dry village well with a broken wooden bucket, grey sky"},
+    {"text": "Licho przychodziło do tego, kto wypowiedział jego imię. Dlatego mówiono: nie wywołuj licha.", "image": "old woman putting a finger to her lips by a cottage stove, candle light"},
+    {"text": "I nigdy nie spało. Czekało za piecem. W kącie. W cieniu za drzwiami.", "image": "dark corner behind a clay oven in an old cottage, a single eye glinting"},
+    {"text": "Pewien chłop przechwalał się w karczmie, że licha się nie boi. Wykrzyczał jego imię trzy razy.", "image": "drunk peasant shouting with a raised mug in an old village tavern"},
+    {"text": "Gdy wracał do domu, poczuł ciężar na plecach. Jakby ktoś wskoczył mu na barana.", "image": "peasant walking on a dark road at night, bent forward under an invisible weight"},
+    {"text": "Od tamtej pory wszystko mu się sypało. Dach spłonął. Konie padły. Żona odeszła.", "image": "burnt wooden barn with smoke rising at dawn, a man standing in front of it"},
+    {"text": "Stara zielarka poradziła mu, żeby zaniósł licho na rozstaje dróg i zostawił tam z bochenkiem chleba.", "image": "old herbalist woman handing a loaf of bread to a desperate man"},
+    {"text": "Poszedł. Położył chleb przy krzyżu. Ciężar zniknął. Odetchnął i wrócił do domu.", "image": "loaf of bread lying at the foot of a wooden roadside cross at a crossroads"},
+    {"text": "Rano chleb leżał na jego progu. Nietknięty. A obok wyryte w ziemi jedno słowo. Twoje imię.", "image": "loaf of bread on a cottage doorstep at dawn, marks scratched in the dirt beside it"}
+  ]
+}
