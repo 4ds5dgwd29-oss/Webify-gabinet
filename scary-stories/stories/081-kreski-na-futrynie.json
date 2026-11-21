@@ -1,0 +1,22 @@
+{
+  "title": "Remontowałem dom po dziadkach. Pod tapetą były kreski wzrostu dziecka",
+  "hook": "Kreski wciąż rosną",
+  "description": "Odziedziczyłem stary dom po dziadkach. Przy zrywaniu tapety w kuchni znalazłem na futrynie kreski. Wzrost dziecka, z datami. Moi dziadkowie nigdy nie mieli dzieci. Mama była adoptowana.",
+  "question": "Zamalowałbyś te kreski? 📏 Napisz w komentarzu 👇",
+  "visual_style": "old Polish brick country house during renovation, peeling floral wallpaper, wooden door frame, dust, bare bulb, winter evening",
+  "tags": ["straszne historie", "horror po polsku", "remont", "dom po dziadkach", "tapeta", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Odziedziczyłem stary dom po dziadkach. W listopadzie zacząłem remont od kuchni.", "image": "old brick country house in late autumn with a ladder and paint buckets by the door"},
+    {"text": "Pod trzema warstwami tapety, na futrynie, były kreski. Wzrost dziecka. Z datami.", "image": "pencil height marks on a wooden door frame revealed under torn wallpaper"},
+    {"text": "Pierwsza z pięćdziesiątego czwartego. Ostatnia z sześćdziesiątego pierwszego. Podpis: Jasio.", "image": "close up of faded pencil marks and small handwritten dates on wood"},
+    {"text": "Dziadkowie nigdy nie mieli dzieci. Mama była adoptowana. W sześćdziesiątym drugim.", "image": "old black and white photo of an elderly couple holding a baby girl"},
+    {"text": "Zapytałem najstarszą sąsiadkę. Przeżegnała się i zamknęła mi drzwi przed nosem.", "image": "old woman closing a wooden door in a village, worried face"},
+    {"text": "Postanowiłem zamalować futrynę. Na drugi dzień farba była zdrapana. Kreski widoczne.", "image": "freshly painted door frame with paint scratched off revealing pencil marks"},
+    {"text": "I była nowa kreska. Świeża, ołówkiem. Wyżej niż poprzednie. Data: wczorajsza.", "image": "new sharp pencil mark on a door frame above old faded marks, bare bulb light"},
+    {"text": "Każdego dnia kolejna. Wyżej. Coraz wyżej. Aż ponad moją głowę.", "image": "door frame with a column of pencil marks reaching very high, a man looking up"},
+    {"text": "W piwnicy, za regałem z przetworami, znalazłem drzwi. Zamknięte od zewnątrz na skobel.", "image": "small wooden door hidden behind a shelf of jars in a cellar, iron latch"},
+    {"text": "W środku małe łóżko. Ołówek. I ściana pokryta kreskami. Od podłogi do sufitu.", "image": "tiny dark cellar room with a child's bed and walls covered in pencil marks"},
+    {"text": "Na samej górze, pod sufitem, napis dziecięcym pismem. Babcia mówiła, że jak urosnę, to mnie wypuści.", "image": "child's handwriting in pencil near a cellar ceiling, flashlight beam"},
+    {"text": "Tej nocy usłyszałem skrzypienie schodów z piwnicy. Kroki bardzo wysokiego człowieka. I głos dziecka: urosłem.", "image": "dark cellar stairs with a very tall thin shadow climbing up toward a kitchen door"}
+  ]
+}
