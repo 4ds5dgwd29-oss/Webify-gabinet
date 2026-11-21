@@ -1,0 +1,22 @@
+{
+  "title": "Zasady nocnej zmiany na całodobowej myjni. Nie myj auta, które przyjedzie o 3:33",
+  "hook": "Auto o 3:33",
+  "description": "Pracuję nocami na całodobowej myjni przy obwodnicy. Kierownik dał mi kartkę z zasadami. Pierwsza brzmiała: auto, które przyjedzie o 3:33, myjesz bez zadawania pytań. I nie zaglądasz do bagażnika.",
+  "question": "Którą zasadę złamałbyś pierwszy? 🚿 Napisz w komentarzu 👇",
+  "visual_style": "24-hour car wash by a Polish ring road at night, neon lights, wet concrete, foam and brushes, empty lanes, fog",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "myjnia", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję nocami na całodobowej myjni przy obwodnicy. Kierownik dał mi kartkę z zasadami.", "image": "car wash at night with neon lights and wet concrete, fog over a ring road"},
+    {"text": "Zasada pierwsza. Auto, które przyjedzie o trzeciej trzydzieści trzy, myjesz bez pytań.", "image": "digital clock showing 3:33 on the wall of a car wash booth"},
+    {"text": "Zasada druga. Nie zaglądasz do środka. Nawet jeśli coś puka w szybę.", "image": "dark tinted car window wet with foam under neon light"},
+    {"text": "Zasada trzecia. Jeśli kierowca wysiądzie, zamknij się w budce i nie patrz mu w twarz.", "image": "small glass booth at a car wash at night, a worker inside"},
+    {"text": "O trzeciej trzydzieści trzy wjechał czarny kombi. Szyby ciemne. Silnik nie pracował. Toczył się sam.", "image": "black station wagon rolling slowly into a car wash bay at night, no lights"},
+    {"text": "Włączyłem program. Piana. Szczotki. Woda spływała na czerwono. Jak rdza.", "image": "rotating car wash brushes over a black car, reddish water running on the floor"},
+    {"text": "Z bagażnika ktoś zapukał. Trzy razy. Potem drapanie. Od środka.", "image": "close up of the wet trunk of a black car under neon light"},
+    {"text": "Nie zajrzałem. Program się skończył. Auto stało w strumieniu suszarki.", "image": "black car standing under car wash dryers, water blown off the roof"},
+    {"text": "Drzwi kierowcy otworzyły się powoli. Wysiadł ktoś bardzo wysoki. Zamknąłem się w budce.", "image": "very tall dark figure stepping out of a car in a car wash bay, back to the camera"},
+    {"text": "Stanął przy szybie budki. Czułem jego wzrok na karku. Patrzyłem w podłogę do świtu.", "image": "worker sitting in a booth staring at the floor, tall shadow on the glass behind him"},
+    {"text": "Rano auta nie było. Na szybie budki został odcisk dłoni. Z siedmioma palcami.", "image": "wet handprint with seven fingers on the glass of a car wash booth at dawn"},
+    {"text": "Kierownik spojrzał na odcisk i powiedział: dobrze. Przetrwałeś. Ostatni zajrzał do bagażnika. Teraz to on puka.", "image": "car wash manager wiping a handprint off glass at dawn, tired face"}
+  ]
+}
