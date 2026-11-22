@@ -1,0 +1,22 @@
+{
+  "title": "Kaloryfer w moim pokoju stuka co noc. To alfabet Morse'a",
+  "hook": "Kaloryfer stuka słowa",
+  "description": "Od początku sezonu grzewczego kaloryfer w moim pokoju stuka po północy. Myślałem, że to powietrze w rurach. Dopiero dziadek, były radiotelegrafista, usłyszał, że to alfabet Morse'a.",
+  "question": "Odpowiedziałbyś mu? 🔔 Napisz w komentarzu 👇",
+  "visual_style": "old Polish block of flats in winter, cast iron radiator under a window, dark bedroom, boiler room in the basement, pipes",
+  "tags": ["straszne historie", "horror po polsku", "dom", "kaloryfer", "alfabet morse'a", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Od początku sezonu grzewczego kaloryfer w moim pokoju stuka po północy.", "image": "old cast iron radiator under a window in a dark bedroom, frost on the glass"},
+    {"text": "Krótko. Długo. Krótko. Myślałem, że to powietrze w rurach. Hydraulik nic nie znalazł.", "image": "plumber with a wrench kneeling by a radiator, shrugging"},
+    {"text": "Dziadek przyjechał na weekend. Był kiedyś radiotelegrafistą na statku. Usłyszał stukanie i zbladł.", "image": "old man sitting on a bed in the dark, listening with a pale face"},
+    {"text": "To Morse, powiedział. Ktoś nadaje. Wziął kartkę i zaczął zapisywać.", "image": "old man's hand writing dots and dashes on paper by lamp light"},
+    {"text": "Zimno. Zimno. Ciemno. Zimno. Słowa powtarzały się przez całą noc.", "image": "paper covered with Morse code dots and dashes on a nightstand"},
+    {"text": "Rano dziadek poszedł ze mną do kotłowni w piwnicy bloku. Rury prowadziły do starego, zamurowanego pomieszczenia.", "image": "old pipes running into a bricked up wall in a block of flats basement"},
+    {"text": "Administrator powiedział, że to dawny schron. Zamurowany w latach sześćdziesiątych. Pusty.", "image": "faded old sign for a bomb shelter on a basement wall"},
+    {"text": "Tej nocy dziadek odstukał w kaloryfer odpowiedź. Kim jesteś?", "image": "old man tapping a spoon on a radiator in the dark"},
+    {"text": "Odpowiedź przyszła od razu. Szybko, gorączkowo. Jesteśmy tu wszyscy. Zapomnieliście.", "image": "radiator in a dark room with a faint vibration, frost on the window behind"},
+    {"text": "Dziadek zapytał: ilu was jest? Stukanie ucichło. Potem zaczęło się ze wszystkich kaloryferów w bloku naraz.", "image": "block of flats at night with lights turning on in many windows"},
+    {"text": "Sąsiedzi wybiegli na klatkę. Każdy słyszał to samo. Setki uderzeń. Jak dłonie w ścianę.", "image": "neighbors in pajamas gathering in a dim stairwell, frightened"},
+    {"text": "A potem jedno zdanie. Wolno. Wyraźnie. Teraz wiemy, gdzie mieszkacie.", "image": "close up of a radiator valve in the dark, frost forming on the metal"}
+  ]
+}
