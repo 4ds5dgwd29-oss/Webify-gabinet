@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o Borucie. Diabeł, który mieszka w lochach zamku w Łęczycy",
+  "hook": "Nie przyjmuj jego złota",
+  "description": "W Łęczycy od wieków opowiada się o Borucie. Diable, który zamieszkał w lochach zamku i pilnuje tam skarbów. Podobno chodzi po mieście w stroju szlachcica. I częstuje złotem tych, którzy narzekają na biedę.",
+  "question": "Przyjąłbyś złoto od nieznajomego? 💰 Napisz w komentarzu 👇",
+  "visual_style": "medieval brick castle in central Poland at night, misty marshes around, cobbled streets, candle-lit inn, dark dungeon with old chests",
+  "tags": ["straszne historie", "horror po polsku", "boruta", "łęczyca", "polskie legendy", "diabeł", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "W Łęczycy od wieków opowiada się o Borucie. Diable, który zamieszkał w lochach zamku.", "image": "old brick castle tower at night surrounded by misty marshes"},
+    {"text": "Pilnuje tam skarbów. Beczek złota, których nikt nigdy nie wyniósł.", "image": "old wooden chests overflowing with gold coins in a dark stone dungeon"},
+    {"text": "Mówią, że nie ma rogów ani ogona. Chodzi po mieście jako szlachcic. W kontuszu i z czerwonym piórem przy czapce.", "image": "elegant nobleman in an old Polish coat with a red feather on his cap, walking at dusk"},
+    {"text": "Tylko kopyto wystaje mu czasem spod płaszcza. I zawsze pachnie dymem.", "image": "close up of a goat hoof peeking from under a long coat on cobblestones"},
+    {"text": "Lubi siadać w karczmach przy tych, którzy narzekają na biedę. Słucha. A potem stawia kufel.", "image": "nobleman sitting at a wooden tavern table with a poor peasant, candle light"},
+    {"text": "I wysypuje na stół garść złota. Mówi tylko: oddasz, kiedy będziesz mógł.", "image": "pile of gold coins on a wooden tavern table in candle light"},
+    {"text": "Pewien biedny szewc przyjął złoto. Kupił dom, konia, nowe buty dla dzieci.", "image": "happy shoemaker standing in front of a new house with a horse"},
+    {"text": "Przez rok żył jak pan. Aż pewnej nocy ktoś zapukał do drzwi. Trzy razy.", "image": "wooden door of a house at night with candle light under it, mist outside"},
+    {"text": "W progu stał szlachcic z czerwonym piórem. Uśmiechnięty. Powiedział: przyszedłem po dług.", "image": "nobleman with a red feather standing in a dark doorway, smiling, smoke around his feet"},
+    {"text": "Szewc chciał oddać złoto. Ale szlachcic pokręcił głową. Nie złoto pożyczyłem. Pożyczyłem ci rok.", "image": "frightened shoemaker holding a bag of coins out toward a dark figure"},
+    {"text": "Rano dom stał pusty. Koń w stajni. Buty dzieci przy piecu. Szewca nikt już nie widział.", "image": "empty house interior in morning light with small shoes by a clay oven"},
+    {"text": "A w lochach zamku, podobno, w beczce ze złotem przybyła jedna nowa moneta. Z wybitą twarzą szewca.", "image": "single gold coin with a man's face on a pile of treasure in a dark dungeon"}
+  ]
+}
