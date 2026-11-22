@@ -1,0 +1,22 @@
+{
+  "title": "Śpisz sam w namiocie w górach. Ktoś na zewnątrz powoli rozpina zamek",
+  "hook": "Ktoś rozpina namiot",
+  "description": "Rozbijasz namiot na polanie w Beskidach. W promieniu kilku kilometrów nie ma nikogo. W nocy budzi cię dźwięk. Ktoś na zewnątrz bardzo powoli rozpina zamek twojego namiotu.",
+  "question": "Co byś zrobił w tym namiocie? ⛺ Napisz w komentarzu 👇",
+  "visual_style": "small tent on a mountain meadow in the Polish Beskidy at night, spruce forest edge, mist, moonlight, headlamp glow inside the tent",
+  "tags": ["straszne historie", "horror po polsku", "pov", "namiot", "góry", "beskidy", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Rozbijasz namiot na polanie w Beskidach. W promieniu kilku kilometrów nie ma nikogo.", "image": "small tent on a mountain meadow at dusk, spruce forest edge, mist"},
+    {"text": "W nocy budzi cię dźwięk. Zamek namiotu. Ktoś rozpina go powoli. Ząbek po ząbku.", "image": "tent zipper seen from inside, slowly moving, faint moonlight on the fabric"},
+    {"text": "Zapalasz czołówkę. Zamek staje. Cisza. Tylko wiatr w świerkach.", "image": "headlamp beam lighting the inside of a tent, zipper half open"},
+    {"text": "Wołasz: kto tam? Nikt nie odpowiada. Ale na płótnie widzisz cień. Ktoś kuca przy wejściu.", "image": "shadow of a crouching figure on the outside of a tent wall, moonlight"},
+    {"text": "Cień jest dziwny. Za długie ręce. Za wąska głowa. I nie oddycha.", "image": "tall thin distorted shadow on a tent wall with very long arms"},
+    {"text": "Zamek znów rusza. Tym razem szybciej. Łapiesz go od środka i trzymasz.", "image": "hands gripping a tent zipper from inside, knuckles white"},
+    {"text": "Ktoś po drugiej stronie ciągnie. Mocno. Potem puszcza. I zaczyna się śmiać. Twoim głosem.", "image": "tent fabric being pulled tight from outside, darkness"},
+    {"text": "Cień wstaje. Okrąża namiot. Raz. Drugi. Trzeci. Za każdym razem bliżej płótna.", "image": "shadow circling a tent seen from inside, fabric bulging inward"},
+    {"text": "O świcie cisza. Wychodzisz. Wokół namiotu wydeptany idealny krąg w szronie.", "image": "perfect circle of footprints in frost around a tent on a meadow at dawn"},
+    {"text": "Ślady stóp boso. Długich. Z jednej strony krąg się urywa. Prowadzi w las.", "image": "long bare footprints in frost leading from a meadow into a dark spruce forest"},
+    {"text": "Pakujesz się w pośpiechu. Zwijasz śpiwór. Pod nim leży coś, czego nie przyniosłeś.", "image": "sleeping bag being rolled up, revealing an object on the tent floor"},
+    {"text": "Twój własny telefon. Ten, który masz w kieszeni. Na ekranie nagranie z nocy. Ty śpiący. Nagrane z wnętrza namiotu.", "image": "phone lying on a tent floor showing a video of a person sleeping in the tent"}
+  ]
+}
