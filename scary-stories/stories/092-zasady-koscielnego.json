@@ -1,0 +1,22 @@
+{
+  "title": "Zostałem kościelnym w wiejskiej parafii. Poprzednik zostawił mi 3 zasady",
+  "hook": "Nie licz ostatniej ławki",
+  "description": "Zostałem kościelnym w małej parafii na wsi. Poprzedni kościelny zostawił mi w zakrystii kartkę z trzema zasadami. Pierwsza brzmiała: po zmroku nie dzwoń dzwonem. Nawet jeśli ktoś o to prosi.",
+  "question": "Którą zasadę złamałbyś pierwszy? 🔔 Napisz w komentarzu 👇",
+  "visual_style": "small old wooden village church in Poland at night, bell tower, candles, wooden pews, misty cemetery around",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "kościół", "wieś", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Zostałem kościelnym w małej wiejskiej parafii. W zakrystii poprzednik zostawił mi kartkę z zasadami.", "image": "small old wooden village church with a bell tower at dusk, misty cemetery"},
+    {"text": "Pierwsza. Po zmroku nie dzwoń dzwonem. Nawet jeśli ktoś o to prosi.", "image": "rope of a church bell hanging in a dark wooden bell tower"},
+    {"text": "Druga. Zamykając kościół, nie licz ludzi w ostatniej ławce. Tam zawsze ktoś siedzi.", "image": "last wooden pew in a dim church, candle light, empty"},
+    {"text": "Trzecia. Jeśli usłyszysz organy w nocy, nie wchodź na chór.", "image": "old church organ in a dark choir loft, moonlight through a window"},
+    {"text": "Pierwszego wieczoru zamykałem kościół. W ostatniej ławce siedziała starsza kobieta w czarnej chustce.", "image": "old woman in a black headscarf sitting in the last pew, back view, candles"},
+    {"text": "Powiedziałem, że zamykam. Nie odwróciła się. Wyszedłem i przekręciłem klucz.", "image": "old iron key turning in a heavy wooden church door at night"},
+    {"text": "O północy zagrały organy. Cicho. Pieśń pogrzebowa. Z mojego okna widziałem światło w kościele.", "image": "faint light in the windows of a dark wooden church at midnight, fog"},
+    {"text": "Rano w ostatniej ławce leżał różaniec. Mokry od rosy. I bukiet zeschniętych kwiatów z cmentarza.", "image": "old rosary and dried flowers lying on a wooden church pew, morning light"},
+    {"text": "Wieczorem ktoś zapukał do mojej plebanii. Kobieta w chustce. Proszę zadzwonić. Mój syn wraca.", "image": "old woman in a black headscarf standing at a wooden door at night"},
+    {"text": "Nie zadzwoniłem. Stała pod oknem do świtu i szeptała: proszę. Proszę.", "image": "silhouette of a woman standing under a window in fog at night"},
+    {"text": "Rano proboszcz wyjaśnił. Jej syn zginął na wojnie. Dzwon po zmroku przywołuje tych, na których ktoś czeka.", "image": "old priest standing by the church bell tower in morning mist, serious face"},
+    {"text": "Wczoraj dzwon zadzwonił sam. O trzeciej. A w ostatniej ławce siedziało już dwoje.", "image": "two dark figures sitting together in the last pew of a dim church, candles"}
+  ]
+}
