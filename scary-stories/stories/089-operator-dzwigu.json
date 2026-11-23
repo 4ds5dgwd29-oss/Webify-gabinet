@@ -1,0 +1,22 @@
+{
+  "title": "Pracuję jako operator dźwigu. Na wysokości 60 metrów ktoś puka w szybę kabiny",
+  "hook": "Puka na 60 metrach",
+  "description": "Pracuję jako operator żurawia na budowie nowego osiedla. Kabina wisi sześćdziesiąt metrów nad ziemią. Zimą zaczynam pracę przed świtem. Pewnego ranka ktoś zapukał w szybę. Od zewnątrz.",
+  "question": "Otworzyłbyś okno kabiny? 🏗️ Napisz w komentarzu 👇",
+  "visual_style": "tower crane over a Polish housing construction site before dawn in winter, crane cab high above, city lights, fog, steel frames",
+  "tags": ["straszne historie", "horror po polsku", "dźwig", "budowa", "operator", "nocna zmiana", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję jako operator żurawia na budowie nowego osiedla. Kabina wisi sześćdziesiąt metrów nad ziemią.", "image": "tall tower crane over a construction site before dawn, small lit cab high above, fog"},
+    {"text": "Zimą wchodzę na górę po drabinie przed świtem. Kwadrans wspinaczki w ciemności.", "image": "worker climbing a steel ladder inside a crane tower at night, headlamp"},
+    {"text": "Pewnego ranka, gdy piłem kawę w kabinie, ktoś zapukał w szybę. Od zewnątrz.", "image": "crane cab window at dawn with fog outside, a coffee thermos on the dashboard"},
+    {"text": "Trzy razy. Spokojnie. Jak sąsiad, który pyta, czy może wejść.", "image": "close up of a frosted crane cab window with knuckle marks"},
+    {"text": "Za szybą była tylko mgła. I pustka. Sześćdziesiąt metrów w dół.", "image": "view down from a crane cab into thick fog over a construction site"},
+    {"text": "Pukanie powtórzyło się. Tym razem od strony drabiny. Ktoś wspinał się za mną.", "image": "steel crane ladder disappearing down into fog, faint shape below"},
+    {"text": "Spojrzałem w dół. Szczebel po szczeblu wspinał się mężczyzna w starym kasku. Bez rękawic. Bez uprzęży.", "image": "man in an old helmet climbing a crane ladder without a harness, fog"},
+    {"text": "Przez radio zapytałem kierownika, kto wchodzi na żuraw. Odpowiedział, że cała ekipa stoi przy kontenerach.", "image": "foreman with a radio standing by site containers at dawn, workers around him"},
+    {"text": "Mężczyzna dotarł do kabiny. Przyłożył twarz do szyby. Szarą, pokrytą szronem.", "image": "grey frosted face pressed against a crane cab window from outside, fog"},
+    {"text": "Powiedział przez szybę: to moje miejsce. Spadłem stąd w dziewięćdziesiątym dziewiątym. Nikt mnie nie zmienił.", "image": "pale man in an old hard hat outside a crane cab, mouth moving, frost"},
+    {"text": "Potem puścił się drabiny. Bez krzyku. Zniknął w mgle.", "image": "empty crane ladder in fog with a falling old hard hat"},
+    {"text": "Na dole nikogo nie znaleźli. Ale rano na fundamencie leżał stary kask. Z moim nazwiskiem na naklejce.", "image": "old scratched hard hat lying on a concrete foundation in morning frost"}
+  ]
+}
