@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o polskim wilkołaku. Klątwa rzucona podczas wesela",
+  "hook": "Klątwa na weselu",
+  "description": "W dawnej Polsce wierzono, że wilkołakiem można stać się nie przez ugryzienie. Ale przez klątwę. Najczęściej rzucaną na weselu. Przez kogoś, kogo nie zaproszono.",
+  "question": "Zaprosiłbyś na wesele tę staruchę? 🐺 Napisz w komentarzu 👇",
+  "visual_style": "old Polish village in winter in the 18th century, wooden cottages, wedding with fiddlers in a barn, snowy forest, full moon, wolves",
+  "tags": ["straszne historie", "horror po polsku", "wilkołak", "polskie legendy", "klątwa", "wesele", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "W dawnej Polsce wierzono, że wilkołakiem można stać się nie przez ugryzienie. Ale przez klątwę.", "image": "snowy village at night under a full moon, wolf tracks in the snow"},
+    {"text": "Najczęściej rzucaną na weselu. Przez kogoś, kogo nie zaproszono.", "image": "village wedding in a wooden barn with fiddlers and dancing guests, lantern light"},
+    {"text": "Na jedno takie wesele w zimie przyszła stara kobieta z sąsiedniej wsi. Nikt jej nie wpuścił.", "image": "old woman in a dark shawl standing at the door of a barn in the snow"},
+    {"text": "Stała w progu i patrzyła na młodych. Rzuciła na próg wilczą skórę i odeszła.", "image": "grey wolf pelt lying on the snowy threshold of a barn, footprints walking away"},
+    {"text": "Pan młody pierwszy przestąpił przez skórę. Zatrzymał się. Zbladł. I wybiegł w noc.", "image": "young groom in a wedding coat running out into a snowy night"},
+    {"text": "Rano w śniegu znaleziono tylko jego buty. Dalej ślady wilczych łap.", "image": "pair of boots in deep snow with wolf paw prints leading into the forest"},
+    {"text": "Od tamtej pory przy wsi krążył samotny wilk. Nigdy nie atakował ludzi.", "image": "large lone grey wolf standing at the edge of a snowy forest at dusk"},
+    {"text": "Co noc przychodził pod okno młodej żony. Siadał w śniegu. I wył.", "image": "wolf sitting in snow under a lit cottage window at night, howling"},
+    {"text": "Mówiono, że klątwę zdejmie tylko ten, kto rozpozna człowieka w wilku. I poda mu chleb z ręki.", "image": "hand holding out a piece of bread toward a wolf in the snow"},
+    {"text": "Po trzech latach żona wyszła do niego z bochenkiem. Wilk podszedł. Wziął chleb. Spojrzał jej w oczy.", "image": "young woman kneeling in snow offering bread to a large wolf, moonlight"},
+    {"text": "Skóra spadła z niego jak płaszcz. Przed nią stał jej mąż. Zmarznięty. Ale żywy.", "image": "wolf pelt lying in the snow, a man's silhouette standing beside it, dawn"},
+    {"text": "Tylko oczy zostały mu żółte. Do końca życia. A przy pełni wciąż wychodził w nocy do lasu. Sam.", "image": "man with yellow eyes looking out of a cottage window at a full moon"}
+  ]
+}
