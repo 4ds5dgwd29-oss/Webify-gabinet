@@ -1,0 +1,22 @@
+{
+  "title": "Kupiłem w komisie starą szafę. Od środka była podrapana paznokciami",
+  "hook": "Ślady od środka",
+  "description": "Kupiłem w komisie starą dębową szafę za grosze. Dopiero w domu zajrzałem do środka. Wewnętrzna strona drzwi była podrapana. Głębokie rysy. Jak od paznokci. I wydrapane imiona.",
+  "question": "Zostawiłbyś tę szafę w sypialni? 🚪 Napisz w komentarzu 👇",
+  "visual_style": "small Polish apartment bedroom at night, large old dark oak wardrobe, dim lamp, scratched wood, antique shop",
+  "tags": ["straszne historie", "horror po polsku", "szafa", "komis", "antyki", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Kupiłem w komisie starą dębową szafę. Sprzedawca oddał ją za grosze. Szybko. Bez targowania.", "image": "large old dark oak wardrobe standing in a cluttered antique shop"},
+    {"text": "W domu otworzyłem drzwi. Od środka drewno było podrapane. Głębokie rysy. Jak od paznokci.", "image": "inside of an old wardrobe door covered with deep scratch marks"},
+    {"text": "Między rysami ktoś wydrapał imiona. Helena. Stefan. Marysia. Kilkanaście. Różnym pismem.", "image": "names scratched into old wood inside a wardrobe, flashlight beam"},
+    {"text": "Pomyślałem, że to dzieci kiedyś się bawiły. Wstawiłem ją do sypialni.", "image": "old oak wardrobe in a small bedroom next to a bed, evening lamp"},
+    {"text": "Pierwszej nocy drzwi szafy otworzyły się same. Powoli. Ze skrzypieniem.", "image": "wardrobe door slowly opening by itself in a dark bedroom"},
+    {"text": "Zamknąłem je i przekręciłem kluczyk. O trzeciej usłyszałem drapanie. Od środka.", "image": "small key in the lock of a closed wardrobe at night"},
+    {"text": "Rano otworzyłem szafę. Pusta. Ale wśród imion było nowe. Świeże. Drewno jeszcze jasne.", "image": "fresh light scratches forming a new name among old ones inside a wardrobe"},
+    {"text": "Moje imię. Wydrapane krzywo. Jakby ktoś pisał w ciemności.", "image": "close up of a freshly scratched name in dark wood, splinters"},
+    {"text": "Pojechałem do komisu. Sprzedawca zbladł. Powiedział, że szafa wraca do niego co kilka lat.", "image": "pale antique dealer standing behind a counter, shaking his head"},
+    {"text": "Za każdym razem z nowym imieniem. Właściciele nigdy jej nie oddają. Robią to ich rodziny.", "image": "old receipt book open on an antique shop counter with a list of names"},
+    {"text": "Wróciłem do domu, żeby wynieść szafę. Stała otwarta. W środku wisiały moje ubrania.", "image": "open old wardrobe with men's clothes hanging inside, dim bedroom"},
+    {"text": "Wszystkie. Choć nigdy ich tam nie wieszałem. Jakby ktoś szykował mnie do długiej drogi.", "image": "neatly hung clothes inside a dark wardrobe, a suit in the center"}
+  ]
+}
