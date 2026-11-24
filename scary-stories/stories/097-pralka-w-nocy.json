@@ -1,0 +1,22 @@
+{
+  "title": "Nasza pralka włącza się sama w nocy. Rano są w niej ubrania, których nie mamy",
+  "hook": "Nie nasze ubrania",
+  "description": "Od przeprowadzki nasza pralka włącza się sama o drugiej w nocy. Rano w bębnie są mokre ubrania. Nie nasze. Dziecięce. Staromodne. Jakby z lat osiemdziesiątych.",
+  "question": "Co zrobiłbyś z tymi ubraniami? 🧺 Napisz w komentarzu 👇",
+  "visual_style": "small bathroom in an old Polish block of flats at night, washing machine with a glowing display, tiled walls, laundry rack, dim light",
+  "tags": ["straszne historie", "horror po polsku", "dom", "pralka", "blok", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Od przeprowadzki nasza pralka włącza się sama o drugiej w nocy. Słychać ją w całym mieszkaniu.", "image": "washing machine running in a dark bathroom with a glowing display, night"},
+    {"text": "Rano w bębnie są mokre ubrania. Nie nasze. Dziecięce. Staromodne.", "image": "open washing machine drum with small old fashioned children's clothes inside"},
+    {"text": "Sweterek w romby. Rajstopki. Mała kurteczka ze szkolną naszywką. Jak z lat osiemdziesiątych.", "image": "old patterned child's sweater and tights hanging on a laundry rack"},
+    {"text": "Odłączyliśmy pralkę od prądu. Następnej nocy i tak zaczęła prać.", "image": "unplugged washing machine cord lying on a bathroom floor, machine glowing"},
+    {"text": "Stanąłem w drzwiach łazienki z latarką. Bęben kręcił się powoli. Za szybką coś było.", "image": "man with a flashlight in a bathroom doorway, washing machine running"},
+    {"text": "Mała dłoń. Przyciśnięta od środka do szybki. Biała od wody.", "image": "small pale hand pressed against the glass door of a washing machine"},
+    {"text": "Zgasło światło. Pralka stanęła. Gdy zapaliłem latarkę ponownie, w bębnie były tylko ubrania.", "image": "dark bathroom lit by a flashlight beam, washing machine still"},
+    {"text": "Sąsiadka z góry powiedziała, że przed nami mieszkała tu rodzina z chłopcem.", "image": "elderly neighbor speaking at an apartment door in a stairwell"},
+    {"text": "Chłopiec zaginął w osiemdziesiątym szóstym. W listopadzie. W drodze ze szkoły. Nigdy go nie znaleźli.", "image": "faded old photo of a small boy in a patterned sweater on a school step"},
+    {"text": "Jego matka do końca prała mu ubrania. Co noc. Żeby miał w czym wrócić.", "image": "old woman hanging small clothes on a rack in a dim bathroom, old photo style"},
+    {"text": "Złożyliśmy ubrania i położyliśmy je na wycieraczce. Pralka przestała się włączać.", "image": "neatly folded children's clothes on a doormat outside an apartment door"},
+    {"text": "Ale wczoraj o drugiej usłyszeliśmy dzwonek do drzwi. Za drzwiami nikogo. Ubrania zniknęły. Zostały mokre ślady małych stóp. Prowadziły do nas.", "image": "small wet footprints on a stairwell floor leading to an apartment door, night"}
+  ]
+}
