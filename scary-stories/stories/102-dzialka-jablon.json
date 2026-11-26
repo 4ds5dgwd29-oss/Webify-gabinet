@@ -1,0 +1,22 @@
+{
+  "title": "Kupiłem działkę na ogródkach. W altance była kartka: nie kop pod jabłonią",
+  "hook": "Nie kop pod jabłonią",
+  "description": "Kupiłem tanio działkę na ogródkach działkowych. W altance poprzedni właściciel zostawił kartkę przybitą gwoździem. Jedno zdanie. Nie kop pod jabłonią. Ona tam śpi.",
+  "question": "Kopałbyś dalej? 🍎 Napisz w komentarzu 👇",
+  "visual_style": "Polish allotment garden in late autumn, small wooden summer house, old twisted apple tree, fallen leaves, grey sky, fog at dusk",
+  "tags": ["straszne historie", "horror po polsku", "działka", "ogródki działkowe", "jabłoń", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Kupiłem tanio działkę na ogródkach. W altance była kartka przybita gwoździem.", "image": "small wooden summer house on an allotment garden in autumn, note nailed to the door"},
+    {"text": "Jedno zdanie. Nie kop pod jabłonią. Ona tam śpi.", "image": "close up of a handwritten note nailed to old wood, faded ink"},
+    {"text": "Jabłoń była stara, krzywa. Co roku rodziła jabłka. Czerwone w środku. Jak krew.", "image": "old twisted apple tree with red apples, one cut open showing red flesh"},
+    {"text": "Sąsiad zza płotu powiedział, że poprzedni właściciel siedział pod nią całymi dniami. I rozmawiał. Z kimś pod ziemią.", "image": "old neighbor leaning on a wooden fence of an allotment, pointing at a tree"},
+    {"text": "Uznałem to za brednie. W listopadzie postanowiłem wyciąć jabłoń i wykopać korzenie.", "image": "man with a spade and a saw standing under an old apple tree, fallen leaves"},
+    {"text": "Pół metra pod ziemią łopata trafiła na coś twardego. Drewno. Wieko.", "image": "spade hitting a buried wooden board in dark soil under tree roots"},
+    {"text": "Korzenie jabłoni oplatały skrzynię jak palce. Ściskały ją ze wszystkich stron.", "image": "tree roots wrapped tightly around an old wooden box in the dirt"},
+    {"text": "Wtedy ze skrzyni dobiegło pukanie. Trzy razy. Cicho. Jakby ktoś obudzony prosił, żeby nie przeszkadzać.", "image": "old wooden box half buried in soil, dusk fog over the garden"},
+    {"text": "Zasypałem dół. Szybko. Do zmroku. I uciekłem z działki.", "image": "man shoveling dirt back into a hole under an apple tree at dusk"},
+    {"text": "Rano na progu mojego mieszkania leżało jabłko. Czerwone w środku. Ze śladem drobnych zębów.", "image": "single red apple with small bite marks lying on an apartment doormat"},
+    {"text": "Od tamtej pory co rano leży nowe. Zawsze ugryzione. Zawsze świeże. A ja już nie mam działki.", "image": "row of bitten red apples on a doormat, morning light"},
+    {"text": "Wczoraj obok jabłka leżała kartka. Dziecięcym pismem. Obudziłeś mnie. Teraz ty mnie bujaj.", "image": "child's handwritten note on a doormat beside a bitten apple, dim stairwell light"}
+  ]
+}
