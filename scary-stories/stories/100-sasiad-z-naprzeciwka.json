@@ -1,0 +1,22 @@
+{
+  "title": "Sąsiad z bloku naprzeciwko napisał: kto stoi za tobą w oknie?",
+  "hook": "Kto stoi za tobą?",
+  "description": "Z sąsiadem z bloku naprzeciwko czasem piszemy, bo nasze okna są dokładnie na tej samej wysokości. Pewnego wieczoru przysłał mi jedną wiadomość. Kto stoi za tobą w oknie?",
+  "question": "Odwróciłbyś się? 🏢 Napisz w komentarzu 👇",
+  "visual_style": "two Polish blocks of flats facing each other at night, lit windows, dark courtyard between them, phone screens glowing",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "sąsiad", "blok", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Z sąsiadem z bloku naprzeciwko czasem piszemy. Nasze okna są na tej samej wysokości.", "image": "two blocks of flats facing each other at night with lit windows on the same floor"},
+    {"text": "Pewnego wieczoru przysłał jedną wiadomość. Kto stoi za tobą w oknie?", "image": "phone screen glowing in a dark living room with a short message"},
+    {"text": "Siedziałem sam na kanapie. Odwróciłem się. Za mną było tylko okno. I firanka.", "image": "man on a sofa turning to look at a window with a white curtain, dim lamp"},
+    {"text": "Odpisałem, że jestem sam. Odpisał: ktoś stoi za firanką. Wysoki. Nie rusza się.", "image": "close up of a phone chat with messages in a dark room"},
+    {"text": "Podszedłem do okna i odsunąłem firankę. Nic. Pomachałem do sąsiada. Odmachał.", "image": "man pulling back a curtain and waving at the block across the courtyard"},
+    {"text": "Wiadomość. Teraz stoi za tobą. Bliżej. Ma rękę nad twoim ramieniem.", "image": "phone screen glowing in a hand, reflection of a window behind"},
+    {"text": "Nie czułem nic. Tylko zimno na karku. Jak od otwartego okna.", "image": "back of a man's neck in cold blue light, dark room behind him"},
+    {"text": "Napisałem: zrób zdjęcie. Przysłał je po chwili. Moje okno. Ja w nim. I za mną druga postać.", "image": "zoomed blurry photo of a lit window with a man and a tall shadow behind him"},
+    {"text": "Bez twarzy. Szara. Pochylona nade mną. Z dłonią na moim ramieniu.", "image": "tall grey faceless figure leaning over a man in a window, grainy"},
+    {"text": "Zgasiłem światło i wybiegłem na klatkę. Zadzwoniłem do sąsiada. Abonent niedostępny.", "image": "man running down a dim stairwell holding a phone to his ear"},
+    {"text": "Rano zapukałem do bloku naprzeciwko. Starsza pani powiedziała, że to mieszkanie stoi puste od roku. Od śmierci lokatora.", "image": "elderly woman at an apartment door in a stairwell, morning light"},
+    {"text": "Wieczorem telefon zawibrował. Ten sam numer. Już go nie widzę za tobą. Bo stoi teraz za mną.", "image": "phone glowing on a windowsill at night, empty dark window across the courtyard"}
+  ]
+}
