@@ -1,0 +1,22 @@
+{
+  "title": "Pracuję nocą w sortowni. Na taśmie była paczka zaadresowana do mnie",
+  "hook": "Paczka do mnie, ode mnie",
+  "description": "Pracuję na nocnej zmianie w ogromnej sortowni paczek pod miastem. Tysiące przesyłek na godzinę. O trzeciej na taśmie pojawiła się paczka zaadresowana do mnie. Nadawca: też ja. Data nadania: za tydzień.",
+  "question": "Otworzyłbyś tę paczkę? 📦 Napisz w komentarzu 👇",
+  "visual_style": "huge parcel sorting warehouse near a Polish city at night, conveyor belts, cardboard boxes, yellow lights, workers in reflective vests",
+  "tags": ["straszne historie", "horror po polsku", "sortownia", "paczka", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję nocą w sortowni paczek pod miastem. Tysiące przesyłek na godzinę.", "image": "huge parcel sorting warehouse at night with long conveyor belts and boxes"},
+    {"text": "O trzeciej na taśmie pojawiła się paczka zaadresowana do mnie. Moje imię. Mój adres.", "image": "cardboard box on a conveyor belt with a handwritten address label, close up"},
+    {"text": "Nadawca też ja. Moje pismo. A data nadania: za tydzień.", "image": "close up of a shipping label with handwriting and a date stamp"},
+    {"text": "Skaner zapiszczał na czerwono. Przesyłka nie istnieje w systemie.", "image": "handheld barcode scanner showing a red error light over a box"},
+    {"text": "Paczka była lekka. Coś w niej się przesuwało. I tykało. Cicho, jak zegarek.", "image": "worker in a reflective vest holding a small box close to his ear"},
+    {"text": "Kierownik zmiany kazał odłożyć ją na regał zwrotów. Nie otwierać. Takie się zdarzają.", "image": "shift manager pointing to a shelf of returned parcels in a dim corner"},
+    {"text": "Pod koniec zmiany regał zwrotów był pusty. Tylko moja paczka leżała na środku hali.", "image": "single small box lying in the middle of an empty warehouse floor, early dawn"},
+    {"text": "Zabrałem ją do domu. Otworzyłem przy stole. W środku był mój zegarek. Ten, który mam na ręce.", "image": "open cardboard box on a kitchen table with a wristwatch inside"},
+    {"text": "Ten sam model. Ta sama rysa na szkiełku. Ale zatrzymany. Na godzinie trzeciej siedemnaście.", "image": "close up of a stopped wristwatch with a scratched glass, lamp light"},
+    {"text": "I kartka. Moim pismem. Nie idź do pracy w przyszły czwartek.", "image": "small handwritten note lying beside a watch in a box"},
+    {"text": "W przyszły czwartek wziąłem wolne. O trzeciej siedemnaście w sortowni zawalił się regał. Na moim stanowisku.", "image": "collapsed warehouse shelving with scattered boxes, emergency lights"},
+    {"text": "Wczoraj mój zegarek stanął sam. Na trzeciej siedemnaście. A w skrzynce czeka awizo. Paczka od nadawcy: ja. Za dwa tygodnie.", "image": "stopped wristwatch on a wrist next to a delivery notice slip, night"}
+  ]
+}
