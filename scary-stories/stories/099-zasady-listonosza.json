@@ -1,0 +1,22 @@
+{
+  "title": "Zostałem listonoszem na wsi. Poprzednik zostawił mi 3 zasady rejonu",
+  "hook": "Nie doręczaj pod 13",
+  "description": "Dostałem wiejski rejon jako listonosz. Poprzednik przekazał mi torbę i zeszyt z adresami. Na ostatniej stronie były trzy zasady. Pierwsza: listów do domu numer trzynaście nie doręczaj. Nawet poleconych.",
+  "question": "Którą zasadę złamałbyś pierwszy? ✉️ Napisz w komentarzu 👇",
+  "visual_style": "small Polish village in late autumn at dusk, muddy road, wooden fences, mailboxes, old postman bag, bare trees, fog",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "listonosz", "wieś", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dostałem wiejski rejon jako listonosz. Poprzednik przekazał mi torbę i zeszyt z trzema zasadami.", "image": "old leather postman bag and a worn notebook on a wooden table, lamp light"},
+    {"text": "Pierwsza. Listów do domu numer trzynaście nie doręczaj. Nawet poleconych.", "image": "old wooden house number 13 at the end of a muddy village road, fog"},
+    {"text": "Druga. Jeśli ktoś z tego domu wyjdzie po list, nie podawaj mu go do ręki.", "image": "dark doorway of an old village house with the door slightly open"},
+    {"text": "Trzecia. Nie kończ rejonu po zmroku. Wtedy zawsze przychodzi list do ciebie.", "image": "village road at dusk with a single mailbox and bare trees"},
+    {"text": "Pod trzynastkę co tydzień przychodziły listy. Ręcznie pisane. Bez nadawcy. Odkładałem je na pocztę.", "image": "pile of handwritten envelopes without return addresses on a post office counter"},
+    {"text": "Pewnego dnia zatrzymał mnie deszcz. Kończyłem rejon po zmroku. Pod trzynastką paliło się światło.", "image": "old house with one lit window at dusk in the rain, muddy road"},
+    {"text": "Z domu wyszła kobieta w szlafroku. Wyciągnęła rękę. Czy jest coś dla mnie? Czekam od lat.", "image": "pale woman in an old bathrobe standing at a gate with her hand outstretched, rain"},
+    {"text": "Nie podałem jej listu. Położyłem go na słupku. Uśmiechnęła się dziwnie i weszła do środka.", "image": "envelope resting on a wet fence post in the evening rain"},
+    {"text": "Rano zapytałem sołtysa, kto mieszka pod trzynastką. Nikt. Od pożaru w siedemdziesiątym ósmym.", "image": "village head in a cap pointing at a burnt house in morning fog"},
+    {"text": "Dom stał spalony. Bez dachu. Bez okien. A na słupku leżał mój list. Otwarty.", "image": "burnt ruins of an old village house with an open envelope on a fence post"},
+    {"text": "W środku była kartka. Jej pismem. Dziękuję. Teraz będę pisać do ciebie.", "image": "handwritten note on old paper inside an envelope, morning light"},
+    {"text": "Od tamtej pory co tydzień w mojej skrzynce leży list. Bez nadawcy. Pachnie dymem.", "image": "home mailbox with a handwritten envelope inside, faint smoke curling from it"}
+  ]
+}
