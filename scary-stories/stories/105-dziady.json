@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o Dziadach. Noc, w której zmarli wracają na kolację",
+  "hook": "Zostaw drzwi otwarte",
+  "description": "Dawni Słowianie jesienią obchodzili Dziady. Noc, w której dusze przodków wracają do domów. Zostawiano dla nich jedzenie i otwarte drzwi. Ale nikt nie mógł patrzeć, jak jedzą.",
+  "question": "Zostawiłbyś drzwi otwarte? 🕯️ Napisz w komentarzu 👇",
+  "visual_style": "old Slavic village cottage in late autumn night, candles, wooden table with food, open door to a misty yard, bare trees",
+  "tags": ["straszne historie", "horror po polsku", "dziady", "słowianie", "polskie legendy", "zaduszki", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dawni Słowianie jesienią obchodzili Dziady. Noc, w której dusze przodków wracają do domów.", "image": "old wooden village cottage at night in late autumn, candles in the windows, mist"},
+    {"text": "Na stole zostawiano kaszę, miód i kutię. Drzwi otwierano na oścież. Żeby dusze mogły wejść.", "image": "wooden table with bowls of porridge, honey and candles, open cottage door"},
+    {"text": "Ale była jedna zasada. Nikt nie mógł patrzeć, jak jedzą. Wszyscy spali albo modlili się twarzą do ściany.", "image": "family kneeling with faces to the wall in a candlelit cottage"},
+    {"text": "Rano jedzenia było mniej. Na ławkach zostawał chłód. Jakby ktoś przed chwilą wstał.", "image": "half empty bowls on a wooden table in grey morning light, empty benches"},
+    {"text": "W jednej wsi żył parobek, który w nic nie wierzył. Postanowił podejrzeć gości.", "image": "young peasant man hiding behind a stove in a dark cottage, curious face"},
+    {"text": "Schował się za piecem. O północy drzwi skrzypnęły. Do izby wszedł chłód. I cisza.", "image": "cottage door creaking open at midnight, mist flowing inside, candles flickering"},
+    {"text": "Przy stole zaczęły siadać postacie. Szare, przezroczyste. Dziadek. Babka. Sąsiad, który utonął latem.", "image": "faint grey transparent figures sitting at a candlelit table"},
+    {"text": "Jedli w milczeniu. Łyżki stukały o miski. Nikt nie podnosił głowy.", "image": "ghostly hands holding wooden spoons over bowls, candle light"},
+    {"text": "Ostatnie miejsce przy stole było puste. Ale nakryte. Z łyżką i miską.", "image": "single empty place at a table with a bowl and spoon, candle beside it"},
+    {"text": "Wtedy dziadek podniósł głowę. Spojrzał prosto za piec. I powiedział: siadaj, wnuku. To dla ciebie.", "image": "pale old man's face at a table turning toward a dark corner, candlelight"},
+    {"text": "Rano rodzina znalazła parobka za piecem. Siwego. Nie odezwał się już nigdy więcej.", "image": "young man with white hair sitting silently behind a clay stove, morning light"},
+    {"text": "Tylko co roku na Dziady sam nakrywał do stołu. Jedno miejsce więcej. I siadał przy nim, gdy wszyscy zasnęli.", "image": "white haired man setting an extra bowl on a candlelit table at night"}
+  ]
+}
