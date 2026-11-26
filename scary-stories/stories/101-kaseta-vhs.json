@@ -1,0 +1,22 @@
+{
+  "title": "Na strychu dziadka jest kaseta VHS z twoim imieniem i jutrzejszą datą",
+  "hook": "Kaseta z jutra",
+  "description": "Sprzątasz strych po dziadkach. W kartonie ze starymi kasetami jest jedna podpisana inaczej. Twoje imię. I data. Jutrzejsza. Odtwarzacz wciąż działa.",
+  "question": "Obejrzałbyś do końca? 📼 Napisz w komentarzu 👇",
+  "visual_style": "dusty attic of an old Polish house, cardboard boxes, old CRT TV and VHS player, single bulb, evening",
+  "tags": ["straszne historie", "horror po polsku", "pov", "kaseta vhs", "strych", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Sprzątasz strych po dziadkach. W kartonie stare kasety. Wesela. Komunie. Wakacje nad morzem.", "image": "cardboard box full of old VHS tapes in a dusty attic, bulb light"},
+    {"text": "Jedna podpisana inaczej. Twoje imię. I data. Jutrzejsza.", "image": "close up of a VHS tape label with handwritten name and a date"},
+    {"text": "Dziadek zmarł dziesięć lat temu. To jego pismo. Poznajesz po literze r.", "image": "old handwriting on a tape label beside a faded family photo"},
+    {"text": "Wkładasz kasetę do starego odtwarzacza. Szum. Pasy. Potem obraz.", "image": "old CRT television showing static, VHS player glowing in a dark attic"},
+    {"text": "Ten strych. Ten karton. Ty. Siedzisz przed telewizorem. Tyłem do kamery.", "image": "grainy TV screen showing a person sitting in front of a television in an attic"},
+    {"text": "Odwracasz się. W kącie strychu nie ma kamery. Jest tylko ciemność.", "image": "dark corner of a dusty attic with old furniture covered by sheets"},
+    {"text": "Na nagraniu ty też się odwracasz. Patrzysz w kąt. A z kąta ktoś wychodzi.", "image": "grainy VHS image of a dark figure stepping out of an attic corner"},
+    {"text": "Wysoki. Przygarbiony. Idzie do ciebie powoli. Ty na nagraniu go nie widzisz.", "image": "grainy TV image of a tall hunched shadow approaching a seated person"},
+    {"text": "Zatrzymujesz kasetę. Ekran gaśnie. W ciszy słyszysz skrzypienie desek. Za plecami.", "image": "wooden attic floorboards in dim light, a faint shadow on them"},
+    {"text": "Zbiegasz po schodach. Zamykasz klapę strychu. Dzwonisz do mamy.", "image": "hand slamming an attic hatch shut, narrow stairs, dim hallway"},
+    {"text": "Mama milczy długo. Potem mówi: dziadek nagrywał. Zawsze dzień wcześniej. Mówił, że ktoś musi ostrzegać.", "image": "person on a phone in a hallway, pale worried face"},
+    {"text": "Wieczorem znajdujesz w swojej skrzynce kasetę. Jego pismem. Data: pojutrze.", "image": "VHS tape lying in a home mailbox in the evening, handwritten label"}
+  ]
+}
