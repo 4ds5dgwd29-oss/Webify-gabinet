@@ -1,0 +1,22 @@
+{
+  "title": "Zasady nocnej opieki nad starszą panią. Nie odpowiadaj, gdy woła z piwnicy",
+  "hook": "Ona nie chodzi od lat",
+  "description": "Dorabiałem jako nocny opiekun starszej pani na wsi. Jej syn zostawił mi kartkę z zasadami. Pani od dziesięciu lat leży i nie wstaje z łóżka.",
+  "question": "Którą zasadę złamałbyś pierwszy? 📜 Napisz w komentarzu 👇",
+  "visual_style": "old Polish country house at night, dim bedroom with a wooden bed, crocheted blankets, holy pictures on the wall, cellar door in the hallway",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "opiekun", "wieś", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dorabiałem jako nocny opiekun starszej pani na wsi. Jej syn zostawił mi kartkę z zasadami.", "image": "handwritten list of rules on a kitchen table in an old country house, lamp light"},
+    {"text": "Zasada pierwsza. Mama nie wstaje z łóżka od dziesięciu lat. Jeśli usłyszysz kroki, to nie ona.", "image": "frail old woman lying in a wooden bed under a crocheted blanket, dim bedroom"},
+    {"text": "Zasada druga. Drzwi do piwnicy zostają zamknięte. Klucz nosisz przy sobie.", "image": "old wooden cellar door in a dark hallway with a heavy iron lock"},
+    {"text": "Zasada trzecia. Jeśli mama zawoła cię z piwnicy, nie odpowiadaj. Idź do jej pokoju i sprawdź, czy leży.", "image": "dark stone cellar stairs leading down, faint light at the bottom"},
+    {"text": "Pierwsze noce były spokojne. Pani spała. Zegar tykał.", "image": "old wall clock ticking in a quiet country kitchen at night"},
+    {"text": "Czwartej nocy o drugiej usłyszałem kroki. Powolne. Szuranie kapci na korytarzu.", "image": "worn slippers on a wooden hallway floor in the dark, shadow of feet"},
+    {"text": "Zajrzałem do sypialni. Pani leżała. Oczy otwarte. Patrzyła na mnie.", "image": "old woman lying in bed with wide open eyes staring at the doorway, moonlight"},
+    {"text": "Wtedy spod podłogi dobiegł jej głos. Synku, otwórz. Tu jest tak zimno.", "image": "close up of wooden floorboards with a cold blue light seeping through cracks"},
+    {"text": "Głos był taki sam. Ten sam, którym w dzień prosiła o herbatę.", "image": "young man standing frozen in a dark hallway beside the cellar door"},
+    {"text": "Nie odpowiedziałem. Głos zamilkł. A pani w łóżku szepnęła: dobrze. Uczysz się.", "image": "old woman in bed whispering, faint smile, candle light on her face"},
+    {"text": "Rano zapytałem syna, kto jest w piwnicy. Odpowiedział spokojnie: mama.", "image": "middle aged man in a coat standing in a doorway at dawn, calm face"},
+    {"text": "Ta w łóżku przyszła dziesięć lat temu. Od tamtej pory żadna z nich nie umarła.", "image": "two identical old women's hands, one on a blanket, one on a cellar door, side by side"}
+  ]
+}

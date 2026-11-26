@@ -1,0 +1,22 @@
+{
+  "title": "Zasady akademika, których nie ma w regulaminie",
+  "hook": "Nie otwieraj pokoju 13",
+  "description": "Pierwszego dnia w akademiku starszy student wsunął mi pod drzwi kartkę z zasadami. Nie ma ich w żadnym regulaminie. Ale wszyscy ich przestrzegają.",
+  "question": "Której zasady nie dałbyś rady przestrzegać? 🏢 Napisz w komentarzu 👇",
+  "visual_style": "old Polish student dormitory from the 1970s at night, long corridor, linoleum floor, flickering fluorescent lights",
+  "tags": ["straszne historie", "horror po polsku", "akademik", "studia", "zasady", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pierwszego dnia w akademiku ktoś wsunął mi pod drzwi kartkę. Zasady, których nie ma w regulaminie.", "image": "handwritten paper note slid under a dormitory room door, light from the corridor"},
+    {"text": "Zasada pierwsza. Na czwartym piętrze nie ma pokoju trzynaście. Jeśli go zobaczysz, wróć do siebie.", "image": "long dormitory corridor with numbered doors, one unnumbered door at the end"},
+    {"text": "Zasada druga. Po północy nie odpowiadaj, gdy ktoś puka i prosi o cukier.", "image": "dormitory room door at night, a shadow of feet visible under the gap"},
+    {"text": "Zasada trzecia. Jeśli w kuchni ktoś gotuje o trzeciej, nie zaglądaj. To nie jest student.", "image": "shared dorm kitchen at night, steam rising from a pot, figure at the stove with back turned"},
+    {"text": "Zasada czwarta. Portierka na dole nie ma twarzy. Nie patrz w okienko dłużej niż sekundę.", "image": "dormitory reception window at night, a figure in a cardigan behind dirty glass, face in shadow"},
+    {"text": "Przez semestr się śmiałem. Ale przestrzegałem. Na wszelki wypadek.", "image": "student sitting on a bed in a small dorm room studying, desk lamp, posters on the wall"},
+    {"text": "W sesji wracałem z biblioteki o drugiej. Na czwartym piętrze były drzwi z numerem trzynaście.", "image": "old wooden door with brass number 13 in a dim dormitory corridor, light under the door"},
+    {"text": "Za nimi ktoś się śmiał. Mój współlokator. Ten, który wyjechał na święta.", "image": "dark dormitory corridor, laughter coming from behind a closed door, student frozen"},
+    {"text": "Zawróciłem do siebie. Zgodnie z zasadą. Mój współlokator spał w łóżku.", "image": "dark dorm room with a figure sleeping under a blanket, back to the door"},
+    {"text": "Rano zadzwoniłem do niego. Odebrał z domu, trzysta kilometrów dalej.", "image": "student holding a phone in a bright morning dorm room, empty messy bed beside him"},
+    {"text": "Pod drzwiami leżała nowa kartka. Zasada piąta. Nie śpij z kimś, kogo nie znasz.", "image": "close up of a new handwritten note on a dormitory floor, morning light"},
+    {"text": "Łóżko współlokatora było zaścielone. A kołdra jeszcze ciepła.", "image": "neatly made dormitory bed, a dent in the pillow, cold morning light"}
+  ]
+}

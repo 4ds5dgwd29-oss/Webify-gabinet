@@ -1,0 +1,22 @@
+{
+  "title": "Robisz nocne zakupy. Z głośników pada twoje imię: proszę nie wychodzić",
+  "hook": "Proszę nie wychodzić",
+  "description": "Robisz zakupy w całodobowym markecie. Jest prawie pusto. Nagle z głośników pada komunikat. Twoje imię i nazwisko. Prośba, żebyś pod żadnym pozorem nie wychodził ze sklepu.",
+  "question": "Wyszedłbyś z tego sklepu? 🛒 Napisz w komentarzu 👇",
+  "visual_style": "large empty 24-hour supermarket in Poland at night, bright fluorescent lights, long aisles, dark parking lot outside the glass doors",
+  "tags": ["straszne historie", "horror po polsku", "pov", "market", "zakupy", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Jest prawie północ. Robisz zakupy w całodobowym markecie. W sklepie poza tobą tylko kasjerka.", "image": "long empty supermarket aisle at night under bright fluorescent lights, one shopping cart"},
+    {"text": "Nagle z głośników pada komunikat. Twoje imię i nazwisko. Proszę pod żadnym pozorem nie wychodzić ze sklepu.", "image": "ceiling speaker in a supermarket, bright lights, empty aisle below"},
+    {"text": "Kasjerka patrzy na ciebie. Kręci głową. Ona nic nie ogłaszała.", "image": "young cashier sitting at an empty checkout, staring with a confused face"},
+    {"text": "Idziesz do wyjścia. Za szklanymi drzwiami parking. Twój samochód. I ktoś przy nim stoi.", "image": "glass supermarket doors at night, a dark parking lot and a figure standing by a car"},
+    {"text": "Wygląda jak ty. Ta sama kurtka. Ta sama torba. Macha do ciebie i pokazuje, żebyś wyszedł.", "image": "figure in a jacket waving under a parking lot lamp at night, face in shadow"},
+    {"text": "Głośniki znowu trzeszczą. Nie wychodź. To nie jest twój samochód. To nie jesteś ty.", "image": "supermarket speaker and flickering fluorescent lights over an aisle"},
+    {"text": "Cofasz się między regały. Światła w sklepie gasną jedno po drugim. Od wejścia.", "image": "supermarket aisle with lights going dark row by row from the entrance"},
+    {"text": "Drzwi rozsuwają się same. Ktoś wchodzi. Słyszysz kroki. Twoje kroki.", "image": "automatic sliding glass doors opening in a dark supermarket, wet footprints"},
+    {"text": "Chowasz się w magazynie. Siedzisz tam do rana. Kroki krążą między regałami całą noc.", "image": "person hiding between boxes in a dim supermarket storage room"},
+    {"text": "O szóstej przychodzi ochroniarz. Wyprowadza cię. Na parkingu nie ma nikogo.", "image": "security guard leading a tired person out of a supermarket at dawn, empty parking lot"},
+    {"text": "Pytasz, kto nadał komunikat. Pokazuje ci nagranie z kamery z kanciapy przy mikrofonie.", "image": "security monitor showing grainy footage of a small office with a microphone on a desk"},
+    {"text": "Przy mikrofonie siedzisz ty. Starszy. Zmęczony. A na zegarze kamery jest data za dziesięć lat.", "image": "grainy CCTV image of an older tired person speaking into a microphone, timestamp in the corner"}
+  ]
+}

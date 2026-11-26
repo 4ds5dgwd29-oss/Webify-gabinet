@@ -1,0 +1,22 @@
+{
+  "title": "Powiesiłem w lesie fotopułapkę. Na nagraniach ktoś podchodzi coraz bliżej",
+  "hook": "Coś patrzy w obiektyw",
+  "description": "Powiesiłem w lesie za domem fotopułapkę, żeby nagrać dziki. Na pierwszym nagraniu były sarny. Na drugim coś, co szło na czworakach. W mojej kurtce.",
+  "question": "Poszedłbyś po tę kamerę? 📷 Napisz w komentarzu 👇",
+  "visual_style": "dark pine forest behind a lonely Polish country house, autumn night, trail camera on a tree, infrared grainy look",
+  "tags": ["straszne historie", "horror po polsku", "fotopułapka", "las", "nagranie", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Powiesiłem w lesie za domem fotopułapkę. Chciałem nagrać dziki, które ryły mi trawnik.", "image": "small camouflaged trail camera strapped to a pine tree in a dark forest"},
+    {"text": "Pierwszej nocy kamera nagrała sarny. Lisa. Nic dziwnego.", "image": "grainy black and white infrared image of deer in a forest at night"},
+    {"text": "Drugiej nocy nagrała coś, co szło na czworakach. Długie ręce. Ludzka sylwetka.", "image": "grainy infrared image of a thin figure crawling on all fours between trees"},
+    {"text": "Miało na sobie kurtkę. Moją kurtkę. Tę, którą zgubiłem w lesie miesiąc temu.", "image": "close up of a grainy night image of a figure wearing a torn dark jacket"},
+    {"text": "Trzeciej nocy stało już prosto. Kilka metrów od kamery. Odwrócone tyłem.", "image": "grainy infrared image of a tall thin figure standing still with its back turned in a forest"},
+    {"text": "Czwartej nocy stało tuż przed obiektywem. Twarz miało bladą i gładką. Bez oczu.", "image": "grainy infrared close up of a pale smooth face without eyes in front of a camera"},
+    {"text": "Zdjąłem kamerę z drzewa i schowałem w szufladzie. Nie chciałem więcej oglądać.", "image": "man putting a small trail camera into a kitchen drawer, dim light"},
+    {"text": "Tej nocy coś zapiszczało w kuchni. Kamera się włączyła. Czujnik ruchu.", "image": "small red light glowing on a camera in a dark kitchen drawer"},
+    {"text": "Rano przejrzałem nagranie. Moja kuchnia. Ciemna. Pusta. Przez całą noc nic.", "image": "grainy infrared image of an empty dark kitchen at night"},
+    {"text": "Dopiero ostatnia klatka. O czwartej trzydzieści. Kurtka wisi na moim krześle.", "image": "grainy infrared image of a dark jacket hanging on a kitchen chair"},
+    {"text": "Poszedłem do kuchni. Kurtka wisiała. Mokra. Pachnąca lasem i ziemią.", "image": "wet dark jacket hanging on a wooden kitchen chair in morning light, mud on the floor"},
+    {"text": "A w kieszeni była fotopułapka. Ta sama. Nagrywała. Mnie. Z kąta pokoju.", "image": "trail camera peeking out of a jacket pocket with a small red light on"}
+  ]
+}

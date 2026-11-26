@@ -1,0 +1,225 @@
+{
+  "title": "Nie otwieraj po trzecim pukaniu | Zima na stacji meteo w górach",
+  "hook": "Licz pukania",
+  "thumbnail_text": "NIE OTWIERAJ PO TRZECIM",
+  "thumbnail_image": "heavy metal covered door of a lonely mountain hut at night in a blizzard, a dark figure standing on the snowy porch",
+  "visual_style": "isolated stone weather station on a snowy Bieszczady mountain peak in winter 1987, blizzards, kerosene lamp light, old radio equipment",
+  "description": "Zima 1987 roku. Paweł przyjmuje pracę, której nikt nie chce: cztery miesiące samotnie na stacji meteorologicznej na szczycie w Bieszczadach. Kierowca ratraka, który go tam zostawia, mówi tylko jedno: niech pan liczy pukania.\n\nW szafce Paweł znajduje zeszyt z zasadami od poprzednika. W czasie zamieci ktoś będzie pukał. Po trzecim pukaniu nie wolno otworzyć, choćby głos za drzwiami należał do kogoś, kogo kochasz. Pierwsza zamieć przychodzi już po tygodniu. A rano wokół stacji są ślady bosych stóp, które prowadzą tylko w jedną stronę.\n\n🕯️ Zgaś światło, załóż słuchawki i posłuchaj do samego końca. Ostatnie zdanie zmienia wszystko.",
+  "question": "Otworzyłbyś, gdyby za drzwiami był głos ukochanej osoby? 🚪 Napisz w komentarzu 👇",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "bieszczady",
+    "stacja meteorologiczna",
+    "zima",
+    "góry",
+    "pukanie",
+    "creepypasta",
+    "polski horror",
+    "historie grozy",
+    "długa historia",
+    "horror na noc",
+    "straszne opowieści",
+    "legenda"
+  ],
+  "chapters": [
+    {
+      "title": "Stacja na szczycie",
+      "scene": 0
+    },
+    {
+      "title": "Zasady z zeszytu",
+      "scene": 8
+    },
+    {
+      "title": "Trzecie pukanie",
+      "scene": 17
+    },
+    {
+      "title": "Dziennik z 1962",
+      "scene": 27
+    },
+    {
+      "title": "Zamieć",
+      "scene": 33
+    },
+    {
+      "title": "Powrót",
+      "scene": 40
+    }
+  ],
+  "scenes": [
+    {
+      "text": "W grudniu osiemdziesiątego siódmego roku przyjąłem pracę, której nikt nie chciał. Zima na stacji meteorologicznej na szczycie w Bieszczadach. Cztery miesiące sam, odcięty od świata śniegiem.",
+      "image": "small stone weather station on a snowy mountain peak at dusk, antenna mast, deep snow"
+    },
+    {
+      "text": "Płacili potrójnie. Potrzebowaliśmy z żoną pieniędzy na mieszkanie, więc się zgodziłem. Ania płakała na dworcu w Krakowie, a ja się śmiałem, że wrócę z workiem pieniędzy i brodą do pasa.",
+      "image": "young woman in a winter coat waving goodbye on a snowy train platform, old train"
+    },
+    {
+      "text": "Na górę wwiózł mnie ratrak. Kierowca nie gasił silnika. Wyrzucił moje skrzynki na śnieg, podał mi klucze i powiedział tylko jedno zdanie: liczy pan pukania, zrozumiano?",
+      "image": "old snowcat vehicle in deep snow beside a mountain weather station, grey sky"
+    },
+    {
+      "text": "Zanim zdążyłem zapytać, o co chodzi, ratrak już zjeżdżał w dół. Zostałem sam. Wiatr na szczycie wył tak, że nie słyszałem własnych myśli.",
+      "image": "lone man with boxes standing in snow, a snowcat disappearing down the mountain slope"
+    },
+    {
+      "text": "Stacja była mała. Kuchnia, pokój z radiostacją, sypialnia i ganek z ciężkimi drzwiami obitymi blachą. Okna zasypane do połowy. Pachniało naftą i starym tytoniem.",
+      "image": "small cramped room with an old radio transmitter, kerosene lamp and frosted window"
+    },
+    {
+      "text": "Moja praca była prosta. Co trzy godziny wyjść do ogródka meteorologicznego, odczytać temperaturę, wiatr i opad. Zapisać w dzienniku. Nadać przez radio do bazy w Lesku.",
+      "image": "white wooden weather instrument shelter in deep snow, thermometers inside"
+    },
+    {
+      "text": "Pierwsze dni minęły spokojnie. Śnieg, wiatr, pomiary, zupa z puszki. Wieczorami słuchałem trzasków w radiu i pisałem listy do Ani, których nie miałem jak wysłać.",
+      "image": "man writing a letter at a wooden table by a kerosene lamp, snow outside"
+    },
+    {
+      "text": "Tylko jedna rzecz mnie niepokoiła. Na wewnętrznej stronie drzwi, na wysokości twarzy, blacha była porysowana. Setki krótkich kresek, pogrupowanych po trzy. Jakby ktoś latami coś liczył.",
+      "image": "inside of a metal door covered with hundreds of small scratched tally marks in groups of three"
+    },
+    {
+      "text": "Czwartego dnia, szukając zapasowych baterii, znalazłem w szafce stary zeszyt. Na okładce ktoś napisał: dla następnego. Przeczytaj, zanim przyjdzie pierwsza zamieć.",
+      "image": "old worn school notebook lying in an open wooden cabinet, flashlight beam"
+    },
+    {
+      "text": "Pismo było staranne, ale pod koniec coraz bardziej drżące. Poprzednik zapisał w nim zasady. Ponumerowane, jak instrukcja obsługi.",
+      "image": "close up of handwritten pages in an old notebook, numbered list, shaky handwriting"
+    },
+    {
+      "text": "Pierwsza zasada. W czasie zamieci ktoś będzie pukał do drzwi. Licz pukania. Raz i dwa razy to wiatr albo turysta. Możesz otworzyć.",
+      "image": "heavy metal covered door of a mountain hut at night, snow blowing under it"
+    },
+    {
+      "text": "Druga zasada. Jeśli zapuka trzeci raz, nie otwieraj. Choćby wołał twoim imieniem. Choćby mówił głosem kogoś, kogo kochasz.",
+      "image": "dark hallway with a heavy door, frost on the hinges, dim lamp light"
+    },
+    {
+      "text": "Trzecia zasada. Nie wychodź na pomiar, jeśli wokół stacji widzisz ślady, które prowadzą tylko w jedną stronę. Do drzwi.",
+      "image": "footprints in fresh snow leading straight to a door, none leading away"
+    },
+    {
+      "text": "Czwarta zasada. Jeśli baza w radiu powie ci, że ktoś po ciebie jedzie, zapytaj o hasło. Hasło zna tylko kierownik. Wierzba.",
+      "image": "old radio transmitter with a glowing dial and a microphone on a wooden desk"
+    },
+    {
+      "text": "Zaśmiałem się. Pomyślałem, że to żart dla nowych, jak w wojsku. Ale ostatnia strona była pusta, poza jednym zdaniem napisanym dużymi literami. Nie popełnij mojego błędu.",
+      "image": "last page of a notebook with one sentence written in big shaky letters"
+    },
+    {
+      "text": "Przez radio zapytałem bazę, kto był tu przede mną. Długo była cisza. Potem kierownik powiedział, że od lat nikt. Stacja stała pusta od dwudziestu pięciu zim.",
+      "image": "man speaking into a radio microphone in a dark room, worried face"
+    },
+    {
+      "text": "Zapytałem, czyj w takim razie jest ten zeszyt. Kierownik odpowiedział, że nie wie, o jakim zeszycie mówię. I się rozłączył.",
+      "image": "close up of a radio speaker with static, dim kerosene light"
+    },
+    {
+      "text": "Dwa dni później przyszła pierwsza prawdziwa zamieć. Świat za oknem zniknął. Słyszałem tylko wiatr i trzeszczenie dachu.",
+      "image": "blizzard hitting a small mountain station at night, snow swirling, one lit window"
+    },
+    {
+      "text": "O północy ktoś zapukał. Raz. Zamarłem z kubkiem w ręce. Potem, po długiej chwili, drugi raz. Wolniej. Jakby ktoś bardzo zmarznięty ledwo unosił rękę.",
+      "image": "man frozen holding a tin mug, staring at a door in a dark kitchen"
+    },
+    {
+      "text": "Wołałem: kto tam? Nikt nie odpowiedział. A potem zapukał trzeci raz. Mocno. Tak, że drgnęła blacha na drzwiach.",
+      "image": "metal covered door shaking slightly, snow dust falling from the frame"
+    },
+    {
+      "text": "Zza drzwi odezwał się głos. Męski, spokojny. Panie Pawle, to ja, kierowca z ratraka. Ugrzązłem niżej. Proszę otworzyć, bo zamarznę.",
+      "image": "dark porch with snow piled against a closed door, faint light under it"
+    },
+    {
+      "text": "Ten głos znałem. Ręka sama sięgnęła do zasuwy. I wtedy przypomniałem sobie, że nigdy nie mówiłem mu, jak mam na imię.",
+      "image": "hand reaching for a heavy iron door bolt, frosted metal, close up"
+    },
+    {
+      "text": "Nie otworzyłem. Siedziałem pod ścianą do rana, a głos prosił. Potem płakał. Potem zaczął się śmiać. O świcie umilkł.",
+      "image": "man sitting on the floor against a wall at night, knees pulled up, kerosene lamp"
+    },
+    {
+      "text": "Rano wyszedłem na pomiar. Wokół stacji były ślady. Bose stopy. Długie, wąskie, jakby ktoś szedł na palcach. Prowadziły z lasu prosto do drzwi.",
+      "image": "bare footprints in deep snow leading from a dark forest to a station door, dawn"
+    },
+    {
+      "text": "Od drzwi nie prowadziły nigdzie. Jakby ten, kto je zostawił, wciąż stał na ganku. Tuż obok mnie.",
+      "image": "empty snowy porch of a mountain hut with footprints ending at the doorstep"
+    },
+    {
+      "text": "Nie zrobiłem tego dnia pomiaru. Pierwszy raz w życiu sfałszowałem dane. Wpisałem do dziennika liczby z poprzedniego dnia i zaryglowałem drzwi na dwie zasuwy.",
+      "image": "man sliding a second iron bolt on a heavy door, worried face, daylight through frost"
+    },
+    {
+      "text": "Przez radio zgłosiłem, że w nocy był tu kierowca ratraka. Kierownik milczał. Potem powiedział cicho: ratrak stoi w garażu w Lesku od miesiąca. Kierowca ma grypę.",
+      "image": "old radio transmitter glowing in a dim room, man holding a microphone"
+    },
+    {
+      "text": "Następnego dnia rozebrałem szafkę, w której był zeszyt. Pod podwójnym dnem znalazłem stary dziennik pomiarów. Rok sześćdziesiąty drugi.",
+      "image": "hidden compartment in an old wooden cabinet with a dusty logbook inside"
+    },
+    {
+      "text": "Pomiary zapisywał niejaki Zdzisław. Co trzy godziny, staranne cyfry. Do szesnastego stycznia. Tego dnia w rubryce uwagi napisał: przyszedł turysta, zabłądził, wpuściłem go.",
+      "image": "old logbook page with columns of numbers and a handwritten note in the margin"
+    },
+    {
+      "text": "Następne pomiary były zapisane tym samym pismem. Ale cyfry nie miały sensu. Minus trzysta stopni. Wiatr tysiąc metrów na sekundę. Opad: on jest głodny.",
+      "image": "page of an old logbook with strange numbers and scribbled words, candle light"
+    },
+    {
+      "text": "Wpisy ciągnęły się do kwietnia. Codziennie, co trzy godziny. Dopiero wiosną przyjechała ekipa z bazy.",
+      "image": "rescue team on skis approaching a mountain station in spring snow"
+    },
+    {
+      "text": "Między kartkami była wycinka z gazety. Meteorolog odnaleziony martwy na szczycie. Według lekarza nie żył od połowy stycznia. Przez trzy miesiące.",
+      "image": "yellowed old newspaper clipping tucked between logbook pages"
+    },
+    {
+      "text": "Ktoś więc przez trzy miesiące robił za niego pomiary. Siedział przy tym biurku. Pisał jego ręką.",
+      "image": "empty wooden chair at a desk with an open logbook and a pen, dim light"
+    },
+    {
+      "text": "Od tamtej nocy pukanie wracało przy każdej zamieci. Raz głosem matki. Raz głosem kolegi z wojska. Zawsze trzy razy. Zawsze tuż po północy.",
+      "image": "door of a mountain hut at night during a snowstorm, light flickering"
+    },
+    {
+      "text": "Nauczyłem się nie odpowiadać. Zatykałem uszy watą i liczyłem do świtu. Każdego ranka wokół stacji było więcej śladów.",
+      "image": "many bare footprints circling a small station in the snow, morning light"
+    },
+    {
+      "text": "Czasem, kiedy wiatr cichł, słyszałem coś jeszcze. Drapanie. Powolne, cierpliwe. Po zewnętrznej stronie drzwi. Po trzy kreski naraz.",
+      "image": "close up of the outside of a metal door with fresh scratches in the frost, night"
+    },
+    {
+      "text": "W lutym przyszła najgorsza zamieć. Trzy doby bez przerwy. Radio milczało. Lampa naftowa dogasała, a ja nie spałem od dwóch nocy.",
+      "image": "small kerosene lamp almost burnt out in a dark room, snow covering the window"
+    },
+    {
+      "text": "O północy ktoś zapukał. Raz. Dwa. Trzy. A potem odezwał się głos, który znałem najlepiej na świecie. Paweł, to ja, Ania. Przyjechałam do ciebie. Otwórz, proszę, tak mi zimno.",
+      "image": "dark hallway with a heavy door, faint silhouette of a woman behind frosted glass"
+    },
+    {
+      "text": "Wiedziałem, że to niemożliwe. Wiedziałem, że Ania jest w Krakowie. A jednak stałem przy drzwiach z ręką na zasuwie i płakałem jak dziecko.",
+      "image": "man standing by a door with his hand on the bolt, tears on his face, lamp light"
+    },
+    {
+      "text": "Nie otworzyłem. Głos przestał prosić. Powiedział spokojnie, prawie czule: dobrze. Skoro ty nie chcesz mnie wpuścić, pójdę tam, gdzie ktoś na mnie czeka. I kroki odeszły w śnieg.",
+      "image": "line of bare footprints leading away from a station into a snowy forest at night"
+    },
+    {
+      "text": "W kwietniu ratrak zabrał mnie na dół. Pociągiem wróciłem do Krakowa. Biegłem po schodach na trzecie piętro z kwiatami w ręce.",
+      "image": "man running up the stairs of an old tenement building holding flowers"
+    },
+    {
+      "text": "Ania otworzyła drzwi i pobladła. Upuściła ścierkę. Szepnęła: ale przecież ty wróciłeś w lutym. W tę noc, kiedy była śnieżyca. Zapukałeś trzy razy.",
+      "image": "pale young woman standing in an apartment doorway, shocked face, dropped towel"
+    },
+    {
+      "text": "A z sypialni odezwał się mój własny głos. Spokojny, trochę zachrypnięty. Kochanie, kto tam przyszedł? Powiedz mu, że my już nigdy nikogo nie wpuszczamy.",
+      "image": "dark bedroom doorway at the end of an apartment hallway, a silhouette sitting on the bed"
+    }
+  ]
+}

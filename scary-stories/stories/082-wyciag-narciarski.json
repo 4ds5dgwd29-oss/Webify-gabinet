@@ -1,0 +1,22 @@
+{
+  "title": "Obsługuję wieczorem wyciąg krzesełkowy. Ostatnie krzesełko wraca z kimś",
+  "hook": "Wraca z pasażerem",
+  "description": "Pracuję jako operator wyciągu krzesełkowego w małym ośrodku w górach. Po ostatnim zjeździe puszczam pustą linę, żeby sprawdzić krzesełka. Pewnego wieczoru z góry zjechało krzesełko z pasażerem. Na górze nikogo nie było.",
+  "question": "Zatrzymałbyś wyciąg? 🚡 Napisz w komentarzu 👇",
+  "visual_style": "small ski resort in Polish mountains at night, chairlift with lamps, snowy slope, spruce forest, falling snow, operator booth",
+  "tags": ["straszne historie", "horror po polsku", "wyciąg", "narty", "góry", "nocna zmiana", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję jako operator wyciągu krzesełkowego w małym ośrodku w górach.", "image": "chairlift operator booth at the bottom of a snowy slope at night, lamps on"},
+    {"text": "Po zamknięciu puszczam linę na pusto. Sprawdzam, czy na górze nikt nie został.", "image": "empty chairlift seats moving up a dark snowy slope under lamps"},
+    {"text": "Kolega z górnej stacji dzwoni: czysto. Ostatni narciarz zjechał. Wyłącza światła i schodzi pieszo.", "image": "upper chairlift station on a mountain top at night, lights going off"},
+    {"text": "Kilka minut później z góry wyłoniło się krzesełko. Ktoś na nim siedział.", "image": "chairlift seat coming down out of falling snow with a dark figure on it"},
+    {"text": "Bez nart. Bez kurtki. W samym swetrze. Ręce na kolanach. Głowa opuszczona.", "image": "figure in a wool sweater sitting still on a chairlift seat, head bowed, snow"},
+    {"text": "Zadzwoniłem na górę. Kolega przysięgał, że tam nikogo nie ma. Że stoi przy pustej stacji.", "image": "operator holding an old phone receiver in a small booth, snow outside the window"},
+    {"text": "Krzesełko wjechało na dolną stację. Nie zszedł. Okrążył koło. I pojechał znowu w górę.", "image": "chairlift seat turning around the bottom wheel with a still figure on it"},
+    {"text": "Zatrzymałem wyciąg. Krzesełko zawisło nad lasem. Kołysało się na wietrze.", "image": "single chairlift seat swinging above dark spruce trees at night, snowfall"},
+    {"text": "Wtedy podniósł głowę. Powoli. I spojrzał prosto w okno mojej budki.", "image": "pale face looking down from a chairlift seat toward a lit booth, snow"},
+    {"text": "Szron na jego brwiach. Sine usta. Uśmiech, który nie pasował do twarzy.", "image": "close up of a frozen pale face with frost on eyebrows, faint smile"},
+    {"text": "Szef ośrodka powiedział mi potem, że w dziewięćdziesiątym ósmym zapomniano zdjąć z wyciągu jednego narciarza. Zawisł na noc w zamieci.", "image": "old newspaper photo of a chairlift in a snowstorm, faded"},
+    {"text": "Od tamtej pory jeździ co zimę. I czeka, aż ktoś zatrzyma wyciąg. Bo wtedy może zejść. Ten, kto zatrzymał, siada na jego miejscu.", "image": "empty chairlift booth with the door open and a chair seat swinging above, snowstorm"}
+  ]
+}

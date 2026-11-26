@@ -1,0 +1,22 @@
+{
+  "title": "Wynająłem mieszkanie za pół ceny. Warunek: nie otwieraj pawlacza",
+  "hook": "Nie otwieraj pawlacza",
+  "description": "Znalazłem kawalerkę w kamienicy za połowę ceny. Właścicielka miała jeden warunek, wpisany do umowy: pawlacz w przedpokoju zostaje zamknięty. Wytrzymałem dwa tygodnie.",
+  "question": "Otworzyłbyś ten pawlacz? 🗝️ Napisz w komentarzu 👇",
+  "visual_style": "old Polish tenement apartment at night, high ceilings, narrow hallway with a painted wooden overhead cupboard, dim yellow bulb",
+  "tags": ["straszne historie", "horror po polsku", "kamienica", "mieszkanie", "wynajem", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Znalazłem kawalerkę w kamienicy za połowę ceny. W umowie był jeden dodatkowy punkt.", "image": "old tenement building facade at dusk, one window lit on the third floor"},
+    {"text": "Pawlacz w przedpokoju pozostaje zamknięty. Pod żadnym pozorem go nie otwierać.", "image": "small painted wooden cupboard high above a narrow hallway, old padlock on it"},
+    {"text": "Właścicielka zabrała klucz. Powiedziała, że nic tam nie ma. Tylko rzeczy po mamie.", "image": "elderly woman putting an old key into her coat pocket in a dim hallway"},
+    {"text": "Pierwszej nocy usłyszałem drapanie. Nad drzwiami. Z pawlacza.", "image": "dark narrow hallway at night, faint light under a high wooden cupboard door"},
+    {"text": "Pomyślałem, że to myszy. Ale drapanie układało się w rytm. Jakby ktoś liczył.", "image": "close up of scratch marks on the inside edge of a wooden cupboard door"},
+    {"text": "Co rano pod pawlaczem leżało coś nowego. Guzik. Spinka do włosów. Mój klucz do mieszkania.", "image": "small objects lying on a hallway floor in morning light, a button and a hairpin"},
+    {"text": "Po dwóch tygodniach nie wytrzymałem. Przyniosłem drabinę i przeciąłem kłódkę.", "image": "young man on a ladder cutting a padlock on a high cupboard with bolt cutters"},
+    {"text": "W środku leżał stary koc. Poduszka. Kubek. I zdjęcia. Moje zdjęcia.", "image": "inside of a cramped cupboard with an old blanket, pillow and scattered photos"},
+    {"text": "Ja przy biurku. Ja pod prysznicem. Ja śpiący. Wszystkie zrobione z góry.", "image": "pile of printed photos of a young man in his apartment, taken from above"},
+    {"text": "Zadzwoniłem do właścicielki. Odebrała po pierwszym sygnale. Otworzyłeś, prawda?", "image": "young man on a ladder holding a phone to his ear, pale face, dim hallway"},
+    {"text": "Powiedziała, że jej mama nigdy nie lubiła nowych lokatorów. I że już nie wróci do pawlacza.", "image": "old woman sitting alone in a dark kitchen, holding a phone, sad expression"},
+    {"text": "Bo teraz wie, gdzie śpię. Tej nocy drapanie dobiegało spod mojego łóżka.", "image": "dark space under a bed at night, faint shape of thin fingers on the floor"}
+  ]
+}

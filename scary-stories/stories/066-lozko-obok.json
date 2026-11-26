@@ -1,0 +1,22 @@
+{
+  "title": "Leżysz na noc w szpitalu. Pacjent z łóżka obok pyta, czy już śpisz",
+  "hook": "Łóżko obok jest puste",
+  "description": "Zostajesz na noc w szpitalu po drobnym zabiegu. Sala dwuosobowa. Łóżko obok jest puste i zaścielone. O drugiej w nocy ktoś z niego szepcze: śpisz już?",
+  "question": "Odpowiedziałbyś? 🏥 Napisz w komentarzu 👇",
+  "visual_style": "old Polish hospital ward at night, two metal beds, white curtain on a rail, green night light, long dark corridor",
+  "tags": ["straszne historie", "horror po polsku", "pov", "szpital", "nocny dyżur", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Zostajesz na noc w szpitalu po drobnym zabiegu. Sala dwuosobowa. Łóżko obok jest puste.", "image": "hospital room at night with two metal beds, one empty and neatly made, green night light"},
+    {"text": "Pielęgniarka gasi światło i mówi coś dziwnego. Gdyby ktoś w nocy pytał, czy pan śpi, niech pan nie odpowiada.", "image": "nurse standing in a hospital doorway with her hand on the light switch, serious face"},
+    {"text": "Śmiejesz się. Zasypiasz. O drugiej budzi cię szept. Z łóżka obok. Śpisz już?", "image": "dark hospital room, the empty bed beside with a faint dent in the pillow"},
+    {"text": "Łóżko jest puste. Kołdra gładka. A szept powtarza się. Bliżej. Śpisz?", "image": "close up of a smooth hospital blanket on an empty bed, faint moonlight"},
+    {"text": "Zaciskasz oczy. Udajesz, że śpisz. Słyszysz skrzypienie sprężyn. Ktoś wstaje.", "image": "metal hospital bed frame in the dark, mattress springs visible"},
+    {"text": "Kroki. Bose stopy na linoleum. Zatrzymują się przy twoim łóżku.", "image": "bare feet standing on a hospital floor beside a bed, green light"},
+    {"text": "Czujesz zimny oddech na twarzy. Ktoś pochyla się nisko i czeka.", "image": "dark silhouette leaning over a bed in a hospital room at night"},
+    {"text": "Wtedy w korytarzu skrzypią drzwi. Kroki odchodzą. Sprężyny łóżka obok skrzypią znowu.", "image": "hospital corridor at night with a door slightly open and light from the nurses' station"},
+    {"text": "Rano pytasz pielęgniarkę, kto leżał obok. Mówi, że od tygodnia nikt.", "image": "nurse writing on a clipboard in a bright hospital room in the morning"},
+    {"text": "Ostatni pacjent odpowiedział, że nie śpi. Rano już się nie obudził.", "image": "empty hospital bed being stripped of sheets by a nurse, morning light"},
+    {"text": "Wypisują cię po południu. Oddychasz z ulgą. W domu kładziesz się wcześnie spać.", "image": "person lying in a cozy bedroom at night, bedside lamp just turned off"},
+    {"text": "O drugiej budzi cię szept. Z drugiej połowy łóżka. Tej, na której nikt nie śpi. Śpisz już?", "image": "dark bedroom with an empty half of a double bed, the pillow slowly denting"}
+  ]
+}

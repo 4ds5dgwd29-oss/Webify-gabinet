@@ -1,0 +1,223 @@
+{
+  "title": "Nie gwiżdż pod ziemią | Ostatnia szychta w zamykanej kopalni",
+  "hook": "Nie gwiżdż pod ziemią",
+  "thumbnail_text": "SKARBNIK CZEKA",
+  "thumbnail_image": "old miner with a glowing lantern standing at the end of a dark coal mine tunnel, wooden supports, coal dust",
+  "visual_style": "old Silesian coal mine, narrow tunnels with wooden supports, coal dust, yellow helmet lamps, darkness",
+  "description": "Kopalnia na Śląsku miała zostać zamknięta po stu dwudziestu latach. Na ostatnią szychtę zjechało dwunastu górników. Najmłodszy z nich, Tomek, śmiał się ze starych przesądów: nie gwiżdż pod ziemią, nie przeklinaj, zawsze zostaw kawałek chleba dla Skarbnika.\n\nNa poziomie siedemset dwadzieścia, w chodniku zamkniętym od pięćdziesięciu lat, ktoś zostawił świeży ślad buta. Potem zgasły lampy. A z ciemności odpowiedział mu gwizd.\n\n🕯️ Zgaś światło, załóż słuchawki i posłuchaj do samego końca. Ostatnie zdanie zmienia wszystko.",
+  "question": "Zszedłbyś na ostatnią szychtę do tej kopalni? ⛏️ Napisz w komentarzu 👇",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "kopalnia",
+    "skarbnik",
+    "śląsk",
+    "górnicy",
+    "polskie legendy",
+    "historie grozy",
+    "długa historia",
+    "polski horror",
+    "creepypasta",
+    "legendy śląskie"
+  ],
+  "chapters": [
+    {
+      "title": "Ostatnia szychta",
+      "scene": 0
+    },
+    {
+      "title": "Poziom 720",
+      "scene": 11
+    },
+    {
+      "title": "Gwizd w ciemności",
+      "scene": 20
+    },
+    {
+      "title": "Chodnik, którego nie ma",
+      "scene": 29
+    },
+    {
+      "title": "Zapłata",
+      "scene": 36
+    }
+  ],
+  "scenes": [
+    {
+      "text": "Kopalnia w Rudzie miała zostać zamknięta po stu dwudziestu latach. Na ostatnią szychtę zjechało nas dwunastu. Ja byłem najmłodszy. Miałem dwadzieścia trzy lata i nie wierzyłem w nic, czego nie da się zważyć ani policzyć.",
+      "image": "old Silesian coal mine headframe against a grey dawn sky, red brick buildings, smoke"
+    },
+    {
+      "text": "W łaźni starsi górnicy byli dziwnie cisi. Nikt nie żartował. Stary Ernest, który przepracował tu czterdzieści lat, wkładał do kieszeni kromkę chleba zawiniętą w papier.",
+      "image": "miners' changing room with hanging work clothes on chains, old men getting dressed in silence"
+    },
+    {
+      "text": "Zapytałem, czy to na drugie śniadanie. Pokręcił głową. To dla Skarbnika, powiedział. Ostatni dzień, trzeba się ładnie pożegnać. Reszta górników kiwnęła głowami, jakby to było oczywiste.",
+      "image": "old miner's weathered hands wrapping a slice of bread in paper, dim light"
+    },
+    {
+      "text": "Znałem tę legendę z dzieciństwa. Skarbnik to duch kopalni. Stary górnik z lampą, który chodzi po chodnikach. Dobrym pomaga, złym plącze drogę. I nie znosi, kiedy ktoś gwiżdże pod ziemią.",
+      "image": "old wooden carving of a bearded miner with a lantern on a shelf in a miners' room"
+    },
+    {
+      "text": "Roześmiałem się na głos. Powiedziałem, że w dwudziestym pierwszym wieku pod ziemią mamy czujniki metanu, a nie duchy. Ernest spojrzał na mnie długo i nic nie odpowiedział.",
+      "image": "young miner laughing in a changing room, older miners looking at him seriously"
+    },
+    {
+      "text": "Klatka szybowa zjechała z hukiem. Siedemset dwadzieścia metrów w dół, w ciemność, która pachniała węglem, mokrym drewnem i czymś starszym niż cała kopalnia.",
+      "image": "mine cage elevator descending in a dark shaft, miners with helmet lamps inside"
+    },
+    {
+      "text": "Na dole przywitała nas cisza, jakiej nie zna nikt, kto nie był pod ziemią. Bez wiatru, bez ptaków, bez samochodów. Tylko kapanie wody i trzeszczenie drewnianych stempli, które od stu lat trzymały na sobie cały ciężar góry.",
+      "image": "silent underground chamber with dripping water and creaking wooden supports, helmet lamps"
+    },
+    {
+      "text": "Na dole mieliśmy jedno zadanie. Wynieść z chodników to, co jeszcze miało wartość. Narzędzia, kable, pompy. Potem kopalnię miały zalać wody.",
+      "image": "underground coal mine corridor with rails, cables and old pumps, helmet lamp beams"
+    },
+    {
+      "text": "Pracowaliśmy w parach. Mnie przydzielono Ernesta. Szedł powoli, dotykał ścian dłonią jak starego przyjaciela i czasem coś cicho do nich mówił.",
+      "image": "old miner touching the coal wall of a tunnel with his palm, lamp light on his face"
+    },
+    {
+      "text": "Z nudów zacząłem gwizdać. Jakąś melodię z radia. Ernest zatrzymał się w miejscu i złapał mnie za ramię tak mocno, że aż zabolało.",
+      "image": "young miner whistling in a dark tunnel, an old miner grabbing his shoulder"
+    },
+    {
+      "text": "Głupi jesteś, syknął. Pod ziemią się nie gwiżdże. Mój ojciec mówił, że gwizd niesie się chodnikami dalej niż krzyk. I że zawsze ktoś go usłyszy. Ktoś, kto bardzo dawno nie słyszał żadnej muzyki.",
+      "image": "old miner whispering angrily to a young miner in a dark tunnel, lamp light on their faces"
+    },
+    {
+      "text": "Na poziomie siedemset dwadzieścia był chodnik zamknięty od pięćdziesięciu lat. Zabity deskami, z zardzewiałą tabliczką. Wstęp wzbroniony. Zawał.",
+      "image": "old tunnel entrance blocked with rotten wooden planks and a rusty warning sign"
+    },
+    {
+      "text": "Kiedy przechodziliśmy obok, zauważyłem coś dziwnego. Na pyle przy deskach był świeży ślad buta. Jeden. Duży. Wychodzący z zamkniętego chodnika.",
+      "image": "single fresh boot print in black coal dust next to boarded up planks, lamp light"
+    },
+    {
+      "text": "Ernest też go zobaczył. Zbladł. Wyjął z kieszeni chleb i położył go na desce. Potem zdjął kask i powiedział cicho: szczęść Boże, gospodarzu. Już kończymy.",
+      "image": "old miner placing a wrapped slice of bread on a wooden plank in a dark tunnel, helmet in hand"
+    },
+    {
+      "text": "Chciałem coś powiedzieć, ale wtedy z głębi chodnika dobiegło stukanie. Spokojne, rytmiczne. Jakby ktoś kilofem sprawdzał strop.",
+      "image": "darkness behind wooden planks, faint light leaking through gaps, dust falling"
+    },
+    {
+      "text": "Ernest pociągnął mnie za rękaw. Idziemy, powiedział. Nie odwracaj się. On sprawdza, kto zostaje do końca.",
+      "image": "two miners walking away down a dark tunnel, lamps swinging, one looking back"
+    },
+    {
+      "text": "Wróciliśmy do reszty. Śmiałem się z siebie, że dałem się nastraszyć. Pewnie jakiś dowcip starych górników na pożegnanie.",
+      "image": "group of miners eating a break meal sitting on wooden crates in an underground chamber"
+    },
+    {
+      "text": "Ale kiedy policzyłem ludzi przy przerwie, było nas trzynastu. Trzynaście lamp. Trzynaście kasków. A zjechało dwunastu.",
+      "image": "thirteen helmet lamps glowing in a dark mine chamber, faces hidden in shadow"
+    },
+    {
+      "text": "Liczyłem jeszcze raz. I jeszcze. Za każdym razem wychodziło trzynaście. Tylko nie potrafiłem wskazać, który jest nadliczbowy.",
+      "image": "young miner counting with his finger in a dark chamber, men sitting in a row"
+    },
+    {
+      "text": "Ernest siedział obok mnie i nie podnosił wzroku. Powiedział tylko: nie licz. On lubi, jak go liczą. Wtedy myśli, że go zapraszasz.",
+      "image": "close up of an old miner's tired face under a helmet lamp, looking down"
+    },
+    {
+      "text": "Po przerwie zgasło światło. Wszystkie lampy naraz. Kopalniane i nasze na kaskach. Ciemność była tak gęsta, że czułem ją na skórze.",
+      "image": "complete darkness in a mine tunnel, only faint outlines of miners' helmets"
+    },
+    {
+      "text": "Słyszałem oddechy kolegów. Ktoś szukał po omacku latarki zapasowej. Ktoś inny klął pod nosem, aż Ernest syknął, żeby przestał. Tu się nie przeklina, powiedział. Nie dzisiaj. Nie przy nim.",
+      "image": "miners in total darkness feeling the walls with their hands, faint outlines only"
+    },
+    {
+      "text": "Ktoś krzyknął, żeby nikt się nie ruszał. Usłyszałem, jak ktoś modli się szeptem. I wtedy, gdzieś daleko w chodniku, ktoś zagwizdał.",
+      "image": "dark mine tunnel stretching into blackness, a tiny distant point of light"
+    },
+    {
+      "text": "Tę samą melodię, którą ja gwizdałem godzinę wcześniej. Nuta w nutę. Tylko wolniej. Jakby ktoś się jej dopiero uczył.",
+      "image": "silhouette of a figure with an old oil lantern far away in a tunnel"
+    },
+    {
+      "text": "Lampy zapaliły się po minucie. Wszyscy byli na miejscu. Wszyscy oprócz mnie. Stałem sam w chodniku, którego nie znałem.",
+      "image": "young miner standing alone in an unfamiliar old tunnel with wooden supports, lamp flickering"
+    },
+    {
+      "text": "Ściany były inne. Drewniane stemple czarne ze starości. Na ziemi leżały szyny wąskotorowe, jakich nie używa się od wojny.",
+      "image": "very old mine tunnel with blackened wooden supports and narrow rusty rails"
+    },
+    {
+      "text": "Krzyczałem. Moje wołanie wracało echem, coraz cichsze. Nikt nie odpowiadał. Tylko z daleka dobiegało to spokojne stukanie kilofa.",
+      "image": "young miner shouting into a dark tunnel, his voice echoing, dust in the lamp beam"
+    },
+    {
+      "text": "Poszedłem za dźwiękiem. Nie miałem innego wyjścia. Chodnik zakręcał, opadał, rozwidlał się. Jakby rósł przede mną.",
+      "image": "branching mine tunnels disappearing into darkness, a lone lamp beam"
+    },
+    {
+      "text": "Na ścianach zobaczyłem napisy kredą. Imiona i daty. Józef, tysiąc dziewięćset trzydziesty drugi. Paweł, tysiąc dziewięćset pięćdziesiąty czwarty. I wiele innych.",
+      "image": "chalk names and dates written on a dark coal wall, lamp light"
+    },
+    {
+      "text": "Pod każdym imieniem ten sam dopisek. Gwizdał. Ostatnie imię było świeże. Kreda jeszcze się sypała. Tomasz. Dzisiejsza data.",
+      "image": "fresh chalk writing on a coal wall with crumbling chalk dust below, a name and a date"
+    },
+    {
+      "text": "Wtedy go zobaczyłem. Stał na końcu chodnika. Stary górnik w mundurze sprzed stu lat, z czarnym piórem przy czapce i lampą karbidową w dłoni.",
+      "image": "old miner in a historic black uniform with a plumed cap and a carbide lamp at the end of a tunnel"
+    },
+    {
+      "text": "Nie miał twarzy. Tylko ciemność pod daszkiem czapki. Ale wiedziałem, że patrzy prosto na mnie.",
+      "image": "figure in an old miner's uniform with darkness instead of a face under the cap, lamp glowing"
+    },
+    {
+      "text": "Odezwał się głosem jak zsuwający się węgiel. Gwizdałeś, Tomku. A kto gwiżdże, ten zostaje, żeby mnie uczyć nowych piosenek.",
+      "image": "close up of an old carbide lamp held by a gnarled hand in total darkness"
+    },
+    {
+      "text": "Nogi miałem jak z ołowiu. Lampa na moim kasku gasła. I wtedy przypomniałem sobie Ernesta i kromkę chleba w papierze.",
+      "image": "young miner's helmet lamp flickering and dimming in a dark tunnel"
+    },
+    {
+      "text": "Wyjąłem z kieszeni swoje drugie śniadanie. Położyłem je na ziemi. Zdjąłem kask, jak on. I powiedziałem, łamiącym się głosem: szczęść Boże, gospodarzu. Przepraszam.",
+      "image": "young miner kneeling with his helmet off, placing a sandwich on the coal floor in front of a dark figure"
+    },
+    {
+      "text": "Skarbnik długo milczał. Potem podniósł chleb, obejrzał go i schował do kieszeni munduru. Idź, powiedział. Ale coś za coś. Zostawisz mi swoją melodię.",
+      "image": "dark figure in an old uniform picking up bread from the ground, lantern light"
+    },
+    {
+      "text": "Lampa na moim kasku rozbłysła. Stałem przy deskach zamkniętego chodnika. Obok mnie Ernest, cały mokry od potu, ściskał moją rękę.",
+      "image": "young miner and an old miner standing by a boarded tunnel, both covered in coal dust, relieved"
+    },
+    {
+      "text": "Szukaliśmy cię godzinę, powiedział. Chodnik był zamknięty. Nie było cię nigdzie, a potem po prostu stałeś tutaj.",
+      "image": "group of miners with lamps gathered in a tunnel, surprised faces"
+    },
+    {
+      "text": "Wyjechaliśmy na powierzchnię. Kopalnię zalano tydzień później. Wszyscy uznali, że zabłądziłem w ciemności i że to był szok.",
+      "image": "abandoned mine headframe with water flooding the yard, grey sky, fence"
+    },
+    {
+      "text": "Na powierzchni było już ciemno. Śnieg padał na hałdy i na stare budynki cechowni. Ernest odprowadził mnie do bramy i powiedział tylko jedno: masz szczęście, że miałeś przy sobie chleb. Mój brat nie miał.",
+      "image": "snow falling on coal heaps and old brick mine buildings at night, two miners at the gate"
+    },
+    {
+      "text": "Ale od tamtej szychty nie potrafię zagwizdać. Ani jednej nuty. Próbuję i nie wychodzi nic, tylko powietrze. Jakby ktoś zabrał mi melodię.",
+      "image": "young man sitting on a bench in a Silesian street, trying to whistle, puzzled face"
+    },
+    {
+      "text": "A wczoraj sąsiad, który pracuje w służbie odwadniania starych kopalń, opowiadał mi przy piwie o czymś dziwnym.",
+      "image": "two men talking over beers in a small Silesian pub, warm dim light"
+    },
+    {
+      "text": "Na pomiarach przy zalanym szybie słychać czasem z głębi gwizd. Spokojny. Ciągle tę samą melodię. Tę z radia, sprzed lat. Moją melodię.",
+      "image": "flooded mine shaft with dark still water and a measuring device on a cable, night"
+    },
+    {
+      "text": "Pod ziemią ktoś nadal ćwiczy. I mam przeczucie, że kiedy nauczy się jej do końca, przyjdzie po nową piosenkę.",
+      "image": "dark water surface in a flooded mine shaft with a faint light glowing deep below"
+    }
+  ]
+}

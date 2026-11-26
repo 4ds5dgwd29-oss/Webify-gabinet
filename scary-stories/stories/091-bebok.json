@@ -1,0 +1,22 @@
+{
+  "title": "Legenda o beboku. Śląski potwór, który mieszka pod łóżkiem",
+  "hook": "Bebok cię weźmie",
+  "description": "Na Śląsku dzieci od pokoleń słyszą: idź spać, bo cię bebok weźmie. Dla dorosłych to żart. Ale najstarsi górnicy opowiadali o beboku zupełnie inaczej. I nigdy się z tego nie śmiali.",
+  "question": "Straszyli cię bebokiem? 👹 Napisz w komentarzu 👇",
+  "visual_style": "old Silesian worker's house in a mining town at night, familok brick buildings, coal stove, wooden bed, mine headframe in the distance",
+  "tags": ["straszne historie", "horror po polsku", "bebok", "śląsk", "polskie legendy", "potwór", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Na Śląsku dzieci od pokoleń słyszą: idź spać, bo cię bebok weźmie.", "image": "red brick Silesian workers' houses at night with a mine headframe in the distance"},
+    {"text": "Dla dorosłych to żart. Ale najstarsi górnicy opowiadali o beboku zupełnie inaczej.", "image": "old miners sitting on a bench in front of a brick house, evening, serious faces"},
+    {"text": "Mówili, że bebok jest niski, przygarbiony, czarny jak węgiel. I że mieszka tam, gdzie jest najciemniej.", "image": "small hunched dark shape crouching in the corner of a coal cellar"},
+    {"text": "W piwnicy na węgiel. W szafie. Pod łóżkiem.", "image": "dark space under an old wooden bed in a Silesian bedroom, faint light"},
+    {"text": "Nie zabiera grzecznych dzieci. Zabiera te, które nie śpią po północy. I te, które go wołają.", "image": "little boy sitting awake in bed at night, looking toward the floor"},
+    {"text": "Pewien chłopiec z familoka nie wierzył w beboka. Wołał go co noc dla zabawy. Beboku, chodź.", "image": "boy leaning over the edge of his bed whispering toward the floor, candle light"},
+    {"text": "Przez tydzień nic. Ósmej nocy spod łóżka ktoś odpowiedział. Jestem.", "image": "dark gap under a bed with two faint glints like eyes"},
+    {"text": "Rano chłopiec był blady. Mówił, że w nocy ktoś trzymał go za rękę. Ręka była szorstka i pachniała węglem.", "image": "pale boy at a breakfast table, his hand smeared with black coal dust"},
+    {"text": "Babka posypała podłogę solą i postawiła przy łóżku miskę z mlekiem. Żeby bebok miał co jeść i nie brał dziecka.", "image": "old woman placing a bowl of milk beside a bed, salt on the floor"},
+    {"text": "Rano miska była pusta. Na soli zostały odciski. Małe, czarne. Jak dłonie z sadzy.", "image": "small black handprints in spilled salt on a wooden floor, morning light"},
+    {"text": "Chłopiec przestał wołać. Ale bebok nie przestał przychodzić. Teraz to on wołał chłopca.", "image": "boy hiding under his blanket at night, dark shape at the foot of the bed"},
+    {"text": "Mówi się, że jeśli usłyszysz spod łóżka swoje imię, nie odpowiadaj. Bo bebok pyta tylko raz. Potem już nie pyta. Po prostu bierze.", "image": "dark space under a bed with a small black hand reaching out onto the floor"}
+  ]
+}

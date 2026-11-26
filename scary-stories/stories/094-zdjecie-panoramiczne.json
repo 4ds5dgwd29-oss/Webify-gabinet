@@ -1,0 +1,22 @@
+{
+  "title": "Robisz w lesie zdjęcie panoramiczne. Na zdjęciu ktoś stoi w trzech miejscach",
+  "hook": "Ktoś nadąża za obiektywem",
+  "description": "Stoisz na leśnej polanie o zachodzie słońca. Robisz zdjęcie panoramiczne, powoli obracając telefon. Na gotowym zdjęciu ta sama postać stoi w trzech różnych miejscach. Jakby biegła za obiektywem.",
+  "question": "Zrobiłbyś drugie zdjęcie? 📸 Napisz w komentarzu 👇",
+  "visual_style": "forest clearing in Poland at autumn sunset, tall pines, long shadows, golden light turning to dusk, phone camera screen",
+  "tags": ["straszne historie", "horror po polsku", "pov", "zdjęcie", "las", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Stoisz na leśnej polanie o zachodzie słońca. Wyjmujesz telefon i robisz zdjęcie panoramiczne.", "image": "person holding up a phone on a forest clearing at sunset, tall pines"},
+    {"text": "Obracasz się powoli. Las, las, droga, las. Nikogo wokół.", "image": "phone screen showing a panorama being captured of a forest at golden hour"},
+    {"text": "Oglądasz zdjęcie. Między drzewami stoi postać. Wysoka, ciemna, nieruchoma.", "image": "panoramic photo of a forest with a tall dark figure standing between trees"},
+    {"text": "Przesuwasz palcem dalej. Ta sama postać. W innym miejscu. Bliżej.", "image": "panoramic photo detail with the same dark figure closer among pines"},
+    {"text": "I jeszcze raz. Na samym końcu zdjęcia. Tuż przy krawędzi kadru. Za twoimi plecami.", "image": "edge of a panoramic photo with a dark figure very close to the camera"},
+    {"text": "Jakby biegła za obiektywem. Szybciej niż ty się obracałeś.", "image": "blurred dark shape streaking between trees in a photo, dusk"},
+    {"text": "Odwracasz się. Polana jest pusta. Słońce właśnie zachodzi.", "image": "empty forest clearing at dusk with long shadows of pines"},
+    {"text": "Robisz drugie zdjęcie. Szybciej. Na nim postać jest tylko jedna. Ale w środku kadru. Patrzy w obiektyw.", "image": "photo with a single dark figure standing in the middle of a clearing facing the camera"},
+    {"text": "Nie widzisz jej gołym okiem. Tylko na ekranie. Coraz bliżej z każdym zdjęciem.", "image": "phone screen showing a dark figure close up while the real clearing is empty"},
+    {"text": "Chowasz telefon i idziesz szybko do samochodu. Nie oglądasz się.", "image": "person walking fast along a forest path at dusk toward a parked car"},
+    {"text": "W domu telefon sam robi zdjęcie. Słyszysz dźwięk migawki. W pustym mieszkaniu.", "image": "phone lying on a table in a dark apartment, screen lighting up"},
+    {"text": "W galerii nowe zdjęcie. Twój pokój. Ty na kanapie. A za kanapą, tak blisko, że widać tylko oko. Ona.", "image": "phone gallery showing a photo of a person on a sofa with a dark eye peeking from behind it"}
+  ]
+}

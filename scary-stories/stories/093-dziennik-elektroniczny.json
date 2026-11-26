@@ -1,0 +1,22 @@
+{
+  "title": "Córka leżała chora w domu. Dziennik elektroniczny pokazał, że jest w szkole",
+  "hook": "Obecna na lekcji",
+  "description": "Moja córka miała gorączkę i została w domu. Leżała w łóżku pod kocem. A w dzienniku elektronicznym pojawiła się wiadomość od wychowawczyni: Zosia obecna. Dziś bardzo cicha.",
+  "question": "Co byś odpisał wychowawczyni? 📚 Napisz w komentarzu 👇",
+  "visual_style": "Polish apartment and primary school in late autumn, girl's bedroom with a blanket, school classroom with wooden desks, phone notifications",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "szkoła", "dziennik elektroniczny", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Moja córka miała gorączkę i została w domu. Leżała w łóżku pod kocem.", "image": "little girl lying in bed under a blanket with a thermometer, morning light"},
+    {"text": "O dziewiątej przyszło powiadomienie z dziennika elektronicznego. Zosia obecna na matematyce.", "image": "phone screen showing a school app notification on a kitchen table"},
+    {"text": "Pomyślałem, że to pomyłka. Napisałem do wychowawczyni, że córka jest chora.", "image": "father typing a message on his phone in a kitchen, puzzled face"},
+    {"text": "Odpisała po minucie. Zosia jest w klasie. Siedzi w swojej ławce. Dziś bardzo cicha.", "image": "close up of a phone message from a teacher, short reply"},
+    {"text": "Zajrzałem do pokoju. Córka spała. Gorąca. Oddychała ciężko.", "image": "father looking through a bedroom door at a sleeping girl"},
+    {"text": "Poprosiłem wychowawczynię o zdjęcie. Przysłała je od razu.", "image": "phone screen with a photo message loading, dim kitchen"},
+    {"text": "Klasa. Dzieci przy ławkach. A w trzecim rzędzie Zosia. W swoim sweterku. Patrzyła prosto w obiektyw.", "image": "classroom photo with children at desks, one girl staring straight at the camera"},
+    {"text": "Ten sweterek wisiał na krześle w jej pokoju. Sprawdziłem. Krzesło było puste.", "image": "empty wooden chair in a child's room, no sweater on it"},
+    {"text": "Pojechałem do szkoły. Wychowawczyni zaprowadziła mnie do klasy. Ławka była pusta. Tylko sweterek na oparciu.", "image": "empty school desk with a child's sweater hanging on the chair"},
+    {"text": "Wróciłem do domu. Zosia stała w przedpokoju. Zdrowa. Bez gorączki. Uśmiechnięta.", "image": "smiling little girl standing in an apartment hallway, cold light"},
+    {"text": "Powiedziała: tato, byłam w szkole. Ale ta druga Zosia nie chciała wracać.", "image": "girl looking up at her father in a hallway, calm face"},
+    {"text": "A w nocy przyszło nowe powiadomienie. Zosia obecna. Godzina druga czterdzieści. Sala numer dwanaście.", "image": "phone glowing on a nightstand at night with a school app notification"}
+  ]
+}

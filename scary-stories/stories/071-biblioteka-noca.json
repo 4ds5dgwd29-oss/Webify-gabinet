@@ -1,0 +1,22 @@
+{
+  "title": "Zasady nocnej pracy w starej bibliotece. Nie bierz książki do ręki",
+  "hook": "Czytelnik bez karty",
+  "description": "Dorabiałem przy nocnej inwentaryzacji w starej bibliotece miejskiej. Bibliotekarka zostawiła mi kartkę z zasadami. Trzecia brzmiała: jeśli ktoś przyjdzie oddać książkę, nie bierz jej do ręki.",
+  "question": "Którą zasadę złamałbyś pierwszy? 📚 Napisz w komentarzu 👇",
+  "visual_style": "old Polish city library at night, tall wooden bookshelves, green desk lamps, dusty reading room, long dark aisles",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "biblioteka", "nocna zmiana", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Dorabiałem przy nocnej inwentaryzacji w starej bibliotece. Bibliotekarka zostawiła mi kartkę z zasadami.", "image": "old library reading room at night with green desk lamps and tall bookshelves"},
+    {"text": "Zasada pierwsza. Jeśli usłyszysz przewracanie kartek w czytelni, nie wchodź tam.", "image": "dark reading room with rows of wooden tables, one book open under a lamp"},
+    {"text": "Zasada druga. Książki z działu w piwnicy liczysz tylko przy zapalonym świetle.", "image": "narrow stone stairs leading down to a library basement, one bulb"},
+    {"text": "Zasada trzecia. Jeśli ktoś przyjdzie oddać książkę, nie bierz jej do ręki. Niech położy na ladzie.", "image": "old wooden library counter with a stamp and a card catalog, dim light"},
+    {"text": "Do drugiej liczyłem spokojnie. Potem w czytelni ktoś zaczął przewracać kartki.", "image": "pages of an old book turning by themselves on an empty reading table"},
+    {"text": "Nie wszedłem. Kartki szeleściły do trzeciej. Potem ktoś zapukał w ladę.", "image": "pale knuckles knocking on an old wooden library counter in the dark"},
+    {"text": "Stał przy niej starszy pan w płaszczu. Podawał mi książkę. Chciałem oddać, ale zapomniałem karty.", "image": "old man in a long coat holding out a worn book across a library counter"},
+    {"text": "Wyciągnąłem rękę. Przypomniałem sobie zasadę. Powiedziałem: proszę położyć na ladzie.", "image": "young man's hand stopping mid air above a counter, old book held out toward him"},
+    {"text": "Twarz starca stężała. Książka spadła na ladę. A on rozsypał się w kurz.", "image": "cloud of dust falling over a library counter where a man stood, lamp light"},
+    {"text": "Książka nie miała tytułu. W środku była lista nazwisk. Wypożyczający. Od tysiąc dziewięćset trzydziestego.", "image": "old book open on a counter showing a handwritten list of names in columns"},
+    {"text": "Przy każdym nazwisku data zwrotu. Przy ostatnim pusta rubryka. I moje nazwisko.", "image": "close up of an old library card with columns of handwritten dates, last row empty"},
+    {"text": "Rano bibliotekarka spojrzała na książkę i zapytała tylko: wziąłeś ją do ręki? Bo ostatni, który wziął, wciąż ją oddaje.", "image": "middle aged librarian with glasses looking down at an old book on a counter, morning light"}
+  ]
+}

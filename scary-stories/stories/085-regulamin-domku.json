@@ -1,0 +1,22 @@
+{
+  "title": "Wynająłem domek nad jeziorem. Regulamin miał 4 dziwne punkty",
+  "hook": "Nie otwieraj okiennic",
+  "description": "Wynająłem tanio domek nad jeziorem w listopadzie. Na drzwiach wisiał regulamin. Zwykłe rzeczy: śmieci, klucze, cisza nocna. A pod spodem cztery punkty dopisane długopisem.",
+  "question": "Którą zasadę złamałbyś pierwszy? 🏠 Napisz w komentarzu 👇",
+  "visual_style": "small wooden holiday cabin by a lake in Poland in November, closed shutters, misty water, bare birches, dark pine forest",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "domek", "jezioro", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Wynająłem tanio domek nad jeziorem w listopadzie. Na drzwiach wisiał regulamin.", "image": "small wooden cabin by a misty lake in November, a paper notice on the door"},
+    {"text": "Pod zwykłymi punktami ktoś dopisał długopisem cztery kolejne. Pierwszy: po zmroku nie otwieraj okiennic.", "image": "close up of a typed notice with handwritten lines added at the bottom in blue pen"},
+    {"text": "Drugi: jeśli usłyszysz samochód właściciela, to nie on. Właściciel nie przyjeżdża po zmroku.", "image": "car headlights shining through fog on a forest road toward a cabin"},
+    {"text": "Trzeci: w domku są trzy łóżka. Jeśli rano któreś będzie rozgrzebane, nie śpij tu drugiej nocy.", "image": "three neatly made beds in a small wooden cabin room, dim light"},
+    {"text": "Czwarty: nie odpowiadaj nikomu, kto woła z jeziora.", "image": "black still lake water at dusk with fog drifting over it"},
+    {"text": "Pierwszej nocy usłyszałem silnik. Reflektory przesunęły się po okiennicach. Trzasnęły drzwi auta.", "image": "light leaking through gaps in closed wooden shutters at night"},
+    {"text": "Ktoś zapukał. Głos właściciela. Panie, otwórz pan, zapomniałem coś zabrać.", "image": "cabin door from inside at night, a shadow of feet under the door"},
+    {"text": "Nie otworzyłem. Kroki obeszły domek dookoła. Ktoś przesuwał palcami po okiennicach.", "image": "outside of a wooden cabin at night, pale fingers sliding along a shutter"},
+    {"text": "Rano przed domkiem nie było śladów opon. Tylko mokre ślady stóp. Od jeziora.", "image": "wet bare footprints on frosty grass leading from a lake to a cabin, dawn"},
+    {"text": "Zajrzałem do pokoju. Jedno z łóżek było rozgrzebane. Pościel mokra. Pachniała mułem.", "image": "unmade bed with wet sheets in a cabin room, morning light"},
+    {"text": "Spakowałem się w pięć minut. Gdy odjeżdżałem, z jeziora ktoś zawołał moje imię.", "image": "car driving away from a lakeside cabin, fog over the water"},
+    {"text": "Nie odpowiedziałem. Ale w lusterku zobaczyłem, że okiennice domku otwierają się jedna po drugiej. Od środka.", "image": "rearview mirror showing a distant cabin with shutters opening, misty lake behind"}
+  ]
+}

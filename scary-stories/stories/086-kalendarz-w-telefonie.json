@@ -1,0 +1,22 @@
+{
+  "title": "Ktoś dodaje mi wydarzenia do kalendarza w telefonie. Wszystkie się sprawdzają",
+  "hook": "Przypomnienie: nie otwieraj",
+  "description": "Od tygodnia w moim kalendarzu w telefonie pojawiają się wydarzenia, których nie dodawałem. Krótkie. Dziwne. Z dokładną godziną. I każde się sprawdza.",
+  "question": "Posłuchałbyś przypomnienia? 📅 Napisz w komentarzu 👇",
+  "visual_style": "modern Polish apartment and city streets in late autumn, phone calendar notifications glowing, rain, night",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "kalendarz", "telefon", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Od tygodnia w moim kalendarzu pojawiają się wydarzenia, których nie dodawałem.", "image": "phone screen with a calendar app showing an unfamiliar event, dark room"},
+    {"text": "Wtorek, siedemnasta dwanaście. Nie jedź tramwajem numer cztery. Wsiadłem. Tramwaj się zepsuł w tunelu na dwie godziny.", "image": "stuck tram in a dark underpass with tired passengers inside"},
+    {"text": "Czwartek, ósma. Zabierz parasol. Na niebie ani chmurki. O dziewiątej lunęło.", "image": "man soaked in sudden heavy rain on a city street, no umbrella"},
+    {"text": "Zmieniłem hasła. Wylogowałem wszystkie urządzenia. Wydarzenia dalej się pojawiały.", "image": "man changing passwords on a laptop late at night, phone beside him"},
+    {"text": "Piątek, dwudziesta pierwsza czternaście. Nie otwieraj drzwi. Choćby pukała mama.", "image": "phone notification glowing on a kitchen table at night"},
+    {"text": "O dwudziestej pierwszej czternaście ktoś zapukał. Mama. Zapomniałam kluczy, synku, otwórz.", "image": "apartment front door at night, light from the stairwell under it"},
+    {"text": "Zadzwoniłem do mamy. Odebrała z domu. Na drugim końcu miasta. Zasypiała przed telewizorem.", "image": "elderly woman answering a phone on a couch in front of a glowing TV"},
+    {"text": "Pukanie trwało do północy. Potem ucichło. Wizjer był zasłonięty. Od zewnątrz.", "image": "close up of a dark door peephole covered from the other side"},
+    {"text": "W sobotę rano sprawdziłem, kto dodaje wydarzenia. Nazwa urządzenia: telefon. Mój model. Mój numer.", "image": "phone settings screen listing a logged in device with the same name"},
+    {"text": "Data ostatniego logowania: za trzy dni.", "image": "close up of a phone screen showing a future date, cold light"},
+    {"text": "A wieczorem pojawiło się nowe wydarzenie. Ostatnie. Wtorek, trzecia nad ranem.", "image": "phone calendar with a single event at 3 AM, dark bedroom"},
+    {"text": "Bez tytułu. Tylko notatka. Tym razem mnie nie posłuchasz. Wiem, bo już tam byłem.", "image": "phone glowing on a pillow in a dark bedroom with a short note on the screen"}
+  ]
+}

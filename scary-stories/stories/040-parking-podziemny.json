@@ -1,0 +1,22 @@
+{
+  "title": "Na parkingu podziemnym co noc stoi ten sam samochód",
+  "hook": "Nie zaglądaj do środka",
+  "description": "Pilnuję nocą parkingu podziemnego pod galerią. Po zamknięciu zostaje tylko jedno auto. Stary szary polonez. Nikt nim nie przyjeżdża. Nikt nim nie odjeżdża.",
+  "question": "Zajrzałbyś do tego auta? 🚗 Napisz w komentarzu 👇",
+  "visual_style": "empty underground parking garage under a Polish shopping mall at night, concrete pillars, flickering fluorescent lights",
+  "tags": ["straszne historie", "horror po polsku", "parking", "ochroniarz", "nocna zmiana", "polonez", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pilnuję nocą parkingu podziemnego pod galerią. Po zamknięciu zostaje tylko jedno auto.", "image": "empty underground parking garage at night, one old grey car parked alone between concrete pillars"},
+    {"text": "Stary szary polonez. Miejsce numer sto trzynaście. Nikt nim nie przyjeżdża. Nikt nim nie odjeżdża.", "image": "old grey Polish Polonez car parked in spot 113 under flickering fluorescent light"},
+    {"text": "Na kamerach widać, że stoi tam od otwarcia galerii. Od dwudziestu lat.", "image": "grainy CCTV monitor in a security room showing an old car in an empty garage"},
+    {"text": "Szyby ma zaparowane od środka. Jakby ktoś w nim oddychał.", "image": "close up of a fogged car window from outside, condensation running down"},
+    {"text": "Raz zostawiłem na masce kartkę. Proszę przestawić pojazd. Rano kartka leżała w środku. Na siedzeniu kierowcy.", "image": "paper note lying on the driver's seat of an old car, seen through a fogged window"},
+    {"text": "Kierownik kazał mi go zostawić w spokoju. Powiedział, że poprzedni ochroniarz zajrzał do środka.", "image": "security manager in a uniform talking seriously in a small office, CCTV screens behind"},
+    {"text": "Nie wytrzymałem. O trzeciej podszedłem z latarką i przetarłem szybę rękawem.", "image": "security guard with a flashlight wiping a fogged car window with his sleeve, dark garage"},
+    {"text": "W środku siedział mężczyzna w mundurze ochrony. Moim mundurze. Z moim identyfikatorem.", "image": "man in a security uniform sitting motionless in a car seat, name badge visible, face in shadow"},
+    {"text": "Odwrócił głowę. Miał moją twarz. Tylko starszą o dwadzieścia lat.", "image": "pale aged man's face behind a fogged car window, staring, flashlight beam"},
+    {"text": "Uśmiechnął się i otworzył drzwi pasażera. Jakby na kogoś czekał.", "image": "passenger door of an old car swinging open in an empty parking garage"},
+    {"text": "Uciekłem do kanciapy. Na monitorze polonez stał pusty. Drzwi zamknięte.", "image": "security room CCTV screen showing an empty old car with closed doors"},
+    {"text": "Rano złożyłem wypowiedzenie. Kierownik tylko kiwnął głową i powiedział: on zawsze czeka dwadzieścia lat.", "image": "security manager nodding at a desk, a resignation letter on the table, morning light"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Co noc ktoś zmienia twoje zdjęcie profilowe. Na zdjęcie, jak śpisz",
+  "hook": "Zdjęcie jest z kąta pokoju",
+  "description": "Budzisz się i masz kilkanaście powiadomień. Ktoś zmienił twoje zdjęcie profilowe. Na zdjęcie ciebie śpiącego. Zrobione z kąta twojego pokoju. Mieszkasz sam.",
+  "question": "Co zrobiłbyś czwartej nocy? 📸 Napisz w komentarzu 👇",
+  "visual_style": "small dark Polish apartment bedroom at night, single bed, wardrobe in the corner, phone screen glow, city lights outside",
+  "tags": ["straszne historie", "horror po polsku", "pov", "zdjęcie", "telefon", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Budzisz się. Na telefonie kilkanaście powiadomień. Ktoś zmienił twoje zdjęcie profilowe.", "image": "phone on a nightstand lighting up with many notifications in a dark bedroom"},
+    {"text": "Na zdjęciu śpisz. W swoim łóżku. Zrobione z kąta pokoju. Mieszkasz sam.", "image": "phone screen showing a photo of a person sleeping in bed, taken from a high corner"},
+    {"text": "Zmieniasz hasło. Wylogowujesz wszystkie urządzenia. Zaklejasz kamerkę laptopa.", "image": "person typing a new password on a phone, laptop with taped camera beside them"},
+    {"text": "Druga noc. Nowe zdjęcie. Śpisz. Tym razem zrobione z bliższej odległości.", "image": "photo on a phone screen of a sleeping person taken from the middle of the room"},
+    {"text": "Sprawdzasz kąt pokoju. Za szafą jest tylko kurz. I odcisk stopy. Bosej.", "image": "dusty floor behind a wardrobe with a single bare footprint, flashlight beam"},
+    {"text": "Trzecia noc nie śpisz. Siedzisz na łóżku z zapaloną lampką do rana.", "image": "person sitting awake in bed with a lamp on, staring at the dark corner"},
+    {"text": "O szóstej powiadomienie. Nowe zdjęcie. Siedzisz na łóżku. Patrzysz w kąt.", "image": "phone screen showing a photo of a person sitting awake in bed, taken from behind"},
+    {"text": "Zdjęcie zrobiono zza twoich pleców. Z wezgłowia łóżka. Z miejsca, gdzie jest tylko ściana.", "image": "headboard of a bed pressed against a wall, dark bedroom, cold light"},
+    {"text": "Przenosisz się na noc do kolegi. Śpisz na kanapie. Pierwszy raz spokojnie.", "image": "young man sleeping on a couch in a friend's living room, morning light"},
+    {"text": "Rano kolega budzi cię i pokazuje telefon. Ktoś zmienił jego zdjęcie profilowe.", "image": "worried young man showing his phone screen to a friend on a couch"},
+    {"text": "Na zdjęciu śpicie obaj. Zrobione z sufitu.", "image": "phone screen showing a photo of two people sleeping, taken from the ceiling above"},
+    {"text": "A pod zdjęciem jeden komentarz. Z twojego konta. Nie uciekniesz, ja też tu nocuję.", "image": "close up of a phone comment section glowing in a dark room"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Nocny dyżur u weterynarza. Starsza pani przyniosła kota bez tętna",
+  "hook": "Kot bez tętna mruczy",
+  "description": "Mam nocne dyżury w całodobowej klinice weterynaryjnej. O trzeciej starsza pani przyniosła kota w koszyku. Powiedziała, że przestał jeść. Kot nie miał tętna. Ale mruczał.",
+  "question": "Co byś powiedział tej pani? 🐈 Napisz w komentarzu 👇",
+  "visual_style": "24-hour veterinary clinic in a Polish city at night, bright examination room, metal table, waiting room with plastic chairs, rainy street outside",
+  "tags": ["straszne historie", "horror po polsku", "weterynarz", "kot", "nocny dyżur", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Mam nocne dyżury w całodobowej klinice weterynaryjnej. O trzeciej zadzwonił dzwonek.", "image": "veterinary clinic entrance at night with a lit sign and rain on the street"},
+    {"text": "Starsza pani w płaszczu i chustce. W ręku wiklinowy koszyk. Powiedziała, że kotek przestał jeść.", "image": "elderly woman in a coat and headscarf holding a wicker basket in a clinic waiting room"},
+    {"text": "Położyłem kota na stole. Czarny, stary, chudy. Zimny jak kamień.", "image": "thin old black cat lying on a metal examination table under bright light"},
+    {"text": "Przyłożyłem stetoskop. Nie było tętna. Nie oddychał. Ale mruczał. Głośno, spokojnie.", "image": "vet listening with a stethoscope to a still black cat, puzzled face"},
+    {"text": "Spojrzałem na panią. Uśmiechała się. Powiedziała: on zawsze mruczy, gdy jestem blisko.", "image": "elderly woman smiling gently beside an examination table"},
+    {"text": "Zapytałem o dane do karty. Podała adres. Ulica Cmentarna. Bez numeru.", "image": "vet typing on a computer at a clinic reception desk, rainy night window"},
+    {"text": "Wyszedłem na zaplecze po leki. Gdy wróciłem, pani nie było. Kot leżał na stole.", "image": "empty examination room with a black cat on the table and an open door"},
+    {"text": "Wybiegłem na ulicę. Pusto. Tylko deszcz. Na mokrym chodniku żadnych śladów.", "image": "empty wet street at night under a street lamp, rain"},
+    {"text": "Wróciłem. Kot siedział na stole i patrzył na mnie żółtymi oczami. Wciąż bez tętna.", "image": "black cat sitting upright on a metal table staring with yellow eyes"},
+    {"text": "Rano sprawdziłem w systemie jego czip. Właścicielka zmarła trzy tygodnie temu.", "image": "computer screen at a clinic showing a pet record, morning light"},
+    {"text": "Kot został w klinice. Nie je. Nie pije. Nie śpi. Siedzi przy drzwiach i czeka.", "image": "black cat sitting by the glass door of a clinic at dusk"},
+    {"text": "A co noc o trzeciej mruczy. I wtedy dzwonek przy drzwiach dzwoni sam. Raz. Cicho.", "image": "small bell above a clinic door moving slightly in the dark, cat looking up at it"}
+  ]
+}

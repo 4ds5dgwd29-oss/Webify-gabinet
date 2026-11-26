@@ -1,0 +1,22 @@
+{
+  "title": "Na moście zawsze było dwanaście latarni. Dziś jest trzynaście",
+  "hook": "Policz latarnie",
+  "description": "Wracasz nocą pieszo przez stary most nad rzeką. Znasz go na pamięć. Dwanaście latarni. Dziś w mgle świeci trzynasta.",
+  "question": "Przeszedłbyś pod trzynastą latarnią? 🌫️ Napisz w komentarzu 👇",
+  "visual_style": "old steel bridge over a river in a small Polish town at night, thick fog, yellow street lamps",
+  "tags": ["straszne historie", "horror po polsku", "most", "mgła", "pov", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Wracasz nocą pieszo przez stary most. Znasz go na pamięć. Dwanaście latarni.", "image": "old steel bridge over a river at night, a row of yellow street lamps disappearing into fog"},
+    {"text": "Liczysz je z nudów. Jak zawsze. Jeden, dwa, trzy.", "image": "lone pedestrian walking on a foggy bridge sidewalk under a yellow lamp"},
+    {"text": "Dziesięć, jedenaście, dwanaście. A przed tobą w mgle świeci trzynasta.", "image": "an extra street lamp glowing faintly in thick fog at the end of a bridge"},
+    {"text": "Pod nią ktoś stoi. Nieruchomo. Plecami do ciebie.", "image": "dark figure standing still under a street lamp in fog, back turned, on a bridge"},
+    {"text": "Odwracasz się, żeby wrócić. Za tobą też jest mgła. I trzynaście latarni.", "image": "bridge seen backwards in dense fog, many street lamps fading into white"},
+    {"text": "Most się wydłużył. Rzeka pod spodem nie szumi. Jest zupełnie cicho.", "image": "view over a bridge railing into black still water with no ripples, fog above"},
+    {"text": "Postać pod latarnią mówi twoim głosem. Dobrze liczysz. Ja też liczyłem.", "image": "close up of a figure's shoulder and the back of its head under a lamp, fog swirling"},
+    {"text": "Odwraca się. Ma twoją twarz. Tylko starszą. Dużo starszą.", "image": "pale old man's face in fog under a yellow lamp, tired hollow eyes"},
+    {"text": "Mówi, że stoi tu od pięćdziesięciu lat. Czeka na kogoś, kto policzy do trzynastu.", "image": "rusty old street lamp post with a faded date carved into the metal"},
+    {"text": "Uśmiecha się z ulgą i przechodzi obok ciebie. Mgła go połyka.", "image": "old man walking away into dense fog on a bridge, his shape dissolving"},
+    {"text": "Robisz krok. Nie możesz. Twoje nogi stoją pod trzynastą latarnią.", "image": "feet in worn shoes standing in a circle of lamp light on a wet bridge sidewalk"},
+    {"text": "Jeśli kiedyś będziesz wracać przez most w mgle, nie licz latarni. Ja liczyłem.", "image": "empty foggy bridge at night with a figure standing under the last lamp, waiting"}
+  ]
+}

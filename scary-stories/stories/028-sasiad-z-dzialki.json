@@ -1,0 +1,22 @@
+{
+  "title": "Sąsiad z działki obok macha do mnie co wieczór",
+  "hook": "Nie machaj mu",
+  "description": "Odziedziczyłem działkę po babci. Co wieczór starszy pan z sąsiedniej altanki macha do mnie przez płot. Tamta działka stoi pusta od dziesięciu lat.",
+  "question": "Pomachałbyś mu? 🏡 Napisz w komentarzu 👇",
+  "visual_style": "Polish allotment gardens at dusk in autumn, small wooden summer houses, overgrown fences, fading orange light",
+  "tags": ["straszne historie", "horror po polsku", "działka", "ogródki działkowe", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy", "sąsiad"],
+  "scenes": [
+    {"text": "Po babci została mi działka w ogródkach na skraju miasta. Mała altanka, jabłonie, cisza.", "image": "small wooden summer house in a Polish allotment garden with apple trees at dusk"},
+    {"text": "Pierwszego wieczoru starszy pan z działki obok pomachał do mnie przez płot.", "image": "old man in a flat cap waving over a wooden fence in an overgrown garden at dusk"},
+    {"text": "Odmachałem. Uśmiechnął się szeroko. Za szeroko.", "image": "close up of an old man's face in shadow with an unnaturally wide smile, garden behind"},
+    {"text": "Od tamtej pory stał tam co wieczór. Zawsze w tym samym miejscu. Zawsze machał.", "image": "silhouette of an old man standing still by a fence in a dark overgrown allotment"},
+    {"text": "Zapytałem prezesa ogródków, kim jest mój sąsiad. Spojrzał na mnie dziwnie.", "image": "elderly man at a small allotment association office desk with papers and keys, surprised look"},
+    {"text": "Ta działka jest pusta od dziesięciu lat. Pan Henryk zmarł w swojej altance.", "image": "abandoned allotment with a collapsing wooden shed, weeds and broken windows"},
+    {"text": "Babcia odmachiwała mu przez dziesięć lat. Myślała, że jest miły.", "image": "old photo of an elderly woman smiling and waving in a garden, faded colors"},
+    {"text": "W jej zeszycie z ogrodu znalazłem notatkę. Każdego dnia stoi bliżej płotu.", "image": "old garden notebook with handwritten notes and pressed leaves, lamp light"},
+    {"text": "Ostatni wpis był z dnia jej śmierci. Dziś przeszedł przez płot.", "image": "close up of the last handwritten line in an old notebook, ink smudged"},
+    {"text": "Wczoraj wieczorem nie pomachałem. Odwróciłem się i zamknąłem altankę.", "image": "man locking the door of a small wooden summer house at night, back to the garden"},
+    {"text": "W nocy ktoś zapukał w okno. Trzy razy. Delikatnie, jak sąsiad.", "image": "dark small window of a summer house at night, a pale hand knocking on the glass"},
+    {"text": "Rano płot między działkami leżał na ziemi. Ktoś bardzo chciał się przywitać.", "image": "wooden garden fence knocked flat on the ground in morning mist, footprints in the wet grass"}
+  ]
+}

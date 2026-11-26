@@ -1,0 +1,22 @@
+{
+  "title": "Mój chłopak śpi obok mnie. A ja dostaję od niego wiadomości",
+  "hook": "On śpi obok mnie",
+  "description": "Była trzecia w nocy. Mój chłopak spał obok mnie i chrapał. A mój telefon zawibrował. Wiadomość od niego. Nie śpij. Nie odwracaj się.",
+  "question": "Odwróciłabyś się? 📱 Napisz w komentarzu 👇",
+  "visual_style": "small cozy Polish apartment bedroom at night, double bed, phone screen glow, rain on the window, dark corners",
+  "tags": ["straszne historie", "horror po polsku", "wiadomości", "sms", "sypialnia", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Trzecia w nocy. Mój chłopak śpi obok mnie i cicho chrapie. A mój telefon wibruje.", "image": "phone vibrating on a nightstand in a dark bedroom, a man asleep in bed"},
+    {"text": "Wiadomość od niego. Nie śpisz? Nie odwracaj się.", "image": "close up of a phone screen with a short message glowing in the dark"},
+    {"text": "Jego telefon leży na jego szafce. Ekran zgaszony. On ma zamknięte oczy.", "image": "phone lying face down on a nightstand beside a sleeping man"},
+    {"text": "Napisałam: to głupi żart? Odpowiedź przyszła od razu. Jestem w pracy. Na nocnej zmianie.", "image": "woman lying in bed typing on her phone, face lit by the screen, scared eyes"},
+    {"text": "Przypomniałam sobie. On miał dziś nocną zmianę. Wyszedł o dwudziestej drugiej.", "image": "empty coat hook by an apartment door at night, dim hallway light"},
+    {"text": "Ktoś obok mnie oddychał. Spokojnie. Równo. Tak jak on.", "image": "back of a sleeping man under a blanket in a dark bedroom, faint moonlight"},
+    {"text": "Kolejna wiadomość. Wyjdź z mieszkania. Powoli. Nie zapalaj światła.", "image": "phone screen glowing under a blanket, dark room"},
+    {"text": "Odsunęłam kołdrę. Chrapanie ucichło. W ciemności zaskrzypiało łóżko.", "image": "woman slowly sliding out of bed in a dark room, bare feet on the floor"},
+    {"text": "Doszłam do drzwi. Za plecami usłyszałam jego głos. Gdzie idziesz, kochanie?", "image": "dark apartment hallway with the front door at the end, a woman's hand on the handle"},
+    {"text": "Nie odwróciłam się. Wybiegłam na klatkę w piżamie. Zadzwoniłam do niego.", "image": "woman in pajamas running down a dim block stairwell at night"},
+    {"text": "Odebrał. Był w pracy. Zdziwiony. Przysięgał, że nie pisał do mnie od wieczora.", "image": "woman sitting on cold stairwell steps holding a phone to her ear, shaking"},
+    {"text": "Wtedy przyszła ostatnia wiadomość. Z jego numeru. Szkoda. Było mi tak ciepło.", "image": "phone screen glowing in a dark stairwell with one last message"}
+  ]
+}

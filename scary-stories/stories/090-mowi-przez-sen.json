@@ -1,0 +1,22 @@
+{
+  "title": "Moja żona mówi przez sen. Pewnej nocy jej odpowiedziałem",
+  "hook": "Nie odpowiadaj śpiącym",
+  "description": "Moja żona od zawsze mówi przez sen. Zwykle bez sensu. Pewnej nocy zapytała wyraźnie: czy on już śpi? Odpowiedziałem, że nie. Wtedy odwróciła się do mnie. Z zamkniętymi oczami.",
+  "question": "Odpowiedziałbyś jej? 😴 Napisz w komentarzu 👇",
+  "visual_style": "cozy Polish apartment bedroom at night, double bed, soft moonlight through curtains, digital clock glowing, dark hallway",
+  "tags": ["straszne historie", "horror po polsku", "dom", "mówienie przez sen", "sypialnia", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Moja żona od zawsze mówi przez sen. Zwykle bez sensu. Zakupy. Praca. Imiona koleżanek.", "image": "woman sleeping peacefully in a double bed, moonlight on the pillow"},
+    {"text": "Pewnej nocy o trzeciej zapytała wyraźnie, spokojnym głosem: czy on już śpi?", "image": "digital alarm clock glowing 3:00 on a nightstand in a dark bedroom"},
+    {"text": "Dla żartu odpowiedziałem: nie, jeszcze nie śpi.", "image": "man lying awake in bed looking at his sleeping wife, faint smile"},
+    {"text": "Wtedy odwróciła się do mnie. Oczy miała zamknięte. Uśmiechnęła się i szepnęła: to poczekam.", "image": "sleeping woman turned toward the camera with closed eyes and a faint smile, moonlight"},
+    {"text": "Rano nic nie pamiętała. Śmiała się, że pewnie śniła o pracy.", "image": "couple at a breakfast table, woman laughing, man looking tired"},
+    {"text": "Następnej nocy znów. Czy on już śpi? Tym razem nie odpowiedziałem. Udawałem, że śpię.", "image": "man lying with eyes closed pretending to sleep, wife's silhouette beside him"},
+    {"text": "Poczułem, jak siada na łóżku. Jak pochyla się nade mną. Jej oddech był zimny.", "image": "dark silhouette of a woman sitting up in bed leaning over a sleeping man"},
+    {"text": "I usłyszałem głos. Nie jej. Męski, chrapliwy. Wreszcie. Teraz moja kolej.", "image": "close up of a woman's face in shadow with closed eyes, lips moving"},
+    {"text": "Zerwałem się i zapaliłem światło. Żona leżała na swojej połowie. Spała. Odwrócona plecami.", "image": "bright bedside lamp turned on, woman sleeping with her back to the man"},
+    {"text": "Ale na mojej poduszce, w miejscu, gdzie przed chwilą leżała moja głowa, było wgniecenie. Wciąż ciepłe.", "image": "dent in a pillow on an empty side of a bed, lamp light"},
+    {"text": "Od tamtej pory nie śpię w nocy. Siedzę w fotelu i patrzę na łóżko.", "image": "man sitting awake in an armchair in a dark bedroom watching the bed"},
+    {"text": "A żona co noc o trzeciej odwraca się na moją połowę. I szepcze do pustej poduszki: dobranoc, kochanie.", "image": "sleeping woman with her hand resting on an empty pillow, moonlight"}
+  ]
+}

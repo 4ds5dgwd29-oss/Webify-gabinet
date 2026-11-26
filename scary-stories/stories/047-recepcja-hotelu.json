@@ -1,0 +1,22 @@
+{
+  "title": "Na nocnej recepcji w hotelu dzwoni pokój, którego nie ma",
+  "hook": "Pokój 309 nie istnieje",
+  "description": "Pracuję na nocnej recepcji w starym hotelu w górach. Trzecie piętro kończy się na pokoju 308. Co noc o trzeciej na centrali świeci się 309.",
+  "question": "Odebrałbyś ten telefon? ☎️ Napisz w komentarzu 👇",
+  "visual_style": "old mountain hotel in Poland at night, wooden reception desk, brass key board, red carpet corridors, dim wall lamps, snow outside",
+  "tags": ["straszne historie", "horror po polsku", "hotel", "recepcja", "nocna zmiana", "góry", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję na nocnej recepcji w starym hotelu w górach. Trzecie piętro kończy się na pokoju trzysta osiem.", "image": "old wooden hotel reception desk at night, brass key board on the wall, snow outside the window"},
+    {"text": "Co noc o trzeciej na centrali zapala się lampka. Pokój trzysta dziewięć.", "image": "old hotel telephone switchboard with one small red light glowing, dark lobby"},
+    {"text": "Pierwszy raz odebrałem. Kobiecy głos poprosił o dodatkowy koc. Bo bardzo zimno.", "image": "night receptionist holding an old telephone receiver to his ear, puzzled face"},
+    {"text": "Poszedłem na trzecie piętro z kocem. Korytarz kończył się ścianą. Za trzysta osiem nic nie było.", "image": "long hotel corridor with red carpet ending in a blank wall, a man holding a folded blanket"},
+    {"text": "Zostawiłem koc pod ścianą i wróciłem. Lampka zgasła.", "image": "folded wool blanket lying on a red carpet at the end of a dark corridor"},
+    {"text": "Rano koca nie było. Sprzątaczka przysięgała, że go nie ruszała.", "image": "empty end of a hotel corridor in morning light, bare wall, cleaning cart nearby"},
+    {"text": "W starej księdze meldunkowej znalazłem pokój trzysta dziewięć. Ostatni wpis zimą siedemdziesiątego dziewiątego.", "image": "old hotel registration book open on a desk, faded handwritten entries, lamp light"},
+    {"text": "Para z Krakowa. Kobieta nie wymeldowała się. Pokój zamurowano po pożarze w kominku.", "image": "old black and white photo of a young couple standing in front of a mountain hotel"},
+    {"text": "Następnej nocy lampka zapaliła się znowu. Nie odebrałem. Dzwoniła do rana.", "image": "glowing red switchboard light in a dark hotel lobby, receptionist frozen behind the desk"},
+    {"text": "O szóstej przestała. A po schodach ktoś zszedł do recepcji. Powoli.", "image": "dark wooden hotel staircase at dawn, faint shadow of a person on the steps"},
+    {"text": "Na blat położyła klucz. Okopcony, z przywieszką trzysta dziewięć. Powiedziała: wymeldowuję się.", "image": "soot blackened old hotel key with a brass tag lying on a wooden reception desk"},
+    {"text": "Podniosłem wzrok. Nikogo nie było. Tylko mój koc. Złożony. Pachnący dymem.", "image": "folded wool blanket on a reception desk with faint smoke rising from it, empty lobby"}
+  ]
+}

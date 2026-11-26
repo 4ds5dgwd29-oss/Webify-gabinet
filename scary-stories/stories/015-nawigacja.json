@@ -1,0 +1,48 @@
+{
+  "title": "Nawigacja prowadzi do wsi, której nie ma",
+  "hook": "Zawróć, póki możesz",
+  "description": "Jechałem nocą przez Podlasie. Nawigacja kazała mi skręcić do wsi, której nie ma na żadnej mapie. Mimo wszystko pojechałem.",
+  "tags": [
+    "straszne historie",
+    "horror po polsku",
+    "nawigacja",
+    "podlasie",
+    "creepypasta",
+    "shorts",
+    "horror shorts",
+    "polski horror",
+    "historie grozy",
+    "zaginiona wieś"
+  ],
+  "scenes": [
+    {
+      "text": "Wracałem nocą przez Podlasie. Pusta droga, las po obu stronach. Nawigacja nagle przeliczyła trasę.",
+      "image": "car dashboard at night with GPS navigation screen glowing, empty forest road ahead in headlights, fog"
+    },
+    {
+      "text": "Kazała skręcić w polną drogę. Do miejscowości o nazwie Zabłocie. Czterdzieści domów, kościół, sklep. Na mapie w telefonie nic tam nie było.",
+      "image": "narrow dirt road turning into a dark forest at night, old wooden road sign with faded village name, headlights"
+    },
+    {
+      "text": "Pojechałem. Wieś wyglądała jak z lat pięćdziesiątych. Drewniane chaty. W każdym oknie paliła się lampa naftowa.",
+      "image": "old Polish village of wooden cottages at night, each window glowing with oil lamp light, muddy street, no people"
+    },
+    {
+      "text": "Na środku drogi stali ludzie. Cała wieś. W odświętnych ubraniach. Patrzyli na mój samochód, jakby na mnie czekali.",
+      "image": "crowd of villagers in old fashioned 1950s clothes standing in the middle of a dirt road at night, lit by car headlights, motionless"
+    },
+    {
+      "text": "Nawigacja powiedziała: dotarłeś do celu. Proszę wysiąść z pojazdu. Ten głos nie był już głosem z aplikacji.",
+      "image": "close up of a GPS screen showing a pin with text, glitching, red tint, dark car interior"
+    },
+    {
+      "text": "Wrzuciłem wsteczny i nie zatrzymałem się aż do Białegostoku. Rano znalazłem artykuł. Zabłocie spłonęło w czterdziestym czwartym. Razem z mieszkańcami.",
+      "image": "old newspaper archive photo of a burned village, black and white, smoke, ruins of wooden houses"
+    },
+    {
+      "text": "Od tamtej nocy nawigacja co wieczór sama ustawia trasę. Cel: Zabłocie. Czas dojazdu: zero minut.",
+      "image": "phone navigation screen glowing in a dark bedroom on a nightstand, route already set, arrival time zero"
+    }
+  ],
+  "question": "Zawróciłbyś czy wjechał do Zabłocia? 🧭 Napisz w komentarzu 👇"
+}

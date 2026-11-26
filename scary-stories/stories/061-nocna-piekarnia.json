@@ -1,0 +1,22 @@
+{
+  "title": "Pracuję nocą w piekarni. Ktoś zostawia w cieście odciski małych dłoni",
+  "hook": "Małe dłonie w cieście",
+  "description": "Pracuję na nocnej zmianie w starej piekarni na rynku. Jestem sam od dwudziestej drugiej do piątej. Co noc, gdy wracam z zaplecza, w cieście są odciski małych dłoni.",
+  "question": "Zostawiłbyś mu chleb? 🍞 Napisz w komentarzu 👇",
+  "visual_style": "old Polish town bakery at night, brick oven glowing orange, flour dust in the air, wooden tables with dough, dark back room",
+  "tags": ["straszne historie", "horror po polsku", "piekarnia", "nocna zmiana", "piekarz", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję nocą w starej piekarni na rynku. Jestem sam od dwudziestej drugiej do piątej.", "image": "old bakery at night with a glowing brick oven and flour dust in the air"},
+    {"text": "Pierwszej nocy wyszedłem na zaplecze po mąkę. Gdy wróciłem, w cieście były odciski dłoni.", "image": "big lump of dough on a wooden table with small handprints pressed into it"},
+    {"text": "Małych dłoni. Dziecięcych. Pięć palców, wyraźnie odbitych.", "image": "close up of tiny child handprints in soft bread dough, flour around"},
+    {"text": "Drzwi były zamknięte na klucz. Okna zakratowane. W piekarni nie było nikogo.", "image": "locked bakery back door with an iron bar, dim light"},
+    {"text": "Co noc to samo. Raz w cieście. Raz w mące na podłodze. Ślady małych bosych stóp.", "image": "small bare footprints in flour on a bakery floor leading toward the oven"},
+    {"text": "Stary piekarz, który mnie uczył, tylko się uśmiechnął. Zostaw mu jedną bułkę na parapecie.", "image": "old baker with a white mustache placing a bread roll on a windowsill"},
+    {"text": "Zostawiałem. Rano bułki nie było. Odcisków też. Przez miesiąc był spokój.", "image": "empty windowsill in a bakery at dawn with a few crumbs on it"},
+    {"text": "Potem stary piekarz poszedł na emeryturę. Nowy szef zakazał marnowania pieczywa.", "image": "stern man in a suit standing in a bakery, arms crossed"},
+    {"text": "Pierwszej nocy bez bułki usłyszałem płacz. Cichy. Zza drzwi pieca.", "image": "closed iron door of an old brick oven, glowing orange through the cracks"},
+    {"text": "Otworzyłem piec. W środku tylko żar. Ale płacz ucichł dopiero o świcie.", "image": "open brick oven full of glowing embers, baker stepping back"},
+    {"text": "W archiwum miasta znalazłem notatkę. W tysiąc dziewięćset dwunastym w piekarni zaginął chłopiec. Syn piekarza. Bawił się przy piecu.", "image": "yellowed old newspaper page on a library desk, lamp light"},
+    {"text": "Od tamtej pory co noc kładę bułkę na parapecie. Z własnej kieszeni. Bo wczoraj odciski w cieście były już duże. Jak moje.", "image": "adult handprints pressed into dough beside small ones on a floured table"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Zasady nocnego dyżuru na miejskim basenie",
+  "hook": "Nie zapalaj świateł",
+  "description": "Dostałem pracę nocnego ochroniarza na starym basenie miejskim. Kierownik dał mi kartkę z pięcioma zasadami. Ostatnia była przekreślona.",
+  "question": "Której zasady byś nie przestrzegał? 🏊 Napisz w komentarzu 👇",
+  "visual_style": "old 1980s Polish indoor swimming pool at night, green tiles, dim emergency lights",
+  "tags": ["straszne historie", "horror po polsku", "zasady", "basen", "nocny dyżur", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Pracuję jako nocny ochroniarz na starym basenie. Pierwszego dnia dostałem kartkę z zasadami.", "image": "security guard holding a handwritten paper note in a dark pool hall, flashlight"},
+    {"text": "Zasada pierwsza. Po północy nie zapalaj świateł nad niecką.", "image": "empty indoor swimming pool at night lit only by green emergency lights"},
+    {"text": "Zasada druga. Jeśli usłyszysz plusk, nie podchodź do wody.", "image": "ripples spreading on the dark surface of a still swimming pool"},
+    {"text": "Zasada trzecia. Ratownik na wieży nie jest ratownikiem.", "image": "silhouette of a figure sitting on a lifeguard chair above a dark pool"},
+    {"text": "Zasada czwarta. Gdy ktoś zawoła o pomoc z głębokiej strony, zatkaj uszy.", "image": "deep end of a swimming pool at night, black water, a pale hand above the surface"},
+    {"text": "Przez miesiąc trzymałem się wszystkich zasad. Każdej nocy słyszałem plusk. I wołanie.", "image": "guard sitting in a small glass booth with his hands over his ears, pool hall behind"},
+    {"text": "Wczoraj wołanie brzmiało jak głos mojej córki.", "image": "close up of a guard's frightened face lit by a phone screen in the dark"},
+    {"text": "Pobiegłem do wody i zapaliłem wszystkie światła.", "image": "bright pool hall lights suddenly switched on over an empty pool"},
+    {"text": "Basen był pusty. Bez wody. Na dnie leżały tylko kafelki i suche liście.", "image": "drained empty swimming pool with cracked tiles and dry leaves on the bottom"},
+    {"text": "A na wieży ratownika siedział ktoś w moim mundurze.", "image": "figure in a security guard uniform sitting on a lifeguard tower, face in shadow"},
+    {"text": "Wtedy przypomniałem sobie piątą zasadę. Tę przekreśloną.", "image": "close up of a paper note with a crossed out handwritten line, flashlight beam"},
+    {"text": "Pod skreśleniem dało się przeczytać jedno zdanie. Nigdy nie wchodź do pustego basenu. Stałem już na dnie.", "image": "man standing alone at the bottom of a drained swimming pool, looking up at the edge"}
+  ]
+}
