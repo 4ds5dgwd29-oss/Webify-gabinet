@@ -1,0 +1,22 @@
+{
+  "title": "Pod dywanem w naszym salonie co noc coś się przesuwa",
+  "hook": "Coś pod dywanem",
+  "description": "Kupiliśmy stary dom z drewnianą podłogą. W salonie położyliśmy duży dywan. Pierwszej nocy pod dywanem pojawiło się wybrzuszenie. Rano było w innym miejscu.",
+  "question": "Podniósłbyś ten dywan? 🧶 Napisz w komentarzu 👇",
+  "visual_style": "old Polish house with wooden floorboards, large patterned rug in a living room, dim lamp light, night, fireplace",
+  "tags": ["straszne historie", "horror po polsku", "dom", "dywan", "podłoga", "creepypasta", "shorts", "horror shorts", "polski horror", "historie grozy"],
+  "scenes": [
+    {"text": "Kupiliśmy stary dom z drewnianą podłogą. W salonie położyliśmy duży dywan.", "image": "large patterned rug on old wooden floorboards in a cozy living room"},
+    {"text": "Pierwszej nocy pod dywanem pojawiło się wybrzuszenie. Wielkości zwiniętego kota.", "image": "small bulge under a patterned rug in a dim living room at night"},
+    {"text": "Rano było w innym miejscu. Bliżej drzwi do sypialni.", "image": "bulge under a rug near a bedroom door, morning light"},
+    {"text": "Podniosłem dywan. Pod spodem nic. Tylko deski. I jedna lekko uniesiona.", "image": "rug pulled back revealing wooden floorboards with one slightly raised"},
+    {"text": "Przybiłem ją gwoździami. Następnej nocy usłyszałem skrzypienie. Ktoś wyciągał gwoździe. Od spodu.", "image": "nails slowly rising out of a wooden floorboard, flashlight beam"},
+    {"text": "Wybrzuszenie rosło. Co noc było większe. Wielkości dziecka. Potem dorosłego.", "image": "large human shaped bulge under a rug in a dark living room"},
+    {"text": "I co noc było bliżej sypialni. Raz zatrzymało się przy samym progu.", "image": "long bulge under a rug stopping at a bedroom doorway, dim hallway light"},
+    {"text": "Poprzedni właściciel nie odbierał telefonu. Sąsiad powiedział tylko: mówili, że ich babcia nie lubiła, jak ktoś chodzi po jej podłodze.", "image": "elderly neighbor speaking over a garden fence, serious face"},
+    {"text": "Wezwaliśmy fachowca. Zerwał deski. Pod podłogą była przestrzeń. Pusta. Tylko odciski dłoni w kurzu.", "image": "crawlspace under floorboards with handprints in dust, flashlight"},
+    {"text": "Setki odcisków. Prowadziły od salonu do sypialni. I z powrotem. Jak ścieżka.", "image": "trail of handprints in dust under a wooden floor leading into darkness"},
+    {"text": "Położyliśmy nową podłogę. Bez dywanu. Przez tydzień był spokój.", "image": "new light wooden floor in an empty living room, daylight"},
+    {"text": "Wczoraj obudziłem się w nocy. Kołdra na łóżku była wybrzuszona. Między mną a żoną. I oddychała.", "image": "dark bedroom with a bulge under a blanket between two sleeping people"}
+  ]
+}
